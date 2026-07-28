@@ -1,5 +1,10 @@
 [gd_scene format=3 uid="uid://clenng5u0b3dm"]
 
+[ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="1_abqdv"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_abqdv"]
+load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
+
 [node name="ArchiveRoom" type="Control" unique_id=1657735572]
 layout_mode = 3
 anchors_preset = 15
@@ -7,3 +12,84 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Static" type="Control" parent="." unique_id=746237637]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="TextureRect" parent="Static" unique_id=1353366035]
+self_modulate = Color(0.6747767, 0.77, 0.6622, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_abqdv")
+
+[node name="Dynamic" type="Control" parent="." unique_id=108691201]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Board" type="TextureRect" parent="Dynamic" unique_id=149293551]
+self_modulate = Color(0.80710185, 0.54905045, 0.19548571, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 107.0
+offset_top = 40.0
+offset_right = -97.0
+offset_bottom = -26.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_abqdv")
+
+[node name="Deadline" type="TextureRect" parent="Dynamic" unique_id=1032245052]
+self_modulate = Color(1, 0.36, 0.36, 1)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -96.5
+offset_right = 96.5
+offset_bottom = 24.0
+grow_horizontal = 2
+texture = ExtResource("1_abqdv")
+
+[node name="Label" type="Label" parent="Dynamic/Deadline" unique_id=49780158]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Deadline: 10 days"
+horizontal_alignment = 1
+
+[node name="Interactables" type="Control" parent="." unique_id=251751332]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ChangeScene" type="Button" parent="Interactables" unique_id=2007294219]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -15.5
+offset_right = 18.0
+offset_bottom = 15.5
+grow_vertical = 2
+text = "<"
