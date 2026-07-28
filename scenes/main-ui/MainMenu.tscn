@@ -1,5 +1,8 @@
 [gd_scene format=3 uid="uid://bxfvkdw42xisp"]
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2wtmt"]
+load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
+
 [node name="MainMenu" type="Control" unique_id=1927687024]
 layout_mode = 3
 anchors_preset = 15
@@ -7,3 +10,107 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Static" type="Control" parent="." unique_id=1855042145]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="TextureRect" parent="Static" unique_id=1785946468]
+self_modulate = Color(0.6747767, 0.77, 0.6622, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_2wtmt")
+
+[node name="Title" type="TextureRect" parent="Static" unique_id=1128503220]
+self_modulate = Color(0.3508639, 0.85327584, 0.5233979, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 60.0
+offset_top = 27.0
+offset_right = -361.0
+offset_bottom = -266.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_2wtmt")
+
+[node name="Splashart" type="TextureRect" parent="Static" unique_id=535109835]
+self_modulate = Color(0.3508639, 0.85327584, 0.5233979, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 61.0
+offset_top = 111.0
+offset_right = -360.0
+offset_bottom = -45.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_2wtmt")
+
+[node name="Dynamic" type="Control" parent="." unique_id=2070641729]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Interactables" type="Control" parent="." unique_id=289470671]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Actions" type="VBoxContainer" parent="Interactables" unique_id=1357617122]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 40.0
+offset_top = -50.0
+offset_right = 196.0
+offset_bottom = 51.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Interactables/Actions" unique_id=1983843634]
+layout_mode = 2
+
+[node name="Play" type="Button" parent="Interactables/Actions/HBoxContainer" unique_id=867484598]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Play"
+
+[node name="Continue" type="Button" parent="Interactables/Actions/HBoxContainer" unique_id=947939281]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Continue"
+
+[node name="Settings" type="Button" parent="Interactables/Actions" unique_id=1599154056]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Settings"
+
+[node name="About" type="Button" parent="Interactables/Actions" unique_id=20391499]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "About"
+
+[node name="Exit" type="Button" parent="Interactables/Actions" unique_id=764321989]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Exit"
