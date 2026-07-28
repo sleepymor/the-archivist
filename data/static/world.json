@@ -1,0 +1,193 @@
+{
+    "id": "indonesia_1940s",
+    "name": "Indonesia 1940s Archive",
+    "description": "A fictional historical setting inspired by Indonesia during the 1940s, where society undergoes political transition and administrative changes.",
+    "time_period": {
+        "start_year": 1940,
+        "end_year": 1949,
+        "description": "A period involving late colonial administration, Japanese occupation, and early independence era."
+    },
+    "historical_context": [
+        "Late Dutch colonial period",
+        "Japanese occupation period (1942-1945)",
+        "Indonesian independence period after 1945",
+        "Political and administrative transition"
+    ],
+    "geography": {
+        "country": "Indonesia",
+        "environment": [
+            "village",
+            "town",
+            "plantation",
+            "market",
+            "government office"
+        ]
+    },
+    "languages": [
+        {
+            "id": "indonesian",
+            "name": "Indonesian",
+            "usage": [
+                "local communication",
+                "community records",
+                "personal letters"
+            ]
+        },
+        {
+            "id": "dutch",
+            "name": "Dutch",
+            "usage": [
+                "colonial administration",
+                "official records",
+                "legal documents"
+            ]
+        },
+        {
+            "id": "japanese",
+            "name": "Japanese",
+            "usage": [
+                "occupation administration",
+                "military records"
+            ]
+        }
+    ],
+    "institutions": [
+        {
+            "id": "village_administration",
+            "name": "Village Administration",
+            "authority": "Local governance",
+            "document_types": [
+                "birth_record",
+                "ownership_record",
+                "witness_statement"
+            ]
+        },
+        {
+            "id": "archive_office",
+            "name": "Archive Office",
+            "authority": "Historical record management",
+            "document_types": [
+                "archive_report",
+                "record_summary"
+            ]
+        },
+        {
+            "id": "colonial_administration",
+            "name": "Colonial Administration",
+            "authority": "Government records",
+            "document_types": [
+                "land_record",
+                "tax_record"
+            ]
+        },
+        {
+            "id": "occupation_administration",
+            "name": "Occupation Administration",
+            "authority": "Military government records",
+            "document_types": [
+                "official_notice",
+                "administrative_report"
+            ]
+        }
+    ],
+    "locations": [
+        {
+            "id": "rural_village",
+            "name": "Rural Village",
+            "type": "Settlement",
+            "common_cases": [
+                "land_dispute",
+                "inheritance_conflict",
+                "identity_record"
+            ]
+        },
+        {
+            "id": "district_office",
+            "name": "District Office",
+            "type": "Government",
+            "common_cases": [
+                "missing_record",
+                "official_document_conflict"
+            ]
+        }
+    ],
+    "generation_constraints": {
+        "fiction_policy": {
+            "allow_fictional_characters": true,
+            "allow_fictional_locations": true,
+            "real_events_reference": true,
+            "allow_alternate_history": false,
+            "allow_real_historical_figures": false
+        },
+        "forbidden_elements": {
+            "technology": [
+                "smartphone",
+                "mobile phone",
+                "computer",
+                "internet",
+                "social media",
+                "digital database",
+                "modern camera",
+                "television",
+                "radio communication beyond historical capability",
+                "modern vehicles",
+                "GPS",
+                "artificial intelligence"
+            ],
+            "modern_concepts": [
+                "modern corporation",
+                "modern legal system",
+                "modern government structure",
+                "modern banking",
+                "cryptocurrency",
+                "online communication",
+                "modern education system",
+                "modern medical facilities"
+            ],
+            "fantasy_and_fiction": [
+                "magic",
+                "supernatural powers",
+                "monsters",
+                "aliens",
+                "time travel",
+                "parallel universe",
+                "fictional technology"
+            ],
+            "anachronistic_items": [
+                "plastic products",
+                "synthetic materials",
+                "modern clothing brands",
+                "modern weapons",
+                "modern appliances",
+                "modern architecture"
+            ],
+            "social_context": [
+                "anachronistic social values",
+                "modern slang",
+                "modern internet culture",
+                "modern political terminology"
+            ]
+        }
+    },
+    "required_elements": {
+        "setting": [
+            "1940s Indonesian society",
+            "historical administration",
+            "physical documents",
+            "paper-based records"
+        ],
+        "technology_level": [
+            "handwritten documents",
+            "typewriters",
+            "postal communication",
+            "printed records"
+        ],
+        "document_properties": [
+            "author",
+            "date",
+            "location",
+            "institution",
+            "language"
+        ]
+    }
+}
