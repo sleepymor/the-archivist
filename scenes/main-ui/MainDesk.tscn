@@ -1,5 +1,10 @@
 [gd_scene format=3 uid="uid://co0nyncmnmwvk"]
 
+[ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="1_dje7x"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_t24ib"]
+load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
+
 [node name="MainDesk" type="Control" unique_id=1918057266]
 layout_mode = 3
 anchors_preset = 15
@@ -7,3 +12,154 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Static" type="Control" parent="." unique_id=2131418316]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="TextureRect" parent="Static" unique_id=1399257067]
+self_modulate = Color(1, 0.75, 0.75, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_t24ib")
+
+[node name="Desk" type="TextureRect" parent="Static" unique_id=1535710036]
+self_modulate = Color(0.80710185, 0.54905045, 0.19548571, 1)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -118.0
+offset_top = -100.0
+offset_right = 118.5
+grow_horizontal = 2
+grow_vertical = 0
+texture = SubResource("CompressedTexture2D_t24ib")
+
+[node name="Dynamic" type="Control" parent="." unique_id=2096316795]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Customer" type="TextureRect" parent="Dynamic" unique_id=384913338]
+self_modulate = Color(0.48740888, 0.58963966, 0.92812854, 1)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -62.5
+offset_top = -231.0
+offset_right = 62.49997
+offset_bottom = -104.99991
+grow_horizontal = 2
+grow_vertical = 0
+texture = SubResource("CompressedTexture2D_t24ib")
+
+[node name="DialogBox" type="TextureRect" parent="Dynamic/Customer" unique_id=526422884]
+self_modulate = Color(0.93, 0.93, 0.93, 1)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 10.5000305
+offset_top = -44.0
+offset_right = 137.50003
+offset_bottom = 10.0
+grow_horizontal = 0
+texture = SubResource("CompressedTexture2D_t24ib")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Dynamic/Customer/DialogBox" unique_id=1304232536]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Time" type="TextureRect" parent="Dynamic" unique_id=2026982800]
+self_modulate = Color(1, 0.36, 0.36, 1)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -96.5
+offset_right = 96.5
+offset_bottom = 24.0
+grow_horizontal = 2
+texture = ExtResource("1_dje7x")
+
+[node name="Label" type="Label" parent="Dynamic/Time" unique_id=1806196807]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Day 1 | fff"
+horizontal_alignment = 1
+
+[node name="Trust" type="TextureRect" parent="Dynamic" unique_id=474352307]
+self_modulate = Color(0.2938706, 0.6449327, 0.6268967, 1)
+layout_mode = 1
+offset_right = 130.0
+offset_bottom = 22.0
+texture = ExtResource("1_dje7x")
+
+[node name="Label" type="Label" parent="Dynamic/Trust" unique_id=1433857392]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Trust: 10"
+
+[node name="Notification" type="TextureRect" parent="Dynamic" unique_id=1374771945]
+self_modulate = Color(0, 0, 0, 1)
+layout_mode = 1
+offset_top = 23.0
+offset_right = 16.0
+offset_bottom = 42.0
+texture = ExtResource("1_dje7x")
+
+[node name="Interactables" type="Control" parent="." unique_id=2069726146]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Board" type="TextureRect" parent="Interactables" unique_id=626390420]
+self_modulate = Color(0.26645273, 0.61888987, 0.37787497, 1)
+layout_mode = 1
+offset_top = 46.0
+offset_right = 127.0
+offset_bottom = 200.0
+texture = ExtResource("1_dje7x")
+
+[node name="ChangeScene" type="Button" parent="Interactables" unique_id=252521840]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -18.0
+offset_top = -15.5
+offset_bottom = 15.5
+grow_horizontal = 0
+grow_vertical = 2
+text = ">"
