@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="The Archivist"
+run/main_scene="uid://bxfvkdw42xisp"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+MusicPlayer="*uid://cf7vtg6srl1io"
 
 [display]
 

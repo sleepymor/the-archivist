@@ -1,5 +1,9 @@
 [gd_scene format=3 uid="uid://bxfvkdw42xisp"]
 
+[ext_resource type="PackedScene" uid="uid://3c3a7k11w3ka" path="res://objects/system/AudioPlayer.tscn" id="1_s3dsm"]
+[ext_resource type="AudioStream" uid="uid://oojjrceogv88" path="res://assets/audio/Debug/idoberg-cozy-lofi-beat-split-memmories-248205.ogg" id="2_uwj7d"]
+[ext_resource type="Script" uid="uid://dqstdcocdu03" path="res://scripts/utils/SceneChanger.gd" id="3_uwj7d"]
+
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2wtmt"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
 
@@ -10,6 +14,10 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="AudioPlayer" parent="." unique_id=1195759578 instance=ExtResource("1_s3dsm")]
+layout_mode = 0
+level_music = ExtResource("2_uwj7d")
 
 [node name="Static" type="Control" parent="." unique_id=1855042145]
 layout_mode = 1
@@ -94,23 +102,32 @@ layout_mode = 2
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Play"
+script = ExtResource("3_uwj7d")
+target_scene_path = "uid://ce8pbfg5sk7nh"
 
 [node name="Continue" type="Button" parent="Interactables/Actions/HBoxContainer" unique_id=947939281]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Continue"
+script = ExtResource("3_uwj7d")
+target_scene_path = "uid://ce8pbfg5sk7nh"
 
 [node name="Settings" type="Button" parent="Interactables/Actions" unique_id=1599154056]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Settings"
+script = ExtResource("3_uwj7d")
+target_scene_path = "uid://dn63noxkou133"
 
 [node name="About" type="Button" parent="Interactables/Actions" unique_id=20391499]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "About"
+script = ExtResource("3_uwj7d")
+target_scene_path = "uid://de1p6sj54ms4w"
 
 [node name="Exit" type="Button" parent="Interactables/Actions" unique_id=764321989]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Exit"
+script = ExtResource("3_uwj7d")
