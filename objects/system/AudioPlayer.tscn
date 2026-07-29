@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://3c3a7k11w3ka"]
+
+[ext_resource type="Script" uid="uid://by3kwlt1sr37o" path="res://scripts/autoload/MusicStarter.gd" id="1_dorvw"]
+
+[node name="AudioPlayer" type="Control" unique_id=1195759578]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_dorvw")

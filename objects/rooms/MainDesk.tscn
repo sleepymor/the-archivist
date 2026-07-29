@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://co0nyncmnmwvk"]
 
 [ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="1_dje7x"]
+[ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="2_7n5ke"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_t24ib"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
@@ -45,6 +46,16 @@ offset_right = 118.5
 grow_horizontal = 2
 grow_vertical = 0
 texture = SubResource("CompressedTexture2D_t24ib")
+
+[node name="Label" type="Label" parent="Static" unique_id=1389445618]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "MAIN DESK"
+horizontal_alignment = 2
+vertical_alignment = 1
 
 [node name="Dynamic" type="Control" parent="." unique_id=2096316795]
 layout_mode = 1
@@ -91,7 +102,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Time" type="TextureRect" parent="Dynamic" unique_id=2026982800]
+[node name="Notification" type="TextureRect" parent="Dynamic" unique_id=2026982800]
 self_modulate = Color(1, 0.36, 0.36, 1)
 layout_mode = 1
 anchors_preset = 5
@@ -103,15 +114,17 @@ offset_bottom = 24.0
 grow_horizontal = 2
 texture = ExtResource("1_dje7x")
 
-[node name="Label" type="Label" parent="Dynamic/Time" unique_id=1806196807]
+[node name="Label" type="Label" parent="Dynamic/Notification" unique_id=1806196807]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "Day 1 | fff"
+theme_override_font_sizes/font_size = 10
+text = "LANDLORD CASE : 2 DAYS REMAINING"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Trust" type="TextureRect" parent="Dynamic" unique_id=474352307]
 self_modulate = Color(0.2938706, 0.6449327, 0.6268967, 1)
@@ -120,19 +133,40 @@ offset_right = 130.0
 offset_bottom = 22.0
 texture = ExtResource("1_dje7x")
 
+[node name="ProgressBar" type="ProgressBar" parent="Dynamic/Trust" unique_id=262588513]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 1
+value = 40.0
+
 [node name="Label" type="Label" parent="Dynamic/Trust" unique_id=1433857392]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Trust: 10"
 
-[node name="Notification" type="TextureRect" parent="Dynamic" unique_id=1374771945]
+[node name="Date" type="TextureRect" parent="Dynamic" unique_id=1374771945]
 self_modulate = Color(0, 0, 0, 1)
 layout_mode = 1
 offset_top = 23.0
-offset_right = 16.0
-offset_bottom = 42.0
+offset_right = 71.0
+offset_bottom = 47.0
 texture = ExtResource("1_dje7x")
+
+[node name="Label" type="Label" parent="Dynamic/Date" unique_id=630921556]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 52.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "23/02/24"
 
 [node name="Interactables" type="Control" parent="." unique_id=2069726146]
 layout_mode = 1
@@ -150,6 +184,47 @@ offset_right = 127.0
 offset_bottom = 200.0
 texture = ExtResource("1_dje7x")
 
+[node name="GridContainer" type="GridContainer" parent="Interactables/Board" unique_id=2140455189]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 2
+
+[node name="Button" type="Button" parent="Interactables/Board/GridContainer" unique_id=1384177013]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "case 1"
+script = ExtResource("2_7n5ke")
+target = 2
+
+[node name="Button2" type="Button" parent="Interactables/Board/GridContainer" unique_id=1222614957]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "case 2"
+script = ExtResource("2_7n5ke")
+target = 2
+
+[node name="Button3" type="Button" parent="Interactables/Board/GridContainer" unique_id=1796127511]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "case 3"
+script = ExtResource("2_7n5ke")
+target = 2
+
+[node name="Button4" type="Button" parent="Interactables/Board/GridContainer" unique_id=599913130]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "case 4"
+script = ExtResource("2_7n5ke")
+target = 2
+
 [node name="ChangeScene" type="Button" parent="Interactables" unique_id=252521840]
 layout_mode = 1
 anchors_preset = 6
@@ -163,3 +238,4 @@ offset_bottom = 15.5
 grow_horizontal = 0
 grow_vertical = 2
 text = ">"
+script = ExtResource("2_7n5ke")

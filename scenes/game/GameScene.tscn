@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://ce8pbfg5sk7nh"]
+
+[ext_resource type="PackedScene" uid="uid://3c3a7k11w3ka" path="res://objects/system/AudioPlayer.tscn" id="1_b1len"]
+[ext_resource type="AudioStream" uid="uid://dijjyncka0oaq" path="res://assets/audio/Debug/idoberg-cozy-lofi-beat-sunset-stars-253833.ogg" id="2_ks7xl"]
+[ext_resource type="PackedScene" uid="uid://clenng5u0b3dm" path="res://objects/rooms/ArchiveRoom.tscn" id="3_8cups"]
+[ext_resource type="Script" uid="uid://l6ts5x3icjos" path="res://scripts/game/core/ObjectSwitcher.gd" id="3_ks7xl"]
+[ext_resource type="PackedScene" uid="uid://dsw3rlq1iasm" path="res://objects/rooms/CaseScreen.tscn" id="4_fjeox"]
+[ext_resource type="PackedScene" uid="uid://baqju7d7i4rx4" path="res://objects/rooms/EvidenceBoard.tscn" id="5_c3557"]
+[ext_resource type="PackedScene" uid="uid://co0nyncmnmwvk" path="res://objects/rooms/MainDesk.tscn" id="6_am3tj"]
+
+[node name="Game" type="Control" unique_id=1700649110]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AudioPlayer" parent="." unique_id=1195759578 instance=ExtResource("1_b1len")]
+layout_mode = 0
+level_music = ExtResource("2_ks7xl")
+
+[node name="Gameplay" type="Control" parent="." unique_id=345203997 node_paths=PackedStringArray("main", "archive", "case", "evidence")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_ks7xl")
+main = NodePath("MainDesk")
+archive = NodePath("ArchiveRoom")
+case = NodePath("CaseScreen")
+evidence = NodePath("EvidenceBoard")
+
+[node name="MainDesk" parent="Gameplay" unique_id=1918057266 instance=ExtResource("6_am3tj")]
+layout_mode = 1
+
+[node name="Button" parent="Gameplay/MainDesk/Interactables/Board/GridContainer" parent_id_path=PackedInt32Array(1918057266, 2140455189) index="0" unique_id=1384177013 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../../../..")
+
+[node name="Button2" parent="Gameplay/MainDesk/Interactables/Board/GridContainer" parent_id_path=PackedInt32Array(1918057266, 2140455189) index="1" unique_id=1222614957 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../../../..")
+
+[node name="Button3" parent="Gameplay/MainDesk/Interactables/Board/GridContainer" parent_id_path=PackedInt32Array(1918057266, 2140455189) index="2" unique_id=1796127511 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../../../..")
+
+[node name="Button4" parent="Gameplay/MainDesk/Interactables/Board/GridContainer" parent_id_path=PackedInt32Array(1918057266, 2140455189) index="3" unique_id=599913130 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../../../..")
+
+[node name="ChangeScene" parent="Gameplay/MainDesk/Interactables" parent_id_path=PackedInt32Array(1918057266, 2069726146) index="1" unique_id=252521840 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../..")
+target = 3
+
+[node name="ArchiveRoom" parent="Gameplay" unique_id=1657735572 instance=ExtResource("3_8cups")]
+visible = false
+layout_mode = 1
+
+[node name="ChangeScene" parent="Gameplay/ArchiveRoom/Interactables" parent_id_path=PackedInt32Array(1657735572, 251751332) index="1" unique_id=2007294219 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../..")
+
+[node name="CaseScreen" parent="Gameplay" unique_id=1252252513 instance=ExtResource("4_fjeox")]
+visible = false
+layout_mode = 1
+
+[node name="ChangeScene" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="0" unique_id=929265296 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../..")
+
+[node name="ChangeScene" parent="Gameplay/CaseScreen/Interactables/Actions" parent_id_path=PackedInt32Array(1252252513, 1196737348) index="2" unique_id=1822437676 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../../..")
+
+[node name="EvidenceBoard" parent="Gameplay" unique_id=355820236 instance=ExtResource("5_c3557")]
+visible = false
+layout_mode = 1
+
+[node name="ChangeSceneLeft" parent="Gameplay/EvidenceBoard/Interactables" parent_id_path=PackedInt32Array(355820236, 2029403746) index="0" unique_id=2091383524 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../..")
+
+[node name="ChangeSceneRight" parent="Gameplay/EvidenceBoard/Interactables" parent_id_path=PackedInt32Array(355820236, 2029403746) index="1" unique_id=590024779 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../..")
+
+[editable path="Gameplay/MainDesk"]
+[editable path="Gameplay/ArchiveRoom"]
+[editable path="Gameplay/CaseScreen"]
+[editable path="Gameplay/EvidenceBoard"]

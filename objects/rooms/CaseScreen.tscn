@@ -1,9 +1,11 @@
 [gd_scene format=3 uid="uid://dsw3rlq1iasm"]
 
+[ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="1_kbyl8"]
+
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vhrkp"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
 
-[node name="CaseBoard" type="Control" unique_id=1252252513]
+[node name="CaseScreen" type="Control" unique_id=1252252513]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -28,6 +30,16 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("CompressedTexture2D_vhrkp")
+
+[node name="Label" type="Label" parent="Static" unique_id=230086581]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "CASE SCREEN"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Dynamic" type="Control" parent="." unique_id=954806830]
 layout_mode = 1
@@ -66,6 +78,7 @@ layout_mode = 1
 offset_right = 18.0
 offset_bottom = 31.0
 text = "<"
+script = ExtResource("1_kbyl8")
 
 [node name="Actions" type="VBoxContainer" parent="Interactables" unique_id=1196737348]
 layout_mode = 1
@@ -95,12 +108,14 @@ layout_mode = 2
 size_flags_horizontal = 3
 text = "Reject"
 
-[node name="Detail" type="Button" parent="Interactables/Actions" unique_id=295023941]
+[node name="Search" type="Button" parent="Interactables/Actions" unique_id=295023941]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "Detail"
+text = "Search"
 
-[node name="Investigate" type="Button" parent="Interactables/Actions" unique_id=1822437676]
+[node name="ChangeScene" type="Button" parent="Interactables/Actions" unique_id=1822437676]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "Further Investigate"
+text = "To Evidence Board"
+script = ExtResource("1_kbyl8")
+target = 3

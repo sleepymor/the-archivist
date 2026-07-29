@@ -1,5 +1,10 @@
 [gd_scene format=3 uid="uid://baqju7d7i4rx4"]
 
+[ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="1_cm1t7"]
+[ext_resource type="Script" uid="uid://cl5d6fmfnnf5j" path="res://scripts/game/evidenceboard/BoardZone.gd" id="1_djisl"]
+[ext_resource type="Script" uid="uid://bucgibhbi6i82" path="res://scripts/game/evidenceboard/StickyNote.gd" id="2_bbky3"]
+[ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="4_pwkdt"]
+
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i3ue6"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
 
@@ -29,6 +34,16 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("CompressedTexture2D_i3ue6")
 
+[node name="Label" type="Label" parent="Static" unique_id=568213369]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "EVIDENCE BOARD"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="Dynamic" type="Control" parent="." unique_id=755003907]
 layout_mode = 1
 anchors_preset = 15
@@ -50,6 +65,8 @@ offset_bottom = -65.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("CompressedTexture2D_i3ue6")
+script = ExtResource("1_djisl")
+snap_to_center = false
 
 [node name="Interactables" type="Control" parent="." unique_id=2029403746]
 layout_mode = 1
@@ -69,6 +86,7 @@ offset_right = 18.0
 offset_bottom = 15.5
 grow_vertical = 2
 text = "<"
+script = ExtResource("1_cm1t7")
 
 [node name="ChangeSceneRight" type="Button" parent="Interactables" unique_id=590024779]
 layout_mode = 1
@@ -83,8 +101,22 @@ offset_bottom = 15.5
 grow_horizontal = 0
 grow_vertical = 2
 text = ">"
+script = ExtResource("1_cm1t7")
+target = 1
 
-[node name="AddStickyNotes" type="Button" parent="Interactables" unique_id=759664357]
+[node name="OptionButton" type="OptionButton" parent="Interactables" unique_id=749234177]
+layout_mode = 1
+offset_left = 106.0
+offset_top = 20.0
+offset_right = 188.0
+offset_bottom = 51.0
+item_count = 2
+popup/item_0/text = "Case 1"
+popup/item_0/id = 0
+popup/item_1/text = "Case 2"
+popup/item_1/id = 1
+
+[node name="AddStickyNotes" type="Control" parent="Interactables" unique_id=428525001]
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0
@@ -95,5 +127,40 @@ offset_left = -89.0
 offset_top = -101.0
 grow_horizontal = 0
 grow_vertical = 0
+script = ExtResource("2_bbky3")
+is_dispenser = true
+text_edit_path = NodePath("TextEdit")
+label_path = NodePath("Label")
+
+[node name="TextureRect" type="TextureRect" parent="Interactables/AddStickyNotes" unique_id=1423810453]
+self_modulate = Color(1, 0.45, 0.45, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_pwkdt")
+
+[node name="Label" type="Label" parent="Interactables/AddStickyNotes" unique_id=1167361936]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 text = "Drag to 
 add note"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_trim_flags = 128
+
+[node name="TextEdit" type="TextEdit" parent="Interactables/AddStickyNotes" unique_id=1828392344]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 11
+placeholder_text = "add text..."
