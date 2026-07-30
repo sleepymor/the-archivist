@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "gender": { "type": "string" },
+        "background": { "type": "string" },
+        "occupation": { "type": "string" },
+        "birth_year": { "type": "integer" },
+        "location": { "type": "string" },
+        "languages": { 
+            "type": "array", 
+            "items": { "type": "string" } 
+        },
+        "description": { "type": "string" }
+    },
+    "required": [
+        "id", 
+        "name", 
+        "gender", 
+        "background", 
+        "occupation", 
+        "birth_year", 
+        "location", 
+        "languages", 
+        "description"
+    ]
+}
