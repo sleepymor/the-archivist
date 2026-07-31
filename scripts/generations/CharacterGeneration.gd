@@ -1,152 +1,214 @@
 extends Node
 
-const WORLD_FILE_PATH = "res://data/static/world.json"
-const NAME_FILE_PATH = "res://data/static/name.json"
-const TEMPLATE_FILE_PATH = "res://data/templates/character_template.json"
 const CHARACTER_FILE_PATH = "res://data/player/active/character.json"
+const NAME_FILE_PATH = "res://data/static/name.json"
 
-@export var characters_to_generate: int = 5
+@export var target_total_characters: int = 25
 
 @onready var gd_llama = $"../GDLlama"
-@onready var generate_button = $"../Button" # Adjust path to your UI Button if needed
+@onready var generate_button = $"../Button"
 
 var _is_generating: bool = false
+var _pending_character: Dictionary = {}
 
 func _ready() -> void:
-	gd_llama.generate_text_finished.connect(_on_generation_finished)
+	if gd_llama and not gd_llama.generate_text_finished.is_connected(_on_generation_finished):
+		gd_llama.generate_text_finished.connect(_on_generation_finished)
 
-func generate_character_batch(amount: int) -> void:
-	# Prevent overlapping calls if already busy processing
+func start_batch_generation() -> void:
 	if _is_generating:
-		print("Generation already in progress. Please wait...")
 		return
-		
 	_is_generating = true
-	
-	# Optionally disable the button visually in your UI while working
 	if generate_button:
 		generate_button.disabled = true
+	_process_next_character()
 
-	var world_data = _load_json_file(WORLD_FILE_PATH)
-	var name_data = _load_json_file(NAME_FILE_PATH)
-	var template_data = _load_json_file(TEMPLATE_FILE_PATH)
-	
-	if world_data == null or name_data == null or template_data == null:
-		_reset_generation_state()
+func _process_next_character() -> void:
+	if _get_current_character_count() >= target_total_characters:
+		_is_generating = false
+		if generate_button:
+			generate_button.disabled = false
 		return
+	
+	var name_data = _load_json_file(NAME_FILE_PATH)
+	var name_styles = []
+	if typeof(name_data) == TYPE_DICTIONARY and name_data.has("name_styles"):
+		var styles_val = name_data["name_styles"]
+		if typeof(styles_val) == TYPE_ARRAY:
+			name_styles = styles_val
 
-	var allowed_ethnicities = ["indonesia", "dutch", "japanese", "indo_european", "chinese_indonesian"]
-	var allowed_given_names: Array = []
-	var allowed_family_names: Array = []
+	if name_styles.is_empty():
+		name_styles = [{
+			"id": "indonesia",
+			"format": "given_family",
+			"given_names": { "male": ["Budi", "Hendra"], "female": ["Siti", "Ani"] },
+			"family_names": ["Santoso", "Gunawan"]
+		}]
 
-	if name_data.has("name_styles"):
-		for style in name_data["name_styles"]:
-			if style["id"] in allowed_ethnicities:
-				for g_male in style["given_names"]["male"]:
-					if not allowed_given_names.has(g_male): allowed_given_names.append(g_male)
-				for g_fem in style["given_names"]["female"]:
-					if not allowed_given_names.has(g_fem): allowed_given_names.append(g_fem)
-				for f_name in style["family_names"]:
-					if not allowed_family_names.has(f_name): allowed_family_names.append(f_name)
+	var rng = RandomNumberGenerator.new()
+	rng.randomize()
 
-	var character_schema: Dictionary = {
-		"type": "array",
-		"minItems": amount,
-		"maxItems": amount,
-		"items": {
-			"type": "object",
-			"properties": {
-				"given_name": { "type": "string", "enum": allowed_given_names },
-				"family_name": { "type": "string", "enum": allowed_family_names },
-				"gender": { "type": "string", "enum": ["male", "female"] },
-				"birth_year": { "type": "integer" },
-				"description": { "type": "string" }
-			},
-			"required": [
-				"given_name", "family_name", "gender", 
-				"birth_year", "description"
-			]
-		}
+	var chosen_ethnicity = "indonesia"
+	if rng.randf() > 0.70:
+		var minority = ["dutch", "japanese", "indo_european", "chinese_indonesian"]
+		chosen_ethnicity = minority[rng.randi_range(0, minority.size() - 1)]
+
+	var style = null
+	for s in name_styles:
+		if typeof(s) == TYPE_DICTIONARY and s.get("id", "") == chosen_ethnicity:
+			style = s
+			break
+	if style == null:
+		style = name_styles[0]
+
+	var gender = "male" if rng.randf() > 0.5 else "female"
+	
+	var given_pool = []
+	if typeof(style) == TYPE_DICTIONARY and style.has("given_names"):
+		var g_dict = style["given_names"]
+		if typeof(g_dict) == TYPE_DICTIONARY:
+			var key = "male" if gender == "male" else "female"
+			if g_dict.has(key) and typeof(g_dict[key]) == TYPE_ARRAY:
+				given_pool = g_dict[key]
+
+	if given_pool.is_empty():
+		given_pool = ["Ahmad"] if gender == "male" else ["Siti"]
+
+	var given_name = given_pool[rng.randi_range(0, given_pool.size() - 1)]
+	
+	var family_pool = []
+	if typeof(style) == TYPE_DICTIONARY and style.has("family_names"):
+		var f_val = style["family_names"]
+		if typeof(f_val) == TYPE_ARRAY:
+			family_pool = f_val
+
+	var family_name = ""
+	if not family_pool.is_empty():
+		family_name = family_pool[rng.randi_range(0, family_pool.size() - 1)]
+
+	var name_format = "given_family"
+	if typeof(style) == TYPE_DICTIONARY and style.has("format"):
+		name_format = str(style["format"])
+
+	var full_name = given_name
+	if not family_name.is_empty():
+		if name_format == "given_family":
+			full_name = given_name + " " + family_name
+		else:
+			full_name = family_name + " " + given_name
+
+	_pending_character = {
+		"name": full_name,
+		"gender": gender,
+		"ethnicity": chosen_ethnicity
 	}
-	
-	var schema_string = JSON.stringify(character_schema)
-	
-	var prompt: String = "CRITICAL: Output ONLY a raw JSON array. No markdown, no explanations.\n"
-	prompt += "Generate exactly " + str(amount) + " distinct character profiles based on the 1940s Indonesia setting.\n"
-	prompt += "Keep the description concise (1-2 sentences) reflecting historical context.\n\n"
-	prompt += "World Data context: " + JSON.stringify(world_data) + "\n\n"
-	prompt += "Name Pools context: " + JSON.stringify(name_data) + "\n\n"
-	prompt += "Required Template structure per character: " + JSON.stringify(template_data)
-	
-	gd_llama.run_generate_text(prompt, "", schema_string)
+
+	# Use a completion-style prompt to stop the model from treating it like a chat command
+	var completion_prompt = "Historical profile of " + full_name + " (" + gender + ", " + chosen_ethnicity + ") in 1940s Indonesia:\n- Description: " + full_name + " was"
+
+	if gd_llama:
+		gd_llama.run_generate_text(completion_prompt, "", "")
+	else:
+		_on_generation_finished("a local resident navigating daily life in 1940s Indonesia.")
+
+func _get_current_character_count() -> int:
+	if not FileAccess.file_exists(CHARACTER_FILE_PATH):
+		return 0
+	var read_file = FileAccess.open(CHARACTER_FILE_PATH, FileAccess.READ)
+	if read_file == null:
+		return 0
+	var c = read_file.get_as_text().strip_edges()
+	read_file.close()
+	if c.is_empty():
+		return 0
+	var p = JSON.parse_string(c)
+	if typeof(p) == TYPE_ARRAY:
+		return p.size()
+	elif p != null:
+		return 1
+	return 0
 
 func _on_generation_finished(generated_text: String) -> void:
-	var characters: Array = []
-	var next_index: int = 0
+	var raw_text = generated_text.strip_edges() if generated_text else ""
 	
+	# Since our prompt ends with "Name was", we prepend it back if the model didn't echo it
+	var desc = ""
+	var name = _pending_character.get("name", "The resident")
+	if not raw_text.begins_with(name):
+		desc = name + " was " + raw_text
+	else:
+		desc = raw_text
+
+	# Anti-Bleeding & Meta-Talk Filter
+	var lower_desc = desc.to_lower()
+	if lower_desc.contains("no more") or lower_desc.contains("human:") or lower_desc.contains("assistant:") or lower_desc.contains("translate"):
+		desc = name + " was a local resident navigating daily life in 1940s Indonesia."
+
+	# Force strict one-sentence truncation
+	var first_period = desc.find(".")
+	var first_excl = desc.find("!")
+	var first_quest = desc.find("?")
+	
+	var cut_pos = -1
+	for pos in [first_period, first_excl, first_quest]:
+		if pos != -1 and (cut_pos == -1 or pos < cut_pos):
+			cut_pos = pos
+			
+	if cut_pos != -1:
+		desc = desc.substr(0, cut_pos + 1).strip_edges()
+
+	if desc.is_empty() or desc.length() < 8:
+		desc = name + " was a local resident navigating daily life in 1940s Indonesia."
+
+	var rng = RandomNumberGenerator.new()
+	rng.randomize()
+	var birth_date_str = "%d-%02d-%02d" % [rng.randi_range(1900, 1925), rng.randi_range(1, 12), rng.randi_range(1, 28)]
+
+	var characters = []
+	var next_index = 0
 	if FileAccess.file_exists(CHARACTER_FILE_PATH):
 		var read_file = FileAccess.open(CHARACTER_FILE_PATH, FileAccess.READ)
-		var content = read_file.get_as_text().strip_edges()
-		read_file.close()
-		
-		if not content.is_empty():
-			var parsed_data = JSON.parse_string(content)
-			if typeof(parsed_data) == TYPE_ARRAY:
-				characters = parsed_data
-			elif parsed_data != null:
-				characters.append(parsed_data)
-				
-	for char_entry in characters:
-		var char_id = char_entry.get("id", "")
-		if char_id.begins_with("CH-"):
-			var idx_str = char_id.trim_prefix("CH-")
-			if idx_str.is_valid_int():
-				var idx = idx_str.to_int()
+		if read_file != null:
+			var p = JSON.parse_string(read_file.get_as_text().strip_edges())
+			read_file.close()
+			if typeof(p) == TYPE_ARRAY:
+				characters = p
+			elif p != null:
+				characters.append(p)
+
+	for ch in characters:
+		if typeof(ch) == TYPE_DICTIONARY:
+			var cid = ch.get("id", "")
+			if cid is String and cid.begins_with("CH-"):
+				var idx = cid.trim_prefix("CH-").to_int()
 				if idx >= next_index:
 					next_index = idx + 1
-				
-	var json_start = generated_text.find("[")
-	var json_end = generated_text.rfind("]")
-	
-	if json_start != -1 and json_end != -1 and json_end > json_start:
-		var clean_json_string = generated_text.substr(json_start, json_end - json_start + 1)
-		var new_characters = JSON.parse_string(clean_json_string)
-		
-		if typeof(new_characters) == TYPE_ARRAY:
-			for i in range(new_characters.size()):
-				var char_dict = new_characters[i]
-				
-				var g_name = char_dict.get("given_name", "")
-				var f_name = char_dict.get("family_name", "")
-				if f_name == "":
-					char_dict["name"] = g_name
-				else:
-					char_dict["name"] = g_name + " " + f_name
-				
-				char_dict.erase("given_name")
-				char_dict.erase("family_name")
-				
-				char_dict["id"] = "CH-" + str(next_index + i)
-				characters.append(char_dict)
-			
-			var write_file = FileAccess.open(CHARACTER_FILE_PATH, FileAccess.WRITE)
-			write_file.store_string(JSON.stringify(characters, "\t"))
-			write_file.close()
 
-	_reset_generation_state()
+	characters.append({
+		"id": "CH-%d" % next_index,
+		"name": name,
+		"gender": _pending_character.get("gender", "male"),
+		"ethnicity": _pending_character.get("ethnicity", "indonesia"),
+		"birth_date": birth_date_str,
+		"description": desc
+	})
 
-func _reset_generation_state() -> void:
-	_is_generating = false
-	if generate_button:
-		generate_button.disabled = false
+	var write_file = FileAccess.open(CHARACTER_FILE_PATH, FileAccess.WRITE)
+	if write_file != null:
+		write_file.store_string(JSON.stringify(characters, "\t"))
+		write_file.close()
 
-func _load_json_file(file_path: String):
-	if FileAccess.file_exists(file_path):
-		var file = FileAccess.open(file_path, FileAccess.READ)
-		var content = file.get_as_text()
-		file.close()
-		return JSON.parse_string(content)
+	_pending_character.clear()
+	_process_next_character()
+
+func _load_json_file(path: String):
+	if FileAccess.file_exists(path):
+		var read_file = FileAccess.open(path, FileAccess.READ)
+		if read_file != null:
+			var text = read_file.get_as_text()
+			read_file.close()
+			return JSON.parse_string(text)
 	return null
 
 func _on_button_pressed() -> void:
-	generate_character_batch(characters_to_generate)
+	start_batch_generation()

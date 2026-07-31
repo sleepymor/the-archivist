@@ -12,11 +12,15 @@ grow_vertical = 2
 
 [node name="CharacterGenerations" type="Node" parent="." unique_id=88226709]
 script = ExtResource("1_vgu7f")
+target_total_characters = 50
 
 [node name="GDLlama" type="GDLlama" parent="." unique_id=1921129684]
 model_path = "models/Qwen2.5-3B.Q4_K_M.gguf"
 should_output_prompt = false
 context_size = 4069
+n_predict = 128
+temperature = 0.6
+penalty_repeat = 1.15
 n_threads = 4
 n_gpu_layer = 0
 split_mode = 0
