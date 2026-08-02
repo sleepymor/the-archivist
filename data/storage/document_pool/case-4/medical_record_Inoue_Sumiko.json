@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Inoue Sumiko",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 101,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"outcome": {
+			"follow_up": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Inoue Sumiko.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Inoue Sumiko."
+		},
+		"patient": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Inoue Sumiko",
+			"occupation": "Verified"
+		},
+		"record": {
+			"attending_person": "Verified",
+			"medical_institution": "Verified",
+			"record_number": "ARC-1942-386"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Inoue Sumiko.",
+		"title": "Official Record - Inoue Sumiko",
+		"visit": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Inoue Sumiko.",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Inoue Sumiko.",
+			"treatment": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Inoue Sumiko.",
+			"visit_date": "Verified"
+		}
+	},
+	"type": "medical_record"
+}

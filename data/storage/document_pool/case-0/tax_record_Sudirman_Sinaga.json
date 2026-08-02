@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sudirman Sinaga",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 131,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"payment": {
+			"amount": "Verified",
+			"payment_date": "Verified",
+			"payment_method": "Verified"
+		},
+		"property": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Sinaga.",
+			"location": "District Archives Center, Sector 2"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Sinaga.",
+		"tax": {
+			"record_number": "ARC-1942-128",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Sinaga.",
+			"tax_period": "Verified",
+			"tax_type": "Verified",
+			"taxpayer": "Sudirman Sinaga"
+		},
+		"title": "Official Record - Sudirman Sinaga"
+	},
+	"type": "tax_record"
+}

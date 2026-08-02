@@ -377,7 +377,8 @@
                     "document_types": [
                         "birth_record",
                         "marriage_record",
-                        "marriage_certificate"
+                        "marriage_certificate",
+                        "divorce_certificate"
                     ]
                 }
             ]

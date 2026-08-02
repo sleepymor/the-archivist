@@ -1,0 +1,36 @@
+{
+  "type": "divorce_certificate",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+
+    "certificate": {
+      "certificate_number": "",
+      "husband": "",
+      "wife": "",
+      "marriage_date": "",
+      "divorce_date": "",
+      "reason": ""
+    },
+
+    "witnesses": [
+      ""
+    ],
+
+    "official": {
+      "name": "",
+      "position": ""
+    },
+
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+
+    "is_true": true
+  }
+}

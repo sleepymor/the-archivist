@@ -1,0 +1,30 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "report": {
+      "report_number": "",
+      "subject": "",
+      "author": "",
+      "location": ""
+    },
+    "summary": "",
+    "findings": [
+      ""
+    ],
+    "recommendations": [
+      ""
+    ],
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

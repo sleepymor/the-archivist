@@ -1,0 +1,38 @@
+{
+  "type": "ownership_record",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "registration": {
+      "record_number": "",
+      "registration_date": ""
+    },
+    "owner": {
+      "name": "",
+      "occupation": "",
+      "address": ""
+    },
+    "property": {
+      "type": "",
+      "description": "",
+      "location": "",
+      "size": ""
+    },
+    "ownership_details": {
+      "ownership_type": "",
+      "acquisition_method": "",
+      "previous_owner": ""
+    },
+    "witnesses": [],
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "land_record",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "registration": {
+      "record_number": "",
+      "registration_date": "",
+      "registration_type": ""
+    },
+    "land": {
+      "location": "",
+      "description": "",
+      "size": "",
+      "land_type": "",
+      "boundaries": {
+        "north": "",
+        "south": "",
+        "east": "",
+        "west": ""
+      }
+    },
+    "registered_owner": {
+      "name": "",
+      "occupation": ""
+    },
+    "land_status": {
+      "ownership_status": "",
+      "previous_owner": "",
+      "usage": ""
+    },
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

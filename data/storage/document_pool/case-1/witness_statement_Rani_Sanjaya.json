@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rani Sanjaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"statement": "Solution Lestari Haryanto played a pivotal role as an activist and educator during the tumultuous period of political change in mid-20th century Indonesia, advocating for women's rights amidst colonial resistance.",
+		"statement_subject": {
+			"date_of_event": "Verified",
+			"event": "Official administrative review",
+			"location": "District Archives Center, Sector 2"
+		},
+		"title": "Official Record - Rani Sanjaya",
+		"witness": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Rani Sanjaya",
+			"occupation": "Verified"
+		},
+		"witness_signature": {
+			"signed": "Verified",
+			"verified_by": "Verified"
+		}
+	},
+	"type": "witness_statement"
+}

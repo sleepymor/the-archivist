@@ -1,0 +1,42 @@
+{
+	"fields": {
+		"agreement": {
+			"duration": {
+				"end_date": "Verified",
+				"start_date": "Verified"
+			},
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Sanjaya.",
+			"terms": [
+				"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Sanjaya."
+			]
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rani Sanjaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"contract": {
+			"contract_number": "Verified",
+			"party_a": "Rani Sanjaya",
+			"party_b": "Rani Sanjaya",
+			"subject": "Rani Sanjaya"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"obligations": {
+			"party_a": [],
+			"party_b": []
+		},
+		"signatures": {
+			"party_a_signed": "Verified",
+			"party_b_signed": "Verified",
+			"witnesses": []
+		},
+		"title": "Official Record - Rani Sanjaya"
+	},
+	"type": "contract"
+}

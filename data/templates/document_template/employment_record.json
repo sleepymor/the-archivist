@@ -1,0 +1,41 @@
+{
+  "type": "employment_record",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "employment": {
+      "record_number": "",
+      "institution": "",
+      "employee": "",
+      "position": ""
+    },
+    "service_period": {
+      "start_date": "",
+      "end_date": "",
+      "status": ""
+    },
+    "work_details": {
+      "department": "",
+      "location": "",
+      "duties": []
+    },
+    "attendance": {
+      "attendance_status": "",
+      "remarks": ""
+    },
+    "payment_history": {
+      "payment_status": "",
+      "last_recorded_payment": ""
+    },
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "document_verification",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "verification": {
+      "verification_number": "",
+      "reviewer": "",
+      "document_checked": "",
+      "original_source": ""
+    },
+    "inspection": {
+      "condition": "",
+      "seal_check": "",
+      "signature_check": "",
+      "date_consistency": "",
+      "content_consistency": ""
+    },
+    "result": "",
+    "notes": "",
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

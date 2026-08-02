@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Yamada Hisako",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"documents_reviewed": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Yamada Hisako."
+		],
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"issues_found": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Yamada Hisako."
+		],
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"archive_location": "District Archives Center, Sector 4",
+			"author": "Yamada Hisako",
+			"report_number": "ARC-1942-844",
+			"subject": "Yamada Hisako"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Yamada Hisako.",
+		"title": "Official Record - Yamada Hisako"
+	},
+	"type": "archive_report"
+}

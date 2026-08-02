@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Yamada Hisako",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"owner": {
+			"address": "Verified",
+			"name": "Yamada Hisako",
+			"occupation": "Verified"
+		},
+		"ownership_details": {
+			"acquisition_method": "Verified",
+			"ownership_type": "Verified",
+			"previous_owner": "Verified"
+		},
+		"property": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Yamada Hisako.",
+			"location": "District Archives Center, Sector 2",
+			"size": "Verified",
+			"type": "Verified"
+		},
+		"registration": {
+			"record_number": "ARC-1942-686",
+			"registration_date": "Verified"
+		},
+		"title": "Official Record - Yamada Hisako",
+		"witnesses": []
+	},
+	"type": "ownership_record"
+}

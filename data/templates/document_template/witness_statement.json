@@ -1,0 +1,33 @@
+{
+  "type": "witness_statement",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "witness": {
+      "name": "",
+      "age": "",
+      "occupation": "",
+      "address": ""
+    },
+    "statement_subject": {
+      "event": "",
+      "location": "",
+      "date_of_event": ""
+    },
+    "statement": "",
+    "witness_signature": {
+      "signed": "",
+      "verified_by": ""
+    },
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

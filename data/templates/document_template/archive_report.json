@@ -1,0 +1,33 @@
+{
+  "type": "archive_report",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "report": {
+      "report_number": "",
+      "author": "",
+      "subject": "",
+      "archive_location": ""
+    },
+    "documents_reviewed": [
+      ""
+    ],
+    "summary": "",
+    "issues_found": [
+      ""
+    ],
+    "recommendations": [
+      ""
+    ],
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

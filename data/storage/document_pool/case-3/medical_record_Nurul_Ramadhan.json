@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Nurul Ramadhan",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 176,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"outcome": {
+			"follow_up": "Maru wa Jōrabu shūnen seiki no mae ni kyodai joseiryoku hokokaiseki to ippan suru, Martha ga onnanryo o yobiketa nēdo bunsei wo sankaeruto fukujin riron hyôsanketsu.",
+			"status": "Maru wa Jōrabu shūnen seiki no mae ni kyodai joseiryoku hokokaiseki to ippan suru, Martha ga onnanryo o yobiketa nēdo bunsei wo sankaeruto fukujin riron hyôsanketsu."
+		},
+		"patient": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Nurul Ramadhan",
+			"occupation": "Verified"
+		},
+		"record": {
+			"attending_person": "Verified",
+			"medical_institution": "Verified",
+			"record_number": "ARC-1942-287"
+		},
+		"remarks": "Maru wa Jōrabu shūnen seiki no mae ni kyodai joseiryoku hokokaiseki to ippan suru, Martha ga onnanryo o yobiketa nēdo bunsei wo sankaeruto fukujin riron hyôsanketsu.",
+		"title": "Official Record - Nurul Ramadhan",
+		"visit": {
+			"condition": "Maru wa Jōrabu shūnen seiki no mae ni kyodai joseiryoku hokokaiseki to ippan suru, Martha ga onnanryo o yobiketa nēdo bunsei wo sankaeruto fukujin riron hyôsanketsu.",
+			"reason": "Maru wa Jōrabu shūnen seiki no mae ni kyodai joseiryoku hokokaiseki to ippan suru, Martha ga onnanryo o yobiketa nēdo bunsei wo sankaeruto fukujin riron hyôsanketsu.",
+			"treatment": "Maru wa Jōrabu shūnen seiki no mae ni kyodai joseiryoku hokokaiseki to ippan suru, Martha ga onnanryo o yobiketa nēdo bunsei wo sankaeruto fukujin riron hyôsanketsu.",
+			"visit_date": "Verified"
+		}
+	},
+	"type": "medical_record"
+}

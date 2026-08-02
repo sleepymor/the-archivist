@@ -1,0 +1,38 @@
+{
+  "type": "inventory_record",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "inventory": {
+      "record_number": "",
+      "institution": "",
+      "location": "",
+      "responsible_person": ""
+    },
+    "items": [
+      {
+        "name": "",
+        "category": "",
+        "quantity": "",
+        "condition": "",
+        "location": ""
+      }
+    ],
+    "transaction": {
+      "type": "",
+      "source": "",
+      "destination": ""
+    },
+    "remarks": "",
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

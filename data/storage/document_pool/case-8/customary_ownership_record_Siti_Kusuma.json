@@ -1,0 +1,42 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Siti Kusuma",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 175,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"ownership": {
+			"family_or_group": "Verified",
+			"inheritance_history": "Verified",
+			"recognized_owner": "Verified"
+		},
+		"property": {
+			"boundaries": {
+				"east": "Verified",
+				"north": "Verified",
+				"south": "Verified",
+				"west": "Verified"
+			},
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Siti Kusuma.",
+			"location": "District Archives Center, Sector 2"
+		},
+		"recognition": {
+			"customary_basis": "Verified",
+			"elders": [],
+			"witnesses": []
+		},
+		"record": {
+			"community": "Verified",
+			"record_keeper": "Verified",
+			"record_number": "ARC-1942-108"
+		},
+		"title": "Official Record - Siti Kusuma"
+	},
+	"type": "customary_ownership_record"
+}

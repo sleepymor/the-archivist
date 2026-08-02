@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"attendance": {
+			"attendance_status": "Verified",
+			"remarks": "Report Sentence (Romaji): Yamada Hisako no kenkyujo ni owarana na henkan mondai, shokyokukaiseki datta dokusha to yoseteno gojiyo wo chikaku nado kaishitsutsu surie."
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Yamada Hisako",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"employment": {
+			"employee": "Yamada Hisako",
+			"institution": "Verified",
+			"position": "Verified",
+			"record_number": "ARC-1942-269"
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"payment_history": {
+			"last_recorded_payment": "Verified",
+			"payment_status": "Verified"
+		},
+		"service_period": {
+			"end_date": "Verified",
+			"start_date": "Verified",
+			"status": "Report Sentence (Romaji): Yamada Hisako no kenkyujo ni owarana na henkan mondai, shokyokukaiseki datta dokusha to yoseteno gojiyo wo chikaku nado kaishitsutsu surie."
+		},
+		"title": "Official Record - Yamada Hisako",
+		"work_details": {
+			"department": "Verified",
+			"duties": [],
+			"location": "District Archives Center, Sector 4"
+		}
+	},
+	"type": "employment_record"
+}

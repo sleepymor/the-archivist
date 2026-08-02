@@ -1,0 +1,41 @@
+{
+  "type": "employment_contract",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "contract": {
+      "contract_number": "",
+      "employer": "",
+      "employee": "",
+      "position": ""
+    },
+    "employment": {
+      "start_date": "",
+      "duration": "",
+      "work_location": "",
+      "responsibilities": []
+    },
+    "compensation": {
+      "payment_type": "",
+      "amount": "",
+      "payment_period": ""
+    },
+    "conditions": [
+      ""
+    ],
+    "termination": {
+      "conditions": "",
+      "notice_period": ""
+    },
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "notice": {
+      "notice_number": "",
+      "subject": "",
+      "recipient": "",
+      "reason": ""
+    },
+    "content": "",
+    "effective_date": "",
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "investigation_report",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "investigation": {
+      "report_number": "",
+      "investigator": "",
+      "department": "",
+      "location": ""
+    },
+    "case": {
+      "subject": "",
+      "incident": "",
+      "date_of_incident": "",
+      "involved_people": []
+    },
+    "findings": [
+      ""
+    ],
+    "evidence_reviewed": [
+      ""
+    ],
+    "conclusion": "",
+    "recommendations": [
+      ""
+    ],
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

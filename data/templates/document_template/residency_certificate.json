@@ -1,0 +1,33 @@
+{
+  "type": "residency_certificate",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "registration": {
+      "record_number": "",
+      "registration_date": ""
+    },
+    "person": {
+      "name": "",
+      "occupation": "",
+      "family_status": ""
+    },
+    "residence": {
+      "village": "",
+      "district": "",
+      "description": "",
+      "duration": ""
+    },
+    "purpose": "",
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

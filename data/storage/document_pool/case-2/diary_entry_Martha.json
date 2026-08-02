@@ -1,0 +1,29 @@
+{
+	"fields": {
+		"author": {
+			"location": "District Archives Center, Sector 2",
+			"name": "Martha",
+			"occupation": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Martha",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"location": "District Archives Center, Sector 4",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"entry": {
+			"mood": "Ranji sanjayaa shisetsuku kaihatsutsuka naisenriitsuyaku no seishin ni tsuite chosaiteki joseiki Indonesia oyobi politika nakaiburu toshikute, onnajo henkon wo sankaerareta.",
+			"text": "Ranji sanjayaa shisetsuku kaihatsutsuka naisenriitsuyaku no seishin ni tsuite chosaiteki joseiki Indonesia oyobi politika nakaiburu toshikute, onnajo henkon wo sankaerareta."
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"language": "Japanese Romaji",
+		"title": "Official Record - Martha"
+	},
+	"type": "diary_entry"
+}

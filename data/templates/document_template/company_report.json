@@ -1,0 +1,40 @@
+{
+  "type": "company_report",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "report": {
+      "report_number": "",
+      "company": "",
+      "author": "",
+      "department": ""
+    },
+    "subject": "",
+    "operations": {
+      "location": "",
+      "activity": "",
+      "production": "",
+      "workforce": ""
+    },
+    "findings": [
+      ""
+    ],
+    "financial": {
+      "status": "",
+      "notes": ""
+    },
+    "recommendations": [
+      ""
+    ],
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

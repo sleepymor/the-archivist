@@ -1,0 +1,42 @@
+{
+  "type": "student_record",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "registration": {
+      "record_number": "",
+      "registration_date": "",
+      "school": ""
+    },
+    "student": {
+      "name": "",
+      "birth_date": "",
+      "birth_place": "",
+      "address": ""
+    },
+    "education": {
+      "level": "",
+      "class": "",
+      "enrollment_year": "",
+      "subjects": []
+    },
+    "family_information": {
+      "parent_or_guardian": "",
+      "occupation": ""
+    },
+    "academic_status": {
+      "status": "",
+      "remarks": ""
+    },
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

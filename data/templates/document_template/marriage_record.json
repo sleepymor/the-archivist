@@ -1,0 +1,38 @@
+{
+  "type": "marriage_record",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "registration": {
+      "record_number": "",
+      "registration_date": "",
+      "institution": ""
+    },
+    "marriage": {
+      "husband": "",
+      "wife": "",
+      "marriage_date": "",
+      "location": ""
+    },
+    "family_details": {
+      "husband_parent": "",
+      "wife_parent": "",
+      "witnesses": []
+    },
+    "ceremony": {
+      "type": "",
+      "officiant": ""
+    },
+    "remarks": "",
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}
