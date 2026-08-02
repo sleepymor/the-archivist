@@ -19,6 +19,13 @@ config/icon="res://icon.svg"
 
 settings/stdout/print_gpu_profile=true
 settings/stdout/verbose_stdout=true
+run/main_scene="uid://bxfvkdw42xisp"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+MusicPlayer="*uid://cf7vtg6srl1io"
 
 [display]
 
