@@ -1,0 +1,27 @@
+{
+  "type": "record_summary",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "record": {
+      "record_number": "",
+      "record_type": "",
+      "original_document": ""
+    },
+    "subject": "",
+    "summary": "",
+    "related_documents": [
+      ""
+    ],
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

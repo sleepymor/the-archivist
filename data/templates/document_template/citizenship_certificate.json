@@ -1,0 +1,36 @@
+{
+  "type": "citizenship_certificate",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "registration": {
+      "record_number": "",
+      "registration_date": ""
+    },
+    "person": {
+      "name": "",
+      "birth_place": "",
+      "birth_date": ""
+    },
+    "citizenship": {
+      "status": "",
+      "recognized_by": "",
+      "effective_date": ""
+    },
+    "background": {
+      "previous_status": "",
+      "origin": "",
+      "notes": ""
+    },
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

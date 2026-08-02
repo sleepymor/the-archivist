@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-336",
+			"doctor_or_officer": "Verified",
+			"medical_institution": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Siti Kusuma",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 155,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"medical_statement": {
+			"condition": "Report Sentence (Romaji): Yamada Hisako no kenkyujo ni oyobi satoin shakai torihara na houhou, jitsugan nado toshite dokusha-no yorokobo wo chosa surutte.",
+			"purpose": "Report Sentence (Romaji): Yamada Hisako no kenkyujo ni oyobi satoin shakai torihara na houhou, jitsugan nado toshite dokusha-no yorokobo wo chosa surutte.",
+			"restriction": "Verified",
+			"valid_period": "Verified"
+		},
+		"person": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Siti Kusuma",
+			"occupation": "Verified"
+		},
+		"recipient": {
+			"institution": "Verified",
+			"reason": "Report Sentence (Romaji): Yamada Hisako no kenkyujo ni oyobi satoin shakai torihara na houhou, jitsugan nado toshite dokusha-no yorokobo wo chosa surutte."
+		},
+		"remarks": "Report Sentence (Romaji): Yamada Hisako no kenkyujo ni oyobi satoin shakai torihara na houhou, jitsugan nado toshite dokusha-no yorokobo wo chosa surutte.",
+		"title": "Official Record - Siti Kusuma"
+	},
+	"type": "medical_certificate"
+}

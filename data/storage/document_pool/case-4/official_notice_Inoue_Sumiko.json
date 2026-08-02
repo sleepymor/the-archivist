@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Inoue Sumiko",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Maru wa Jappon no rekishi oyobi kokkaiseikatsuen shinkōsha ni tsuite yakuwari to seiken hoshūseidohoseki wo sasayaku, 20th-kyūnen gijutsu bun'en chikai japona naka no aida de.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-362",
+			"reason": "Maru wa Jappon no rekishi oyobi kokkaiseikatsuen shinkōsha ni tsuite yakuwari to seiken hoshūseidohoseki wo sasayaku, 20th-kyūnen gijutsu bun'en chikai japona naka no aida de.",
+			"recipient": "Inoue Sumiko",
+			"subject": "Inoue Sumiko"
+		},
+		"title": "Official Record - Inoue Sumiko"
+	},
+	"type": "official_notice"
+}

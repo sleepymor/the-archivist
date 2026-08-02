@@ -1,0 +1,42 @@
+{
+  "type": "contract",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "contract": {
+      "contract_number": "",
+      "party_a": "",
+      "party_b": "",
+      "subject": ""
+    },
+    "agreement": {
+      "purpose": "",
+      "terms": [
+        ""
+      ],
+      "duration": {
+        "start_date": "",
+        "end_date": ""
+      }
+    },
+    "obligations": {
+      "party_a": [],
+      "party_b": []
+    },
+    "signatures": {
+      "party_a_signed": "",
+      "party_b_signed": "",
+      "witnesses": []
+    },
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

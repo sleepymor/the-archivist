@@ -1,0 +1,42 @@
+{
+  "type": "customary_ownership_record",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "record": {
+      "record_number": "",
+      "record_keeper": "",
+      "community": ""
+    },
+    "property": {
+      "description": "",
+      "location": "",
+      "boundaries": {
+        "north": "",
+        "south": "",
+        "east": "",
+        "west": ""
+      }
+    },
+    "ownership": {
+      "family_or_group": "",
+      "recognized_owner": "",
+      "inheritance_history": ""
+    },
+    "recognition": {
+      "elders": [],
+      "witnesses": [],
+      "customary_basis": ""
+    },
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

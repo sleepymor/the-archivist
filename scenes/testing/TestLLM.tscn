@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://b6p2lejd51i75"]
+
+[ext_resource type="Script" uid="uid://dq5uv1fc2qkfd" path="res://scripts/generations/CharacterGeneration.gd" id="1_vgu7f"]
+[ext_resource type="Script" uid="uid://dwouv4oxdliub" path="res://scripts/generations/CaseGeneration.gd" id="2_105rw"]
+[ext_resource type="Script" uid="uid://pfiapn67vsvo" path="res://scripts/watcher/CharacterPoolWatcher.gd" id="2_gpk3b"]
+[ext_resource type="Script" uid="uid://lb8yikrlaa6u" path="res://scripts/generations/DocumentGeneration.gd" id="3_7byr7"]
+[ext_resource type="Script" uid="uid://b5hoxofd873u4" path="res://scripts/puller/CharacterPuller.gd" id="3_105rw"]
+[ext_resource type="Script" uid="uid://vay1f5v3a8yf" path="res://scripts/watcher/DocumentPoolWatcher.gd" id="6_kp3ea"]
+
+[node name="TestLlm" type="Control" unique_id=566549116]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CharacterGenerations" type="Node" parent="." unique_id=88226709]
+process_priority = 2
+script = ExtResource("1_vgu7f")
+
+[node name="CaseGenerations" type="Node" parent="." unique_id=1930365911]
+process_priority = 1
+script = ExtResource("2_105rw")
+
+[node name="DocumentGenerations" type="Node" parent="." unique_id=931548938]
+script = ExtResource("3_7byr7")
+
+[node name="GDLlama" type="GDLlama" parent="." unique_id=1921129684]
+model_path = "models/Phi-3.5-mini-instruct-Q4_K_M.gguf"
+should_output_prompt = false
+context_size = 1024
+n_predict = 154
+temperature = 0.7
+penalty_repeat = 1.15
+n_threads = 4
+n_gpu_layer = 0
+split_mode = 0
+
+[node name="Button" type="Button" parent="." unique_id=949865250]
+layout_mode = 0
+offset_left = 223.0
+offset_top = 162.0
+offset_right = 384.0
+offset_bottom = 193.0
+text = "PullCharacter"
+
+[node name="CharacterWatcher" type="Node" parent="." unique_id=589929378]
+process_priority = 3
+script = ExtResource("2_gpk3b")
+target_pool_size = 10
+generator_node_path = NodePath("../CharacterGenerations")
+case_generator_node_path = NodePath("../CaseGenerations")
+
+[node name="CharacterPuller" type="Node" parent="." unique_id=2044359474]
+script = ExtResource("3_105rw")
+watcher_node_path = NodePath("../CharacterWatcher")
+
+[node name="DocumentWatcher" type="Node" parent="." unique_id=362928428]
+script = ExtResource("6_kp3ea")
+document_generator_node_path = NodePath("../DocumentGenerations")
+case_generator_node_path = NodePath("../CaseGenerations")
+
+[connection signal="pressed" from="Button" to="CharacterPuller" method="_on_button_pressed"]

@@ -1,0 +1,39 @@
+{
+  "type": "medical_record",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "record": {
+      "record_number": "",
+      "medical_institution": "",
+      "attending_person": ""
+    },
+    "patient": {
+      "name": "",
+      "age": "",
+      "occupation": "",
+      "address": ""
+    },
+    "visit": {
+      "visit_date": "",
+      "reason": "",
+      "condition": "",
+      "treatment": ""
+    },
+    "outcome": {
+      "status": "",
+      "follow_up": ""
+    },
+    "remarks": "",
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

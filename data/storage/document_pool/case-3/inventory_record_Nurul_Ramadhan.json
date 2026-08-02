@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Nurul Ramadhan",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"inventory": {
+			"institution": "Verified",
+			"location": "District Archives Center, Sector 4",
+			"record_number": "ARC-1942-207",
+			"responsible_person": "Verified"
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"items": [
+			{
+				"category": "Verified on file",
+				"condition": "Maru wa Jōhaite no koro ni tsunagu post-kolonyasuto shiseikyoku seishinbukurokenkaido otoko toshiteno, Martha ga joseigen na chosa de onaji nakaiburu hito deshirazu wakute dokusha bunseki no kaihatsu.",
+				"location": "Verified on file",
+				"name": "Verified on file",
+				"quantity": "Verified on file"
+			}
+		],
+		"language": "Japanese Romaji",
+		"remarks": "Maru wa Jōhaite no koro ni tsunagu post-kolonyasuto shiseikyoku seishinbukurokenkaido otoko toshiteno, Martha ga joseigen na chosa de onaji nakaiburu hito deshirazu wakute dokusha bunseki no kaihatsu.",
+		"title": "Official Record - Nurul Ramadhan",
+		"transaction": {
+			"destination": "Verified",
+			"source": "Verified",
+			"type": "Verified"
+		}
+	},
+	"type": "inventory_record"
+}

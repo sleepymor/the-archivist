@@ -1,0 +1,32 @@
+{
+  "type": "customary_confirmation_letter",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "confirmation": {
+      "record_number": "",
+      "community": "",
+      "subject": ""
+    },
+    "person_or_group": {
+      "name": "",
+      "relation_to_community": ""
+    },
+    "statement": "",
+    "authority": {
+      "elders": [],
+      "witnesses": []
+    },
+    "purpose": "",
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

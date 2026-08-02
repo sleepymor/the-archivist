@@ -1,0 +1,29 @@
+{
+  "type": "diary_entry",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "author": {
+      "name": "",
+      "location": "",
+      "occupation": ""
+    },
+    "entry": {
+      "mood": "",
+      "text": ""
+    },
+    "context": {
+      "location": "",
+      "related_event": ""
+    },
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

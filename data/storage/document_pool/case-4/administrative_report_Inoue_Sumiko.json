@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Inoue Sumiko",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Inoue Sumiko"
+		],
+		"investigation_score": 153,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Inoue Sumiko",
+			"location": "District Archives Center, Sector 3",
+			"report_number": "ARC-1942-922",
+			"subject": "Inoue Sumiko"
+		},
+		"summary": "Inousumikō no kenkyūkaiseki, sokairi ni tsuite shakkishu ga okiteiron surīdo oyobi chihou na hito to onshin ronshutsu wo yoru genbunsei seisaku.",
+		"title": "Official Record - Inoue Sumiko"
+	},
+	"type": "administrative_report"
+}

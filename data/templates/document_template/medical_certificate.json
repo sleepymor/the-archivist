@@ -1,0 +1,39 @@
+{
+  "type": "medical_certificate",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "certificate": {
+      "certificate_number": "",
+      "medical_institution": "",
+      "doctor_or_officer": ""
+    },
+    "person": {
+      "name": "",
+      "age": "",
+      "occupation": "",
+      "address": ""
+    },
+    "medical_statement": {
+      "purpose": "",
+      "condition": "",
+      "restriction": "",
+      "valid_period": ""
+    },
+    "recipient": {
+      "institution": "",
+      "reason": ""
+    },
+    "remarks": "",
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

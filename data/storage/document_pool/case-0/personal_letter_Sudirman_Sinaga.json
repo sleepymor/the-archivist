@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sudirman Sinaga",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Sinaga.",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"language": "Japanese Romaji",
+		"letter": {
+			"closing": "Verified",
+			"greeting": "Verified",
+			"message": "Verified"
+		},
+		"receiver": {
+			"location": "District Archives Center, Sector 5",
+			"name": "Sudirman Sinaga"
+		},
+		"sender": {
+			"location": "District Archives Center, Sector 3",
+			"name": "Sudirman Sinaga",
+			"relationship_to_receiver": "Verified"
+		},
+		"title": "Official Record - Sudirman Sinaga"
+	},
+	"type": "personal_letter"
+}

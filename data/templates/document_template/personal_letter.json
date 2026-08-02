@@ -1,0 +1,34 @@
+{
+  "type": "personal_letter",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "sender": {
+      "name": "",
+      "location": "",
+      "relationship_to_receiver": ""
+    },
+    "receiver": {
+      "name": "",
+      "location": ""
+    },
+    "letter": {
+      "greeting": "",
+      "message": "",
+      "closing": ""
+    },
+    "context": {
+      "purpose": "",
+      "related_event": ""
+    },
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"fields": {
+		"authority": {
+			"elders": [],
+			"witnesses": []
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rani Sanjaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"confirmation": {
+			"community": "Verified",
+			"record_number": "ARC-1942-881",
+			"subject": "Rani Sanjaya"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"person_or_group": {
+			"name": "Rani Sanjaya",
+			"relation_to_community": "Verified"
+		},
+		"purpose": "Sentence: In the tumultuous era of World War II and post-colonial transition within mid-20th century Java, Yamada Hisako emerged as a notable figure by advocating for women's rights amidst Japanese occupation.",
+		"statement": "Sentence: In the tumultuous era of World War II and post-colonial transition within mid-20th century Java, Yamada Hisako emerged as a notable figure by advocating for women's rights amidst Japanese occupation.",
+		"title": "Official Record - Rani Sanjaya"
+	},
+	"type": "customary_confirmation_letter"
+}

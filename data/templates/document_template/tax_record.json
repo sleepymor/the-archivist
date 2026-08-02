@@ -1,0 +1,34 @@
+{
+  "type": "tax_record",
+  "fields": {
+    "title": "",
+    "date": "",
+    "language": "",
+    "issuer": "",
+    "tax": {
+      "record_number": "",
+      "taxpayer": "",
+      "tax_type": "",
+      "tax_period": "",
+      "status": ""
+    },
+    "property": {
+      "description": "",
+      "location": ""
+    },
+    "payment": {
+      "amount": "",
+      "payment_date": "",
+      "payment_method": ""
+    },
+    "remarks": "",
+    "claims": [
+      {
+        "fact": "",
+        "importance": ""
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

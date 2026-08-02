@@ -11,6 +11,14 @@ config_version=5
 [application]
 
 config/name="The Archivist"
+run/main_scene="uid://b6p2lejd51i75"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[debug]
+
+settings/stdout/print_gpu_profile=true
+settings/stdout/verbose_stdout=true
 run/main_scene="uid://bxfvkdw42xisp"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
