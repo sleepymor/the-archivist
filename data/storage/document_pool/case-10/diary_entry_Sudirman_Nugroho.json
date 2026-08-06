@@ -1,0 +1,29 @@
+{
+	"fields": {
+		"author": {
+			"location": "District Archives Center, Sector 1",
+			"name": "Sudirman Nugroho",
+			"occupation": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sudirman Nugroho",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"location": "District Archives Center, Sector 5",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"entry": {
+			"mood": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Nugroho.",
+			"text": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Nugroho."
+		},
+		"investigation_score": 0,
+		"is_true": true,
+		"language": "Japanese Romaji",
+		"title": "Official Record - Sudirman Nugroho"
+	},
+	"type": "diary_entry"
+}

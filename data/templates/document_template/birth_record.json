@@ -1,27 +1,27 @@
 {
   "type": "birth_record",
   "fields": {
-    "title": "",
-    "date": "",
-    "language": "",
-    "issuer": "",
-    "person": {
-      "full_name": "",
-      "gender": "",
-      "birth_date": "",
-      "birth_place": ""
-    },
-    "parents": {
-      "father": "",
-      "mother": ""
-    },
-    "claims": [
-      {
-        "fact": "",
-        "importance": ""
-      }
-    ],
-    "investigation_score": 0,
-    "is_true": true
+	"title": "",
+	"date": "",
+	"language": "",
+	"issuer": "",
+	"person": {
+	  "full_name": "",
+	  "gender": "",
+	  "birth_date": "",
+	  "birth_place": ""
+	},
+	"parents": {
+	  "father": "",
+	  "mother": ""
+	},
+	"claims": [
+	  {
+		"fact": "",
+		"importance": ""
+	  }
+	],
+	"investigation_score": 0,
+	"is_true": true
   }
 }

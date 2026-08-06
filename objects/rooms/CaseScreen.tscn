@@ -1,17 +1,25 @@
 [gd_scene format=3 uid="uid://dsw3rlq1iasm"]
 
+[ext_resource type="Script" uid="uid://e0hy238ledx0" path="res://scripts/game/casescreen/CaseScreen.gd" id="1_4g2bn"]
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="1_kbyl8"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vhrkp"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
 
-[node name="CaseScreen" type="Control" unique_id=1252252513]
+[node name="CaseScreen" type="Control" unique_id=1252252513 node_paths=PackedStringArray("title_label", "case_type_label", "deadline_label", "requester_name_label", "requester_reason_label", "description_label")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_4g2bn")
+title_label = NodePath("Dynamic/Document/VBoxContainer/CaseTitle")
+case_type_label = NodePath("Dynamic/Document/VBoxContainer/CaseLabel")
+deadline_label = NodePath("Dynamic/Document/VBoxContainer/DeadlineLabel")
+requester_name_label = NodePath("Dynamic/Document/VBoxContainer/Requester")
+requester_reason_label = NodePath("Dynamic/Document/VBoxContainer/Reason")
+description_label = NodePath("Dynamic/Document/VBoxContainer/Description")
 
 [node name="Static" type="Control" parent="." unique_id=710285676]
 layout_mode = 1
@@ -64,6 +72,34 @@ offset_bottom = 154.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("CompressedTexture2D_vhrkp")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Dynamic/Document" unique_id=368625879]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CaseTitle" type="Label" parent="Dynamic/Document/VBoxContainer" unique_id=658226236]
+layout_mode = 2
+
+[node name="CaseLabel" type="Label" parent="Dynamic/Document/VBoxContainer" unique_id=1936343665]
+layout_mode = 2
+
+[node name="DeadlineLabel" type="Label" parent="Dynamic/Document/VBoxContainer" unique_id=307143671]
+layout_mode = 2
+
+[node name="Requester" type="Label" parent="Dynamic/Document/VBoxContainer" unique_id=775061129]
+layout_mode = 2
+
+[node name="Reason" type="RichTextLabel" parent="Dynamic/Document/VBoxContainer" unique_id=1417710698]
+layout_mode = 2
+fit_content = true
+
+[node name="Description" type="RichTextLabel" parent="Dynamic/Document/VBoxContainer" unique_id=1521185748]
+layout_mode = 2
+fit_content = true
 
 [node name="Interactables" type="Control" parent="." unique_id=513420360]
 layout_mode = 1

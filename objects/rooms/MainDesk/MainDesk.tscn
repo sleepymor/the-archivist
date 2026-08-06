@@ -1,10 +1,28 @@
 [gd_scene format=3 uid="uid://co0nyncmnmwvk"]
 
 [ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="1_dje7x"]
+[ext_resource type="Script" uid="uid://e3gtce357v57" path="res://scripts/game/maindesk/AcceptCaseButton.gd" id="2_3n6tk"]
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="2_7n5ke"]
+[ext_resource type="Script" uid="uid://br5dkkburd2xo" path="res://scripts/game/maindesk/CaseContainer.gd" id="3_ytpg3"]
+[ext_resource type="Script" uid="uid://bqaj3sw6bhw03" path="res://scripts/game/maindesk/CaseItem.gd" id="4_5h2ps"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_t24ib"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
+
+[sub_resource type="PackedScene" id="PackedScene_1hgmb"]
+_bundled = {
+"conn_count": 0,
+"conns": PackedInt32Array(),
+"editable_instances": [],
+"id_paths": [],
+"names": PackedStringArray("CaseItem", "anchors_preset", "anchor_right", "anchor_bottom", "grow_horizontal", "grow_vertical", "script", "id_label", "deadline_label", "Button", "Name", "layout_mode", "anchor_top", "offset_top", "offset_right", "offset_bottom", "Label", "Deadline", "anchor_left", "offset_left"),
+"node_count": 3,
+"node_ids": PackedInt32Array(998421579, 617325936, 815304521),
+"node_paths": [],
+"nodes": PackedInt32Array(-1, -1, 9, 0, -1, 8, 1, 0, 2, 1, 3, 1, 4, 2, 5, 2, 6, 3, 1073741831, 4, 1073741832, 5, 0, 0, 0, 16, 10, -1, 8, 11, 6, 1, 7, 12, 8, 3, 8, 13, 9, 14, 10, 15, 11, 5, 2, 0, 0, 0, 16, 17, -1, 11, 11, 6, 1, 12, 18, 1, 12, 8, 2, 1, 3, 8, 19, 13, 13, 9, 15, 11, 4, 14, 5, 2, 0),
+"variants": [15, 1.0, 2, ExtResource("4_5h2ps"), NodePath("Name"), NodePath("Deadline"), 1, 4, 0.5, -11.5, 40.0, 11.5, 6, -40.0, 0],
+"version": 3
+}
 
 [node name="MainDesk" type="Control" unique_id=1918057266]
 layout_mode = 3
@@ -94,15 +112,28 @@ offset_bottom = 10.0
 grow_horizontal = 0
 texture = SubResource("CompressedTexture2D_t24ib")
 
+[node name="Label" type="Label" parent="Dynamic/Customer/DialogBox" unique_id=876006697]
+layout_mode = 0
+offset_right = 128.0
+offset_bottom = 17.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 12
+text = "Name"
+
 [node name="RichTextLabel" type="RichTextLabel" parent="Dynamic/Customer/DialogBox" unique_id=1304232536]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = 16.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 10
+text = "Dialog"
 
 [node name="Notification" type="TextureRect" parent="Dynamic" unique_id=2026982800]
+visible = false
 self_modulate = Color(1, 0.36, 0.36, 1)
 layout_mode = 1
 anchors_preset = 5
@@ -166,7 +197,7 @@ offset_right = 52.0
 offset_bottom = 4.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "23/02/24"
+text = "Day 1"
 
 [node name="Interactables" type="Control" parent="." unique_id=2069726146]
 layout_mode = 1
@@ -176,6 +207,43 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="Document" type="TextureRect" parent="Interactables" unique_id=682209055]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -57.0
+offset_top = -87.0
+offset_right = 58.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("1_dje7x")
+
+[node name="Label" type="Label" parent="Interactables/Document" unique_id=1502698076]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -57.0
+offset_right = 57.0
+offset_bottom = 13.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 7
+text = "Case File - Lorem Ipsum"
+
+[node name="Button" type="Button" parent="Interactables/Document" unique_id=263131942]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_3n6tk")
+
 [node name="Board" type="TextureRect" parent="Interactables" unique_id=626390420]
 self_modulate = Color(0.26645273, 0.61888987, 0.37787497, 1)
 layout_mode = 1
@@ -184,46 +252,15 @@ offset_right = 127.0
 offset_bottom = 200.0
 texture = ExtResource("1_dje7x")
 
-[node name="GridContainer" type="GridContainer" parent="Interactables/Board" unique_id=2140455189]
+[node name="VBoxContainer" type="VBoxContainer" parent="Interactables/Board" unique_id=197329434]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-columns = 2
-
-[node name="Button" type="Button" parent="Interactables/Board/GridContainer" unique_id=1384177013]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-text = "case 1"
-script = ExtResource("2_7n5ke")
-target = 2
-
-[node name="Button2" type="Button" parent="Interactables/Board/GridContainer" unique_id=1222614957]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-text = "case 2"
-script = ExtResource("2_7n5ke")
-target = 2
-
-[node name="Button3" type="Button" parent="Interactables/Board/GridContainer" unique_id=1796127511]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-text = "case 3"
-script = ExtResource("2_7n5ke")
-target = 2
-
-[node name="Button4" type="Button" parent="Interactables/Board/GridContainer" unique_id=599913130]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-text = "case 4"
-script = ExtResource("2_7n5ke")
-target = 2
+script = ExtResource("3_ytpg3")
+item_scene = SubResource("PackedScene_1hgmb")
 
 [node name="ChangeScene" type="Button" parent="Interactables" unique_id=252521840]
 layout_mode = 1

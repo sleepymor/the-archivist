@@ -1,0 +1,35 @@
+{
+	"fields": {
+		"attendance": {
+			"absence_reasons": [],
+			"days_absent": "Verified",
+			"days_present": "Verified",
+			"total_days": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sudirman Nugroho",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"record": {
+			"class": "Verified",
+			"period": "Verified",
+			"record_number": "ARC-1942-290",
+			"school": "Verified"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Nugroho.",
+		"student": {
+			"guardian": "Verified",
+			"name": "Sudirman Nugroho",
+			"student_number": "Verified"
+		},
+		"title": "Official Record - Sudirman Nugroho"
+	},
+	"type": "attendance_record"
+}

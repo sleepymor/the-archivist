@@ -1,38 +1,38 @@
 {
   "type": "academic_certificate",
   "fields": {
-    "title": "",
-    "date": "",
-    "language": "",
-    "issuer": "",
-    "certificate": {
-      "certificate_number": "",
-      "school": "",
-      "certificate_type": ""
-    },
-    "student": {
-      "name": "",
-      "birth_date": "",
-      "birth_place": ""
-    },
-    "achievement": {
-      "program": "",
-      "level": "",
-      "completion_date": "",
-      "result": ""
-    },
-    "authority": {
-      "principal_or_head": "",
-      "official_signatures": []
-    },
-    "remarks": "",
-    "claims": [
-      {
-        "fact": "",
-        "importance": ""
-      }
-    ],
-    "investigation_score": 0,
-    "is_true": true
+	"title": "",
+	"date": "",
+	"language": "",
+	"issuer": "",
+	"certificate": {
+	  "certificate_number": "",
+	  "school": "",
+	  "certificate_type": ""
+	},
+	"student": {
+	  "name": "",
+	  "birth_date": "",
+	  "birth_place": ""
+	},
+	"achievement": {
+	  "program": "",
+	  "level": "",
+	  "completion_date": "",
+	  "result": ""
+	},
+	"authority": {
+	  "principal_or_head": "",
+	  "official_signatures": []
+	},
+	"remarks": "",
+	"claims": [
+	  {
+		"fact": "",
+		"importance": ""
+	  }
+	],
+	"investigation_score": 0,
+	"is_true": true
   }
 }
