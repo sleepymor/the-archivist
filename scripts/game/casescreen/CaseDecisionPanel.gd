@@ -13,6 +13,8 @@ class_name CaseDecisionPanel
 @export var day_manager: DayManager
 @export var trust_manager: TrustManager
 
+const DEADLINE_PENALTY: float = 10.0
+
 const INVESTIGATION_RANGES := {
 	TrustManager.TrustSegment.LOW: Vector2(50, 75),
 	TrustManager.TrustSegment.BASE: Vector2(75, 150),
@@ -23,6 +25,11 @@ func _ready() -> void:
 	accept_button.pressed.connect(_on_accept_pressed)
 	reject_button.pressed.connect(_on_reject_pressed)
 	investigate_button.pressed.connect(_on_investigate_pressed)
+	case_inventory.case_expired.connect(_on_case_expired)
+
+func _on_case_expired(case_id: String) -> void:
+	trust_manager.apply_penalty(DEADLINE_PENALTY)
+	info_popup.show_message("Case %s expired! Trust -%s" % [case_id, DEADLINE_PENALTY])
 
 func _on_accept_pressed() -> void:
 	_resolve_case("approve")

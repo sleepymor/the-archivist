@@ -12,8 +12,11 @@ func setup(data: Dictionary) -> void:
 	case_id = data["id"]
 	if id_label:
 		id_label.text = data["id"]
+	refresh_deadline(data["deadline"])
+
+func refresh_deadline(value: float) -> void:
 	if deadline_label:
-		deadline_label.text = "Deadline: %s" % str(data["deadline"])
+		deadline_label.text = "Deadline: %s" % str(value)
 
 func _ready() -> void:
 	pressed.connect(_on_pressed)

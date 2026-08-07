@@ -86,9 +86,10 @@ offset_top = 47.0
 offset_right = 128.0
 offset_bottom = 201.0
 
-[node name="VBoxContainer" parent="Gameplay/MainDesk/Interactables/Board" index="0" unique_id=197329434 node_paths=PackedStringArray("case_inventory", "switcher")]
+[node name="VBoxContainer" parent="Gameplay/MainDesk/Interactables/Board" index="0" unique_id=197329434 node_paths=PackedStringArray("case_inventory", "switcher", "day_manager")]
 case_inventory = NodePath("../../../../../GameData/CaseInventory")
 switcher = NodePath("../../../..")
+day_manager = NodePath("../../../../../GameData/DayManager")
 
 [node name="ChangeScene" parent="Gameplay/MainDesk/Interactables" index="2" unique_id=252521840 node_paths=PackedStringArray("switcher")]
 switcher = NodePath("../../..")
