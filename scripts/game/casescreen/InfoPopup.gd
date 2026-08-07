@@ -1,6 +1,8 @@
 extends Control
 class_name InfoPopup
 
+signal closed
+
 @export var message_label: Label
 @export var ok_button: Button
 
@@ -14,3 +16,4 @@ func show_message(text: String) -> void:
 
 func _on_ok_pressed() -> void:
 	visible = false
+	closed.emit()

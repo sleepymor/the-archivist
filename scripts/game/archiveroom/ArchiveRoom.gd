@@ -4,6 +4,7 @@ class_name ArchiveRoom
 @export var archive_inventory: ArchiveInventory
 @export var item_scene: PackedScene
 @export var search_field: LineEdit
+@export var document_viewer: DocumentViewer
 
 var _spawned_items: Array = []
 
@@ -23,6 +24,7 @@ func _on_document_archived(_case_id: String, document: Dictionary) -> void:
 func _spawn_item(doc: Dictionary, to_front: bool = false) -> void:
 	var item: ArchiveItem = item_scene.instantiate()
 	add_child(item)
+	item.document_viewer = document_viewer
 	item.setup(doc)
 
 	if to_front:

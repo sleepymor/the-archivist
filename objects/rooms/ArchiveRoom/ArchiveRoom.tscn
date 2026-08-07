@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="1_abqdv"]
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="2_bvssm"]
 [ext_resource type="PackedScene" uid="uid://dfir3xwdmq2k2" path="res://objects/rooms/ArchiveRoom/ArchiveItem.tscn" id="2_ers2n"]
+[ext_resource type="Script" uid="uid://bwcm5ksewrdsu" path="res://scripts/game/archiveroom/DocumentViewer.gd" id="4_wffyv"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_abqdv"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
@@ -51,31 +52,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Board" type="TextureRect" parent="Dynamic" unique_id=149293551]
-self_modulate = Color(0.80710185, 0.54905045, 0.19548571, 1)
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 107.0
-offset_top = 40.0
-offset_right = -97.0
-offset_bottom = -26.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = SubResource("CompressedTexture2D_abqdv")
-
-[node name="VBoxContainer" type="VBoxContainer" parent="Dynamic/Board" unique_id=314571814 node_paths=PackedStringArray("search_field")]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-script = ExtResource("1_5xmqo")
-item_scene = ExtResource("2_ers2n")
-search_field = NodePath("../../../Interactables/Searchbar/LineEdit")
-
 [node name="Interactables" type="Control" parent="." unique_id=251751332]
 layout_mode = 1
 anchors_preset = 15
@@ -103,6 +79,90 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Board" type="TextureRect" parent="Interactables" unique_id=149293551]
+self_modulate = Color(0.80710185, 0.54905045, 0.19548571, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 107.0
+offset_top = 40.0
+offset_right = -97.0
+offset_bottom = -26.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_abqdv")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Interactables/Board" unique_id=314571814 node_paths=PackedStringArray("search_field", "document_viewer")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5xmqo")
+item_scene = ExtResource("2_ers2n")
+search_field = NodePath("../../Searchbar/LineEdit")
+document_viewer = NodePath("../../DocumentViewer")
+
+[node name="DocumentViewer" type="Control" parent="Interactables" unique_id=344317011 node_paths=PackedStringArray("content_label", "close_button")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_wffyv")
+content_label = NodePath("Document/RichTextLabel")
+close_button = NodePath("CloseBtn")
+
+[node name="Overlay" type="TextureRect" parent="Interactables/DocumentViewer" unique_id=1407007154]
+self_modulate = Color(0, 0, 0, 0.34509805)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_abqdv")
+
+[node name="Document" type="TextureRect" parent="Interactables/DocumentViewer" unique_id=2078694198]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 206.0
+offset_top = 25.0
+offset_right = -221.0
+offset_bottom = -30.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_abqdv")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Interactables/DocumentViewer/Document" unique_id=597312765]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 10
+theme_override_font_sizes/bold_font_size = 10
+theme_override_font_sizes/bold_italics_font_size = 10
+theme_override_font_sizes/italics_font_size = 10
+theme_override_font_sizes/mono_font_size = 10
+bbcode_enabled = true
+fit_content = true
+
+[node name="CloseBtn" type="Button" parent="Interactables/DocumentViewer" unique_id=451786368]
+layout_mode = 0
+offset_left = 87.0
+offset_top = 244.0
+offset_right = 137.0
+offset_bottom = 275.0
+text = "Close"
 
 [node name="ChangeScene" type="Button" parent="Interactables" unique_id=2007294219]
 layout_mode = 1

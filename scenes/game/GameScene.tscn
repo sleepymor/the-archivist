@@ -29,12 +29,11 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="DocumentSpawnManager" parent="GameData" unique_id=818754143 node_paths=PackedStringArray("case_inventory", "archive_inventory", "document_pool_loader", "day_manager") instance=ExtResource("1_3nyqv")]
+[node name="DocumentSpawnManager" parent="GameData" unique_id=818754143 node_paths=PackedStringArray("case_inventory", "archive_inventory", "document_pool_loader") instance=ExtResource("1_3nyqv")]
 layout_mode = 1
 case_inventory = NodePath("../CaseInventory")
 archive_inventory = NodePath("../ArchiveInventory")
 document_pool_loader = NodePath("../DocumentPoolLoader")
-day_manager = NodePath("../DayManager")
 
 [node name="DocumentPoolLoader" parent="GameData" unique_id=1448232652 instance=ExtResource("2_qpqd0")]
 layout_mode = 1
@@ -46,9 +45,10 @@ layout_mode = 1
 layout_mode = 1
 day_label = NodePath("../../Gameplay/MainDesk/Dynamic/Date/Label")
 
-[node name="TrustManager" parent="GameData" unique_id=853786609 node_paths=PackedStringArray("trust_bar") instance=ExtResource("2_8x43h")]
+[node name="TrustManager" parent="GameData" unique_id=853786609 node_paths=PackedStringArray("trust_bar", "trust_label") instance=ExtResource("2_8x43h")]
 layout_mode = 1
 trust_bar = NodePath("../../Gameplay/MainDesk/Dynamic/Trust/ProgressBar")
+trust_label = NodePath("../../Gameplay/MainDesk/Dynamic/Trust/Label")
 
 [node name="CaseInventory" parent="GameData" unique_id=888224668 instance=ExtResource("1_fjeox")]
 layout_mode = 1
@@ -115,10 +115,10 @@ target = 3
 visible = false
 layout_mode = 1
 
-[node name="VBoxContainer" parent="Gameplay/ArchiveRoom/Dynamic/Board" parent_id_path=PackedInt32Array(1657735572, 149293551) index="0" unique_id=314571814 node_paths=PackedStringArray("archive_inventory")]
+[node name="VBoxContainer" parent="Gameplay/ArchiveRoom/Interactables/Board" parent_id_path=PackedInt32Array(1657735572, 149293551) index="0" unique_id=314571814 node_paths=PackedStringArray("archive_inventory")]
 archive_inventory = NodePath("../../../../../GameData/ArchiveInventory")
 
-[node name="ChangeScene" parent="Gameplay/ArchiveRoom/Interactables" parent_id_path=PackedInt32Array(1657735572, 251751332) index="1" unique_id=2007294219 node_paths=PackedStringArray("switcher")]
+[node name="ChangeScene" parent="Gameplay/ArchiveRoom/Interactables" parent_id_path=PackedInt32Array(1657735572, 251751332) index="3" unique_id=2007294219 node_paths=PackedStringArray("switcher")]
 switcher = NodePath("../../..")
 
 [node name="CaseScreen" parent="Gameplay" unique_id=1252252513 node_paths=PackedStringArray("case_inventory", "case_pool_compiler") instance=ExtResource("4_fjeox")]
@@ -130,11 +130,12 @@ case_pool_compiler = NodePath("../../GameData/CasePoolCompiler")
 [node name="ChangeScene" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="0" unique_id=929265296 node_paths=PackedStringArray("switcher")]
 switcher = NodePath("../../..")
 
-[node name="Actions" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="1" unique_id=1196737348 node_paths=PackedStringArray("case_inventory", "case_pool_compiler", "day_manager", "trust_manager")]
+[node name="Actions" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="1" unique_id=1196737348 node_paths=PackedStringArray("case_inventory", "case_pool_compiler", "day_manager", "trust_manager", "document_spawn_manager")]
 case_inventory = NodePath("../../../../GameData/CaseInventory")
 case_pool_compiler = NodePath("../../../../GameData/CasePoolCompiler")
 day_manager = NodePath("../../../../GameData/DayManager")
 trust_manager = NodePath("../../../../GameData/TrustManager")
+document_spawn_manager = NodePath("../../../../GameData/DocumentSpawnManager")
 
 [node name="ChangeScene" parent="Gameplay/CaseScreen/Interactables/Actions" index="2" unique_id=1822437676 node_paths=PackedStringArray("switcher")]
 switcher = NodePath("../../../..")

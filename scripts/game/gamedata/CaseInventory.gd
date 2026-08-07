@@ -17,6 +17,7 @@ func add_case(id: String, deadline: float) -> Dictionary:
 	var entry := {
 		"id": id,
 		"deadline": deadline,
+		"initial_deadline": deadline,
 		"investigation_points": 0
 	}
 

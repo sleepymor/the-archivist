@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="4_5vwp8"]
 [ext_resource type="Script" uid="uid://bnnt22cs7rcrn" path="res://scripts/game/casescreen/DecisionResultPopup.gd" id="4_5x5ot"]
 [ext_resource type="Script" uid="uid://f0ofg5wddai2" path="res://scripts/game/casescreen/InfoPopup.gd" id="6_bs03v"]
+[ext_resource type="Script" uid="uid://cucmabbpudc5v" path="res://scripts/game/casescreen/DocumentFoundPopup.gd" id="7_07iyx"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vhrkp"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
@@ -120,7 +121,7 @@ offset_bottom = 31.0
 text = "<"
 script = ExtResource("1_kbyl8")
 
-[node name="Actions" type="VBoxContainer" parent="Interactables" unique_id=1196737348 node_paths=PackedStringArray("accept_button", "reject_button", "investigate_button", "result_popup", "info_popup")]
+[node name="Actions" type="VBoxContainer" parent="Interactables" unique_id=1196737348 node_paths=PackedStringArray("accept_button", "reject_button", "investigate_button", "result_popup", "info_popup", "document_found_popup")]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -139,6 +140,7 @@ reject_button = NodePath("HBoxContainer/Reject")
 investigate_button = NodePath("Investigate")
 result_popup = NodePath("../Popup")
 info_popup = NodePath("../InfoPopup")
+document_found_popup = NodePath("../DailyPopup")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Interactables/Actions" unique_id=1652825350]
 layout_mode = 2
@@ -236,7 +238,6 @@ grow_vertical = 0
 text = "OK"
 
 [node name="InfoPopup" type="Control" parent="Interactables" unique_id=309382666 node_paths=PackedStringArray("message_label", "ok_button")]
-visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -285,11 +286,74 @@ anchor_right = 1.0
 offset_top = 37.0
 offset_bottom = 60.0
 grow_horizontal = 2
-text = "Ffdpf
-"
 fit_content = true
 
 [node name="Button" type="Button" parent="Interactables/InfoPopup/Container" unique_id=1632085444]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -15.5
+offset_top = -31.0
+offset_right = 15.5
+grow_horizontal = 2
+grow_vertical = 0
+text = "OK"
+
+[node name="DailyPopup" type="Control" parent="Interactables" unique_id=618696338 node_paths=PackedStringArray("content_label", "ok_button")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("7_07iyx")
+content_label = NodePath("Container/Explanation")
+ok_button = NodePath("Container/Button")
+
+[node name="Overlay" type="TextureRect" parent="Interactables/DailyPopup" unique_id=1856071610]
+self_modulate = Color(0, 0, 0, 0.24705882)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_5vwp8")
+
+[node name="Container" type="TextureRect" parent="Interactables/DailyPopup" unique_id=877243610]
+self_modulate = Color(0, 0, 0, 0.24705882)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 126.0
+offset_top = 92.0
+offset_right = -151.0
+offset_bottom = -85.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_5vwp8")
+
+[node name="Condition" type="Label" parent="Interactables/DailyPopup/Container" unique_id=274806355]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+
+[node name="Explanation" type="RichTextLabel" parent="Interactables/DailyPopup/Container" unique_id=51492235]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 37.0
+offset_bottom = 60.0
+grow_horizontal = 2
+fit_content = true
+
+[node name="Button" type="Button" parent="Interactables/DailyPopup/Container" unique_id=1803204296]
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5

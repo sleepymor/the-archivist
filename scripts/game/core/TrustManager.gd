@@ -7,6 +7,7 @@ signal trust_depleted
 enum TrustSegment { LOW, BASE, HIGH }
 
 @export var trust_bar: ProgressBar
+@export var trust_label: Label
 @export var max_trust: float = 100.0
 @export var penalty_amount: float = 10.0
 
@@ -38,3 +39,5 @@ func _update_bar() -> void:
 	if trust_bar:
 		trust_bar.max_value = max_trust
 		trust_bar.value = current_trust
+	if trust_label:
+		trust_label.text = "%d / %d" % [int(current_trust), int(max_trust)]
