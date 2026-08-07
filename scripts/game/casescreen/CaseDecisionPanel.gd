@@ -47,6 +47,8 @@ func _on_investigate_pressed() -> void:
 	var gained: int = randi_range(int(range_value.x), int(range_value.y))
 
 	var points: int = case_inventory.add_investigation_point(active["id"], gained)
+
+	case_inventory.advance_day()
 	day_manager.advance_day()
 
 	info_popup.show_message("Investigation +%d. Total: %d" % [gained, points])
@@ -72,6 +74,7 @@ func _resolve_case(decision: String) -> void:
 	result_popup.show_result(is_correct, resolution["explanation"])
 
 	case_inventory.remove_case(active["id"])
+	case_inventory.advance_day()
 	day_manager.advance_day()
 
 func _on_correct_decision(case_data: Dictionary) -> void:

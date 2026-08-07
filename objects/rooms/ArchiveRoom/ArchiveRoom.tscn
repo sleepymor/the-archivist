@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://clenng5u0b3dm"]
 
+[ext_resource type="Script" uid="uid://2veyra7m5ood" path="res://scripts/game/archiveroom/ArchiveRoom.gd" id="1_5xmqo"]
 [ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="1_abqdv"]
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="2_bvssm"]
+[ext_resource type="PackedScene" uid="uid://dfir3xwdmq2k2" path="res://objects/rooms/ArchiveRoom/ArchiveItem.tscn" id="2_ers2n"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_abqdv"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
@@ -63,41 +65,16 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("CompressedTexture2D_abqdv")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Dynamic/Board" unique_id=314571814]
+[node name="VBoxContainer" type="VBoxContainer" parent="Dynamic/Board" unique_id=314571814 node_paths=PackedStringArray("search_field")]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-
-[node name="Button" type="Button" parent="Dynamic/Board/VBoxContainer" unique_id=1363683377]
-layout_mode = 2
-text = "Archive 1"
-
-[node name="Button2" type="Button" parent="Dynamic/Board/VBoxContainer" unique_id=758945177]
-layout_mode = 2
-text = "Archive 2"
-
-[node name="Button3" type="Button" parent="Dynamic/Board/VBoxContainer" unique_id=1570357783]
-layout_mode = 2
-text = "Archive 3"
-
-[node name="Button4" type="Button" parent="Dynamic/Board/VBoxContainer" unique_id=245137926]
-layout_mode = 2
-text = "Archive 4"
-
-[node name="Button5" type="Button" parent="Dynamic/Board/VBoxContainer" unique_id=1895104037]
-layout_mode = 2
-text = "Archive 5"
-
-[node name="Button6" type="Button" parent="Dynamic/Board/VBoxContainer" unique_id=1833769073]
-layout_mode = 2
-text = "Archive 6"
-
-[node name="Button7" type="Button" parent="Dynamic/Board/VBoxContainer" unique_id=2054929717]
-layout_mode = 2
-text = "Archive 7"
+script = ExtResource("1_5xmqo")
+item_scene = ExtResource("2_ers2n")
+search_field = NodePath("../../../Interactables/Searchbar/LineEdit")
 
 [node name="Interactables" type="Control" parent="." unique_id=251751332]
 layout_mode = 1
@@ -119,16 +96,13 @@ offset_bottom = 24.0
 grow_horizontal = 2
 texture = ExtResource("1_abqdv")
 
-[node name="TextEdit" type="TextEdit" parent="Interactables/Searchbar" unique_id=1729734193]
+[node name="LineEdit" type="LineEdit" parent="Interactables/Searchbar" unique_id=1053722418]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_bottom = -4.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_font_sizes/font_size = 11
-placeholder_text = "Search Information"
 
 [node name="ChangeScene" type="Button" parent="Interactables" unique_id=2007294219]
 layout_mode = 1
