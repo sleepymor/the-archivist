@@ -2,6 +2,7 @@ extends Button
 
 @export var case_pool_compiler: CasePoolCompiler
 @export var case_inventory: CaseInventory
+@export var case_spawn_manager: CaseSpawnManager
 
 func _ready() -> void:
 	pressed.connect(_on_pressed)
@@ -13,5 +14,5 @@ func _on_pressed() -> void:
 		return
 
 	case_inventory.add_case(current["id"], current["deadline"])
-
-	case_pool_compiler.show_random_case()
+	case_pool_compiler.clear_display()
+	case_spawn_manager._set_objects_visible(false)

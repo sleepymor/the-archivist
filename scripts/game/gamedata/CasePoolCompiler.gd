@@ -1,19 +1,18 @@
 extends Node
 class_name CasePoolCompiler
 
-@export_file("*.json") var cases_file_path: String
+@export_file("*.json") var cases_file_path: String = "res://data/cases.json"
 
 @export var title_label: Label
 @export var character_name_label: Label
 @export var reason_text_label: RichTextLabel
 
 var pool: Array = []
-
 var current_case: Dictionary = {}
+var _next_index: int = 0
 
 func _ready() -> void:
 	_load_pool()
-	show_random_case()
 
 func _load_pool() -> void:
 	if not FileAccess.file_exists(cases_file_path):
@@ -32,8 +31,8 @@ func _load_pool() -> void:
 
 	pool = json.get_data()
 
-func show_random_case() -> void:
-	current_case = _get_random_case()
+func show_next_case() -> void:
+	current_case = _get_next_case()
 
 	if current_case.is_empty():
 		title_label.text = "Tidak ada case tersisa"
@@ -47,8 +46,17 @@ func show_random_case() -> void:
 	character_name_label.text = requester["character_name"]
 	reason_text_label.text = requester["reason"]
 
-func _get_random_case() -> Dictionary:
-	if pool.is_empty():
-		push_error("Belum ada data case yang di-load")
+func clear_display() -> void:
+	current_case = {}
+	title_label.text = ""
+	character_name_label.text = ""
+	reason_text_label.text = ""
+
+func _get_next_case() -> Dictionary:
+	if _next_index >= pool.size():
+		push_warning("Semua case di pool sudah habis")
 		return {}
-	return pool[randi() % pool.size()]
+
+	var c: Dictionary = pool[_next_index]
+	_next_index += 1
+	return c

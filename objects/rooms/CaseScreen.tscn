@@ -2,6 +2,10 @@
 
 [ext_resource type="Script" uid="uid://e0hy238ledx0" path="res://scripts/game/casescreen/CaseScreen.gd" id="1_4g2bn"]
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="1_kbyl8"]
+[ext_resource type="Script" uid="uid://ccsrmn82it7gg" path="res://scripts/game/casescreen/CaseDecisionPanel.gd" id="3_7c1e4"]
+[ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="4_5vwp8"]
+[ext_resource type="Script" uid="uid://bnnt22cs7rcrn" path="res://scripts/game/casescreen/DecisionResultPopup.gd" id="4_5x5ot"]
+[ext_resource type="Script" uid="uid://f0ofg5wddai2" path="res://scripts/game/casescreen/InfoPopup.gd" id="6_bs03v"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vhrkp"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
@@ -116,7 +120,7 @@ offset_bottom = 31.0
 text = "<"
 script = ExtResource("1_kbyl8")
 
-[node name="Actions" type="VBoxContainer" parent="Interactables" unique_id=1196737348]
+[node name="Actions" type="VBoxContainer" parent="Interactables" unique_id=1196737348 node_paths=PackedStringArray("accept_button", "reject_button", "investigate_button", "result_popup", "info_popup")]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -129,6 +133,12 @@ offset_right = 196.0
 offset_bottom = 51.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("3_7c1e4")
+accept_button = NodePath("HBoxContainer/Accept")
+reject_button = NodePath("HBoxContainer/Reject")
+investigate_button = NodePath("Investigate")
+result_popup = NodePath("../Popup")
+info_popup = NodePath("../InfoPopup")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Interactables/Actions" unique_id=1652825350]
 layout_mode = 2
@@ -144,10 +154,10 @@ layout_mode = 2
 size_flags_horizontal = 3
 text = "Reject"
 
-[node name="Search" type="Button" parent="Interactables/Actions" unique_id=295023941]
+[node name="Investigate" type="Button" parent="Interactables/Actions" unique_id=295023941]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "Search"
+text = "Investigate"
 
 [node name="ChangeScene" type="Button" parent="Interactables/Actions" unique_id=1822437676]
 layout_mode = 2
@@ -155,3 +165,140 @@ size_flags_horizontal = 3
 text = "To Evidence Board"
 script = ExtResource("1_kbyl8")
 target = 3
+
+[node name="Popup" type="Control" parent="Interactables" unique_id=60686699 node_paths=PackedStringArray("result_label", "reason_label", "ok_button")]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_5x5ot")
+result_label = NodePath("Container/Condition")
+reason_label = NodePath("Container/Explanation")
+ok_button = NodePath("Container/Button")
+
+[node name="Overlay" type="TextureRect" parent="Interactables/Popup" unique_id=2049321823]
+self_modulate = Color(0, 0, 0, 0.24705882)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_5vwp8")
+
+[node name="Container" type="TextureRect" parent="Interactables/Popup" unique_id=1845858399]
+self_modulate = Color(0, 0, 0, 0.24705882)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 126.0
+offset_top = 92.0
+offset_right = -151.0
+offset_bottom = -85.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_5vwp8")
+
+[node name="Condition" type="Label" parent="Interactables/Popup/Container" unique_id=441923437]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+
+[node name="Explanation" type="RichTextLabel" parent="Interactables/Popup/Container" unique_id=459808702]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 37.0
+offset_bottom = 60.0
+grow_horizontal = 2
+text = "Ffdpf
+"
+fit_content = true
+
+[node name="Button" type="Button" parent="Interactables/Popup/Container" unique_id=1701645555]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -15.5
+offset_top = -31.0
+offset_right = 15.5
+grow_horizontal = 2
+grow_vertical = 0
+text = "OK"
+
+[node name="InfoPopup" type="Control" parent="Interactables" unique_id=309382666 node_paths=PackedStringArray("message_label", "ok_button")]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("6_bs03v")
+message_label = NodePath("Container/Condition")
+ok_button = NodePath("Container/Button")
+
+[node name="Overlay" type="TextureRect" parent="Interactables/InfoPopup" unique_id=833353021]
+self_modulate = Color(0, 0, 0, 0.24705882)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_5vwp8")
+
+[node name="Container" type="TextureRect" parent="Interactables/InfoPopup" unique_id=2044947195]
+self_modulate = Color(0, 0, 0, 0.24705882)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 126.0
+offset_top = 92.0
+offset_right = -151.0
+offset_bottom = -85.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_5vwp8")
+
+[node name="Condition" type="Label" parent="Interactables/InfoPopup/Container" unique_id=1605522050]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+
+[node name="Explanation" type="RichTextLabel" parent="Interactables/InfoPopup/Container" unique_id=1628887959]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 37.0
+offset_bottom = 60.0
+grow_horizontal = 2
+text = "Ffdpf
+"
+fit_content = true
+
+[node name="Button" type="Button" parent="Interactables/InfoPopup/Container" unique_id=1632085444]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -15.5
+offset_top = -31.0
+offset_right = 15.5
+grow_horizontal = 2
+grow_vertical = 0
+text = "OK"
