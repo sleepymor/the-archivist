@@ -1,35 +1,35 @@
 {
   "type": "attendance_record",
   "fields": {
-    "title": "",
-    "date": "",
-    "language": "",
-    "issuer": "",
-    "record": {
-      "record_number": "",
-      "school": "",
-      "class": "",
-      "period": ""
-    },
-    "student": {
-      "name": "",
-      "student_number": "",
-      "guardian": ""
-    },
-    "attendance": {
-      "total_days": "",
-      "days_present": "",
-      "days_absent": "",
-      "absence_reasons": []
-    },
-    "remarks": "",
-    "claims": [
-      {
-        "fact": "",
-        "importance": ""
-      }
-    ],
-    "investigation_score": 0,
-    "is_true": true
+	"title": "",
+	"date": "",
+	"language": "",
+	"issuer": "",
+	"record": {
+	  "record_number": "",
+	  "school": "",
+	  "class": "",
+	  "period": ""
+	},
+	"student": {
+	  "name": "",
+	  "student_number": "",
+	  "guardian": ""
+	},
+	"attendance": {
+	  "total_days": "",
+	  "days_present": "",
+	  "days_absent": "",
+	  "absence_reasons": []
+	},
+	"remarks": "",
+	"claims": [
+	  {
+		"fact": "",
+		"importance": ""
+	  }
+	],
+	"investigation_score": 0,
+	"is_true": true
   }
 }

@@ -1,20 +1,30 @@
 [gd_scene format=3 uid="uid://baqju7d7i4rx4"]
 
+[ext_resource type="Script" uid="uid://nxpv5uoxfilq" path="res://scripts/game/evidenceboard/EvidenceBoard.gd" id="1_1bwuk"]
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="1_cm1t7"]
 [ext_resource type="Script" uid="uid://cl5d6fmfnnf5j" path="res://scripts/game/evidenceboard/BoardZone.gd" id="1_djisl"]
 [ext_resource type="Script" uid="uid://bucgibhbi6i82" path="res://scripts/game/evidenceboard/StickyNote.gd" id="2_bbky3"]
+[ext_resource type="PackedScene" uid="uid://blyqujv6yiqvi" path="res://objects/rooms/EvidenceBoard/EvidenceBoardStorage.tscn" id="2_do3gm"]
 [ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="4_pwkdt"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i3ue6"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
 
-[node name="EvidenceBoard" type="Control" unique_id=355820236]
+[node name="EvidenceBoard" type="Control" unique_id=355820236 node_paths=PackedStringArray("case_switch_option_button", "storage", "dispenser", "notes_container")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_1bwuk")
+case_switch_option_button = NodePath("Interactables/OptionButton")
+storage = NodePath("EvidenceBoardStorage")
+dispenser = NodePath("Interactables/AddStickyNotes")
+notes_container = NodePath("Interactables")
+
+[node name="EvidenceBoardStorage" parent="." unique_id=199369392 instance=ExtResource("2_do3gm")]
+layout_mode = 1
 
 [node name="Static" type="Control" parent="." unique_id=155181935]
 layout_mode = 1

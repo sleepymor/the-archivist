@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://blyqujv6yiqvi"]
+
+[ext_resource type="Script" uid="uid://d04y6mtsxkg4k" path="res://scripts/game/evidenceboard/EvidenceBoardStorage.gd" id="1_w0ip5"]
+
+[node name="EvidenceBoardStorage" type="Control" unique_id=199369392]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_w0ip5")

@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dfir3xwdmq2k2"]
+
+[ext_resource type="Script" uid="uid://dux6dva3bd53p" path="res://scripts/game/archiveroom/ArchiveItem.gd" id="1_f84kf"]
+
+[node name="ArchiveItem" type="Button" unique_id=727116818]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f84kf")
