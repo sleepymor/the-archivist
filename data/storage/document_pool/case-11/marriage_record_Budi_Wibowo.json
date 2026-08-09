@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"ceremony": {
+			"officiant": "Verified",
+			"type": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Budi Wibowo",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"family_details": {
+			"husband_parent": "Verified",
+			"wife_parent": "Verified",
+			"witnesses": []
+		},
+		"investigation_score": 185,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"marriage": {
+			"husband": "Budi Wibowo",
+			"location": "District Archives Center, Sector 2",
+			"marriage_date": "Verified",
+			"wife": "Budi Wibowo"
+		},
+		"registration": {
+			"institution": "Verified",
+			"record_number": "ARC-1942-212",
+			"registration_date": "Verified"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Wibowo.",
+		"title": "Official Record - Budi Wibowo"
+	},
+	"type": "marriage_record"
+}

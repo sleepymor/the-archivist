@@ -8,6 +8,11 @@
 [ext_resource type="PackedScene" uid="uid://bllgny8vm1c80" path="res://objects/gamedata/TrustManager.tscn" id="2_8x43h"]
 [ext_resource type="AudioStream" uid="uid://dijjyncka0oaq" path="res://assets/audio/Debug/idoberg-cozy-lofi-beat-sunset-stars-253833.ogg" id="2_ks7xl"]
 [ext_resource type="PackedScene" uid="uid://drcsufaah1ieb" path="res://objects/gamedata/DocumentPoolLoader.tscn" id="2_qpqd0"]
+[ext_resource type="Script" uid="uid://new-char-gen" path="res://scripts/generations/CharacterGeneration.gd" id="7_1abc"]
+[ext_resource type="Script" uid="uid://new-case-gen" path="res://scripts/generations/CaseGeneration.gd" id="7_2bcd"]
+[ext_resource type="Script" uid="uid://new-doc-gen" path="res://scripts/generations/DocumentGeneration.gd" id="7_3cde"]
+[ext_resource type="Script" uid="uid://new-char-watch" path="res://scripts/watcher/CharacterPoolWatcher.gd" id="7_4def"]
+[ext_resource type="Script" uid="uid://new-doc-watch" path="res://scripts/watcher/DocumentPoolWatcher.gd" id="7_5ef0"]
 [ext_resource type="PackedScene" uid="uid://clenng5u0b3dm" path="res://objects/rooms/ArchiveRoom/ArchiveRoom.tscn" id="3_8cups"]
 [ext_resource type="PackedScene" uid="uid://bopu12hrl11p6" path="res://objects/gamedata/ArchiveInventory.tscn" id="3_bl00d"]
 [ext_resource type="Script" uid="uid://l6ts5x3icjos" path="res://scripts/game/core/ObjectSwitcher.gd" id="3_ks7xl"]
@@ -37,6 +42,38 @@ document_pool_loader = NodePath("../DocumentPoolLoader")
 
 [node name="DocumentPoolLoader" parent="GameData" unique_id=1448232652 instance=ExtResource("2_qpqd0")]
 layout_mode = 1
+
+[node name="CharacterGenerations" type="Node" parent="." unique_id=1738492420]
+script = ExtResource("7_1abc")
+
+[node name="CaseGenerations" type="Node" parent="." unique_id=826719108]
+script = ExtResource("7_2bcd")
+
+[node name="DocumentGenerations" type="Node" parent="." unique_id=1943758157]
+script = ExtResource("7_3cde")
+
+[node name="GDLlama" type="GDLlama" parent="." unique_id=1524839204]
+model_path = "models/Phi-3.5-mini-instruct-Q4_K_M.gguf"
+should_output_prompt = false
+context_size = 1024
+n_predict = 154
+temperature = 0.7
+penalty_repeat = 1.15
+n_threads = 4
+n_gpu_layer = 0
+split_mode = 0
+
+[node name="CharacterWatcher" type="Node" parent="." unique_id=508326149]
+process_priority = 3
+script = ExtResource("7_4def")
+target_pool_size = 50
+generator_node_path = NodePath("../CharacterGenerations")
+case_generator_node_path = NodePath("../CaseGenerations")
+
+[node name="DocumentWatcher" type="Node" parent="." unique_id=717349516]
+script = ExtResource("7_5ef0")
+document_generator_node_path = NodePath("../DocumentGenerations")
+case_generator_node_path = NodePath("../CaseGenerations")
 
 [node name="ArchiveInventory" parent="GameData" unique_id=26208550 instance=ExtResource("3_bl00d")]
 layout_mode = 1

@@ -1,0 +1,27 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Gunawan Seng",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"parents": {
+			"father": "Verified",
+			"mother": "Verified"
+		},
+		"person": {
+			"birth_date": "Verified",
+			"birth_place": "Verified",
+			"full_name": "Gunawan Seng",
+			"gender": "Verified"
+		},
+		"title": "Official Record - Gunawan Seng"
+	},
+	"type": "birth_record"
+}

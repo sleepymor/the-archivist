@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sari Hidayat",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"outcome": {
+			"follow_up": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sari Hidayat.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sari Hidayat."
+		},
+		"patient": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Sari Hidayat",
+			"occupation": "Verified"
+		},
+		"record": {
+			"attending_person": "Verified",
+			"medical_institution": "Verified",
+			"record_number": "ARC-1942-731"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sari Hidayat.",
+		"title": "Official Record - Sari Hidayat",
+		"visit": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sari Hidayat.",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sari Hidayat.",
+			"treatment": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sari Hidayat.",
+			"visit_date": "Verified"
+		}
+	},
+	"type": "medical_record"
+}

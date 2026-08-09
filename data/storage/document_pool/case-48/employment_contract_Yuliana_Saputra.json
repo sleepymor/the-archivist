@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Yuliana Saputra",
+				"importance": "Standard Verification"
+			}
+		],
+		"compensation": {
+			"amount": "Verified",
+			"payment_period": "Verified",
+			"payment_type": "Verified"
+		},
+		"conditions": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Yuliana Saputra."
+		],
+		"contract": {
+			"contract_number": "Verified",
+			"employee": "Yuliana Saputra",
+			"employer": "Verified",
+			"position": "Verified"
+		},
+		"date": "1942-06-12",
+		"employment": {
+			"duration": "Verified",
+			"responsibilities": [],
+			"start_date": "Verified",
+			"work_location": "District Archives Center, Sector 3"
+		},
+		"investigation_score": 199,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"termination": {
+			"conditions": "Verified",
+			"notice_period": "Verified"
+		},
+		"title": "Official Record - Yuliana Saputra"
+	},
+	"type": "employment_contract"
+}

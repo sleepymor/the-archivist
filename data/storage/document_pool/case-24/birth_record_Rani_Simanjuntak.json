@@ -1,0 +1,27 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rani Simanjuntak",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"parents": {
+			"father": "Verified",
+			"mother": "Verified"
+		},
+		"person": {
+			"birth_date": "Verified",
+			"birth_place": "Verified",
+			"full_name": "Rani Simanjuntak",
+			"gender": "Verified"
+		},
+		"title": "Official Record - Rani Simanjuntak"
+	},
+	"type": "birth_record"
+}

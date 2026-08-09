@@ -222,5 +222,925 @@
 			"explanation": "All paper records, seals, and handwriting metrics for Hadi Manurung match official district archives."
 		},
 		"title": "Case File - Hadi Manurung"
+	},
+	{
+		"case_type": "false_inheritance_claim",
+		"deadline": 10.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"employment_record",
+			"customary_ownership_record",
+			"official_notice",
+			"administrative_report",
+			"land_record",
+			"ownership_record"
+		],
+		"id": "CASE-10",
+		"requester": {
+			"character_name": "Sukardi Permana",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Sukardi Permana."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Sukardi Permana match official district archives."
+		},
+		"title": "Case File - Sukardi Permana"
+	},
+	{
+		"case_type": "conflicting_birth_records",
+		"deadline": 9.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"customary_confirmation_letter",
+			"marriage_record",
+			"document_verification",
+			"birth_record",
+			"certificate"
+		],
+		"id": "CASE-11",
+		"requester": {
+			"character_name": "Budi Wibowo",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Budi Wibowo."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Budi Wibowo."
+		},
+		"title": "Case File - Budi Wibowo"
+	},
+	{
+		"case_type": "incorrect_property_transfer",
+		"deadline": 11.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"personal_letter",
+			"medical_certificate",
+			"land_record",
+			"student_record",
+			"ownership_record",
+			"customary_confirmation_letter",
+			"employment_record"
+		],
+		"id": "CASE-12",
+		"requester": {
+			"character_name": "Alida Kuiper",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Alida Kuiper."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Alida Kuiper."
+		},
+		"title": "Case File - Alida Kuiper"
+	},
+	{
+		"case_type": "duplicate_land_registration",
+		"deadline": 12.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"ownership_record",
+			"archive_report",
+			"residency_certificate",
+			"land_record",
+			"medical_certificate"
+		],
+		"id": "CASE-13",
+		"requester": {
+			"character_name": "Lestari Hakim",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Lestari Hakim."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Lestari Hakim."
+		},
+		"title": "Case File - Lestari Hakim"
+	},
+	{
+		"case_type": "historical_event_dispute",
+		"deadline": 3.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"ownership_record",
+			"official_notice",
+			"student_record",
+			"customary_confirmation_letter",
+			"administrative_report"
+		],
+		"id": "CASE-14",
+		"requester": {
+			"character_name": "Dewi Wibowo",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Dewi Wibowo."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Dewi Wibowo match official district archives."
+		},
+		"title": "Case File - Dewi Wibowo"
+	},
+	{
+		"case_type": "duplicate_property_certificate",
+		"deadline": 3.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"citizenship_certificate",
+			"land_record",
+			"tax_record",
+			"investigation_report",
+			"ownership_record"
+		],
+		"id": "CASE-15",
+		"requester": {
+			"character_name": "Ningsih Kurniawan",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Ningsih Kurniawan."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Ningsih Kurniawan match official district archives."
+		},
+		"title": "Case File - Ningsih Kurniawan"
+	},
+	{
+		"case_type": "duplicate_identity",
+		"deadline": 3.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"contract",
+			"birth_record",
+			"tax_record",
+			"administrative_report",
+			"residency_certificate",
+			"employment_record",
+			"official_notice"
+		],
+		"id": "CASE-16",
+		"requester": {
+			"character_name": "Rosa Hartono",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Rosa Hartono."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Rosa Hartono match official district archives."
+		},
+		"title": "Case File - Rosa Hartono"
+	},
+	{
+		"case_type": "false_ownership_claim",
+		"deadline": 9.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"certificate",
+			"administrative_report",
+			"contract",
+			"official_notice",
+			"report"
+		],
+		"id": "CASE-17",
+		"requester": {
+			"character_name": "Hayashi Sumiko",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Hayashi Sumiko."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Hayashi Sumiko match official district archives."
+		},
+		"title": "Case File - Hayashi Sumiko"
+	},
+	{
+		"case_type": "incorrect_family_relationship",
+		"deadline": 6.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"administrative_report",
+			"official_notice",
+			"personal_letter",
+			"record_summary",
+			"medical_record"
+		],
+		"id": "CASE-18",
+		"requester": {
+			"character_name": "Sari Hidayat",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Sari Hidayat."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Sari Hidayat match official district archives."
+		},
+		"title": "Case File - Sari Hidayat"
+	},
+	{
+		"case_type": "missing_tax_record",
+		"deadline": 8.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"medical_certificate",
+			"birth_record",
+			"land_record",
+			"customary_confirmation_letter",
+			"employment_record",
+			"tax_record",
+			"employment_contract"
+		],
+		"id": "CASE-19",
+		"requester": {
+			"character_name": "Kwee Liang",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Kwee Liang."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Kwee Liang match official district archives."
+		},
+		"title": "Case File - Kwee Liang"
+	},
+	{
+		"case_type": "religious_record_dispute",
+		"deadline": 6.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"marriage_record",
+			"personal_letter",
+			"birth_record",
+			"witness_statement",
+			"tax_record"
+		],
+		"id": "CASE-20",
+		"requester": {
+			"character_name": "Lestari Siregar",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Lestari Siregar."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Lestari Siregar match official district archives."
+		},
+		"title": "Case File - Lestari Siregar"
+	},
+	{
+		"case_type": "identity_of_unknown_person",
+		"deadline": 7.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"official_notice",
+			"marriage_certificate",
+			"residency_certificate",
+			"administrative_report",
+			"attendance_record",
+			"certificate",
+			"land_record"
+		],
+		"id": "CASE-21",
+		"requester": {
+			"character_name": "Hadi Kusuma",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Hadi Kusuma."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Hadi Kusuma."
+		},
+		"title": "Case File - Hadi Kusuma"
+	},
+	{
+		"case_type": "conflicting_tax_records",
+		"deadline": 4.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"tax_record",
+			"employment_contract",
+			"archive_report",
+			"inventory_record",
+			"marriage_record",
+			"marriage_certificate",
+			"ownership_record",
+			"employment_record"
+		],
+		"id": "CASE-22",
+		"requester": {
+			"character_name": "Budi Setiawan",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Budi Setiawan."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Budi Setiawan match official district archives."
+		},
+		"title": "Case File - Budi Setiawan"
+	},
+	{
+		"case_type": "duplicate_land_registration",
+		"deadline": 5.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"ownership_record",
+			"investigation_report",
+			"certificate",
+			"administrative_report",
+			"land_record"
+		],
+		"id": "CASE-23",
+		"requester": {
+			"character_name": "Tan Lian",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Tan Lian."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Tan Lian."
+		},
+		"title": "Case File - Tan Lian"
+	},
+	{
+		"case_type": "conflicting_birth_records",
+		"deadline": 3.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"archive_report",
+			"personal_letter",
+			"student_record",
+			"birth_record",
+			"marriage_record",
+			"citizenship_certificate"
+		],
+		"id": "CASE-24",
+		"requester": {
+			"character_name": "Rani Simanjuntak",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Rani Simanjuntak."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Rani Simanjuntak match official district archives."
+		},
+		"title": "Case File - Rani Simanjuntak"
+	},
+	{
+		"case_type": "false_identity_claim",
+		"deadline": 8.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"residency_certificate",
+			"marriage_certificate",
+			"employment_contract",
+			"medical_certificate",
+			"official_notice"
+		],
+		"id": "CASE-25",
+		"requester": {
+			"character_name": "Surya Pratama",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Surya Pratama."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Surya Pratama."
+		},
+		"title": "Case File - Surya Pratama"
+	},
+	{
+		"case_type": "lost_property_certificate",
+		"deadline": 10.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"inventory_record",
+			"contract",
+			"land_record",
+			"customary_confirmation_letter",
+			"divorce_certificate",
+			"academic_certificate",
+			"ownership_record"
+		],
+		"id": "CASE-26",
+		"requester": {
+			"character_name": "Liem Maya",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Liem Maya."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Liem Maya match official district archives."
+		},
+		"title": "Case File - Liem Maya"
+	},
+	{
+		"case_type": "conflicting_tax_records",
+		"deadline": 5.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"witness_statement",
+			"birth_record",
+			"student_record",
+			"employment_record",
+			"document_verification",
+			"tax_record",
+			"employment_contract"
+		],
+		"id": "CASE-27",
+		"requester": {
+			"character_name": "Fitri",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Fitri."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Fitri."
+		},
+		"title": "Case File - Fitri"
+	},
+	{
+		"case_type": "lost_property_certificate",
+		"deadline": 8.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"land_record",
+			"marriage_record",
+			"citizenship_certificate",
+			"birth_record",
+			"ownership_record"
+		],
+		"id": "CASE-28",
+		"requester": {
+			"character_name": "Gunawan Seng",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Gunawan Seng."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Gunawan Seng match official district archives."
+		},
+		"title": "Case File - Gunawan Seng"
+	},
+	{
+		"case_type": "property_boundary_dispute",
+		"deadline": 8.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"land_record",
+			"citizenship_certificate",
+			"employment_contract",
+			"ownership_record",
+			"investigation_report",
+			"academic_certificate"
+		],
+		"id": "CASE-29",
+		"requester": {
+			"character_name": "Dian Hartono",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Dian Hartono."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Dian Hartono."
+		},
+		"title": "Case File - Dian Hartono"
+	},
+	{
+		"case_type": "trade_contract_dispute",
+		"deadline": 3.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"report",
+			"diary_entry",
+			"administrative_report",
+			"ownership_record",
+			"official_notice",
+			"customary_confirmation_letter",
+			"record_summary"
+		],
+		"id": "CASE-30",
+		"requester": {
+			"character_name": "Fitri",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Fitri."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Fitri match official district archives."
+		},
+		"title": "Case File - Fitri"
+	},
+	{
+		"case_type": "suspected_forged_seal",
+		"deadline": 7.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"marriage_certificate",
+			"official_notice",
+			"administrative_report",
+			"customary_confirmation_letter",
+			"document_verification",
+			"residency_certificate"
+		],
+		"id": "CASE-31",
+		"requester": {
+			"character_name": "Rahmat Rahman",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Rahmat Rahman."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Rahmat Rahman match official district archives."
+		},
+		"title": "Case File - Rahmat Rahman"
+	},
+	{
+		"case_type": "inheritance_dispute",
+		"deadline": 9.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"contract",
+			"administrative_report",
+			"official_notice",
+			"witness_statement",
+			"document_verification"
+		],
+		"id": "CASE-32",
+		"requester": {
+			"character_name": "Kho Liang",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Kho Liang."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Kho Liang."
+		},
+		"title": "Case File - Kho Liang"
+	},
+	{
+		"case_type": "missing_birth_record",
+		"deadline": 6.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"birth_record",
+			"diary_entry",
+			"official_notice",
+			"marriage_certificate",
+			"marriage_record",
+			"investigation_report"
+		],
+		"id": "CASE-33",
+		"requester": {
+			"character_name": "Surya Suryadi",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Surya Suryadi."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Surya Suryadi."
+		},
+		"title": "Case File - Surya Suryadi"
+	},
+	{
+		"case_type": "religious_record_dispute",
+		"deadline": 12.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"customary_confirmation_letter",
+			"land_record",
+			"marriage_record",
+			"birth_record",
+			"personal_letter",
+			"marriage_certificate"
+		],
+		"id": "CASE-34",
+		"requester": {
+			"character_name": "Lucas van den Berg",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Lucas van den Berg."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Lucas van den Berg."
+		},
+		"title": "Case File - Lucas van den Berg"
+	},
+	{
+		"case_type": "conflicting_tax_records",
+		"deadline": 3.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"report",
+			"divorce_certificate",
+			"tax_record",
+			"contract",
+			"employment_contract",
+			"certificate",
+			"employment_record"
+		],
+		"id": "CASE-35",
+		"requester": {
+			"character_name": "Yuliana Anwar",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Yuliana Anwar."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Yuliana Anwar."
+		},
+		"title": "Case File - Yuliana Anwar"
+	},
+	{
+		"case_type": "suspected_forged_seal",
+		"deadline": 6.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"contract",
+			"administrative_report",
+			"citizenship_certificate",
+			"divorce_certificate",
+			"student_record",
+			"official_notice",
+			"investigation_report"
+		],
+		"id": "CASE-36",
+		"requester": {
+			"character_name": "Johanna de Jong",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Johanna de Jong."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Johanna de Jong match official district archives."
+		},
+		"title": "Case File - Johanna de Jong"
+	},
+	{
+		"case_type": "missing_birth_record",
+		"deadline": 7.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"birth_record",
+			"marriage_record",
+			"medical_certificate",
+			"student_record",
+			"customary_confirmation_letter"
+		],
+		"id": "CASE-37",
+		"requester": {
+			"character_name": "Budi Siregar",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Budi Siregar."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Budi Siregar."
+		},
+		"title": "Case File - Budi Siregar"
+	},
+	{
+		"case_type": "suspected_forged_signature",
+		"deadline": 9.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"employment_contract",
+			"official_notice",
+			"customary_ownership_record",
+			"administrative_report",
+			"citizenship_certificate"
+		],
+		"id": "CASE-38",
+		"requester": {
+			"character_name": "Dian Haryanto",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Dian Haryanto."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Dian Haryanto match official district archives."
+		},
+		"title": "Case File - Dian Haryanto"
+	},
+	{
+		"case_type": "identity_of_unknown_person",
+		"deadline": 10.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"residency_certificate",
+			"administrative_report",
+			"report",
+			"tax_record",
+			"customary_confirmation_letter",
+			"official_notice",
+			"contract"
+		],
+		"id": "CASE-39",
+		"requester": {
+			"character_name": "Agnes Bakker",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Agnes Bakker."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Agnes Bakker match official district archives."
+		},
+		"title": "Case File - Agnes Bakker"
+	},
+	{
+		"case_type": "archive_record_inconsistency",
+		"deadline": 10.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"witness_statement",
+			"inventory_record",
+			"employment_contract",
+			"official_notice",
+			"administrative_report",
+			"divorce_certificate"
+		],
+		"id": "CASE-40",
+		"requester": {
+			"character_name": "Margaretha van den Berg",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Margaretha van den Berg."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Margaretha van den Berg."
+		},
+		"title": "Case File - Margaretha van den Berg"
+	},
+	{
+		"case_type": "missing_supporting_document",
+		"deadline": 14.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"employment_record",
+			"medical_certificate",
+			"official_notice",
+			"administrative_report",
+			"certificate",
+			"residency_certificate"
+		],
+		"id": "CASE-41",
+		"requester": {
+			"character_name": "Gerard Visser",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Gerard Visser."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Gerard Visser match official district archives."
+		},
+		"title": "Case File - Gerard Visser"
+	},
+	{
+		"case_type": "incorrect_property_transfer",
+		"deadline": 4.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"birth_record",
+			"official_notice",
+			"land_record",
+			"ownership_record",
+			"tax_record",
+			"medical_certificate",
+			"record_summary"
+		],
+		"id": "CASE-42",
+		"requester": {
+			"character_name": "Nurul Wibowo",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Nurul Wibowo."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Nurul Wibowo match official district archives."
+		},
+		"title": "Case File - Nurul Wibowo"
+	},
+	{
+		"case_type": "ownership_transfer_dispute",
+		"deadline": 12.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"administrative_report",
+			"personal_letter",
+			"official_notice",
+			"birth_record",
+			"customary_ownership_record",
+			"report"
+		],
+		"id": "CASE-43",
+		"requester": {
+			"character_name": "Liem Liang",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Liem Liang."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Liem Liang match official district archives."
+		},
+		"title": "Case File - Liem Liang"
+	},
+	{
+		"case_type": "missing_death_record",
+		"deadline": 11.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"contract",
+			"ownership_record",
+			"medical_record",
+			"residency_certificate",
+			"official_notice",
+			"tax_record",
+			"administrative_report"
+		],
+		"id": "CASE-44",
+		"requester": {
+			"character_name": "Rahayu Fauzan",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Rahayu Fauzan."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Rahayu Fauzan."
+		},
+		"title": "Case File - Rahayu Fauzan"
+	},
+	{
+		"case_type": "missing_birth_record",
+		"deadline": 7.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"student_record",
+			"marriage_record",
+			"certificate",
+			"record_summary",
+			"birth_record"
+		],
+		"id": "CASE-45",
+		"requester": {
+			"character_name": "Matsumoto Setsuko",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Matsumoto Setsuko."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Matsumoto Setsuko."
+		},
+		"title": "Case File - Matsumoto Setsuko"
+	},
+	{
+		"case_type": "missing_death_record",
+		"deadline": 6.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"administrative_report",
+			"archive_report",
+			"citizenship_certificate",
+			"academic_certificate",
+			"certificate",
+			"land_record",
+			"official_notice"
+		],
+		"id": "CASE-46",
+		"requester": {
+			"character_name": "Rosa Smit",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Rosa Smit."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Rosa Smit."
+		},
+		"title": "Case File - Rosa Smit"
+	},
+	{
+		"case_type": "lost_family_document",
+		"deadline": 8.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"official_notice",
+			"administrative_report",
+			"report",
+			"document_verification",
+			"record_summary",
+			"student_record"
+		],
+		"id": "CASE-47",
+		"requester": {
+			"character_name": "Hadi Tarigan",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Hadi Tarigan."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Hadi Tarigan match official district archives."
+		},
+		"title": "Case File - Hadi Tarigan"
+	},
+	{
+		"case_type": "false_employment_claim",
+		"deadline": 14.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"investigation_report",
+			"tax_record",
+			"employment_contract",
+			"residency_certificate",
+			"report",
+			"employment_record"
+		],
+		"id": "CASE-48",
+		"requester": {
+			"character_name": "Yuliana Saputra",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Yuliana Saputra."
+		},
+		"resolution": {
+			"correct_decision": "reject",
+			"explanation": "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for Yuliana Saputra."
+		},
+		"title": "Case File - Yuliana Saputra"
+	},
+	{
+		"case_type": "conflicting_birth_records",
+		"deadline": 10.0,
+		"description": "An administrative dispute has been logged regarding Local Resident concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+		"documents": [
+			"marriage_record",
+			"investigation_report",
+			"birth_record",
+			"official_notice",
+			"record_summary"
+		],
+		"id": "CASE-49",
+		"requester": {
+			"character_name": "Sasaki Akiko",
+			"reason": "Mandatory administrative validation under 1940s records compliance for Sasaki Akiko."
+		},
+		"resolution": {
+			"correct_decision": "approve",
+			"explanation": "All paper records, seals, and handwriting metrics for Sasaki Akiko match official district archives."
+		},
+		"title": "Case File - Sasaki Akiko"
 	}
 ]

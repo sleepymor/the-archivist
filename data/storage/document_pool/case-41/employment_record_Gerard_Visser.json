@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"attendance": {
+			"attendance_status": "Verified",
+			"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Gerard Visser."
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Gerard Visser",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"employment": {
+			"employee": "Gerard Visser",
+			"institution": "Verified",
+			"position": "Verified",
+			"record_number": "ARC-1942-931"
+		},
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"payment_history": {
+			"last_recorded_payment": "Verified",
+			"payment_status": "Verified"
+		},
+		"service_period": {
+			"end_date": "Verified",
+			"start_date": "Verified",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Gerard Visser."
+		},
+		"title": "Official Record - Gerard Visser",
+		"work_details": {
+			"department": "Verified",
+			"duties": [],
+			"location": "District Archives Center, Sector 2"
+		}
+	},
+	"type": "employment_record"
+}

@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dian Haryanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"compensation": {
+			"amount": "Verified",
+			"payment_period": "Verified",
+			"payment_type": "Verified"
+		},
+		"conditions": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Haryanto."
+		],
+		"contract": {
+			"contract_number": "Verified",
+			"employee": "Dian Haryanto",
+			"employer": "Verified",
+			"position": "Verified"
+		},
+		"date": "1942-06-12",
+		"employment": {
+			"duration": "Verified",
+			"responsibilities": [],
+			"start_date": "Verified",
+			"work_location": "District Archives Center, Sector 5"
+		},
+		"investigation_score": 171,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"termination": {
+			"conditions": "Verified",
+			"notice_period": "Verified"
+		},
+		"title": "Official Record - Dian Haryanto"
+	},
+	"type": "employment_contract"
+}

@@ -1,0 +1,31 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-774",
+			"divorce_date": "Verified",
+			"husband": "Margaretha van den Berg",
+			"marriage_date": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Margaretha van den Berg.",
+			"wife": "Margaretha van den Berg"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Margaretha van den Berg",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"official": {
+			"name": "Margaretha van den Berg",
+			"position": "Verified"
+		},
+		"title": "Official Record - Margaretha van den Berg",
+		"witnesses": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Margaretha van den Berg."
+		]
+	},
+	"type": "divorce_certificate"
+}
