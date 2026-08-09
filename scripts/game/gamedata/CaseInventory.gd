@@ -9,16 +9,19 @@ signal active_case_changed(case_id: String)
 var active_cases: Dictionary = {}
 var current_active_case_id: String = ""
 
-func add_case(id: String, deadline: float) -> Dictionary:
+func add_case(case_data: Dictionary) -> Dictionary:
+	var id: String = case_data["id"]
+
 	if active_cases.has(id):
 		push_warning("Case %s sudah ada di inventory" % id)
 		return active_cases[id]
 
 	var entry := {
 		"id": id,
-		"deadline": deadline,
-		"initial_deadline": deadline,
-		"investigation_points": 0
+		"deadline": case_data["deadline"],
+		"initial_deadline": case_data["deadline"],
+		"investigation_points": 0,
+		"data": case_data.duplicate(true)
 	}
 
 	active_cases[id] = entry
@@ -67,6 +70,11 @@ func get_investigation_points(id: String) -> int:
 
 func get_case(id: String) -> Dictionary:
 	return active_cases.get(id, {})
+
+func get_case_data(id: String) -> Dictionary:
+	if not active_cases.has(id):
+		return {}
+	return active_cases[id].get("data", {})
 
 func get_all_cases() -> Array:
 	return active_cases.values()
