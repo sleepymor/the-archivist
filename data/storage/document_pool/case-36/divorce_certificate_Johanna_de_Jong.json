@@ -1,0 +1,31 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-112",
+			"divorce_date": "Verified",
+			"husband": "Johanna de Jong",
+			"marriage_date": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Johanna de Jong.",
+			"wife": "Johanna de Jong"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Johanna de Jong",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"official": {
+			"name": "Johanna de Jong",
+			"position": "Verified"
+		},
+		"title": "Official Record - Johanna de Jong",
+		"witnesses": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Johanna de Jong."
+		]
+	},
+	"type": "divorce_certificate"
+}

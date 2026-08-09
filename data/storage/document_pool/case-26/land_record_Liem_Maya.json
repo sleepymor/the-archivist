@@ -1,0 +1,43 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Liem Maya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 102,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"land": {
+			"boundaries": {
+				"east": "Verified",
+				"north": "Verified",
+				"south": "Verified",
+				"west": "Verified"
+			},
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Liem Maya.",
+			"land_type": "Verified",
+			"location": "District Archives Center, Sector 3",
+			"size": "Verified"
+		},
+		"land_status": {
+			"ownership_status": "Verified",
+			"previous_owner": "Verified",
+			"usage": "Verified"
+		},
+		"language": "Japanese Romaji",
+		"registered_owner": {
+			"name": "Liem Maya",
+			"occupation": "Verified"
+		},
+		"registration": {
+			"record_number": "ARC-1942-214",
+			"registration_date": "Verified",
+			"registration_type": "Verified"
+		},
+		"title": "Official Record - Liem Maya"
+	},
+	"type": "land_record"
+}

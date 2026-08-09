@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Gerard Visser",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Gerard Visser"
+		],
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Gerard Visser",
+			"location": "District Archives Center, Sector 2",
+			"report_number": "ARC-1942-760",
+			"subject": "Gerard Visser"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Gerard Visser.",
+		"title": "Official Record - Gerard Visser"
+	},
+	"type": "administrative_report"
+}

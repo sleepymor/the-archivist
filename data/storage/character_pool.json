@@ -78,5 +78,325 @@
 		"gender": "male",
 		"id": "CH-9",
 		"name": "Hadi Manurung"
+	},
+	{
+		"birth_date": "1921-05-11",
+		"description": "Sukardi Permana was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "male",
+		"id": "CH-10",
+		"name": "Sukardi Permana"
+	},
+	{
+		"birth_date": "1909-03-26",
+		"description": "Budi Wibowo was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "male",
+		"id": "CH-11",
+		"name": "Budi Wibowo"
+	},
+	{
+		"birth_date": "1912-04-08",
+		"description": "Alida Kuiper was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "dutch",
+		"gender": "female",
+		"id": "CH-12",
+		"name": "Alida Kuiper"
+	},
+	{
+		"birth_date": "1924-12-08",
+		"description": "Lestari Hakim was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-13",
+		"name": "Lestari Hakim"
+	},
+	{
+		"birth_date": "1924-12-04",
+		"description": "Dewi Wibowo was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-14",
+		"name": "Dewi Wibowo"
+	},
+	{
+		"birth_date": "1902-01-23",
+		"description": "Ningsih Kurniawan was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-15",
+		"name": "Ningsih Kurniawan"
+	},
+	{
+		"birth_date": "1913-07-10",
+		"description": "Rosa Hartono was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indo_european",
+		"gender": "female",
+		"id": "CH-16",
+		"name": "Rosa Hartono"
+	},
+	{
+		"birth_date": "1907-02-09",
+		"description": "Hayashi Sumiko was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "japanese",
+		"gender": "female",
+		"id": "CH-17",
+		"name": "Hayashi Sumiko"
+	},
+	{
+		"birth_date": "1902-10-24",
+		"description": "Sari Hidayat was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-18",
+		"name": "Sari Hidayat"
+	},
+	{
+		"birth_date": "1906-01-17",
+		"description": "Kwee Liang was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "chinese_indonesian",
+		"gender": "male",
+		"id": "CH-19",
+		"name": "Kwee Liang"
+	},
+	{
+		"birth_date": "1921-02-06",
+		"description": "Lestari Siregar was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-20",
+		"name": "Lestari Siregar"
+	},
+	{
+		"birth_date": "1900-09-19",
+		"description": "Hadi Kusuma was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "male",
+		"id": "CH-21",
+		"name": "Hadi Kusuma"
+	},
+	{
+		"birth_date": "1925-02-05",
+		"description": "Budi Setiawan was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "male",
+		"id": "CH-22",
+		"name": "Budi Setiawan"
+	},
+	{
+		"birth_date": "1900-11-04",
+		"description": "Tan Lian was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "chinese_indonesian",
+		"gender": "female",
+		"id": "CH-23",
+		"name": "Tan Lian"
+	},
+	{
+		"birth_date": "1914-03-08",
+		"description": "Rani Simanjuntak was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-24",
+		"name": "Rani Simanjuntak"
+	},
+	{
+		"birth_date": "1914-06-22",
+		"description": "Surya Pratama was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "male",
+		"id": "CH-25",
+		"name": "Surya Pratama"
+	},
+	{
+		"birth_date": "1909-08-07",
+		"description": "Liem Maya was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "chinese_indonesian",
+		"gender": "female",
+		"id": "CH-26",
+		"name": "Liem Maya"
+	},
+	{
+		"birth_date": "1913-07-07",
+		"description": "Fitri was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-27",
+		"name": "Fitri"
+	},
+	{
+		"birth_date": "1913-01-12",
+		"description": "Gunawan Seng was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "chinese_indonesian",
+		"gender": "male",
+		"id": "CH-28",
+		"name": "Gunawan Seng"
+	},
+	{
+		"birth_date": "1907-09-07",
+		"description": "Dian Hartono was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-29",
+		"name": "Dian Hartono"
+	},
+	{
+		"birth_date": "1915-02-28",
+		"description": "Fitri was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-30",
+		"name": "Fitri"
+	},
+	{
+		"birth_date": "1903-11-18",
+		"description": "Rahmat Rahman was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "male",
+		"id": "CH-31",
+		"name": "Rahmat Rahman"
+	},
+	{
+		"birth_date": "1909-03-06",
+		"description": "Kho Liang was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "chinese_indonesian",
+		"gender": "male",
+		"id": "CH-32",
+		"name": "Kho Liang"
+	},
+	{
+		"birth_date": "1925-12-22",
+		"description": "Surya Suryadi was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "male",
+		"id": "CH-33",
+		"name": "Surya Suryadi"
+	},
+	{
+		"birth_date": "1911-02-07",
+		"description": "Lucas van den Berg was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "dutch",
+		"gender": "male",
+		"id": "CH-34",
+		"name": "Lucas van den Berg"
+	},
+	{
+		"birth_date": "1924-09-22",
+		"description": "Yuliana Anwar was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-35",
+		"name": "Yuliana Anwar"
+	},
+	{
+		"birth_date": "1908-09-27",
+		"description": "Johanna de Jong was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "dutch",
+		"gender": "female",
+		"id": "CH-36",
+		"name": "Johanna de Jong"
+	},
+	{
+		"birth_date": "1905-06-15",
+		"description": "Budi Siregar was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "male",
+		"id": "CH-37",
+		"name": "Budi Siregar"
+	},
+	{
+		"birth_date": "1902-07-10",
+		"description": "Dian Haryanto was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-38",
+		"name": "Dian Haryanto"
+	},
+	{
+		"birth_date": "1915-11-17",
+		"description": "Agnes Bakker was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indo_european",
+		"gender": "female",
+		"id": "CH-39",
+		"name": "Agnes Bakker"
+	},
+	{
+		"birth_date": "1901-01-17",
+		"description": "Margaretha van den Berg was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indo_european",
+		"gender": "female",
+		"id": "CH-40",
+		"name": "Margaretha van den Berg"
+	},
+	{
+		"birth_date": "1917-05-27",
+		"description": "Gerard Visser was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "dutch",
+		"gender": "male",
+		"id": "CH-41",
+		"name": "Gerard Visser"
+	},
+	{
+		"birth_date": "1920-03-18",
+		"description": "Nurul Wibowo was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-42",
+		"name": "Nurul Wibowo"
+	},
+	{
+		"birth_date": "1914-05-13",
+		"description": "Liem Liang was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "chinese_indonesian",
+		"gender": "male",
+		"id": "CH-43",
+		"name": "Liem Liang"
+	},
+	{
+		"birth_date": "1910-06-23",
+		"description": "Rahayu Fauzan was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-44",
+		"name": "Rahayu Fauzan"
+	},
+	{
+		"birth_date": "1916-06-19",
+		"description": "Matsumoto Setsuko was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "japanese",
+		"gender": "female",
+		"id": "CH-45",
+		"name": "Matsumoto Setsuko"
+	},
+	{
+		"birth_date": "1924-07-07",
+		"description": "Rosa Smit was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indo_european",
+		"gender": "female",
+		"id": "CH-46",
+		"name": "Rosa Smit"
+	},
+	{
+		"birth_date": "1904-02-13",
+		"description": "Hadi Tarigan was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "male",
+		"id": "CH-47",
+		"name": "Hadi Tarigan"
+	},
+	{
+		"birth_date": "1906-12-11",
+		"description": "Yuliana Saputra was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "indonesia",
+		"gender": "female",
+		"id": "CH-48",
+		"name": "Yuliana Saputra"
+	},
+	{
+		"birth_date": "1910-03-14",
+		"description": "Sasaki Akiko was a local resident navigating daily life in 1940s Indonesia.",
+		"ethnicity": "japanese",
+		"gender": "female",
+		"id": "CH-49",
+		"name": "Sasaki Akiko"
 	}
 ]

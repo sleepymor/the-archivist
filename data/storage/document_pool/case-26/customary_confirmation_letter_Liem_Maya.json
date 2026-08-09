@@ -1,0 +1,32 @@
+{
+	"fields": {
+		"authority": {
+			"elders": [],
+			"witnesses": []
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Liem Maya",
+				"importance": "Standard Verification"
+			}
+		],
+		"confirmation": {
+			"community": "Verified",
+			"record_number": "ARC-1942-367",
+			"subject": "Liem Maya"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"person_or_group": {
+			"name": "Liem Maya",
+			"relation_to_community": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Liem Maya.",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Liem Maya.",
+		"title": "Official Record - Liem Maya"
+	},
+	"type": "customary_confirmation_letter"
+}

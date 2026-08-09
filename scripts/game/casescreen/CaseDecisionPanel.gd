@@ -2,7 +2,6 @@ extends Control
 class_name CaseDecisionPanel
 
 @export var case_inventory: CaseInventory
-@export var case_pool_compiler: CasePoolCompiler
 
 @export var accept_button: Button
 @export var reject_button: Button
@@ -67,7 +66,7 @@ func _resolve_case(decision: String) -> void:
 	if active.is_empty():
 		return
 
-	var case_data: Dictionary = _find_case_data(active["id"])
+	var case_data: Dictionary = active.get("data", {})
 	if case_data.is_empty():
 		return
 
@@ -102,9 +101,3 @@ func _on_info_popup_closed() -> void:
 func _on_result_popup_closed() -> void:
 	document_found_popup.show_documents(_pending_revealed_docs)
 	_pending_revealed_docs = {}
-
-func _find_case_data(id: String) -> Dictionary:
-	for c in case_pool_compiler.pool:
-		if c["id"] == id:
-			return c
-	return {}

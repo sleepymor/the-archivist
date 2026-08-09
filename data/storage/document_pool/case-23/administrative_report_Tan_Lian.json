@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Tan Lian",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Tan Lian"
+		],
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Tan Lian",
+			"location": "District Archives Center, Sector 3",
+			"report_number": "ARC-1942-869",
+			"subject": "Tan Lian"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Tan Lian.",
+		"title": "Official Record - Tan Lian"
+	},
+	"type": "administrative_report"
+}

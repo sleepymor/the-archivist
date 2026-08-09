@@ -13,6 +13,6 @@ func _on_pressed() -> void:
 	if current.is_empty():
 		return
 
-	case_inventory.add_case(current["id"], current["deadline"])
+	case_inventory.add_case(current)
 	case_pool_compiler.clear_display()
 	case_spawn_manager._set_objects_visible(false)

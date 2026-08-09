@@ -1,0 +1,42 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Liem Liang",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 142,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"ownership": {
+			"family_or_group": "Verified",
+			"inheritance_history": "Verified",
+			"recognized_owner": "Verified"
+		},
+		"property": {
+			"boundaries": {
+				"east": "Verified",
+				"north": "Verified",
+				"south": "Verified",
+				"west": "Verified"
+			},
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Liem Liang.",
+			"location": "District Archives Center, Sector 2"
+		},
+		"recognition": {
+			"customary_basis": "Verified",
+			"elders": [],
+			"witnesses": []
+		},
+		"record": {
+			"community": "Verified",
+			"record_keeper": "Verified",
+			"record_number": "ARC-1942-154"
+		},
+		"title": "Official Record - Liem Liang"
+	},
+	"type": "customary_ownership_record"
+}

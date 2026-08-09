@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"ceremony": {
+			"officiant": "Verified",
+			"type": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Matsumoto Setsuko",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"family_details": {
+			"husband_parent": "Verified",
+			"wife_parent": "Verified",
+			"witnesses": []
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"marriage": {
+			"husband": "Matsumoto Setsuko",
+			"location": "District Archives Center, Sector 3",
+			"marriage_date": "Verified",
+			"wife": "Matsumoto Setsuko"
+		},
+		"registration": {
+			"institution": "Verified",
+			"record_number": "ARC-1942-402",
+			"registration_date": "Verified"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Matsumoto Setsuko.",
+		"title": "Official Record - Matsumoto Setsuko"
+	},
+	"type": "marriage_record"
+}

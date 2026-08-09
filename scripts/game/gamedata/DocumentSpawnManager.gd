@@ -8,6 +8,7 @@ signal initial_document_revealed(case_id: String, docs: Array)
 @export var document_pool_loader: DocumentPoolLoader
 
 var _accumulators: Dictionary = {}
+var _document_snapshots: Dictionary = {}
 
 func _ready() -> void:
 	case_inventory.case_added.connect(_on_case_added)
@@ -15,6 +16,7 @@ func _ready() -> void:
 func _on_case_added(active_case: Dictionary) -> void:
 	var case_id: String = active_case["id"]
 	_accumulators[case_id] = 0.0
+	_document_snapshots[case_id] = document_pool_loader.get_documents_for_case(case_id).duplicate(true)
 
 	var attempts: int = _consume_attempts(case_id, active_case)
 	if attempts <= 0:
@@ -44,7 +46,7 @@ func process_day(bonus_case_id: String = "") -> Dictionary:
 	return results
 
 func _consume_attempts(case_id: String, case_data: Dictionary) -> int:
-	var documents: Array = document_pool_loader.get_documents_for_case(case_id)
+	var documents: Array = _document_snapshots.get(case_id, [])
 	var doc_count: int = documents.size()
 	var initial_deadline: float = case_data.get("initial_deadline", 1.0)
 
@@ -65,9 +67,9 @@ func _consume_attempts(case_id: String, case_data: Dictionary) -> int:
 
 func _attempt_reveal(case_id: String, attempts: int) -> Array:
 	var revealed: Array = []
+	var documents: Array = _document_snapshots.get(case_id, [])
 
 	for i in attempts:
-		var documents: Array = document_pool_loader.get_documents_for_case(case_id)
 		var unrevealed: Array = documents.filter(func(d): return not archive_inventory.has_document(case_id, d["_file_name"]))
 
 		if unrevealed.is_empty():

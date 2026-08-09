@@ -1,0 +1,32 @@
+{
+	"fields": {
+		"authority": {
+			"elders": [],
+			"witnesses": []
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Lucas van den Berg",
+				"importance": "Standard Verification"
+			}
+		],
+		"confirmation": {
+			"community": "Verified",
+			"record_number": "ARC-1942-513",
+			"subject": "Lucas van den Berg"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"person_or_group": {
+			"name": "Lucas van den Berg",
+			"relation_to_community": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Lucas van den Berg.",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Lucas van den Berg.",
+		"title": "Official Record - Lucas van den Berg"
+	},
+	"type": "customary_confirmation_letter"
+}

@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Surya Pratama",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"person": {
+			"family_status": "Verified",
+			"name": "Surya Pratama",
+			"occupation": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Surya Pratama.",
+		"registration": {
+			"record_number": "ARC-1942-593",
+			"registration_date": "Verified"
+		},
+		"residence": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Surya Pratama.",
+			"district": "Verified",
+			"duration": "Verified",
+			"village": "Verified"
+		},
+		"title": "Official Record - Surya Pratama"
+	},
+	"type": "residency_certificate"
+}

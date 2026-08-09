@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Kwee Liang",
+				"importance": "Standard Verification"
+			}
+		],
+		"compensation": {
+			"amount": "Verified",
+			"payment_period": "Verified",
+			"payment_type": "Verified"
+		},
+		"conditions": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Kwee Liang."
+		],
+		"contract": {
+			"contract_number": "Verified",
+			"employee": "Kwee Liang",
+			"employer": "Verified",
+			"position": "Verified"
+		},
+		"date": "1942-06-12",
+		"employment": {
+			"duration": "Verified",
+			"responsibilities": [],
+			"start_date": "Verified",
+			"work_location": "District Archives Center, Sector 4"
+		},
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"termination": {
+			"conditions": "Verified",
+			"notice_period": "Verified"
+		},
+		"title": "Official Record - Kwee Liang"
+	},
+	"type": "employment_contract"
+}

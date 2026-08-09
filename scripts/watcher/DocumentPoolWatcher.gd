@@ -3,6 +3,7 @@ extends Node
 const CASE_POOL_FILE_PATH = "res://data/storage/case_pool.json"
 const DOCUMENT_POOL_BASE_PATH = "res://data/storage/document_pool/"
 
+@export var background_check_interval: float = 2.0
 @export var document_generator_node_path: NodePath
 @export var case_generator_node_path: NodePath
 
@@ -10,14 +11,28 @@ const DOCUMENT_POOL_BASE_PATH = "res://data/storage/document_pool/"
 @onready var case_generator = get_node_or_null(case_generator_node_path)
 
 var _is_busy: bool = false
+var _check_timer: Timer = null
 
 func _ready() -> void:
 	if document_generator and not document_generator.is_connected("documents_ready", _on_documents_generated):
 		document_generator.connect("documents_ready", _on_documents_generated)
-			
+				
+	_create_background_timer()
 	var case_pool = _load_json_array(CASE_POOL_FILE_PATH)
 	if not case_pool.is_empty():
 		call_deferred("check_document_pools")
+
+func _create_background_timer() -> void:
+	_check_timer = Timer.new()
+	_check_timer.wait_time = background_check_interval
+	_check_timer.one_shot = false
+	_check_timer.autostart = true
+	add_child(_check_timer)
+	_check_timer.timeout.connect(Callable(self, "_on_background_check"))
+
+func _on_background_check() -> void:
+	if not _is_busy:
+		check_document_pools()
 
 func check_document_pools() -> void:
 	if _is_busy:

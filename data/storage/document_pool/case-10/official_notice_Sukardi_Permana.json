@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sukardi Permana",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sukardi Permana.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-910",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sukardi Permana.",
+			"recipient": "Sukardi Permana",
+			"subject": "Sukardi Permana"
+		},
+		"title": "Official Record - Sukardi Permana"
+	},
+	"type": "official_notice"
+}
