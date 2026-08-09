@@ -1,0 +1,17 @@
+{
+  "id": "indonesia_1940s",
+  "name": "Indonesia 1940s Archive",
+  "description": "A fictional historical setting inspired by Indonesia (Balikpapan) during the 1940s, where society undergoes political transition and administrative changes.",
+  "time_period": {
+    "start_year": 1940,
+    "end_year": 1949,
+    "description": "A period involving late colonial administration, Japanese occupation, and early independence era."
+  },
+  "historical_context": [
+    "Late Dutch colonial period",
+    "Japanese occupation period (1942-1945)",
+    "Indonesian independence period after 1945",
+    "Political and administrative transition",
+    "Located in Balikpapan City"
+  ]
+}

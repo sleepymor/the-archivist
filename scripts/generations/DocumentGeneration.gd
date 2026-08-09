@@ -3,7 +3,8 @@ extends Node
 signal documents_ready(documents_data: Array)
 
 const TEMPLATE_DIR = "res://data/templates/document_template/"
-const WORLD_FILE_PATH = "res://data/static/world.json"
+const WORLD_OVERVIEW_FILE_PATH = "res://data/static/world/overview.json"
+const WORLD_INSTITUTIONS_FILE_PATH = "res://data/static/world/institutions.json"
 
 @onready var gd_llama = $"../GDLlama"
 
@@ -50,29 +51,31 @@ func _process_next_document() -> void:
 
 	var case_desc = _pending_case_data.get("description", "Official investigation record on file.")
 
-	var world_data = _load_json_file(WORLD_FILE_PATH)
-	var world_year = 1942
-	if typeof(world_data) == TYPE_DICTIONARY:
-		world_year = world_data.get("year", world_data.get("current_year", 1942))
+	var world_context = _load_world_prompt_context()
+	var world_year = int(world_context.get("year", 1942))
+	var institution = str(world_context.get("institution", "District Archives Office"))
 
-	var system_prompt = ""
-	var prompt = ""
-	
+	var language = "id"
 	if world_year >= 1942 and world_year <= 1945:
-		system_prompt = "You are a strict historical archivist. Output text ONLY in Japanese Romaji using the Latin alphabet (A-Z). Return only the report sentence, with no English words, no explanation, and no introductory text."
-		prompt = "Write a short official summary report for subject: %s. Details: %s. Romaji text only. Return only the report." % [char_name, case_desc]
+		language = "ja"
 	elif world_year < 1942:
-		system_prompt = "Je bent een historische archivaris. Schrijf uitsluitend in het Nederlands. Gebruik geen Engels en geef alleen de samenvatting terug."
-		prompt = "Schrijf een kort officieel samenvattingsrapport voor onderwerp: %s. Details: %s. Nederlandse tekst alleen." % [char_name, case_desc]
-	else:
-		system_prompt = "Anda adalah arsiparis sejarah. Tulis hanya dalam Bahasa Indonesia. Jangan gunakan Bahasa Inggris dan kembalikan hanya ringkasannya."
-		prompt = "Tulis ringkasan laporan resmi singkat untuk subjek: %s. Detail: %s. Hanya teks Bahasa Indonesia." % [char_name, case_desc]
-	var full_prompt = "%s\n\n%s" % [system_prompt, prompt]
+		language = "nl"
+
+	var prompt_builder = preload("res://scripts/prompt/PromptBuilder.gd").new()
+	var prompt_payload = {
+		"language": language,
+		"subject": char_name,
+		"description": case_desc,
+		"year": world_year,
+		"institution": institution
+	}
+	var prompt_result = prompt_builder.build_generation_prompt("document", prompt_payload)
+	var full_prompt = prompt_result.get("full_prompt", "")
 
 	if gd_llama:
-		gd_llama.context_size = 1024 # Constrain memory usage to prevent OOM
-		gd_llama.n_predict = 250
-		gd_llama.temperature = 0.1
+		gd_llama.context_size = 7000 # Constrain memory usage to prevent OOM
+		gd_llama.n_predict = 400
+		gd_llama.temperature = 0.7
 		gd_llama.top_p = 0.9
 		gd_llama.top_k = 40
 		gd_llama.run_generate_text(full_prompt, "", "")
@@ -99,12 +102,9 @@ func _on_generation_finished(generated_text: String) -> void:
 	elif typeof(requester_data) == TYPE_STRING and not requester_data.is_empty():
 		char_name = requester_data
 
-	var world_data = _load_json_file(WORLD_FILE_PATH)
-	var world_year = 1942
-	var institution = "District Archives Office"
-	if typeof(world_data) == TYPE_DICTIONARY:
-		world_year = world_data.get("year", world_data.get("current_year", 1942))
-		institution = world_data.get("institution", world_data.get("archive_issuer", "District Archives Office"))
+	var world_context = _load_world_prompt_context()
+	var world_year = int(world_context.get("year", 1942))
+	var institution = str(world_context.get("institution", "District Archives Office"))
 
 	if raw_text.is_empty() or raw_text.length() < 10:
 		if world_year >= 1942 and world_year <= 1945:
@@ -128,11 +128,7 @@ func _on_generation_finished(generated_text: String) -> void:
 	elif world_year < 1942:
 		doc_language = "Nederlands"
 
-	var template_path = TEMPLATE_DIR + "%s.json" % dtype
-	var doc_entry = _load_json_file(template_path)
-	if typeof(doc_entry) != TYPE_DICTIONARY:
-		doc_entry = { "type": dtype, "fields": {} }
-
+	var doc_entry = _load_document_template(dtype)
 	var rng = RandomNumberGenerator.new()
 	rng.randomize()
 	var assigned_score = 0
@@ -167,6 +163,68 @@ func _on_generation_finished(generated_text: String) -> void:
 	_generated_docs.append({ "file_name": file_name, "document": doc_entry })
 	_current_doc_index += 1
 	_process_next_document()
+
+func _load_world_prompt_context() -> Dictionary:
+	var context = {
+		"year": 1942,
+		"institution": "District Archives Office"
+	}
+
+	var overview = _load_json_file(WORLD_OVERVIEW_FILE_PATH)
+	if typeof(overview) == TYPE_DICTIONARY:
+		var time_period = overview.get("time_period", {})
+		if typeof(time_period) == TYPE_DICTIONARY:
+			var start_year = time_period.get("start_year", 1940)
+			var end_year = time_period.get("end_year", 1949)
+			var resolved_year = 1942
+			if typeof(start_year) == TYPE_INT:
+				resolved_year = start_year
+			elif typeof(start_year) == TYPE_STRING:
+				resolved_year = start_year.to_int()
+			if typeof(end_year) == TYPE_INT:
+				if resolved_year < 1942 and end_year >= 1942:
+					resolved_year = 1942
+			elif typeof(end_year) == TYPE_STRING:
+				var end_bound = end_year.to_int()
+				if resolved_year < 1942 and end_bound >= 1942:
+					resolved_year = 1942
+			if resolved_year <= 0:
+				resolved_year = 1942
+			context["year"] = resolved_year
+	
+	var institution_data = _load_json_file(WORLD_INSTITUTIONS_FILE_PATH)
+	if typeof(institution_data) == TYPE_ARRAY and not institution_data.is_empty():
+		var first = institution_data[0]
+		if typeof(first) == TYPE_DICTIONARY:
+			var inst_name = first.get("name", "")
+			if typeof(inst_name) == TYPE_STRING and not inst_name.is_empty():
+				context["institution"] = inst_name
+
+	return context
+
+func _load_document_template(document_type: String) -> Dictionary:
+	var safe_type = str(document_type).strip_edges()
+	if safe_type.is_empty():
+		safe_type = "official_notice"
+
+	var template_path = TEMPLATE_DIR + "%s.json" % safe_type
+	var doc_entry = _load_json_file(template_path)
+	if typeof(doc_entry) != TYPE_DICTIONARY:
+		print("DocumentGeneration: Missing template for %s; using schema fallback." % safe_type)
+		doc_entry = {
+			"type": safe_type,
+			"fields": {}
+		}
+	else:
+		if not doc_entry.has("type"):
+			doc_entry["type"] = safe_type
+		if typeof(doc_entry.get("type")) != TYPE_STRING:
+			doc_entry["type"] = safe_type
+		if not doc_entry.has("fields") or typeof(doc_entry.get("fields")) != TYPE_DICTIONARY:
+			doc_entry["fields"] = {}
+		if doc_entry.get("type", "") != safe_type:
+			doc_entry["type"] = safe_type
+	return doc_entry
 
 func _deep_populate_fields(fields: Dictionary, char_name: String, narrative: String, year: int, issuer_name: String, lang: String, score: int, truth_flag: bool) -> void:
 	for key in fields.keys():

@@ -1,0 +1,16 @@
+{
+  "fiction_policy": {
+    "setting": "fictional but historically grounded",
+    "rules": [
+      "Avoid naming non-existent state bodies outside the 1940s Indonesian transition period",
+      "Keep the administrative structure aligned with colonial, Japanese occupation, and early independence administrations",
+      "Never invent post-1949 institutions beyond the archive timeline"
+    ]
+  },
+  "forbidden_elements": [
+    "modern digital bureaucracy",
+    "post-war national government records",
+    "fully automated archive systems",
+    "anachronistic legal procedures"
+  ]
+}

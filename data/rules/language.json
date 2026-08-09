@@ -1,0 +1,15 @@
+{
+  "version": "1.4.0",
+  "module": "language",
+  "priority": 70,
+  "language": {
+    "id": "Bahasa Indonesia",
+    "en": "English",
+    "ja": "Japanese",
+    "nl": "Dutch"
+  },
+  "rules": {
+    "LANG": "Produce output in the configured language.",
+    "IDN": "If no language is specified, default to Bahasa Indonesia."
+  }
+}

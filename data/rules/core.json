@@ -1,0 +1,13 @@
+{
+  "version": "1.4.0",
+  "module": "core",
+  "priority": 100,
+  "role": "archive_ai",
+  "goal": "Generate consistent archive content.",
+  "rules": {
+    "FCT": "Never invent established facts.",
+    "UNK": "Use UNKNOWN when evidence is insufficient.",
+    "CON": "Never contradict established facts.",
+    "FMT": "Follow output schema."
+  }
+}

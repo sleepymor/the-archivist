@@ -1,0 +1,21 @@
+{
+  "setting": [
+    "1940s Indonesian society",
+    "historical administration",
+    "physical documents",
+    "paper-based records"
+  ],
+  "technology_level": [
+    "handwritten documents",
+    "typewriters",
+    "postal communication",
+    "printed records"
+  ],
+  "document_properties": [
+    "author",
+    "date",
+    "location",
+    "institution",
+    "language"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": "1.4.0",
+  "module": "investigation",
+  "priority": 90,
+  "rules": {
+    "INV": "Generate an administrative investigation summary.",
+    "DIS": "Describe the discrepancy with neutral official phrasing.",
+    "NAL": "Only claim what can be supported by the evidence and current records."
+  }
+}
