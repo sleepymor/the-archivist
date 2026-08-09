@@ -1,0 +1,43 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Gunawan Seng",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 143,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"land": {
+			"boundaries": {
+				"east": "Verified",
+				"north": "Verified",
+				"south": "Verified",
+				"west": "Verified"
+			},
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Gunawan Seng.",
+			"land_type": "Verified",
+			"location": "District Archives Center, Sector 5",
+			"size": "Verified"
+		},
+		"land_status": {
+			"ownership_status": "Verified",
+			"previous_owner": "Verified",
+			"usage": "Verified"
+		},
+		"language": "Japanese Romaji",
+		"registered_owner": {
+			"name": "Gunawan Seng",
+			"occupation": "Verified"
+		},
+		"registration": {
+			"record_number": "ARC-1942-985",
+			"registration_date": "Verified",
+			"registration_type": "Verified"
+		},
+		"title": "Official Record - Gunawan Seng"
+	},
+	"type": "land_record"
+}

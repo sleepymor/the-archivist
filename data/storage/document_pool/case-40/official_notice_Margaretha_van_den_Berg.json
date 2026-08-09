@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Margaretha van den Berg",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Margaretha van den Berg.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-523",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Margaretha van den Berg.",
+			"recipient": "Margaretha van den Berg",
+			"subject": "Margaretha van den Berg"
+		},
+		"title": "Official Record - Margaretha van den Berg"
+	},
+	"type": "official_notice"
+}

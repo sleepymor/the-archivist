@@ -1,0 +1,36 @@
+{
+	"fields": {
+		"background": {
+			"notes": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Haryanto.",
+			"origin": "Verified",
+			"previous_status": "Verified"
+		},
+		"citizenship": {
+			"effective_date": "1942-06-12",
+			"recognized_by": "Verified",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Haryanto."
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dian Haryanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"person": {
+			"birth_date": "Verified",
+			"birth_place": "Verified",
+			"name": "Dian Haryanto"
+		},
+		"registration": {
+			"record_number": "ARC-1942-708",
+			"registration_date": "Verified"
+		},
+		"title": "Official Record - Dian Haryanto"
+	},
+	"type": "citizenship_certificate"
+}

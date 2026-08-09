@@ -2,7 +2,6 @@ extends Control
 class_name CaseScreen
 
 @export var case_inventory: CaseInventory
-@export var case_pool_compiler: CasePoolCompiler
 
 @export var title_label: Label
 @export var case_type_label: Label
@@ -30,8 +29,7 @@ func refresh() -> void:
 		_clear()
 		return
 
-	var case_data: Dictionary = _find_case_data(active["id"])
-
+	var case_data: Dictionary = active.get("data", {})
 	if case_data.is_empty():
 		_clear()
 		return
@@ -45,12 +43,6 @@ func refresh() -> void:
 	requester_reason_label.text = requester["reason"]
 
 	description_label.text = case_data["description"]
-
-func _find_case_data(id: String) -> Dictionary:
-	for c in case_pool_compiler.pool:
-		if c["id"] == id:
-			return c
-	return {}
 
 func _clear() -> void:
 	title_label.text = ""

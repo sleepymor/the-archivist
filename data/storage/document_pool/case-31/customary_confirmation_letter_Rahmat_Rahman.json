@@ -1,0 +1,32 @@
+{
+	"fields": {
+		"authority": {
+			"elders": [],
+			"witnesses": []
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rahmat Rahman",
+				"importance": "Standard Verification"
+			}
+		],
+		"confirmation": {
+			"community": "Verified",
+			"record_number": "ARC-1942-162",
+			"subject": "Rahmat Rahman"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"person_or_group": {
+			"name": "Rahmat Rahman",
+			"relation_to_community": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahmat Rahman.",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahmat Rahman.",
+		"title": "Official Record - Rahmat Rahman"
+	},
+	"type": "customary_confirmation_letter"
+}

@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rosa Smit",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"documents_reviewed": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rosa Smit."
+		],
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"issues_found": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rosa Smit."
+		],
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"archive_location": "District Archives Center, Sector 2",
+			"author": "Rosa Smit",
+			"report_number": "ARC-1942-357",
+			"subject": "Rosa Smit"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rosa Smit.",
+		"title": "Official Record - Rosa Smit"
+	},
+	"type": "archive_report"
+}

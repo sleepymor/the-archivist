@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ningsih Kurniawan",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"payment": {
+			"amount": "Verified",
+			"payment_date": "Verified",
+			"payment_method": "Verified"
+		},
+		"property": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ningsih Kurniawan.",
+			"location": "District Archives Center, Sector 4"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ningsih Kurniawan.",
+		"tax": {
+			"record_number": "ARC-1942-363",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ningsih Kurniawan.",
+			"tax_period": "Verified",
+			"tax_type": "Verified",
+			"taxpayer": "Ningsih Kurniawan"
+		},
+		"title": "Official Record - Ningsih Kurniawan"
+	},
+	"type": "tax_record"
+}

@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rahayu Fauzan",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"outcome": {
+			"follow_up": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Fauzan.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Fauzan."
+		},
+		"patient": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Rahayu Fauzan",
+			"occupation": "Verified"
+		},
+		"record": {
+			"attending_person": "Verified",
+			"medical_institution": "Verified",
+			"record_number": "ARC-1942-685"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Fauzan.",
+		"title": "Official Record - Rahayu Fauzan",
+		"visit": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Fauzan.",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Fauzan.",
+			"treatment": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Fauzan.",
+			"visit_date": "Verified"
+		}
+	},
+	"type": "medical_record"
+}

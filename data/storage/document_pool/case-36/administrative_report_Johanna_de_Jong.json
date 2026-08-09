@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Johanna de Jong",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Johanna de Jong"
+		],
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Johanna de Jong",
+			"location": "District Archives Center, Sector 5",
+			"report_number": "ARC-1942-305",
+			"subject": "Johanna de Jong"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Johanna de Jong.",
+		"title": "Official Record - Johanna de Jong"
+	},
+	"type": "administrative_report"
+}

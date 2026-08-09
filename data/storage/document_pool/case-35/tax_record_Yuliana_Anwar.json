@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Yuliana Anwar",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"payment": {
+			"amount": "Verified",
+			"payment_date": "Verified",
+			"payment_method": "Verified"
+		},
+		"property": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Yuliana Anwar.",
+			"location": "District Archives Center, Sector 3"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Yuliana Anwar.",
+		"tax": {
+			"record_number": "ARC-1942-264",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Yuliana Anwar.",
+			"tax_period": "Verified",
+			"tax_type": "Verified",
+			"taxpayer": "Yuliana Anwar"
+		},
+		"title": "Official Record - Yuliana Anwar"
+	},
+	"type": "tax_record"
+}

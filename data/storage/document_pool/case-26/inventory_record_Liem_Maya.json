@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Liem Maya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"inventory": {
+			"institution": "Verified",
+			"location": "District Archives Center, Sector 4",
+			"record_number": "ARC-1942-462",
+			"responsible_person": "Verified"
+		},
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"items": [
+			{
+				"category": "Verified on file",
+				"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Liem Maya.",
+				"location": "Verified on file",
+				"name": "Verified on file",
+				"quantity": "Verified on file"
+			}
+		],
+		"language": "Japanese Romaji",
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Liem Maya.",
+		"title": "Official Record - Liem Maya",
+		"transaction": {
+			"destination": "Verified",
+			"source": "Verified",
+			"type": "Verified"
+		}
+	},
+	"type": "inventory_record"
+}

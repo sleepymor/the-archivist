@@ -1,0 +1,32 @@
+{
+	"fields": {
+		"authority": {
+			"elders": [],
+			"witnesses": []
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Agnes Bakker",
+				"importance": "Standard Verification"
+			}
+		],
+		"confirmation": {
+			"community": "Verified",
+			"record_number": "ARC-1942-281",
+			"subject": "Agnes Bakker"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"person_or_group": {
+			"name": "Agnes Bakker",
+			"relation_to_community": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agnes Bakker.",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agnes Bakker.",
+		"title": "Official Record - Agnes Bakker"
+	},
+	"type": "customary_confirmation_letter"
+}

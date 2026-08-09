@@ -4,6 +4,7 @@ const POOL_FILE_PATH = "res://data/storage/character_pool.json"
 const CASE_POOL_FILE_PATH = "res://data/storage/case_pool.json"
 
 @export var target_pool_size: int = 50
+@export var background_check_interval: float = 2.0
 @export var generator_node_path: NodePath
 @export var case_generator_node_path: NodePath
 
@@ -11,17 +12,74 @@ const CASE_POOL_FILE_PATH = "res://data/storage/case_pool.json"
 @onready var case_generator = get_node_or_null(case_generator_node_path)
 
 var _is_busy: bool = false
+var _check_timer: Timer = null
 
 func _ready() -> void:
 	if generator and not generator.is_connected("character_ready", _on_character_generated):
 		generator.connect("character_ready", _on_character_generated)
-			
+				
 	if case_generator and not case_generator.is_connected("case_ready", _on_case_generated):
 		case_generator.connect("case_ready", _on_case_generated)
 	
 	_validate_and_fix_pools()
 	_trim_pools_to_target()
+	_create_background_timer()
 	call_deferred("check_pool")
+
+func _create_background_timer() -> void:
+	_check_timer = Timer.new()
+	_check_timer.wait_time = background_check_interval
+	_check_timer.one_shot = false
+	_check_timer.autostart = true
+	add_child(_check_timer)
+	_check_timer.timeout.connect(Callable(self, "_on_background_check"))
+
+func _on_background_check() -> void:
+	if not _is_busy:
+		check_pool()
+
+func _validate_and_fix_pools() -> void:
+	var char_pool = _load_json_array(POOL_FILE_PATH)
+	var case_pool = _load_json_array(CASE_POOL_FILE_PATH)
+	var fixed = false
+	
+	for i in range(min(char_pool.size(), case_pool.size())):
+		var char_item = char_pool[i]
+		var case_item = case_pool[i]
+		
+		if typeof(char_item) != TYPE_DICTIONARY or typeof(case_item) != TYPE_DICTIONARY:
+			continue
+			
+		var char_name = char_item.get("name", "")
+		if char_name.is_empty():
+			continue
+			
+		var expected_title = "Case File - " + char_name
+		
+		if case_item.get("title", "") != expected_title or case_item.get("title", "").contains("Local Resident"):
+			case_item["title"] = expected_title
+			fixed = true
+			
+		if not case_item.has("requester") or typeof(case_item["requester"]) != TYPE_DICTIONARY:
+			case_item["requester"] = {}
+			
+		if case_item["requester"].get("character_name", "") != char_name:
+			case_item["requester"]["character_name"] = char_name
+			case_item["requester"]["reason"] = "Mandatory administrative validation under 1940s records compliance for " + char_name + "."
+			fixed = true
+		
+		if case_item.has("resolution") and typeof(case_item["resolution"]) == TYPE_DICTIONARY:
+			var expl = case_item["resolution"].get("explanation", "")
+			if expl.contains("Local Resident"):
+				if case_item["resolution"].get("correct_decision") == "approve":
+					case_item["resolution"]["explanation"] = "All paper records, seals, and handwriting metrics for " + char_name + " match official district archives."
+				else:
+					case_item["resolution"]["explanation"] = "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for " + char_name + "."
+				fixed = true
+
+	if fixed:
+		_save_json_array(CASE_POOL_FILE_PATH, case_pool)
+		print("Pool Validator: Corrected name mismatches in case pool items to match character pool indices.")
 
 func _trim_pools_to_target() -> void:
 	var char_pool = _load_json_array(POOL_FILE_PATH)
@@ -55,49 +113,6 @@ func _trim_pools_to_target() -> void:
 	if cleaned_case_pool.size() != case_pool.size():
 		_save_json_array(CASE_POOL_FILE_PATH, cleaned_case_pool)
 		print("Pool Watcher: Purged invalid case pool entries.")
-
-func _validate_and_fix_pools() -> void:
-	var char_pool = _load_json_array(POOL_FILE_PATH)
-	var case_pool = _load_json_array(CASE_POOL_FILE_PATH)
-	var fixed = false
-	
-	for i in range(min(char_pool.size(), case_pool.size())):
-		var char_item = char_pool[i]
-		var case_item = case_pool[i]
-		
-		if typeof(char_item) != TYPE_DICTIONARY or typeof(case_item) != TYPE_DICTIONARY:
-			continue
-			
-		var char_name = char_item.get("name", "")
-		if char_name.is_empty():
-			continue
-			
-		var expected_title = "Case File - " + char_name
-		
-		if case_item.get("title", "") != expected_title or case_item.get("title", "").contains("Local Resident"):
-			case_item["title"] = expected_title
-			fixed = true
-			
-		if not case_item.has("requester") or typeof(case_item["requester"]) != TYPE_DICTIONARY:
-			case_item["requester"] = {}
-			
-		if case_item["requester"].get("character_name", "") != char_name:
-			case_item["requester"]["character_name"] = char_name
-			case_item["requester"]["reason"] = "Mandatory administrative validation under 1940s records compliance for " + char_name + "."
-			fixed = true
-			
-		if case_item.has("resolution") and typeof(case_item["resolution"]) == TYPE_DICTIONARY:
-			var expl = case_item["resolution"].get("explanation", "")
-			if expl.contains("Local Resident"):
-				if case_item["resolution"].get("correct_decision") == "approve":
-					case_item["resolution"]["explanation"] = "All paper records, seals, and handwriting metrics for " + char_name + " match official district archives."
-				else:
-					case_item["resolution"]["explanation"] = "Significant discrepancies, invalid authorization seals, or conflicting registry dates detected in files for " + char_name + "."
-				fixed = true
-
-	if fixed:
-		_save_json_array(CASE_POOL_FILE_PATH, case_pool)
-		print("Pool Validator: Corrected name mismatches in case pool items to match character pool indices.")
 
 func check_pool() -> void:
 	if _is_busy:

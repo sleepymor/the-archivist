@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"ceremony": {
+			"officiant": "Verified",
+			"type": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Lucas van den Berg",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"family_details": {
+			"husband_parent": "Verified",
+			"wife_parent": "Verified",
+			"witnesses": []
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "District Archives Office",
+		"language": "Japanese Romaji",
+		"marriage": {
+			"husband": "Lucas van den Berg",
+			"location": "District Archives Center, Sector 4",
+			"marriage_date": "Verified",
+			"wife": "Lucas van den Berg"
+		},
+		"registration": {
+			"institution": "Verified",
+			"record_number": "ARC-1942-647",
+			"registration_date": "Verified"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Lucas van den Berg.",
+		"title": "Official Record - Lucas van den Berg"
+	},
+	"type": "marriage_record"
+}
