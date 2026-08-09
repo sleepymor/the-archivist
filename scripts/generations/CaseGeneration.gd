@@ -4,7 +4,7 @@ signal case_ready(case_data: Dictionary)
 
 const CASE_TYPE_FILE_PATH = "res://data/static/case_type/case_type.json"
 const LEGACY_CASE_TYPE_FILE_PATH = "res://data/static/case_type.json"
-const WORLD_FILE_PATH = "res://data/static/world.json"
+const WORLD_INSTITUTIONS_FILE_PATH = "res://data/static/world/institutions.json"
 const CASE_TEMPLATE_PATH = "res://data/static/case_type/case_template.json"
 const LEGACY_CASE_TEMPLATE_PATH = "res://data/templates/case_template.json"
 
@@ -33,14 +33,20 @@ func generate_case_for_character(character_data: Dictionary) -> void:
 
 	var char_name = character_data.get("name", "Local Resident")
 
-	var system_prompt = "You are an administrative records clerk in 1940s Indonesia. Write exactly two concise sentences in plain prose describing the administrative dispute or discrepancy. Return only the scenario text. No markdown, no bullets, no labels, no quotes, and no meta-commentary."
-	var prompt = "Case scenario for %s under case type '%s'. Return only the scenario description." % [char_name, chosen_case_type]
-	var full_prompt = "%s\n\n%s" % [system_prompt, prompt]
+	var prompt_builder = preload("res://scripts/prompt/PromptBuilder.gd").new()
+	var prompt_payload = {
+		"language": "id",
+		"character_name": char_name,
+		"case_type": chosen_case_type,
+		"description": "administrative dispute or discrepancy"
+	}
+	var prompt_result = prompt_builder.build_generation_prompt("case", prompt_payload)
+	var full_prompt = prompt_result.get("full_prompt", "")
 
 	if gd_llama:
-		gd_llama.context_size = 1024 # Constrain memory usage to prevent OOM
-		gd_llama.n_predict = 256
-		gd_llama.temperature = 0.5
+		gd_llama.context_size = 7000 # Constrain memory usage to prevent OOM
+		gd_llama.n_predict = 400
+		gd_llama.temperature = 0.7
 		gd_llama.top_p = 0.9
 		gd_llama.top_k = 40
 		
@@ -167,19 +173,36 @@ func _get_strictly_validated_documents(case_type: String) -> Array:
 		core_docs = ["official_notice", "administrative_report"]
 
 	var all_possible_docs = []
-	var institutions = _load_json_array_from_key(WORLD_FILE_PATH, "institutions")
-	if institutions.is_empty():
-		var raw_world = _load_json_file(WORLD_FILE_PATH)
-		if typeof(raw_world) == TYPE_DICTIONARY and raw_world.has("institutions"):
-			institutions = raw_world["institutions"]
-		elif typeof(raw_world) == TYPE_ARRAY:
-			institutions = raw_world
-
+	var institutions = _load_institution_context()
 	for inst in institutions:
-		for timeline in inst.get("timeline", []):
-			for dtype in timeline.get("document_types", []):
-				if not all_possible_docs.has(dtype):
-					all_possible_docs.append(dtype)
+		if typeof(inst) != TYPE_DICTIONARY:
+			continue
+		var timeline = inst.get("timeline", [])
+		if typeof(timeline) == TYPE_ARRAY:
+			for entry in timeline:
+				if typeof(entry) != TYPE_DICTIONARY:
+					continue
+				var doc_types = entry.get("document_types", [])
+				if typeof(doc_types) == TYPE_ARRAY:
+					for dtype in doc_types:
+						if typeof(dtype) == TYPE_STRING and not all_possible_docs.has(dtype):
+							all_possible_docs.append(dtype)
+
+	var template_types = _available_document_template_types()
+	if not template_types.is_empty():
+		var filtered_possible_docs = []
+		for dtype in all_possible_docs:
+			if typeof(dtype) == TYPE_STRING and template_types.has(dtype):
+				filtered_possible_docs.append(dtype)
+		all_possible_docs = filtered_possible_docs
+		if not core_docs.is_empty():
+			var filtered_core_docs = []
+			for dtype in core_docs:
+				if typeof(dtype) == TYPE_STRING and template_types.has(dtype):
+					filtered_core_docs.append(dtype)
+			if filtered_core_docs.is_empty():
+				filtered_core_docs = ["official_notice"]
+			core_docs = filtered_core_docs
 
 	if all_possible_docs.is_empty():
 		all_possible_docs = ["official_notice", "personal_letter", "diary_entry", "tax_record", "report"]
@@ -208,6 +231,31 @@ func _get_strictly_validated_documents(case_type: String) -> Array:
 
 	final_documents.shuffle()
 	return final_documents
+
+func _available_document_template_types() -> Array:
+	var template_types = []
+	var dir = DirAccess.open("res://data/templates/document_template/")
+	if dir != null:
+		dir.list_dir_begin()
+		var filename = dir.get_next()
+		while filename != "":
+			if not filename.begins_with(".") and filename.ends_with(".json"):
+				var doc_type = filename.get_basename()
+				if not template_types.has(doc_type):
+					template_types.append(doc_type)
+			filename = dir.get_next()
+		dir.list_dir_end()
+	return template_types
+
+func _load_institution_context() -> Array:
+	var institutions = []
+	var raw = _load_json_file(WORLD_INSTITUTIONS_FILE_PATH)
+	if typeof(raw) == TYPE_ARRAY:
+		institutions = raw
+	elif typeof(raw) == TYPE_DICTIONARY:
+		if raw.has("institutions") and typeof(raw["institutions"]) == TYPE_ARRAY:
+			institutions = raw["institutions"]
+	return institutions
 
 func _load_json_array_from_key(path: String, key: String) -> Array:
 	var candidate_paths = [path]

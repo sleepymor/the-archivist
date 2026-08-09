@@ -1,0 +1,437 @@
+[
+  {
+    "id": "village_administration",
+    "name": "Village Administration",
+    "authority": "Local governance",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1949,
+        "controller": "local_authority",
+        "languages": [
+          "indonesian",
+          "kutai_malay"
+        ],
+        "document_types": [
+          "birth_record",
+          "ownership_record",
+          "witness_statement",
+          "residency_certificate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "district_administration",
+    "name": "District Administration",
+    "authority": "Regional government management",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1942,
+        "controller": "dutch_colonial",
+        "languages": [
+          "dutch"
+        ],
+        "document_types": [
+          "official_notice",
+          "administrative_report",
+          "tax_record",
+          "residency_certificate"
+        ]
+      },
+      {
+        "start_year": 1942,
+        "end_year": 1945,
+        "controller": "japanese_occupation",
+        "languages": [
+          "japanese",
+          "indonesian"
+        ],
+        "document_types": [
+          "official_notice",
+          "administrative_report"
+        ]
+      },
+      {
+        "start_year": 1945,
+        "end_year": 1949,
+        "controller": "indonesian_republic",
+        "languages": [
+          "indonesian"
+        ],
+        "document_types": [
+          "official_notice",
+          "administrative_report",
+          "residency_certificate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "records_department",
+    "name": "District Records Department",
+    "authority": "Historical record management and document verification",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1942,
+        "controller": "dutch_colonial",
+        "languages": [
+          "dutch"
+        ],
+        "document_types": [
+          "archive_report",
+          "record_summary",
+          "document_verification"
+        ]
+      },
+      {
+        "start_year": 1942,
+        "end_year": 1945,
+        "controller": "japanese_occupation",
+        "languages": [
+          "japanese",
+          "indonesian"
+        ],
+        "document_types": [
+          "archive_report",
+          "record_summary"
+        ]
+      },
+      {
+        "start_year": 1945,
+        "end_year": 1949,
+        "controller": "indonesian_republic",
+        "languages": [
+          "indonesian"
+        ],
+        "document_types": [
+          "archive_report",
+          "record_summary",
+          "document_verification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dutch_colonial_administration",
+    "name": "Dutch Colonial Administration",
+    "authority": "Colonial government records",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1942,
+        "controller": "dutch_colonial",
+        "languages": [
+          "dutch"
+        ],
+        "document_types": [
+          "land_record",
+          "tax_record",
+          "official_notice",
+          "administrative_report"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "japanese_occupation_administration",
+    "name": "Japanese Occupation Administration",
+    "authority": "Military government records",
+    "timeline": [
+      {
+        "start_year": 1942,
+        "end_year": 1945,
+        "controller": "japanese_occupation",
+        "languages": [
+          "japanese",
+          "indonesian"
+        ],
+        "document_types": [
+          "official_notice",
+          "administrative_report",
+          "inventory_record"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "indonesian_republic_administration",
+    "name": "Indonesian Republic Administration",
+    "authority": "Early independence government records",
+    "timeline": [
+      {
+        "start_year": 1945,
+        "end_year": 1949,
+        "controller": "indonesian_republic",
+        "languages": [
+          "indonesian"
+        ],
+        "document_types": [
+          "official_notice",
+          "residency_certificate",
+          "citizenship_certificate",
+          "administrative_report"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "plantation_company",
+    "name": "Plantation Company",
+    "authority": "Agricultural business management",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1949,
+        "controller": "private_company",
+        "languages": [
+          "dutch",
+          "indonesian"
+        ],
+        "document_types": [
+          "employment_contract",
+          "inventory_record",
+          "employment_record",
+          "ownership_record"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oil_company",
+    "name": "Oil Company",
+    "authority": "Industrial resource management",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1942,
+        "controller": "dutch_company",
+        "languages": [
+          "dutch"
+        ],
+        "document_types": [
+          "contract",
+          "inventory_record",
+          "employment_record",
+          "report"
+        ]
+      },
+      {
+        "start_year": 1942,
+        "end_year": 1945,
+        "controller": "japanese_controlled_company",
+        "languages": [
+          "japanese",
+          "indonesian"
+        ],
+        "document_types": [
+          "inventory_record",
+          "administrative_report"
+        ]
+      },
+      {
+        "start_year": 1945,
+        "end_year": 1949,
+        "controller": "indonesian_company",
+        "languages": [
+          "indonesian"
+        ],
+        "document_types": [
+          "contract",
+          "employment_record",
+          "inventory_record"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "merchant_association",
+    "name": "Merchant Association",
+    "authority": "Trade and commerce records",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1949,
+        "controller": "civilian",
+        "languages": [
+          "indonesian",
+          "kutai_malay"
+        ],
+        "document_types": [
+          "contract",
+          "inventory_record",
+          "personal_letter"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "religious_institution",
+    "name": "Religious Institution",
+    "authority": "Community and family records",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1949,
+        "controller": "community",
+        "languages": [
+          "indonesian",
+          "kutai_malay"
+        ],
+        "document_types": [
+          "birth_record",
+          "marriage_record",
+          "marriage_certificate",
+          "divorce_certificate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "traditional_council",
+    "name": "Traditional Community Council",
+    "authority": "Local customary decisions",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1949,
+        "controller": "local_authority",
+        "languages": [
+          "kutai_malay"
+        ],
+        "document_types": [
+          "witness_statement",
+          "customary_ownership_record",
+          "customary_confirmation_letter"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "school_administration",
+    "name": "School Administration",
+    "authority": "Education records",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1942,
+        "controller": "dutch_colonial",
+        "languages": [
+          "dutch",
+          "indonesian"
+        ],
+        "document_types": [
+          "student_record",
+          "academic_certificate",
+          "attendance_record"
+        ]
+      },
+      {
+        "start_year": 1942,
+        "end_year": 1945,
+        "controller": "japanese_occupation",
+        "languages": [
+          "japanese",
+          "indonesian"
+        ],
+        "document_types": [
+          "student_record",
+          "academic_certificate",
+          "attendance_record"
+        ]
+      },
+      {
+        "start_year": 1945,
+        "end_year": 1949,
+        "controller": "indonesian_republic",
+        "languages": [
+          "indonesian"
+        ],
+        "document_types": [
+          "student_record",
+          "academic_certificate",
+          "attendance_record"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "medical_institution",
+    "name": "Medical Institution",
+    "authority": "Health records",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1949,
+        "controller": "civilian",
+        "languages": [
+          "dutch",
+          "indonesian"
+        ],
+        "document_types": [
+          "medical_record",
+          "medical_certificate",
+          "report"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "security_office",
+    "name": "Security Office",
+    "authority": "Investigation and security records",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1942,
+        "controller": "dutch_colonial",
+        "languages": [
+          "dutch",
+          "indonesian"
+        ],
+        "document_types": [
+          "investigation_report",
+          "official_notice",
+          "witness_statement"
+        ]
+      },
+      {
+        "start_year": 1942,
+        "end_year": 1945,
+        "controller": "japanese_occupation",
+        "languages": [
+          "japanese",
+          "indonesian"
+        ],
+        "document_types": [
+          "investigation_report",
+          "official_notice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "family_archive",
+    "name": "Family Archive",
+    "authority": "Private historical records",
+    "timeline": [
+      {
+        "start_year": 1940,
+        "end_year": 1949,
+        "controller": "private",
+        "languages": [
+          "indonesian",
+          "kutai_malay",
+          "dutch"
+        ],
+        "document_types": [
+          "personal_letter",
+          "diary_entry",
+          "certificate"
+        ]
+      }
+    ]
+  }
+]

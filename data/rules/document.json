@@ -1,0 +1,10 @@
+{
+  "version": "1.4.0",
+  "module": "document",
+  "priority": 90,
+  "rules": {
+    "DOC": "Generate document content for the current archive request.",
+    "LBL": "Keep the document language and institution consistent with the selected context.",
+    "OUT": "Return a record that can be inserted into the document schema."
+  }
+}
