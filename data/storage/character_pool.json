@@ -78,5 +78,13 @@
 		"gender": "male",
 		"id": "CH-9",
 		"name": "Hadi Manurung"
+	},
+	{
+		"birth_date": "1901-12-13",
+		"description": "Joko Sinaga was Simone is an Indonesian male of Dutch descent living in Balikpapan during the 1940s who works within colonial administrative records and documents as part of his familys private historical archive.",
+		"ethnicity": "indonesia",
+		"gender": "male",
+		"id": "CH-10",
+		"name": "Joko Sinaga"
 	}
 ]
