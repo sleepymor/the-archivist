@@ -1,0 +1,10 @@
+{
+  "version": "1.4.0",
+  "module": "world",
+  "priority": 80,
+  "rules": {
+    "WLD": "Use the selected world context and historical period.",
+    "LOC": "Keep institutions, places, and era references consistent with the selected context.",
+    "EVE": "Avoid anachronistic administrative or technical details."
+  }
+}

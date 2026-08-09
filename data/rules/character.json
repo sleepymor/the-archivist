@@ -1,0 +1,10 @@
+{
+  "version": "1.4.0",
+  "module": "character",
+  "priority": 90,
+  "rules": {
+    "CHR": "Generate a concise character-facing profile statement.",
+    "NME": "Name the subject using the provided character identity.",
+    "SOC": "Keep the description grounded in 1940s Indonesian society."
+  }
+}

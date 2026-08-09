@@ -1,0 +1,23 @@
+[
+  {
+    "case_type": "identity_verification",
+    "deadline": 7.0,
+    "description": "An administrative dispute has been logged regarding Willem van Dijk concerning a conflict in historical records. The player must review the attached documents to verify the validity of the claim.",
+    "documents": [
+      "official_notice",
+      "residency_certificate",
+      "birth_record",
+      "witness_statement"
+    ],
+    "id": "CASE-EX-0",
+    "requester": {
+      "character_name": "Willem van Dijk",
+      "reason": "Mandatory administrative validation under 1940s records compliance for Willem van Dijk."
+    },
+    "resolution": {
+      "correct_decision": "approve",
+      "explanation": "All paper records, seals, and handwriting metrics for Willem van Dijk match official district archives."
+    },
+    "title": "Case File - Willem van Dijk"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "type": "residency_certificate",
+  "fields": {
+    "title": "Official Record - Willem van Dijk",
+    "date": "1942-06-12",
+    "language": "Bahasa Indonesia",
+    "issuer": "District Archives Office",
+    "registration": {
+      "record_number": "ARC-1942-120",
+      "registration_date": "1942-06-12"
+    },
+    "person": {
+      "name": "Willem van Dijk",
+      "occupation": "Trader",
+      "family_status": "Married"
+    },
+    "residence": {
+      "village": "Balikpapan",
+      "district": "Central Sector",
+      "description": "Resident under official municipal review",
+      "duration": "12 months"
+    },
+    "purpose": "Administrative residency verification.",
+    "claims": [
+      {
+        "fact": "Verified historical entry confirmed for Willem van Dijk",
+        "importance": "Standard Verification"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

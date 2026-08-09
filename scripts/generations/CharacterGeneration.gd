@@ -91,14 +91,21 @@ func generate_character() -> void:
 		"ethnicity": chosen_ethnicity
 	}
 
-	var system_prompt = "You are a strict historical biographer specializing in 1940s Indonesia. Write exactly one concise English biographical sentence about the specified individual. Return only the sentence and nothing else. Do not echo the prompt, do not repeat instructions, do not use markdown, quotes, numbering, labels, or conversational filler."
-	var completion_prompt = "Profile of %s (%s, %s) in 1940s Indonesia. Return only one sentence beginning with '%s was'." % [full_name, gender, chosen_ethnicity, full_name]
-	var full_prompt = "%s\n\n%s" % [system_prompt, completion_prompt]
+	var prompt_builder = preload("res://scripts/prompt/PromptBuilder.gd").new()
+	var prompt_payload = {
+		"language": "en",
+		"name": full_name,
+		"gender": gender,
+		"ethnicity": chosen_ethnicity,
+		"description": "one concise biographical sentence"
+	}
+	var prompt_result = prompt_builder.build_generation_prompt("character", prompt_payload)
+	var full_prompt = prompt_result.get("full_prompt", "")
 
 	if gd_llama:
-		gd_llama.context_size = 1024 # Constrain memory usage to prevent OOM
-		gd_llama.n_predict = 256
-		gd_llama.temperature = 0.5
+		gd_llama.context_size = 7000 # Constrain memory usage to prevent OOM
+		gd_llama.n_predict = 400
+		gd_llama.temperature = 0.7
 		gd_llama.top_p = 0.9
 		gd_llama.top_k = 40
 		

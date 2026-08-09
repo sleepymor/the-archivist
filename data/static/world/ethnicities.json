@@ -1,0 +1,27 @@
+[
+  {
+    "id": "indonesia",
+    "name": "Indonesian",
+    "name_style": "Indonesia"
+  },
+  {
+    "id": "dutch",
+    "name": "Dutch",
+    "name_style": "Dutch"
+  },
+  {
+    "id": "japanese",
+    "name": "Japanese",
+    "name_style": "Japanese"
+  },
+  {
+    "id": "indo_european",
+    "name": "Indo-European (Dutch-Indonesian)",
+    "name_style": "Mixed Dutch-Indonesian"
+  },
+  {
+    "id": "chinese_indonesian",
+    "name": "Chinese Indonesian",
+    "name_style": "Chinese-Indonesian"
+  }
+]

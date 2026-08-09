@@ -1,0 +1,53 @@
+[
+  {
+    "id": "indonesian",
+    "name": "Indonesian",
+    "generation": {
+      "allowed": true,
+      "full_document_generation": true
+    },
+    "usage": [
+      "local communication",
+      "community records",
+      "personal letters"
+    ]
+  },
+  {
+    "id": "dutch",
+    "name": "Dutch",
+    "generation": {
+      "allowed": true,
+      "full_document_generation": true
+    },
+    "usage": [
+      "colonial administration",
+      "official records",
+      "legal documents"
+    ]
+  },
+  {
+    "id": "japanese",
+    "name": "Japanese",
+    "generation": {
+      "allowed": true,
+      "full_document_generation": true
+    },
+    "usage": [
+      "occupation administration",
+      "military records"
+    ]
+  },
+  {
+    "id": "kutai_malay",
+    "name": "Kutai Malay",
+    "generation": {
+      "allowed": true,
+      "full_document_generation": false
+    },
+    "usage": [
+      "regional trade",
+      "informal records",
+      "community messaging"
+    ]
+  }
+]
