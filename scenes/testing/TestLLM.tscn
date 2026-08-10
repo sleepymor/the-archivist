@@ -27,7 +27,6 @@ script = ExtResource("2_105rw")
 script = ExtResource("3_7byr7")
 
 [node name="GDLlama" type="GDLlama" parent="." unique_id=1921129684]
-model_path = "models/Qwen2.5-3B.Q4_K_M.gguf"
 should_output_prompt = false
 context_size = 7000
 n_predict = 154

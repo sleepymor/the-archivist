@@ -15,6 +15,7 @@ var _generated_docs: Array = []
 var _current_doc_index: int = 0
 
 func _ready() -> void:
+	gd_llama.model_path = "res://models/Phi-3.5-mini-instruct-Q4_K_M.gguf"
 	if gd_llama and not gd_llama.generate_text_finished.is_connected(_on_generation_finished):
 		gd_llama.generate_text_finished.connect(_on_generation_finished)
 
@@ -41,7 +42,6 @@ func _process_next_document() -> void:
 		return
 
 	var dtype = _pending_doc_types[_current_doc_index]
-	
 	var requester_data = _pending_case_data.get("requester", {})
 	var char_name = "Local Resident"
 	if typeof(requester_data) == TYPE_DICTIONARY:
@@ -50,16 +50,16 @@ func _process_next_document() -> void:
 		char_name = requester_data
 
 	var case_desc = _pending_case_data.get("description", "Official investigation record on file.")
-
 	var world_context = _load_world_prompt_context()
 	var world_year = int(world_context.get("year", 1942))
 	var institution = str(world_context.get("institution", "District Archives Office"))
 
+	# Determine strict language mapping based on world year / document context
 	var language = "id"
 	if world_year >= 1942 and world_year <= 1945:
-		language = "ja"
+		language = "ja"  # Japanese administration period
 	elif world_year < 1942:
-		language = "nl"
+		language = "nl"  # Dutch colonial period
 
 	var prompt_builder = preload("res://scripts/prompt/PromptBuilder.gd").new()
 	var prompt_payload = {
@@ -67,20 +67,21 @@ func _process_next_document() -> void:
 		"subject": char_name,
 		"description": case_desc,
 		"year": world_year,
-		"institution": institution
+		"institution": institution,
+		"document_type": dtype
 	}
 	var prompt_result = prompt_builder.build_generation_prompt("document", prompt_payload)
 	var full_prompt = prompt_result.get("full_prompt", "")
 
 	if gd_llama:
-		gd_llama.context_size = 7000 # Constrain memory usage to prevent OOM
+		gd_llama.context_size = 7000
 		gd_llama.n_predict = 400
-		gd_llama.temperature = 0.7
+		gd_llama.temperature = 0.0 # Lower temperature for structural stability
 		gd_llama.top_p = 0.9
 		gd_llama.top_k = 40
 		gd_llama.run_generate_text(full_prompt, "", "")
 	else:
-		_on_generation_finished("Official administrative record entry on file regarding verified investigation.")
+		_on_generation_finished("Official administrative record entry on file.")
 
 func _on_generation_finished(generated_text: String) -> void:
 	var raw_text = generated_text.strip_edges() if generated_text else ""

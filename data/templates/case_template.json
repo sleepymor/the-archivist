@@ -1,0 +1,16 @@
+{
+    "case_type": "",
+    "deadline": 0,
+    "description": "A",
+    "documents": [],
+    "id": "",
+    "requester": {
+        "character_name": "character_name",
+        "reason": "string"
+    },
+    "resolution": {
+        "correct_decision": "reject/accept",
+        "explanation": "String"
+    },
+    "title": "string"
+}
