@@ -10,6 +10,7 @@ var _is_busy: bool = false
 var _pending_character: Dictionary = {}
 
 func _ready() -> void:
+	gd_llama.model_path = "res://models/Phi-3.5-mini-instruct-Q4_K_M.gguf"	
 	if gd_llama and not gd_llama.generate_text_finished.is_connected(_on_generation_finished):
 		gd_llama.generate_text_finished.connect(_on_generation_finished)
 

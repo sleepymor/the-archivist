@@ -15,6 +15,7 @@ var _generated_docs: Array = []
 var _current_doc_index: int = 0
 
 func _ready() -> void:
+	gd_llama.model_path = "res://models/Phi-3.5-mini-instruct-Q4_K_M.gguf"
 	if gd_llama and not gd_llama.generate_text_finished.is_connected(_on_generation_finished):
 		gd_llama.generate_text_finished.connect(_on_generation_finished)
 
@@ -53,24 +54,12 @@ func _process_next_document() -> void:
 	var world_year = int(world_context.get("year", 1942))
 	var institution = str(world_context.get("institution", "District Archives Office"))
 
-<<<<<<< HEAD
 	# Determine strict language mapping based on world year / document context
 	var language = "id"
 	if world_year >= 1942 and world_year <= 1945:
 		language = "ja"  # Japanese administration period
 	elif world_year < 1942:
 		language = "nl"  # Dutch colonial period
-=======
-	var world_context = _load_world_prompt_context()
-	var world_year = int(world_context.get("year", 1942))
-	var institution = str(world_context.get("institution", "District Archives Office"))
-
-	var language = "id"
-	if world_year >= 1942 and world_year <= 1945:
-		language = "ja"
-	elif world_year < 1942:
-		language = "nl"
->>>>>>> 19a656f1ac37262cc142aa281adb29b6a6e3b93f
 
 	var prompt_builder = preload("res://scripts/prompt/PromptBuilder.gd").new()
 	var prompt_payload = {
@@ -78,26 +67,16 @@ func _process_next_document() -> void:
 		"subject": char_name,
 		"description": case_desc,
 		"year": world_year,
-<<<<<<< HEAD
 		"institution": institution,
 		"document_type": dtype
-=======
-		"institution": institution
->>>>>>> 19a656f1ac37262cc142aa281adb29b6a6e3b93f
 	}
 	var prompt_result = prompt_builder.build_generation_prompt("document", prompt_payload)
 	var full_prompt = prompt_result.get("full_prompt", "")
 
 	if gd_llama:
-<<<<<<< HEAD
 		gd_llama.context_size = 7000
 		gd_llama.n_predict = 400
-		gd_llama.temperature = 0.2 # Lower temperature for structural stability
-=======
-		gd_llama.context_size = 7000 # Constrain memory usage to prevent OOM
-		gd_llama.n_predict = 400
-		gd_llama.temperature = 0.7
->>>>>>> 19a656f1ac37262cc142aa281adb29b6a6e3b93f
+		gd_llama.temperature = 0.0 # Lower temperature for structural stability
 		gd_llama.top_p = 0.9
 		gd_llama.top_k = 40
 		gd_llama.run_generate_text(full_prompt, "", "")
