@@ -1,0 +1,28 @@
+{
+  "type": "customary_confirmation_letter",
+  "fields": {
+    "title": "Surat Konfirmasi Adat Batas Lahan Pertanian",
+    "date": "1942-12-12",
+    "language": "indonesian",
+    "issuer": "Dewan Adat dan Tokoh Masyarakat Setempat",
+    "confirmation": {
+      "confirmation_number": "CCL-1942/CS-20",
+      "leader": "Datuk Mangkubumi",
+      "target_individual": "Siti Rofiah",
+      "region": "Sektor Pertanian Balikpapan"
+    },
+    "statement": "Dengan ini dikonfirmasi bahwa lahan pertanian yang dikelola oleh Siti Rofiah merupakan wilayah produktif turun-temurun yang tidak boleh dilintasi atau dipotong proyek jalan tanpa izin dan kesepakatan pemilik.",
+    "witnesses": [
+      "Datuk Mangkubumi",
+      "Encik Mahmud"
+    ],
+    "claims": [
+      {
+        "fact": "Surat konfirmasi adat memperkuat perlindungan atas lahan perkebunan produktif dari penyerobotan proyek sepihak.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

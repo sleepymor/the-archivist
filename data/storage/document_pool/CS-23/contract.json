@@ -1,0 +1,50 @@
+{
+  "type": "contract",
+  "fields": {
+    "title": "Kōgyōyō Kyōkyū Busshi Wariawase oyobi Haikyō Keiyaku",
+    "date": "1942-04-01",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Shōgyō Kumiai",
+    "contract": {
+      "contract_number": "CTR-1942/CS-23",
+      "party_a": "Tanaka Hiroshi",
+      "party_b": "Balikpapan Shū Chōkan Somuka",
+      "subject": "Kōgyō bumon ni okeru busshi kyōkyū to wariate kijun no settei"
+    },
+    "agreement": {
+      "purpose": "Kōgyō rōdōsha no saiteki seikatsu suijun to seisan katsudō no hoshō.",
+      "terms": [
+        "Kyōkyū wariate wa katsudō rōdō jin’in no sūryō ni shitagatte teiki ni chōsei sareru koto.",
+        "Fukusō shizai ga hassei shita baai, kyōka sareta seikyū ni yori zōryō ga kyoka sareru koto."
+      ],
+      "duration": {
+        "start_date": "1942-04-01",
+        "end_date": "1945-12-31"
+      }
+    },
+    "obligations": {
+      "party_a": [
+        "Kōgyō rōdōsha meibo to zaimu kiroku o seishiki ni teisyutsu suru koto."
+      ],
+      "party_b": [
+        "Rōdō jin’in ni tekigō shita kyōkyū busshi o teikyō suru koto."
+      ]
+    },
+    "signatures": {
+      "party_a_signed": "Tanaka Hiroshi",
+      "party_b_signed": "Yamamoto Kenzo",
+      "witnesses": [
+        "Baharuddin",
+        "Tan Keng Hoo"
+      ]
+    },
+    "claims": [
+      {
+        "fact": "Keiyaku sho wa rōdō jin’in ni oojita wariate no chōsei gimu o kitei shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

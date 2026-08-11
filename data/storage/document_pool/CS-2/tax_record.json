@@ -1,0 +1,34 @@
+{
+  "type": "tax_record",
+  "fields": {
+    "title": "Bedrijfsbelasting en Handelsregister Overzicht",
+    "date": "1941-11-04",
+    "language": "dutch",
+    "issuer": "District Administration",
+    "tax": {
+      "record_number": "TR-1941/M-09",
+      "taxpayer": "La Maddukelleng",
+      "tax_type": "Bedrijfsbelasting (Handelsvergunning)",
+      "tax_period": "1941",
+      "status": "Voldaan"
+    },
+    "property": {
+      "description": "Handels- en pakhuiscomplex te Balikpapan",
+      "location": "Balikpapan Haven"
+    },
+    "payment": {
+      "amount": "f 45,00",
+      "payment_date": "1941-01-20",
+      "payment_method": "Kontant"
+    },
+    "remarks": "Belastingbetaling verricht voor de uitoefening van de graanhandel en pakhuisbeheer.",
+    "claims": [
+      {
+        "fact": "Status pajak perdagangan aktif membuktikan keabsahan usaha pakhuis pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 115,
+    "is_true": true
+  }
+}

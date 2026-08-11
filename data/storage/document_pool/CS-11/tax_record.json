@@ -1,0 +1,34 @@
+{
+    "type": "tax_record",
+    "fields": {
+      "title": "Nōsanbutsu Nōzei oyobi Shōgyō Zeikin Kiroku (Agricultural Produce Tax Record)",
+      "date": "1942-05-20",
+      "language": "japanese",
+      "issuer": "Balikpapan Shū Zeimuka (Tax Bureau)",
+      "tax": {
+        "record_number": "TR-1942/MS-05",
+        "taxpayer": "Haji Abdul Gani",
+        "tax_type": "Nōsanbutsu Shōgyō Zei",
+        "tax_period": "1942",
+        "status": "Nōzei Zumi / Kanryō"
+      },
+      "property": {
+        "description": "Kopra nōen oyobi yusō jigyō",
+        "location": "Balikpapan Kōgai"
+      },
+      "payment": {
+        "amount": "f 75,50",
+        "payment_date": "1942-03-10",
+        "payment_method": "Genkin Nōfu"
+      },
+      "remarks": "Shōgyō katsudō ni kansuru zeikin wa zenkaku nōfu sarete ori, jigyō no gōkakusei o shōmei suru.",
+      "claims": [
+        {
+          "fact": "Zeimu kiroku wa shinseisha no shōgyō jigyō ga seishiki ni tōroku sarete ita koto o shōmei suru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 120,
+      "is_true": true
+    }
+  }

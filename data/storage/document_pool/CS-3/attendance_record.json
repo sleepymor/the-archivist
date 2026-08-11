@@ -1,0 +1,37 @@
+{
+  "type": "attendance_record",
+  "fields": {
+    "title": "Gakkō Shusseki Kiroku (Attendance Record)",
+    "date": "1943-05-10",
+    "language": "japanese",
+    "issuer": "Balikpapan Gakkō Kanri Bu (School Administration Bureau)",
+    "record": {
+      "record_number": "ATT-1943/J-08",
+      "school": "Balikpapan Kokumin Gakkō",
+      "class": "Shūtōka (Teacher Training Class)",
+      "period": "1943-04-01 - 1943-04-30"
+    },
+    "student": {
+      "name": "Siti Aminah",
+      "student_number": "J-405",
+      "guardian": "State Supervised"
+    },
+    "attendance": {
+      "total_days": "25",
+      "days_present": "22",
+      "days_absent": "3",
+      "absence_reasons": [
+        "Kyūkei (Mandatory labor service mobilization)"
+      ]
+    },
+    "remarks": "Record maintained under the Japanese occupation administration school guidelines, reflecting curriculum adjustments and building usage shifts.",
+    "claims": [
+      {
+        "fact": "Catatan kehadiran menunjukkan transisi operasional sekolah di bawah administrasi pendudukan militer.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

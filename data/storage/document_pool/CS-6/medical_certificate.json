@@ -1,0 +1,33 @@
+{
+  "type": "medical_certificate",
+  "fields": {
+    "title": "Catatan Pemeriksaan Medis Sanggahan",
+    "date": "1941-08-05",
+    "language": "indonesian",
+    "issuer": "Dinas Kesehatan Kolonial (Rumah Sakit Balikpapan)",
+    "certificate": {
+      "certificate_number": "MED-1941/BP-19",
+      "patient_name": "Baharuddin",
+      "examination_date": "1941-08-01",
+      "facility": "Rumah Sakit Pusat Balikpapan"
+    },
+    "medical_details": {
+      "diagnosis": "Tidak ditemukan tanda-tanda trauma fisik baru atau bekas benturan benda berat",
+      "treatment": "Pemeriksaan luar tanpa indikasi rawat inap",
+      "prognosis": "Sehat dan layak bekerja"
+    },
+    "physician": {
+      "name": "Dr. W. H. de Vries",
+      "title": "Dokter Distrik"
+    },
+    "remarks": "Berdasarkan permintaan verifikasi dari Carel Willem van der Berg, kondisi fisik pasien tidak sesuai dengan klaim cedera akibat tertimpa peti.",
+    "claims": [
+      {
+        "fact": "Keterangan medis berkontradiksi langsung dengan klaim keparahan luka korban, memperkuat bantahan dari pihak manajemen.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": false
+  }
+}

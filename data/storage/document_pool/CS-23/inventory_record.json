@@ -1,0 +1,38 @@
+{
+  "type": "inventory_record",
+  "fields": {
+    "title": "Kōgyōyō Kyōkyū Zaiko oyobi Wariawase Kiroku",
+    "date": "1943-03-05",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Sangyō Bu",
+    "inventory": {
+      "record_number": "IR-1943/CS-23",
+      "institution": "Kōgyō Kanri Senta",
+      "location": "Balikpapan Sōko C",
+      "responsible_person": "Tanaka Hiroshi"
+    },
+    "items": [
+      {
+        "name": "Kōgyōyō Shizai oyobi Seikatsu Busshi",
+        "category": "Sangyō Shiyō Shizai",
+        "quantity": "Fusoku wariate (Kyōkyū 60%)",
+        "condition": "Zairyō fusoku / Jin'in taihi zumi",
+        "location": "Sōko C"
+      }
+    ],
+    "transaction": {
+      "type": "Wariate Fusoku Kiroku",
+      "source": "Balikpapan Shū Shikyō",
+      "destination": "Kōgyō Senta"
+    },
+    "remarks": "Genjō no wariate ryō wa katsudō rōdōsha no saiteki seikatsu suijun o mitasu ni tarinai koto o kiroku.",
+    "claims": [
+      {
+        "fact": "Zaiko kiroku wa kōgyōyō kyōkyū wariate ga rōdō jin’in ni taishi fujūbun de aru koto o risshō shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

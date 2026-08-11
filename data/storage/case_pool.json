@@ -1,0 +1,577 @@
+[
+    {
+        "case_type": "land_ownership_dispute",
+        "deadline": 5,
+        "description": "Sengketa tanah adat resmi yang diajukan terkait penyerobotan infrastruktur perminyakan pada kebun buah leluhur di Balikpapan.",
+        "documents": [
+            "customary_ownership_record",
+            "witness_statement",
+            "tax_record",
+            "land_record",
+            "administrative_report",
+            "official_notice"
+        ],
+        "id": "CS-01",
+        "requester": {
+            "character_name": "Raden Mas Djojoatmodjo",
+            "reason": "Menolak patok batas yang ditempatkan oleh surveyor perusahaan minyak di atas tanah warisan."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Klaim didukung oleh catatan adat historis dan dokumentasi sewa tanah yang sudah ada sebelum perjanjian komersial."
+        },
+        "title": "Customary Land Encroachment Claim - Kampong Baru"
+    },
+    {
+        "case_type": "trade_contract_dispute",
+        "deadline": 5,
+        "description": "Klaim kompensasi yang diajukan atas inventaris gudang yang disita selama alokasi ulang persediaan administratif.",
+        "documents": [
+            "inventory_record",
+            "contract",
+            "personal_letter",
+            "administrative_report",
+            "official_notice",
+            "tax_record"
+        ],
+        "id": "CS-02",
+        "requester": {
+            "character_name": "La Maddukelleng",
+            "reason": "Menuntut ganti rugi finansial untuk stok gabah yang direstitusi tanpa penyelesaian formal."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Manifestaris inventaris dan catatan perdagangan komersial memverifikasi kepemilikan serta pendaftaran barang yang disita dengan benar."
+        },
+        "title": "Warehouse Inventory Seizure Compensation"
+    },
+    {
+        "case_type": "education_certificate_claim",
+        "deadline": 7,
+        "description": "Protes resmi terhadap pengambilalihan fasilitas sekolah dan bahan pendidikan oleh pihak militer.",
+        "documents": [
+            "student_record",
+            "academic_certificate",
+            "attendance_record",
+            "official_notice",
+            "administrative_report",
+            "personal_letter"
+        ],
+        "id": "CS-03",
+        "requester": {
+            "character_name": "Siti Aminah",
+            "reason": "Menuntut tempat alternatif bagi kelas yang tergusur serta pengembalian inventaris sekolah."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Catatan administrasi sekolah mengkonfirmasi pendaftaran aktif dan okupasi sah sebelum perintah militer."
+        },
+        "title": "Requisition of School Property Grievance"
+    },
+    {
+        "case_type": "employment_contract_dispute",
+        "deadline": 4,
+        "description": "Permohonan upah pisah yang belum dibayarkan serta tunjangan akhir menyusul restrukturisasi perkebunan karet.",
+        "documents": [
+            "employment_contract",
+            "employment_record",
+            "company_report",
+            "tax_record",
+            "administrative_report",
+            "archive_report"
+        ],
+        "id": "CS-04",
+        "requester": {
+            "character_name": "Encik Mahmud",
+            "reason": "Menuntut tunggakan yang terutang di bawah perjanjian buruh kolonial standar sebelum penutupan administratif."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Kontrak kerja dan buku besar layanan memperkuat masa jabatan pengawas serta kompensasi yang belum dibayar."
+        },
+        "title": "Unpaid Estate Separation Wages Petition"
+    },
+    {
+        "case_type": "administrative_error_report",
+        "deadline": 4,
+        "description": "Klaim kerusakan properti komersial dan kehilangan inventaris akibat kerusuhan sipil.",
+        "documents": [
+            "inventory_record",
+            "contract",
+            "tax_record",
+            "official_notice",
+            "investigation_report",
+            "personal_letter"
+        ],
+        "id": "CS-05",
+        "requester": {
+            "character_name": "Tan Keng Hoo",
+            "reason": "Mencari kompensasi atas kerusakan struktural dan barang dagangan yang dijarah di toko kelontong."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Catatan kantor keamanan dan formulir penilaian pajak mengonfirmasi tingkat kerusakan properti yang dilaporkan."
+        },
+        "title": "General Store Property Damage Claim"
+    },
+    {
+        "case_type": "employment_contract_dispute",
+        "deadline": 7,
+        "description": "Perselisihan mengenai pemutusan hubungan kerja yang tidak sah dan pencabutan alokasi perumahan di kilang minyak.",
+        "documents": [
+            "employment_contract",
+            "employment_record",
+            "contract",
+            "company_report",
+            "medical_certificate",
+            "administrative_report"
+        ],
+        "id": "CS-06",
+        "requester": {
+            "character_name": "Carel Willem van der Berg",
+            "reason": "Menantang ketentuan pemberhentian dan menuntut pemulihan hak istimewa perumahan industri."
+        },
+        "resolution": {
+            "correct_decision": "reject",
+            "explanation": "Audit administratif perusahaan menunjukkan kepatuhan terhadap klausul redundansi darurat di bawah restrukturisasi operasional."
+        },
+        "title": "Refinery Technician Wrongful Termination"
+    },
+    {
+        "case_type": "property_boundary_dispute",
+        "deadline": 5,
+        "description": "Perselisihan batas yang diajukan atas nama komunitas nelayan tradisional yang dibatasi dari perairan pantai.",
+        "documents": [
+            "customary_ownership_record",
+            "witness_statement",
+            "customary_confirmation_letter",
+            "land_record",
+            "official_notice",
+            "administrative_report"
+        ],
+        "id": "CS-07",
+        "requester": {
+            "character_name": "Awang bin Daris",
+            "reason": "Menentang batas wilayah keamanan yang menghalangi akses ke zona penangkapan ikan tradisional."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Dokumentasi dewan komunitas adat membuktikan hak penggunaan maritim tradisional yang telah lama berlangsung."
+        },
+        "title": "Traditional Fishermen Coastal Access Dispute"
+    },
+    {
+        "case_type": "conflicting_official_reports",
+        "deadline": 5,
+        "description": "Laporan investigasi mengenai manifest kargo yang hilang dan perbedaan stok di dermaga industri.",
+        "documents": [
+            "inventory_record",
+            "investigation_report",
+            "company_report",
+            "administrative_report",
+            "record_summary",
+            "official_notice"
+        ],
+        "id": "CS-08",
+        "requester": {
+            "character_name": "Muhammad Yasin",
+            "reason": "Mengajukan catatan pembersihan formal untuk membersihkan buruh pelabuhan dari tuduhan penyalahgunaan kargo."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Catatan pengiriman selaras dengan tanda terima transfer gudang, memverifikasi kesalahan transit administratif alih-alih pencurian."
+        },
+        "title": "Dockyard Cargo Manifest Discrepancy"
+    },
+    {
+        "case_type": "ownership_transfer_dispute",
+        "deadline": 7,
+        "description": "Banding terhadap penyitaan darurat aset perkebunan swasta dan arsip administratif.",
+        "documents": [
+            "ownership_record",
+            "land_record",
+            "administrative_report",
+            "archive_report",
+            "tax_record",
+            "official_notice"
+        ],
+        "id": "CS-09",
+        "requester": {
+            "character_name": "Hendrik Jan de Jong",
+            "reason": "Menentang keabsahan penyitaan aset di bawah peraturan darurat masa perang."
+        },
+        "resolution": {
+            "correct_decision": "reject",
+            "explanation": "Penyitaan dilaksanakan sepenuhnya sesuai dengan undang-undang darurat kolonial yang sah yang diberlakukan selama periode pertahanan."
+        },
+        "title": "Plantation Asset Seizure Appeal"
+    },
+    {
+        "case_type": "administrative_error_report",
+        "deadline": 4,
+        "description": "Penyanggahan atas penutupan pasar obat tradisional oleh inspektur kesehatan kota.",
+        "documents": [
+            "medical_certificate",
+            "medical_record",
+            "official_notice",
+            "administrative_report",
+            "residency_certificate",
+            "witness_statement"
+        ],
+        "id": "CS-10",
+        "requester": {
+            "character_name": "Utari binti Arsad",
+            "reason": "Memohon izin untuk membuka kembali balai pengobatan tradisional dan pasar herbal."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Catatan inspeksi kesehatan menunjukkan kepatuhan terhadap standar sanitasi setelah perintah karantina awal."
+        },
+        "title": "Traditional Market Closure Contest"
+    },
+    {
+        "case_type": "trade_contract_dispute",
+        "deadline": 4,
+        "description": "Klaim mengenai pelanggaran perjanjian pengangkutan dan pengiriman kopra oleh sindikat distribusi regional.",
+        "documents": [
+            "contract",
+            "inventory_record",
+            "tax_record",
+            "administrative_report",
+            "company_report",
+            "personal_letter"
+        ],
+        "id": "CS-11",
+        "requester": {
+            "character_name": "Haji Abdul Gani",
+            "reason": "Menuntut ganti rugi atas kuota angkutan yang tidak terpenuhi dan hasil pertanian yang terlantar."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Kontrak komersial yang ditandatangani dan manifest pengangkutan membuktikan pelanggaran jadwal pengiriman yang disepakati."
+        },
+        "title": "Copra Syndicate Contract Breach Claim"
+    },
+    {
+        "case_type": "archive_record_inconsistency",
+        "deadline": 4,
+        "description": "Permintaan koreksi resmi mengenai perbedaan historis dalam daftar pajak tanah kota.",
+        "documents": [
+            "archive_report",
+            "record_summary",
+            "document_verification",
+            "tax_record",
+            "land_record",
+            "administrative_report"
+        ],
+        "id": "CS-12",
+        "requester": {
+            "character_name": "Johanna Maria Jansen",
+            "reason": "Melaporkan kesalahan administrasi dalam alokasi pajak properti menyusul reorganisasi arsip."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Verifikasi silang dengan buku pajak tanah kolonial asli mengonfirmasi kesalahan administrasi pada daftar yang diperbarui."
+        },
+        "title": "Land Tax Register Discrepancy Correction"
+    },
+    {
+        "case_type": "incorrect_tax_assessment",
+        "deadline": 3,
+        "description": "Penyanggahan atas penilaian pajak pelabuhan yang tidak adil dan hak sandar yang dibatasi bagi kapal pribumi.",
+        "documents": [
+            "official_notice",
+            "administrative_report",
+            "tax_record",
+            "contract",
+            "investigation_report",
+            "residency_certificate"
+        ],
+        "id": "CS-13",
+        "requester": {
+            "character_name": "Baharuddin",
+            "reason": "Mengajukan banding atas bea pelabuhan yang melonjak dan meminta prioritas sandar yang sama untuk pedagang pesisir."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Jadwal tarif menunjukkan pengenaan biaya berlebih yang tidak teratur di luar peraturan maritim standar."
+        },
+        "title": "Coastal Navigator Harbor Tax Appeal"
+    },
+    {
+        "case_type": "property_boundary_dispute",
+        "deadline": 4,
+        "description": "Laporan kerusakan struktural yang disebabkan oleh limpasan konstruksi kota pada sebuah ruko komersial.",
+        "documents": [
+            "land_record",
+            "investigation_report",
+            "administrative_report",
+            "official_notice",
+            "tax_record",
+            "personal_letter"
+        ],
+        "id": "CS-14",
+        "requester": {
+            "character_name": "Liem Sioe Lan",
+            "reason": "Menuntut reparasi atas erosi fondasi dan gangguan komersial akibat pekerjaan umum."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Laporan inspeksi kantor keamanan mengonfirmasi kegagalan drainase dari konstruksi publik menyebabkan kerusakan struktural."
+        },
+        "title": "Shophouse Foundation Runoff Damage Claim"
+    },
+    {
+        "case_type": "conflicting_land_records",
+        "deadline": 3,
+        "description": "Perselisihan mengenai tumpang tindih batas antara konsesi kayu swasta dan peta kehutanan negara.",
+        "documents": [
+            "land_record",
+            "ownership_record",
+            "customary_confirmation_letter",
+            "archive_report",
+            "administrative_report",
+            "contract"
+        ],
+        "id": "CS-15",
+        "requester": {
+            "character_name": "Pangeran Aji Mandarsyah",
+            "reason": "Menentang pemetaan ulang kehutanan negara atas zona ekstraksi kayu turun-temurun."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Konsesi tanah Kesultanan asli memvalidasi batas-batas yang sudah ada sebelumnya sebelum pemetaan ulang kehutanan."
+        },
+        "title": "Timber Concession Boundary Overlap"
+    },
+    {
+        "case_type": "missing_supporting_document",
+        "deadline": 3,
+        "description": "Klaim administratif untuk persediaan medis dan stok farmasi yang diambil alih untuk penggunaan darurat.",
+        "documents": [
+            "medical_record",
+            "medical_certificate",
+            "inventory_record",
+            "administrative_report",
+            "official_notice",
+            "investigation_report"
+        ],
+        "id": "CS-16",
+        "requester": {
+            "character_name": "Ratna Sianipar",
+            "reason": "Mencari penggantian biaya dan pengisian kembali inventaris untuk permintaan medis darurat."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Catatan rumah sakit dan tanda terima permintaan resmi memverifikasi transfer pasokan ke staf medis yang berwenang."
+        },
+        "title": "Requisitioned Medical Supplies Compensation"
+    },
+    {
+        "case_type": "archive_record_inconsistency",
+        "deadline": 3,
+        "description": "Keterangan saksi dan tanggapan penyelidikan mengenai perbedaan stok depo minyak.",
+        "documents": [
+            "investigation_report",
+            "inventory_record",
+            "witness_statement",
+            "administrative_report",
+            "record_summary",
+            "company_report"
+        ],
+        "id": "CS-17",
+        "requester": {
+            "character_name": "Idham Chalid",
+            "reason": "Menyerahkan pernyataan penjelas untuk menyelesaikan laporan variasi inventaris depo bahan bakar."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Pernyataan saksi dan catatan depo mengonfirmasi variasi disebabkan oleh penguapan dan transfer bahan bakar yang disetujui."
+        },
+        "title": "Petroleum Depot Inventory Discrepancy"
+    },
+    {
+        "case_type": "administrative_error_report",
+        "deadline": 7,
+        "description": "Pengaduan resmi mengenai kondisi kerja yang tidak aman dan kegagalan mekanis yang berujung pada cedera kerja.",
+        "documents": [
+            "employment_record",
+            "medical_certificate",
+            "medical_record",
+            "investigation_report",
+            "company_report",
+            "employment_contract"
+        ],
+        "id": "CS-18",
+        "requester": {
+            "character_name": "Willem Frederiksen",
+            "reason": "Meminta kompensasi medis dan inspeksi keselamatan menyusul kegagalan peralatan pabrik."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Sertifikat medis dan temuan inspeksi keselamatan mengonfirmasi kelalaian dalam protokol pemeliharaan."
+        },
+        "title": "Plantation Equipment Safety Grievance"
+    },
+    {
+        "case_type": "incorrect_residency_record",
+        "deadline": 5,
+        "description": "Penyampaian catatan tempat tinggal keluarga dan pendaftaran kelahiran yang disengketakan untuk pengakuan kota.",
+        "documents": [
+            "birth_record",
+            "residency_certificate",
+            "citizenship_certificate",
+            "administrative_report",
+            "witness_statement",
+            "record_summary"
+        ],
+        "id": "CS-19",
+        "requester": {
+            "character_name": "Ahmad Dahlan",
+            "reason": "Memperbaiki catatan administrasi desa yang hilang untuk anggota keluarga yang mengungsi."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Catatan administrasi desa dan kesaksian saksi sesepuh menguatkan status tempat tinggal yang berkelanjutan."
+        },
+        "title": "Family Residency & Birth Record Verification"
+    },
+    {
+        "case_type": "property_boundary_dispute",
+        "deadline": 5,
+        "description": "Permohonan keberatan terhadap perpanjangan jalan melintasi sebidang tanah pertanian pribadi tanpa izin.",
+        "documents": [
+            "land_record",
+            "ownership_record",
+            "administrative_report",
+            "official_notice",
+            "customary_confirmation_letter",
+            "tax_record"
+        ],
+        "id": "CS-20",
+        "requester": {
+            "character_name": "Siti Rofiah",
+            "reason": "Menentang proyek pelebaran jalan yang memotong lahan perkebunan produktif tanpa persetujuan."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Sertifikat tanah membuktikan batas kepemilikan, yang memerlukan kompensasi formal atau penyesuaian rute."
+        },
+        "title": "Agricultural Right-of-Way Contest"
+    },
+    {
+        "case_type": "lost_property_certificate",
+        "deadline": 5,
+        "description": "Klaim kompensasi atas perkakas profesional dan mesin yang hilang selama transisi fasilitas administratif.",
+        "documents": [
+            "inventory_record",
+            "employment_record",
+            "company_report",
+            "investigation_report",
+            "administrative_report",
+            "personal_letter"
+        ],
+        "id": "CS-21",
+        "requester": {
+            "character_name": "Goh Eng Bian",
+            "reason": "Meminta penggantian biaya untuk perkakas bengkel pribadi yang tertinggal di depo perusahaan yang diamankan."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Catatan kepegawaian dan lembar tanda keluar inventaris memverifikasi kepemilikan peralatan bengkel yang hilang."
+        },
+        "title": "Workshop Equipment Loss Compensation"
+    },
+    {
+        "case_type": "military_service_claim",
+        "deadline": 5,
+        "description": "Laporan dan klaim kompensasi mengenai pengambilalihan perahu komersial tanpa izin oleh logistik militer.",
+        "documents": [
+            "inventory_record",
+            "administrative_report",
+            "official_notice",
+            "contract",
+            "investigation_report",
+            "tax_record"
+        ],
+        "id": "CS-22",
+        "requester": {
+            "character_name": "Takahashi Kenji",
+            "reason": "Mengajukan voucher logistik untuk perahu angkut komersial yang dikerahkan untuk dinas militer."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Stempel permintaan logistik militer cocok dengan catatan kapal otoritas pelabuhan."
+        },
+        "title": "Commercial Watercraft Requisition Claim"
+    },
+    {
+        "case_type": "administrative_error_report",
+        "deadline": 7,
+        "description": "Perselisihan administratif mengenai kuota distribusi yang dialokasikan untuk pasokan di sektor industri.",
+        "documents": [
+            "administrative_report",
+            "inventory_record",
+            "official_notice",
+            "company_report",
+            "record_summary",
+            "contract"
+        ],
+        "id": "CS-23",
+        "requester": {
+            "character_name": "Tanaka Hiroshi",
+            "reason": "Meminta penyesuaian kuota untuk memenuhi standar penghidupan minimum bagi pekerja industri."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Catatan distribusi pasokan memverifikasi alokasi yang kurang relatif terhadap jumlah tenaga kerja aktif."
+        },
+        "title": "Industrial Provision Quota Adjustment"
+    },
+    {
+        "case_type": "official_order_authenticity",
+        "deadline": 3,
+        "description": "Tantangan terhadap pembatasan izin komersial dan biaya operasional pedagang yang diberlakukan di bawah aturan pendudukan.",
+        "documents": [
+            "official_notice",
+            "administrative_report",
+            "tax_record",
+            "contract",
+            "residency_certificate",
+            "personal_letter"
+        ],
+        "id": "CS-24",
+        "requester": {
+            "character_name": "Watanabe Shizuko",
+            "reason": "Mengajukan banding atas pencabutan izin komersial yang mendadak dan biaya perizinan administratif yang tinggi."
+        },
+        "resolution": {
+            "correct_decision": "reject",
+            "explanation": "Pembatasan perizinan mematuhi dekrit pengendalian ekonomi wajib yang dikeluarkan oleh administrasi pendudukan."
+        },
+        "title": "Textile Merchant Licensing Appeal"
+    },
+    {
+        "case_type": "conflicting_official_reports",
+        "deadline": 4,
+        "description": "Laporan mengenai arahan pemeliharaan yang saling bertentangan yang dikeluarkan antara biro industri sipil dan militer.",
+        "documents": [
+            "administrative_report",
+            "company_report",
+            "investigation_report",
+            "official_notice",
+            "inventory_record",
+            "record_summary"
+        ],
+        "id": "CS-25",
+        "requester": {
+            "character_name": "Kobayashi Isamu",
+            "reason": "Mencari kejelasan atas jadwal perbaikan yang saling bertentangan untuk mesin fasilitas vital."
+        },
+        "resolution": {
+            "correct_decision": "accept",
+            "explanation": "Dokumentasi antarbiro mengonfirmasi perintah kerja yang kontradiktif yang memerlukan penyelesaian administratif."
+        },
+        "title": "Industrial Maintenance Directive Conflict"
+    }
+]

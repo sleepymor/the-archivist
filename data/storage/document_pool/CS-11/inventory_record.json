@@ -1,0 +1,38 @@
+{
+    "type": "inventory_record",
+    "fields": {
+      "title": "Kopra Zaiko oyobi Yusō Kiroku (Copra Inventory and Transport Log)",
+      "date": "1942-05-15",
+      "language": "japanese",
+      "issuer": "Balikpapan Shū Shōgyō Bu",
+      "inventory": {
+        "record_number": "IR-1942/MS-22",
+        "institution": "Merchant Association",
+        "location": "Balikpapan Sōko A",
+        "responsible_person": "Haji Abdul Gani"
+      },
+      "items": [
+        {
+          "name": "Kansō Kopra (Dry Copra Sacks)",
+          "category": "Nōsanbutsu Shizai",
+          "quantity": "250 tai (Sacks)",
+          "condition": "Hōchi zumi / Misekō",
+          "location": "Sōko A fukin no kōwan"
+        }
+      ],
+      "transaction": {
+        "type": "Yusō Chientai / Zaiko Hōchi Kiroku",
+        "source": "Haji Abdul Gani no Nōen",
+        "destination": "Balikpapan Shū Sōko"
+      },
+      "remarks": "Yusō senpaku no fusei wariawase ni yori nōsanbutsu ga sōko fukin de hōchi sarete iru koto o kiroku.",
+      "claims": [
+        {
+          "fact": "Zaiko kiroku wa yusō funō ni yori nōsanbutsu ga hōchi sarete ita jijitsu o risshō suru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 130,
+      "is_true": true
+    }
+  }

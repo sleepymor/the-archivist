@@ -1,0 +1,29 @@
+{
+  "type": "ownership_record",
+  "fields": {
+    "title": "Dokumen Kepemilikan Hak Milik Tanah Pertanian",
+    "date": "1942-12-03",
+    "language": "indonesian",
+    "issuer": "Lembaga Registrasi Agraria Distrik Balikpapan",
+    "ownership": {
+      "record_number": "OR-1942/CS-20",
+      "holder": "Siti Rofiah",
+      "acquisition_method": "Pewarisan dan Pendaftaran Sah",
+      "validity_period": "Hak Milik Tetap"
+    },
+    "property_details": {
+      "name": "Perkebunan Produktif Siti Rofiah",
+      "location": "Balikpapan Sektor Pertanian",
+      "description": "Lahan budidaya pertanian dan perkebunan warga"
+    },
+    "verification_status": "Terdaftar secara resmi dalam arsip pertanahan distrik",
+    "claims": [
+      {
+        "fact": "Dokumen kepemilikan mengesahkan hak penuh pemohon atas lahan yang terkena dampak proyek.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

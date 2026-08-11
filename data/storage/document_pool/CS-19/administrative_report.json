@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Laporan Administratif Koreksi Catatan Tempat Tinggal",
+    "date": "1942-11-12",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1942/CS-19",
+      "subject": "Penyelesaian koreksi administrasi kependudukan atas nama Ahmad Dahlan",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Laporan akhir administrasi distrik yang memutuskan untuk menerima permohonan koreksi dan pemulihan catatan kependudukan pemohon.",
+    "findings": [
+      "Catatan administrasi desa dan kesaksian saksi sesepuh menguatkan status tempat tinggal yang berkelanjutan.",
+      "Dokumen kelahiran dan surat keterangan domisili terbukti sah meskipun sempat hilang selama proses pengungsian."
+    ],
+    "recommendations": [
+      "Mengesahkan pemulihan data kependudukan dan menerbitkan dokumen pengakuan resmi dengan status diterima (accept)."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif distrik menetapkan keputusan penerimaan klaim pemulihan data kependudukan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 140,
+    "is_true": true
+  }
+}

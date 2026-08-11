@@ -1,0 +1,38 @@
+{
+  "type": "inventory_record",
+  "fields": {
+    "title": "Pencatatan Inventaris dan Perbedaan Stok Dermaga Industri",
+    "date": "1941-10-02",
+    "language": "indonesian",
+    "issuer": "Administrasi Gudang dan Dermaga Industri Balikpapan",
+    "inventory": {
+      "record_number": "IR-1941/CS-08",
+      "institution": "Dermaga Industri Balikpapan",
+      "location": "Gudang Transit Pelabuhan",
+      "responsible_person": "Muhammad Yasin"
+    },
+    "items": [
+      {
+        "name": "Peti Suku Cadang Mesin Bor",
+        "category": "Logistik Industri",
+        "quantity": "12 peti",
+        "condition": "Utuh / Tersimpan di Gudang B",
+        "location": "Gudang B"
+      }
+    ],
+    "transaction": {
+      "type": "Rekonsiliasi Stok Transit",
+      "source": "Kapal Pengangkut Kolonial",
+      "destination": "Gudang B Dermaga Industri"
+    },
+    "remarks": "Inventaris mencatat bahwa barang yang dilaporkan hilang ternyata mengalami kesalahan pencatatan transit ke gudang sekunder alih-alih pencurian.",
+    "claims": [
+      {
+        "fact": "Catatan inventaris membuktikan barang kargo tidak hilang dicuri melainkan salah ditempatkan dalam transit gudang.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

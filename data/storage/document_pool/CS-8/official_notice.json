@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Pengumuman Resmi Pembersihan Catatan Buruh Pelabuhan",
+    "date": "1941-10-18",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "notice": {
+      "notice_number": "ON-1941/CS-08",
+      "subject": "Pembersihan nama dan pemulihan status buruh pelabuhan dari tuduhan kargo hilang",
+      "recipient": "Muhammad Yasin & Buruh Pelabuhan Balikpapan",
+      "reason": "Berdasarkan verifikasi rekonsiliasi stok dan bukti kesalahan transit administratif."
+    },
+    "content": "Dengan ini diumumkan secara resmi bahwa permohonan catatan pembersihan formal yang diajukan oleh Muhammad Yasin diterima. Seluruh buruh pelabuhan dinyatakan bersih dari segala tuduhan penyalahgunaan kargo setelah terbukti insiden tersebut murni kesalahan administratif transit.",
+    "effective_date": "1941-10-20",
+    "claims": [
+      {
+        "fact": "Pengumuman resmi menyatakan permohonan diterima dan membersihkan nama buruh pelabuhan dari segala tuduhan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}

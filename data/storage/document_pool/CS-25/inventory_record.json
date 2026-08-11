@@ -1,0 +1,38 @@
+{
+  "type": "inventory_record",
+  "fields": {
+    "title": "Kōgyō Kikai oyobi Hoshu Shisetsu Zaiko Kiroku",
+    "date": "1943-03-22",
+    "language": "japanese",
+    "issuer": "Balikpapan Kōgyō Senta Zaiko Bu",
+    "inventory": {
+      "record_number": "IR-1943/CS-25",
+      "institution": "Kōgyō Kanri Senta",
+      "location": "Balikpapan Sōko B",
+      "responsible_person": "Kobayashi Isamu"
+    },
+    "items": [
+      {
+        "name": "Kōgyō Yō Kikai Buhin oyobi Hoshu Zai",
+        "category": "Kikai Shisetsu Shizai",
+        "quantity": "Isshiki",
+        "condition": "Meirei machi / Itiji teishi",
+        "location": "Sōko B"
+      }
+    ],
+    "transaction": {
+      "type": "Hoshu Kiki no Kanri to Tōgō",
+      "source": "Kōgyō Senta",
+      "destination": "Kikai Hoshu Genba"
+    },
+    "remarks": "Fukusō meirei ni yori teitai shite ita kikai buhin no hoshu sagyō ga tōgō meirei ni yori saikai sareru.",
+    "claims": [
+      {
+        "fact": "Zaiko kiroku wa fukusō meirei ni yori teitai shita hoshu kiki no jōtai o shōmei shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

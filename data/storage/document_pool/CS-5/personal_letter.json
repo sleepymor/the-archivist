@@ -1,0 +1,34 @@
+{
+  "type": "personal_letter",
+  "fields": {
+    "title": "Persoonlijke Brief van Tan Keng Hoo aan de Controleur",
+    "date": "1941-11-24",
+    "language": "dutch",
+    "sender": {
+      "name": "Tan Keng Hoo",
+      "location": "Balikpapan",
+      "relationship_to_receiver": "Winkelier tot de Controleur"
+    },
+    "receiver": {
+      "name": "De Heer Controleur te Balikpapan",
+      "location": "Districtskantoor Balikpapan"
+    },
+    "letter": {
+      "greeting": "Weledelgeboren Heer,",
+      "message": "Met de meeste hoogachting verzoek ik u vriendelijk spoed te zetten achter de uitbetaling van de schadevergoeding voor mijn geplunderde winkel, aangezien mijn bedrijfskapitaal ernstig is geschaad en ik niet in staat ben de zaak te heropenen.",
+      "closing": "Hoogachtend, Tan Keng Hoo"
+    },
+    "context": {
+      "purpose": "Verzoek om versnelling van de schadevergoeding na plundering.",
+      "related_event": "Onlusten en vernieling van het handelshuis"
+    },
+    "claims": [
+      {
+        "fact": "Surat pribadi menyampaikan desakan korban agar proses ganti rugi segera diselesaikan.",
+        "importance": "Sedang"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

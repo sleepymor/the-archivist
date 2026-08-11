@@ -1,0 +1,29 @@
+{
+  "type": "record_summary",
+  "fields": {
+    "title": "Ringkasan Arsip Verifikasi Kependudukan dan Kelahiran",
+    "date": "1942-11-18",
+    "language": "indonesian",
+    "issuer": "District Records Department",
+    "record": {
+      "record_number": "RS-1942/CS-19",
+      "record_type": "Komulasi Arsip Kependudukan",
+      "original_document": "Berkas Induk Penduduk dan Catatan Desa"
+    },
+    "subject": "Ringkasan data verifikasi tempat tinggal Ahmad Dahlan",
+    "summary": "Dokumen ini merangkum seluruh bukti catatan kelahiran, surat keterangan domisili, sertifikat kewarganegaraan, dan kesaksian saksi untuk melengkapi pemulihan arsip yang hilang.",
+    "related_documents": [
+      "BR-1942/CS-19",
+      "RES-1942/CS-19",
+      "WS-1942/CS-19"
+    ],
+    "claims": [
+      {
+        "fact": "Ringkasan arsip menyatukan seluruh dokumen pendukung untuk memperkuat validitas pemulihan data kependudukan.",
+        "importance": "Sedang"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

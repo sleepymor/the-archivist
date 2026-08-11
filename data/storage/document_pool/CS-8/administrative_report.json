@@ -1,0 +1,32 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Laporan Administratif Pembersihan Nama Buruh Pelabuhan",
+    "date": "1941-10-12",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1941/CS-08",
+      "subject": "Penyelesaian sengketa manifest kargo dan pemulihan status buruh pelabuhan",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Tinjauan administratif akhir atas investigasi kargo yang membuktikan kesalahan transit administratif alih-alih pencurian.",
+    "findings": [
+      "Seluruh bukti dari inventaris, investigasi, dan laporan perusahaan saling mendukung.",
+      "Muhammad Yasin dan para buruh pelabuhan terbukti tidak bersalah atas tuduhan penyalahgunaan kargo."
+    ],
+    "recommendations": [
+      "Menerima permohonan pemohon untuk membersihkan nama buruh pelabuhan secara resmi.",
+      "Menutup kasus dengan keputusan diterima (accept)."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif memutuskan untuk menerima permohonan dan membersihkan nama buruh dari tuduhan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

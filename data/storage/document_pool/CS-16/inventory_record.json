@@ -1,0 +1,38 @@
+{
+  "type": "inventory_record",
+  "fields": {
+  "title": "Catatan Inventaris Stok Farmasi yang Diambil Alih",
+  "date": "1942-08-05",
+  "language": "indonesian",
+  "issuer": "Gudang Farmasi dan Rumah Sakit Balikpapan",
+  "inventory": {
+    "record_number": "IR-1942/CS-16",
+    "institution": "Apotek & Persediaan Medis Ratna Sianipar",
+    "location": "Balikpapan",
+    "responsible_person": "Ratna Sianipar"
+  },
+  "items": [
+    {
+    "name": "Kina (Quinine) dan Perban Steril",
+    "category": "Persediaan Medis Darurat",
+    "quantity": "Sesuai daftar permintaan transfer darurat",
+    "condition": "Diserahkan untuk keperluan darurat",
+    "location": "Rumah Sakit Umum Balikpapan"
+    }
+  ],
+  "transaction": {
+    "type": "Pengambilan Alih Darurat / Transfer Resmi",
+    "source": "Inventaris Ratna Sianipar",
+    "destination": "Unit Medis Darurat Distrik"
+  },
+  "remarks": "Catatan inventaris merinci barang-barang yang ditarik untuk keperluan darurat berdasarkan tanda terima resmi.",
+  "claims": [
+    {
+    "fact": "Catatan inventaris membuktikan jumlah dan jenis pasokan medis yang diserahkan untuk keperluan darurat.",
+    "importance": "Tinggi"
+    }
+  ],
+  "investigation_score": 0,
+  "is_true": true
+  }
+}

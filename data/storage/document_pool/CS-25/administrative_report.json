@@ -1,0 +1,31 @@
+{
+    "type": "administrative_report",
+    "fields": {
+      "title": "Kōgyō oyobi Gunji Shisetsu Hoshu Shiji no Sai ni kansuru Gyōsei Hōkoku",
+      "date": "1943-03-10",
+      "language": "japanese",
+      "issuer": "Balikpapan Shū Somuka",
+      "report": {
+        "report_number": "AR-1943/CS-25",
+        "subject": "Kobayashi Isamu no uketa mutsunagaru hoshu shiji no fuguai ni kansuru chōsa",
+        "author": "Yamamoto Kenzo",
+        "location": "Balikpapan Kōgyō Senta"
+      },
+      "summary": "Minkan kōgyō bu to gunji kanri bu no aida de hassei shita hoshu meirei no fuguai ni kansuru gyōsei chōsa hōkoku.",
+      "findings": [
+        "Minsei bu to gunji bu no aida no rensa sokushin ni yori, fukusō shita meirei ga kōsei sareta.",
+        "Kobayashi Isamu shi no seikyū wa, fukusō suru meirei no chōsei o motomeru mono de ari datō de aru."
+      ],
+      "recommendations": [
+        "Ryōsha no meirei o tōgō shi, shinseisha no seikyū o ukeireru (accept) koto."
+      ],
+      "claims": [
+        {
+          "fact": "Gyōsei hōkoku wa fukusō suru meirei no sonzai o nintei shi seikyū o ukeireru koto o shōmei shite iru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+}

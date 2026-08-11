@@ -1,0 +1,38 @@
+{
+  "type": "land_record",
+  "fields": {
+    "title": "Catatan Tanah dan Konsesi Wilayah Kehutanan",
+    "date": "1942-07-10",
+    "language": "indonesian",
+    "issuer": "Kantor Agraria dan Pertanahan Kesultanan",
+    "land": {
+      "record_number": "LR-1942/CS-15",
+      "location": "Wilayah Hutan Adat Sektor Pedalaman",
+      "size": "5000 Hektar",
+      "land_type": "Konsesi Kayu Turun-temurun",
+      "boundaries": {
+        "north": "Sungai Besar",
+        "south": "Tanah Ulayat Kesultanan",
+        "east": "Batas Perbukitan",
+        "west": "Kawasan Ekstraksi Kayu Lama"
+      }
+    },
+    "registered_owner": {
+      "name": "Pangeran Aji Mandarsyah",
+      "occupation": "Pemegang Hak Konsesi Kehutanan Tradisional"
+    },
+    "land_status": {
+      "ownership_status": "Hak Konsesi Asli Kesultanan",
+      "previous_owner": "Kesultanan Kutai",
+      "usage": "Zona ekstraksi kayu turun-temurun"
+    },
+    "claims": [
+      {
+        "fact": "Catatan tanah menunjukkan konsesi Kesultanan asli mendahului pemetaan ulang kehutanan negara.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

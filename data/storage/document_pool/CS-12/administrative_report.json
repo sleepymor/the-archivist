@@ -1,0 +1,32 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Laporan Administratif Koreksi Register Pajak Tanah",
+    "date": "1941-11-20",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1941/CS-12",
+      "subject": "Penyelesaian koreksi administratif pajak tanah atas laporan Johanna Maria Jansen",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Laporan akhir distrik memutuskan untuk menerima permohonan koreksi dan memperbaiki data register pajak yang sempat keliru.",
+    "findings": [
+      "Buku pajak tanah kolonial asli membuktikan kekeliruan pencatatan staf setelah reorganisasi arsip.",
+      "Pemohon tidak memiliki tanggungan pajak tambahan seperti yang tercetak dalam register keliru."
+    ],
+    "recommendations": [
+      "Mengesahkan koreksi data register pajak dan menerbitkan pemberitahuan resmi kepada pemohon.",
+      "Menutup berkas kasus dengan status diterima (accept)."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif distrik mengesahkan koreksi kesalahan pencatatan dan menerima permohonan pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

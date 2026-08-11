@@ -1,0 +1,25 @@
+{
+    "type": "official_notice",
+    "fields": {
+      "title": "Sen'i Shōnin no Shōgyō Kyoka Torikeshi ni kansuru Kōshiki Tsūchi",
+      "date": "1943-02-10",
+      "language": "japanese",
+      "issuer": "Balikpapan Shū Shōgyō Bu",
+      "notice": {
+        "notice_number": "ON-1943/CS-24",
+        "subject": "Sen'i shōnin no kyoka torikeshi oyobi kōshō hiyō ni kansuru fusai bōshi tsūchi",
+        "recipient": "Watanabe Shizuko",
+        "reason": "Sen'i kōgyō to keizai tōsei rei ni motozuku shōgyō kyoka no kyūteki torikeshi."
+      },
+      "content": "Kore yori, sen'i shōnin Watanabe Shizuko shi kara no kyoka torikeshi ni kansuru fushin sōsa wa, senjika no kyōsei keizai tōsei reijō ni junkyō shite iru tame kōkyaku kyakka to suru.",
+      "effective_date": "1943-02-15",
+      "claims": [
+        {
+          "fact": "Kōshiki tsūchi wa, kyoka torikeshi ga senjika no keizai tōsei rei ni jukyo shite iru koto o shōmei suru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 130,
+      "is_true": true
+    }
+  }

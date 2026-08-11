@@ -1,0 +1,50 @@
+{
+  "type": "contract",
+  "fields": {
+    "title": "Kontrak Pengerahan Darurat Sarana Angkut Perairan",
+    "date": "1943-01-02",
+    "language": "indonesian",
+    "issuer": "Logistik Militer & Pemilik Perahu",
+    "contract": {
+      "contract_number": "CTR-1943/CS-22",
+      "party_a": "Takahashi Kenji",
+      "party_b": "Logistik Militer Balikpapan",
+      "subject": "Ketentuan pengerahan perahu komersial untuk kebutuhan dinas militer darurat"
+    },
+    "agreement": {
+      "purpose": "Mengatur kompensasi dan penerbitan voucher logistik atas penggunaan perahu komersial.",
+      "terms": [
+        "Perahu dikerahkan untuk kepentingan dinas militer dengan jaminan penggantian atau voucher logistik.",
+        "Pemilik berhak mengajukan klaim setelah penugasan selesai."
+      ],
+      "duration": {
+        "start_date": "1943-01-05",
+        "end_date": "1943-02-05"
+      }
+    },
+    "obligations": {
+      "party_a": [
+        "Menyerahkan perahu untuk digunakan dalam operasional logistik militer."
+      ],
+      "party_b": [
+        "Menyediakan voucher logistik dan kompensasi yang sesuai."
+      ]
+    },
+    "signatures": {
+      "party_a_signed": "Takahashi Kenji",
+      "party_b_signed": "Yamamoto Kenzo",
+      "witnesses": [
+        "Tan Keng Hoo",
+        "Baharuddin"
+      ]
+    },
+    "claims": [
+      {
+        "fact": "Kontrak pengerahan mengesahkan dasar hukum penggunaan perahu komersial oleh pihak militer.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

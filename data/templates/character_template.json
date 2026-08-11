@@ -1,34 +1,8 @@
-{
-	"type": "array",
-	"items": {
-		"type": "object",
-		"properties": {
-			"given_name": {
-				"type": "string"
-			},
-			"family_name": {
-				"type": "string"
-			},
-			"gender": {
-				"type": "string",
-				"enum": [
-					"male",
-                    "female"
-				]
-			},
-			"birth_date": {
-				"type": "string"
-			},
-			"description": {
-				"type": "string"
-			}
-		},
-		"required": [
-			"given_name",
-			"family_name",
-			"gender",
-			"birth_date",
-            "description"
-		]
+	{
+		"birth_date": "",
+		"description": "",
+		"ethnicity": "",
+		"gender": "",
+		"id": "",
+		"name": ""
 	}
-}

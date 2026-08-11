@@ -1,0 +1,36 @@
+[
+  {
+    "type": "personal_letter",
+    "fields": {
+      "title": "Pribadi Surat dari Siti Aminah kepada Keluarga",
+      "date": "1943-08-10",
+      "language": "indonesian",
+      "sender": {
+        "name": "Siti Aminah",
+        "location": "Balikpapan",
+        "relationship_to_receiver": "Guru Sekolah kepada Kerabat"
+      },
+      "receiver": {
+        "name": "Fatimah",
+        "location": "Samarinda"
+      },
+      "letter": {
+        "greeting": "Assalamu'alaikum Kakak tersayang,",
+        "message": "Keadaan di Balikpapan semakin sulit semenjak gedung sekolah tempat saya mengajar diambil alih oleh tentara pendudukan untuk keperluan militer. Kami terpaksa mencari tempat darurat demi kelanjutan anak-anak belajar.",
+        "closing": "Salam takzim dari Siti Aminah."
+      },
+      "context": {
+        "purpose": "Menyampaikan kabar mengenai penggusuran gedung sekolah oleh pihak militer.",
+        "related_event": "Requisition of school property"
+      },
+      "claims": [
+        {
+          "fact": "Surat pribadi menegaskan kondisi penggusuran fasilitas sekolah secara paksa oleh militer.",
+          "importance": "Sedang"
+        }
+      ],
+      "investigation_score": 110,
+      "is_true": true
+    }
+  }
+]

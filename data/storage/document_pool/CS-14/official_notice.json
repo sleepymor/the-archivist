@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Tenpo Kiso no Sonshō Kensa ni kansuru Kōshiki Tsūchi",
+    "date": "1943-03-12",
+    "language": "japanese",
+    "issuer": "Chihō Gyōsei (Balikpapan Shū Chōkan)",
+    "notice": {
+      "notice_number": "ON-1943/CS-14",
+      "subject": "Kōkyō kōji ni yoru ryūshutsu de hassei shita tenpo kiso no hiretsu oyobi shinshoku higai no kensa ni kansuru tsūchi",
+      "recipient": "Liem Sioe Lan",
+      "reason": "Kōkyō jigyō ni kiin suru kōzōteki shōgai ni kansuru baishō seikyū e no taiō."
+    },
+    "content": "Kore yori, chihō chōsa timu wa, kōkyō kōji no ryūshutsu ga gen'in to natte kiso ga shinshoku sareta Liem Sioe Lan shi no tenpo o genchō chōsa shi, sonshō o kakunin suru koto o tsūchi shimasu.",
+    "effective_date": "1943-03-15",
+    "claims": [
+      {
+        "fact": "Kōshiki tsūchi wa, tenpo kiso no sonshō seikyū ni kansuru genchō kensa no jisshi o shōmei shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

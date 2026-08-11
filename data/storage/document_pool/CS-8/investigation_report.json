@@ -1,0 +1,44 @@
+{
+  "type": "investigation_report",
+  "fields": {
+    "title": "Laporan Investigasi Manifest Kargo Hilang di Dermaga",
+    "date": "1941-10-05",
+    "language": "indonesian",
+    "issuer": "Kantor Keamanan Dermaga Industri",
+    "investigation": {
+      "report_number": "INV-1941/CS-08",
+      "investigator": "Inspektur L. de Jong",
+      "department": "Keamanan Pelabuhan",
+      "location": "Dermaga Industri Balikpapan"
+    },
+    "case": {
+      "subject": "Dugaan kehilangan kargo dan tuduhan terhadap buruh pelabuhan",
+      "incident": "Perbedaan selisih stok manifest yang dilaporkan hilang secara misterius",
+      "date_of_incident": "1941-09-28",
+      "involved_people": [
+        "Muhammad Yasin",
+        "L. de Jong"
+      ]
+    },
+    "findings": [
+      "Tidak ditemukan indikasi tindakan pencurian atau niat jahat oleh para buruh pelabuhan.",
+      "Perbedaan stok murni disebabkan oleh kesalahan administratif dalam pencatatan transit ke Gudang B."
+    ],
+    "evidence_reviewed": [
+      "Inventaris Gudang IR-1941/CS-08",
+      "Manifest Pengiriman Asli"
+    ],
+    "conclusion": "Tuduhan penyalahgunaan kargo terhadap buruh pelabuhan terbukti tidak berdasar dan harus dibersihkan.",
+    "recommendations": [
+      "Menerbitkan catatan pembersihan formal bagi Muhammad Yasin dan para buruh pelabuhan."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan investigasi menyimpulkan tidak ada unsur pencurian dan membersihkan nama buruh pelabuhan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}

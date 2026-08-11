@@ -1,0 +1,44 @@
+{
+  "type": "investigation_report",
+  "fields": {
+    "title": "Onderzoeksrapport betreffende de Afwijking in de Brandstofdepotinventaris",
+    "date": "1942-09-10",
+    "language": "dutch",
+    "issuer": "Bureau van Onderzoek en Inspectie",
+    "investigation": {
+      "report_number": "INV-1942/CS-17",
+      "investigator": "Inspecteur L. de Jong",
+      "department": "Inspectie van Brandstofdepots",
+      "location": "Olieopslagdepot Balikpapan"
+    },
+    "case": {
+      "subject": "Onderzoek naar de verschillen in de voorraad van het petroleumdepot",
+      "incident": "Geconstateerde inventarisvariatie en verdamping van brandstof",
+      "date_of_incident": "1942-09-01",
+      "involved_people": [
+        "Idham Chalid",
+        "L. de Jong"
+      ]
+    },
+    "findings": [
+      "De getuigenverklaringen en depotregisters bevestigen dat de variatie werd veroorzaakt door natuurlijke verdamping en goedgekeurde brandstofoverdrachten.",
+      "Er is geen bewijs van verduistering of onregelmatigheden in het beheer."
+    ],
+    "evidence_reviewed": [
+      "Inventarisregister IR-1942/CS-17",
+      "Getuigenverklaring WS-1942/CS-17"
+    ],
+    "conclusion": "De claim van de aanvrager is gegrond en de variatie kan volledig worden verklaard door technische factoren.",
+    "recommendations": [
+      "Goedkeuring verlenen aan de administratieve afschrijving en het verzoek van Idham Chalid accepteren."
+    ],
+    "claims": [
+      {
+        "fact": "Het onderzoeksrapport bevestigt dat de inventarisvariatie te wijten is aan verdamping en goedgekeurde overdrachten.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

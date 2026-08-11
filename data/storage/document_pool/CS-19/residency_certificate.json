@@ -1,0 +1,33 @@
+{
+  "type": "residency_certificate",
+  "fields": {
+    "title": "Surat Keterangan Tempat Tinggal dan Domisili",
+    "date": "1942-11-05",
+    "language": "indonesian",
+    "issuer": "Administrasi Kampung dan Kelurahan Setempat",
+    "registration": {
+      "record_number": "RES-1942/CS-19",
+      "registration_date": "1942-11-03"
+    },
+    "person": {
+      "name": "Ahmad Dahlan",
+      "occupation": "Warga Kampung dan Pengungsi Terdaftar",
+      "family_status": "Menikah dengan tanggungan keluarga"
+    },
+    "residence": {
+      "village": "Kampong Baru / Sektor Pemukiman",
+      "district": "Balikpapan",
+      "description": "Tempat tinggal tetap yang sempat terganggu akibat pengungsian",
+      "duration": "Lebih dari 15 tahun menetap"
+    },
+    "purpose": "Memperbaiki catatan administrasi desa yang hilang untuk anggota keluarga yang mengungsi.",
+    "claims": [
+      {
+        "fact": "Surat keterangan tempat tinggal menguatkan riwayat domisili pemohon yang berkelanjutan di wilayah tersebut.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

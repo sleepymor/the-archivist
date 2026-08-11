@@ -1,0 +1,43 @@
+{
+  "type": "land_record",
+  "fields": {
+    "title": "Uittreksel Pendaftaran Tanah dan Pesisir Tradisional",
+    "date": "1941-09-10",
+    "language": "indonesian",
+    "issuer": "Landsarchief en Grondregister Balikpapan",
+    "registration": {
+      "record_number": "LR-1941/FS-88",
+      "registration_date": "1932-04-15",
+      "registration_type": "Registrasi Hak Pendaratan dan Pesisir Adat"
+    },
+    "land": {
+      "location": "Pesisir Kampong Baroe / Pangkalan Nelayan Balikpapan",
+      "description": "Area pendaratan perahu dan tambat labuh tradisional nelayan pesisir",
+      "size": "± 1,5 Hektare areal pantai",
+      "land_type": "Tanah Ulayat Pesisir / Pendaratan Perahu",
+      "boundaries": {
+        "north": "Konsesi Perusahaan Minyak",
+        "south": "Laut Teluk Balikpapan",
+        "east": "Perairan Lepas",
+        "west": "Perkampungan Nelayan"
+      }
+    },
+    "registered_owner": {
+      "name": "Awang bin Daris (Wakili Komunitas Nelayan)",
+      "occupation": "Nelayan Tradisional"
+    },
+    "land_status": {
+      "ownership_status": "Hak Adat Pesisir dengan Pengakuan Administratif Terbatas",
+      "previous_owner": "Komisariat Adat Pesisir Kutei",
+      "usage": "Pendaratan perahu dan penjemuran hasil tangkapan"
+    },
+    "claims": [
+      {
+        "fact": "Catatan pendaftaran tanah/pesisir memperkuat bukti legalitas lokasi pendaratan dan akses maritim pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 120,
+    "is_true": true
+  }
+}

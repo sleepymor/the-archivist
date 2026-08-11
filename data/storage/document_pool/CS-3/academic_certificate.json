@@ -1,0 +1,41 @@
+{
+  "type": "academic_certificate",
+  "fields": {
+    "title": "Kyōin Menjo Shōsho (Teacher Qualification Certificate)",
+    "date": "1943-05-20",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Chōkan / Kyōiku Bu (District Education Bureau)",
+    "certificate": {
+      "certificate_number": "CERT-1943/ED-88",
+      "school": "Balikpapan Kokumin Gakkō",
+      "certificate_type": "Shūtōka Kyōin Shikaku Shōsho"
+    },
+    "student": {
+      "name": "Siti Aminah",
+      "birth_date": "1911-08-22",
+      "birth_place": "Balikpapan"
+    },
+    "achievement": {
+      "program": "Kokumin Gakkō Kyōin Yōsei Kōshū",
+      "level": "Shūtōka (Primary Instruction)",
+      "completion_date": "1943-05-15",
+      "result": "Gōkaku (Passed and Certified)"
+    },
+    "authority": {
+      "principal_or_head": "Yamamoto Kenzo",
+      "official_signatures": [
+        "Yamamoto Kenzo",
+        "Tanaka Hiroshi"
+      ]
+    },
+    "remarks": "Certificate re-issued under the military occupation administration to verify qualified teaching personnel for public school operations.",
+    "claims": [
+      {
+        "fact": "Sertifikat akademik membuktikan status kualifikasi resmi pemohon sebagai pengajar yang sah di bawah administrasi sekolah.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

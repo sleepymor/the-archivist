@@ -1,0 +1,33 @@
+{
+  "type": "witness_statement",
+  "fields": {
+    "title": "Shōnin Kyōjutsu Sho (Witness Statement on Sanitary Compliance)",
+    "date": "1943-05-08",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Eisei Bu",
+    "witness": {
+      "name": "Baharuddin",
+      "age": "45 sai",
+      "occupation": "Chihō Jūmin Kaikan Kanshi",
+      "address": "Balikpapan Shū"
+    },
+    "statement_subject": {
+      "event": "Utari binti Arsad no dentō ichiba ni okeru eisei kaizen sagyō",
+      "location": "Balikpapan Dentō Ichiba",
+      "date_of_event": "1943-05-01 kara 1943-05-07"
+    },
+    "statement": "Watashi wa shinseisha Utari binti Arsad ga shoki karantina meirei igo, ichiba nai no sōji, shōdoku, oyobi eisei kankyō no tettei teki na kaizen o jisshi shita koto o mokugeki shita.",
+    "witness_signature": {
+      "signed": "Baharuddin",
+      "verified_by": "Tanaka Hiroshi"
+    },
+    "claims": [
+      {
+        "fact": "Shōnin no kyōjutsu wa ichiba no eisei jōtai ga kaizen sareta koto o zisshō suru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

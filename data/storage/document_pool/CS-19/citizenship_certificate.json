@@ -1,0 +1,26 @@
+{
+  "type": "citizenship_certificate",
+  "fields": {
+    "title": "Sertifikat Kewarganegaraan dan Pengakuan Penduduk",
+    "date": "1942-11-08",
+    "language": "indonesian",
+    "issuer": "Kantor Pengawasan Penduduk Distrik Balikpapan",
+    "certificate": {
+      "certificate_number": "CC-1942/CS-19",
+      "holder": "Ahmad Dahlan",
+      "status": "Penduduk Resmi Wilayah Distrik"
+    },
+    "details": {
+      "recognition": "Diakui sebagai warga lokal dengan hak kependudukan penuh di bawah yurisdiksi distrik.",
+      "validity": "Berlaku tetap untuk keperluan administrasi kependudukan."
+    },
+    "claims": [
+      {
+        "fact": "Sertifikat kewarganegaraan menegaskan status hukum pemohon sebagai penduduk sah distrik.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

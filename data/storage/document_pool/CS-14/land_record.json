@@ -1,0 +1,43 @@
+{
+  "type": "land_record",
+  "fields": {
+    "title": "Tochi Tōroku Shō (Land Record)",
+    "date": "1943-03-10",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Minseibu Tochi Ka",
+    "registration": {
+      "record_number": "REG-1943/CS-14",
+      "registration_date": "1943-03-10",
+      "registration_type": "Eigendom Shōmeisho"
+    },
+    "land": {
+      "location": "Balikpapan Shigaichi Shōgyō Chiku",
+      "description": "Shōgyō yō tenpo (Ruko) oyobi sono shikichi",
+      "size": "180 Heihē Mētoru",
+      "land_type": "Shōgyō Yō Takuchi",
+      "boundaries": {
+        "north": "Shidō oyobi kōkyō haisuiro",
+        "south": "Liem Sioe Lan所有 no betsu kukaku",
+        "east": "Shōgyō Dōri",
+        "west": "Ippan Kaoku"
+      }
+    },
+    "registered_owner": {
+      "name": "Liem Sioe Lan (林秀蘭)",
+      "occupation": "Tenponushi oyobi Shōnin"
+    },
+    "land_status": {
+      "ownership_status": "Seishiki Shoyūken (Shōgyō eigyo kyoka fukumu)",
+      "previous_owner": "Nashi (Shoki tōroku)",
+      "usage": "Shōgyō tenpo oyobi kyojū supeesu"
+    },
+    "claims": [
+      {
+        "fact": "Tochi tōroku wa kōkyō kōji ni yoru haisui keikaku fukin ni sonzai suru zaisan no kyōkai to shoyū o shōmei suru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

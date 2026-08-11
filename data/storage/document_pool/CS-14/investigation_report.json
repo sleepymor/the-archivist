@@ -1,0 +1,44 @@
+{
+  "type": "investigation_report",
+  "fields": {
+    "title": "Doboku Kōgaku oyobi Kenchiku Anzen Kensa Hōkoku",
+    "date": "1943-03-22",
+    "language": "japanese",
+    "issuer": "Doboku oyobi Kenchiku Kanshō Ka",
+    "investigation": {
+      "report_number": "INV-1943/CS-14",
+      "investigator": "Kensatsukan L. de Jong",
+      "department": "Doboku Kōgaku Kansa Bu",
+      "location": "Liem Sioe Lan shi no Tenpo, Balikpapan"
+    },
+    "case": {
+      "subject": "Haisui fuguai oyobi tenpo kiso shinshoku no gijutsu chōsa",
+      "incident": "Kōkyō kōji no ryūshutsu sui ga tenpo no kōzō hogo kōzō o sonshō shita",
+      "date_of_incident": "1943-03-05",
+      "involved_people": [
+        "Liem Sioe Lan",
+        "L. de Jong"
+      ]
+    },
+    "findings": [
+      "Kōan to doboku chōsa ni yori, kōkyō kōji ni yoru haisui shisetsu no fuguai ga kōzōteki sonshō o hikiokoshita koto ga kakunin sareta.",
+      "Kiso bu wa kōji chiiki kara no ryūshutsu de hageshiku shinshoku sarete iru."
+    ],
+    "evidence_reviewed": [
+      "Land Record REG-1943/CS-14",
+      "Administrative Report AR-1943/CS-14"
+    ],
+    "conclusion": "Gijutsuteki shōko ni yori kōkyō kōji no kashitsu ga risshō sareta tame, shinseisha no seikyū wa datō de aru.",
+    "recommendations": [
+      "Sumiyaka ni kiso no shūzen to kōkyō haisui no saisekkei o jisshi suru koto."
+    ],
+    "claims": [
+      {
+        "fact": "Chōsa hōkoku wa, kōkyō haisui no fuguai ga kiso sonshō no gen'in dearu koto o gijutsuteki ni kakunin shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Laporan Administratif Akhir Pengawasan Sengketa Upah Perkebunan",
+    "date": "1941-06-28",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1941/PL-22",
+      "subject": "Penyelesaian klaim upah pisah dan mediasi antara Encik Mahmud dan manajemen perkebunan",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Laporan penutup dan rekomendasi resmi dari kantor distrik mengenai penyelesaian sisa hak keuangan mandor Encik Mahmud setelah restrukturisasi perusahaan.",
+    "findings": [
+      "Semua dokumen kontrak kerja, catatan kepegawaian, dan laporan perusahaan telah diverifikasi keabsahannya.",
+      "Pihak manajemen perkebunan menyetujui untuk membayarkan seluruh tunggakan kompensasi sesuai dengan ketentuan yang berlaku."
+    ],
+    "recommendations": [
+      "Menerbitkan surat perintah pencairan dana kompensasi kepada pemohon melalui kas distrik.",
+      "Menutup berkas perkara Kasus 4 (CS-04) dengan status keputusan diterima."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif distrik memutuskan bahwa klaim pemohon sepenuhnya sah dan wajib dibayarkan oleh perusahaan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

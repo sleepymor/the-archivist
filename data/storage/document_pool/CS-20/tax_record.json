@@ -1,0 +1,34 @@
+{
+  "type": "tax_record",
+  "fields": {
+    "title": "Catatan Pajak Bumi dan Pertanian",
+    "date": "1942-12-14",
+    "language": "indonesian",
+    "issuer": "Kantor Pajak Distrik Balikpapan",
+    "tax": {
+      "record_number": "TR-1942/CS-20",
+      "taxpayer": "Siti Rofiah",
+      "tax_type": "Grondrente / Pajak Lahan Pertanian",
+      "tax_period": "1942",
+      "status": "Lunas / Tercatat Resmi"
+    },
+    "property": {
+      "description": "Lahan perkebunan dan pertanian produktif",
+      "location": "Balikpapan Sektor Pertanian"
+    },
+    "payment": {
+      "amount": "f 25,00",
+      "payment_date": "1942-03-15",
+      "payment_method": "Genkin Nōfu / Kontan"
+    },
+    "remarks": "Catatan pajak membuktikan bahwa pemohon senantiasa memenuhi kewajiban fiskal atas tanah pertanian tersebut.",
+    "claims": [
+      {
+        "fact": "Catatan pajak membuktikan kepatuhan pembayaran pajak serta keabsahan status kepemilikan lahan pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

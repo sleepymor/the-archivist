@@ -1,0 +1,44 @@
+{
+  "type": "investigation_report",
+  "fields": {
+  "title": "Laporan Investigasi Penyerahan Pasokan Medis",
+  "date": "1942-08-12",
+  "language": "indonesian",
+  "issuer": "Kantor Keamanan dan Pengawasan Distrik",
+  "investigation": {
+    "report_number": "INV-1942/CS-16",
+    "investigator": "Inspektur L. de Jong",
+    "department": "Pengawasan Administrasi dan Kesehatan",
+    "location": "Balikpapan"
+  },
+  "case": {
+    "subject": "Verifikasi keabsahan penyerahan stok farmasi darurat dari Ratna Sianipar",
+    "incident": "Pengambilan alih pasokan medis untuk krisis darurat kesehatan",
+    "date_of_incident": "1942-08-01",
+    "involved_people": [
+      "Ratna Sianipar",
+      "L. de Jong"
+    ]
+  },
+  "findings": [
+    "Catatan rumah sakit dan tanda terima permintaan resmi memverifikasi transfer pasokan ke staf medis yang berwenang.",
+    "Tidak ditemukan ketidaksesuaian antara barang yang diserahkan dan catatan inventaris."
+  ],
+  "evidence_reviewed": [
+    "Medical Record MR-1942/CS-16",
+    "Inventory Record IR-1942/CS-16"
+  ],
+  "conclusion": "Klaim pemohon sah dan didukung oleh dokumentasi lengkap dari pihak rumah sakit.",
+  "recommendations": [
+    "Segera membayarkan ganti rugi dan mengisi kembali inventaris medis pemohon."
+  ],
+  "claims": [
+    {
+    "fact": "Laporan investigasi mengonfirmasi keabsahan transfer pasokan dan mendukung penuh keputusan penerimaan klaim.",
+    "importance": "Tinggi"
+    }
+  ],
+  "investigation_score": 135,
+  "is_true": true
+  }
+}

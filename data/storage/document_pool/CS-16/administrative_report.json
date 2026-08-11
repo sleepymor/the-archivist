@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+  "title": "Laporan Administratif Penyelesaian Klaim Medis Darurat",
+  "date": "1942-08-15",
+  "language": "indonesian",
+  "issuer": "District Administration (Kontroleur voor Balikpapan)",
+  "report": {
+    "report_number": "AR-1942/CS-16",
+    "subject": "Keputusan akhir penyelesaian klaim kompensasi persediaan medis Ratna Sianipar",
+    "author": "Controleur J. H. van den Bosch",
+    "location": "Balikpapan"
+  },
+  "summary": "Laporan akhir administrasi distrik yang menetapkan keputusan penerimaan (accept) atas klaim penggantian pasokan medis.",
+  "findings": [
+    "Catatan rumah sakit dan tanda terima permintaan resmi memverifikasi transfer pasokan ke staf medis yang berwenang.",
+    "Seluruh dokumen pendukung mulai dari rekam medis hingga laporan investigasi telah lengkap dan valid."
+  ],
+  "recommendations": [
+    "Mengesahkan pencairan dana kompensasi dan pengisian kembali stok inventaris farmasi pemohon dengan status diterima (accept)."
+  ],
+  "claims": [
+    {
+    "fact": "Laporan administratif distrik menetapkan keputusan akhir untuk menerima klaim kompensasi pemohon.",
+    "importance": "Tinggi"
+    }
+  ],
+  "investigation_score": 0,
+  "is_true": true
+  }
+}

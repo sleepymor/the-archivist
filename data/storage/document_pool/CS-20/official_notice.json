@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Pemberitahuan Resmi Peninjauan Rute Jalan dan Keberatan Warga",
+    "date": "1942-12-10",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "notice": {
+      "notice_number": "ON-1942/CS-20",
+      "subject": "Pemberitahuan tindak lanjut keberatan pelebaran jalan di atas lahan pertanian",
+      "recipient": "Siti Rofiah",
+      "reason": "Menanggapi penolakan proyek pelebaran jalan yang memotong lahan perkebunan."
+    },
+    "content": "Dengan ini diberitahukan bahwa keberatan Saudari Siti Rofiah telah diterima, dan pihak distrik akan memberlakukan penyesuaian rute atau memberikan kompensasi formal sesuai catatan kepemilikan tanah.",
+    "effective_date": "1942-12-15",
+    "claims": [
+      {
+        "fact": "Pemberitahuan resmi mengonfirmasi penerimaan keberatan dan penetapan kebijakan kompensasi atau penyesuaian rute.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "medical_certificate",
+  "fields": {
+    "title": "Dentō Kusuri Ichiba Oyobi Chiryōin no Eisei Shikaku Shōsho (Medical and Sanitary Qualification Certificate for Traditional Herbal Market)",
+    "date": "1943-05-10",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Eisei Bu (District Health Bureau)",
+    "certificate": {
+      "certificate_number": "MED-CERT-1943/TR-10",
+      "medical_institution": "Balikpapan Dentō Iryō Shisetsu",
+      "doctor_or_officer": "Tanaka Hiroshi"
+    },
+    "person": {
+      "name": "Utari binti Arsad",
+      "age": "42 sai",
+      "occupation": "Dentō Iyaku Shūninsya (Traditional Herbal Practitioner)",
+      "address": "Balikpapan Shū Kōgai"
+    },
+    "medical_statement": {
+      "purpose": "Karantina shoki gimu kanryō ni tomonau eisei kijun junsyu no kakunin",
+      "condition": "Eisei kensa ni gōkaku shi, shisetsu no eisei jōtai wa ryōkō de aru",
+      "restriction": "Kansenshō bōshi no tame no tsūjō no shidō o junsyu suru koto",
+      "valid_period": "1ka-nen"
+    },
+    "recipient": {
+      "institution": "Balikpapan Shū Chōkan Eisei Ka",
+      "reason": "Dentō ichiba saikai no shinsei"
+    },
+    "remarks": "Shoki no kensa karantina gimu o hatashi, eisei kensa ni gōkaku shita tame shōsho o kōfu suru.",
+    "claims": [
+      {
+        "fact": "Iryō shōsho wa shinseisha ga eisei kijun o mitashite iru koto o shōmei shi, saikai no yōkyū o jijitsu jō sasaeru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

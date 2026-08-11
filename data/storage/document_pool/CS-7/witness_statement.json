@@ -1,0 +1,33 @@
+{
+  "type": "witness_statement",
+  "fields": {
+    "title": "Surat Keterangan Saksi Adat Mengenai Jalur Tangkap Nelayan",
+    "date": "1941-09-05",
+    "language": "indonesian",
+    "issuer": "Dewan Komunitas Adat Pesisir",
+    "witness": {
+      "name": "Haji Salim",
+      "age": "68 tahun",
+      "occupation": "Tokoh Adat & Sesepuh Nelayan",
+      "address": "Kampong Pesisir, Balikpapan"
+    },
+    "statement_subject": {
+      "event": "Penggunaan jalur perairan tradisional oleh leluhur pemohon",
+      "location": "Perairan Pesisir Balikpapan",
+      "date_of_event": "1925 - 1941"
+    },
+    "statement": "Saya menyatakan dengan sesungguhnya bahwa saudara Awang bin Daris beserta kaum keluarganya telah menggunakan wilayah perairan tersebut untuk mencari ikan secara turun-temurun jauh sebelum adanya pemasangan batas pengamanan oleh perusahaan minyak.",
+    "witness_signature": {
+      "signed": "Haji Salim",
+      "verified_by": "Datuk Mangkubumi"
+    },
+    "claims": [
+      {
+        "fact": "Kesaksian sesepuh adat mengonfirmasi penggunaan wilayah perairan secara historis oleh keluarga pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

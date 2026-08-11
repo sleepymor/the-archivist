@@ -1,0 +1,50 @@
+{
+    "type": "contract",
+    "fields": {
+      "title": "Handelsovereenkomst en Graanleveringscontract",
+      "date": "1941-02-10",
+      "language": "dutch",
+      "issuer": "Merchant Association & District Administration",
+      "contract": {
+        "contract_number": "CTR-1941/M-12",
+        "party_a": "La Maddukelleng",
+        "party_b": "Handelsvereniging Balikpapan",
+        "subject": "Levering van rijst en basisvoedingsmiddelen"
+      },
+      "agreement": {
+        "purpose": "Regelgeving omtrent de distributie van graan binnen de regio Zuid- en Oost-Borneo.",
+        "terms": [
+          "Handelaren behouden het recht op volledige compensatie bij eventuele overheidsrequisitie.",
+          "Prijzen worden vastgesteld volgens de koloniale tarieflijst van 1941."
+        ],
+        "duration": {
+          "start_date": "1941-01-01",
+          "end_date": "1941-12-31"
+        }
+      },
+      "obligations": {
+        "party_a": [
+          "Levering van wekelijkse graanquota aan het pakhuis."
+        ],
+        "party_b": [
+          "Garanderen van tijdige betaling en bescherming van de inventaris."
+        ]
+      },
+      "signatures": {
+        "party_a_signed": "La Maddukelleng",
+        "party_b_signed": "H. van der Meer",
+        "witnesses": [
+          "Baharuddin",
+          "Tan Keng Hoo"
+        ]
+      },
+      "claims": [
+        {
+          "fact": "Kontrak perdagangan menjamin hak kompensasi atas inventaris yang direstitusi.",
+          "importance": "Tinggi"
+        }
+      ],
+      "investigation_score": 120,
+      "is_true": true
+    }
+  }

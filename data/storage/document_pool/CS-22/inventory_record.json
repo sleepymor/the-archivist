@@ -1,0 +1,38 @@
+{
+  "type": "inventory_record",
+  "fields": {
+    "title": "Catatan Inventaris dan Pengarahan Perahu Komersial",
+    "date": "1943-01-10",
+    "language": "indonesian",
+    "issuer": "Otoritas Pelabuhan dan Logistik Militer Balikpapan",
+    "inventory": {
+      "record_number": "IR-1943/CS-22",
+      "institution": "Logistik Militer & Otoritas Pelabuhan",
+      "location": "Pelabuhan Balikpapan",
+      "responsible_person": "Takahashi Kenji"
+    },
+    "items": [
+      {
+        "name": "Perahu Angkut Komersial (Motorboot / Perahu Bermotor)",
+        "category": "Sarana Transportasi Air",
+        "quantity": "1 Unit",
+        "condition": "Dikerahkan untuk dinas militer darurat",
+        "location": "Dermaga Militer Utama"
+      }
+    ],
+    "transaction": {
+      "type": "Pengarahan Logistik / Requisition",
+      "source": "Takahashi Kenji",
+      "destination": "Logistik Militer Balikpapan"
+    },
+    "remarks": "Inventaris mencatat pengambilalihan dan pengerahan perahu komersial untuk kebutuhan operasional militer dengan stempel resmi.",
+    "claims": [
+      {
+        "fact": "Catatan inventaris membuktikan pengerahan perahu komersial ke tangan logistik militer.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

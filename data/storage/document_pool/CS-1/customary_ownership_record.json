@@ -1,0 +1,48 @@
+{
+  "type": "customary_ownership_record",
+  "fields": {
+    "title": "Akta van Inheemsch Grondbezit van de Kampong Baroe Dusun",
+    "date": "1941-10-14",
+    "language": "dutch",
+    "issuer": "Traditional Community Council & Controleur voor Balikpapan",
+    "record": {
+      "record_number": "BP-441/Col-19",
+      "record_keeper": "Raden Mas Djojoatmodjo",
+      "community": "Kampong Baroe Inheemsche Erfgenamen Collectief"
+    },
+    "property": {
+      "description": "Inheemsch fruittuindossier (dusun) gelegen nabij de oliewinningsperimeter van de Bataafsche Petroleum Maatschappij.",
+      "location": "Kampong Baroe, Balikpapan",
+      "boundaries": {
+        "north": "Greppelmarkeringslijn van de BPM-landmeter",
+        "south": "Inheemsch Bosch van het Sultanaat",
+        "east": "Baai van Balikpapan",
+        "west": "Koloniale Hoofdweg"
+      }
+    },
+    "ownership": {
+      "family_or_group": "Familiegeslacht van Raden Mas Djojoatmodjo",
+      "recognized_owner": "Raden Mas Djojoatmodjo",
+      "inheritance_history": "Van generatie op generatie overgedragen sinds het regiem van het Sultanaat Kutei, ver vóór de oliepachtovereenkomsten van 1912."
+    },
+    "recognition": {
+      "elders": [
+        "Awang bin Daris",
+        "Datu Labong"
+      ],
+      "witnesses": [
+        "Encik Mahmud",
+        "Haji Abdul Gani"
+      ],
+      "customary_basis": "Adatrecht en Kuteische Inheemsche Grondrechten"
+    },
+    "claims": [
+      {
+        "fact": "De plaatsing van grensmarkeringen door de oliepompbedrijfsuurwerker schendt de inheemse grondgrenzen.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

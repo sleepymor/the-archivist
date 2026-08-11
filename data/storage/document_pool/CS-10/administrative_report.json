@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Dentō Ichiba Teishi Kaijo ni Kansuru Gyōsei Hōkoku (Administrative Report on Lifting Market Closure)",
+    "date": "1943-05-16",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Chōkan Somuka",
+    "report": {
+      "report_number": "AR-GUN-1943/TR-11",
+      "subject": "Utari binti Arsad no shinsei ni yoru dentō ichiba teishi no kaijo chōsa",
+      "author": "Yamamoto Kenzo",
+      "location": "Balikpapan"
+    },
+    "summary": "Karantina shoki no meirei igo, eisei kijun ga mitasareta tame, ichiba teishi shobun o kaijo shi saikai o tokutei suru hōkoku.",
+    "findings": [
+      "Kensa kekka ni yori shinseisha wa subete no eisei kisei o junsyu shite iru koto ga hanmei shita.",
+      "Keizai oyobi chiiki no fukushi no tame ni ichiba no saikai ga datō de aru."
+    ],
+    "recommendations": [
+      "Ichiba no un'yō saikai o kyoka shi, kanshi o keizoku suru."
+    ],
+    "claims": [
+      {
+        "fact": "Gyōsei hōkoku wa kensa kekka ni motoduku saikai no dōtoisei o shiji shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Laporan Administratif Penyelesaian Sengketa Batas Wilayah Pesisir",
+    "date": "1941-09-22",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1941/FS-09",
+      "subject": "Pemeriksaan sengketa batas wilayah keamanan perairan yang diajukan oleh Awang bin Daris",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Tinjauan administratif distrik atas dokumen kepemilikan adat, surat keterangan saksi, dan catatan pendaratan pesisir.",
+    "findings": [
+      "Dokumentasi dewan komunitas adat terbukti autentik dan membuktikan hak penggunaan maritim tradisional yang telah lama berlangsung.",
+      "Pembatasan wilayah keamanan industri minyak terbukti menghalangi akses sah nelayan tradisional."
+    ],
+    "recommendations": [
+      "Menerima klaim pemohon dan menetapkan keputusan untuk membuka akses zona penangkapan ikan.",
+      "Mengarsipkan seluruh berkas sengketa ke dalam register distrik."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif memutuskan untuk menerima klaim pemohon berdasarkan dokumentasi adat yang sah.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

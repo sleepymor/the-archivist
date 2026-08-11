@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Dentō Ichiba Saikai ni Kansuru Shū Chōkan Tsūchi (Official Notice on Traditional Market Reopening)",
+    "date": "1943-05-15",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Chōkan (Gunseibu)",
+    "notice": {
+      "notice_number": "GUN-1943/TR-04",
+      "subject": "Dentō ichiba oyobi chiryōin no saikai kyoka ni tsuite",
+      "recipient": "Utari binti Arsad",
+      "reason": "Eisei kensa no gōkaku oyobi kentei zumi no kisei junsyu ni motozuku."
+    },
+    "content": "Kono tsūchi ni yori, Utari binti Arsad ga kanri suru dentō kusuri ichiba oyobi balai pengobatan no saikai o kyoka suru. Kango eisei kisei o junsyu suru koto ga motomerareru.",
+    "effective_date": "1943-05-18",
+    "claims": [
+      {
+        "fact": "Kōshiki tsūchi wa shinsei no jyuri to ichiba saikai no kyoka o seishiki ni tsūchi shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 140,
+    "is_true": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Laporan Administratif Peninjauan Tarif Bea Pelabuhan",
+    "date": "1941-09-06",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1941/CS-13",
+      "subject": "Penyelidikan atas lonjakan bea pelabuhan dan pembatasan hak sandar kapal pribumi",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Laporan administratif distrik mengenai evaluasi tarif sandar dan keluhan pedagang pesisir terkait kelebihan pungutan.",
+    "findings": [
+      "Ditemukan adanya pengenaan tarif bea pelabuhan yang melebihi ketentuan standar kolonial yang berlaku.",
+      "Kapal-kapal pribumi mengalami pembatasan hak sandar yang tidak sesuai dengan regulasi maritim standar."
+    ],
+    "recommendations": [
+      "Menurunkan kembali tarif bea pelabuhan ke batasan normal sesuai jadwal tarif resmi.",
+      "Memberikan prioritas sandar yang adil bagi pedagang pesisir."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif membuktikan adanya ketidakaturan dan kelebihan pungutan bea pelabuhan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

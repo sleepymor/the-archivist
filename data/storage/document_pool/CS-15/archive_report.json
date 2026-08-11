@@ -1,0 +1,34 @@
+{
+  "type": "archive_report",
+  "fields": {
+    "title": "Laporan Arsip Mengenai Tumpang Tindih Batas Kehutanan",
+    "date": "1942-07-25",
+    "language": "indonesian",
+    "issuer": "District Records Department",
+    "report": {
+      "report_number": "ARCH-1942/CS-15",
+      "author": "J. H. van den Bosch",
+      "subject": "Pemeriksaan arsip historis batas konsesi kayu Pangeran Aji Mandarsyah",
+      "archive_location": "Kantor Arsip Distrik Balikpapan"
+    },
+    "documents_reviewed": [
+      "Peta Konsesi Kesultanan Lama",
+      "Peta Pemetaan Ulang Kehutanan Negara Terbaru"
+    ],
+    "summary": "Pemeriksaan arsip membuktikan bahwa peta kehutanan negara yang baru memasukkan wilayah konsesi sah milik pemohon akibat kesalahan batas tumpang tindih.",
+    "issues_found": [
+      "Ketidaksesuaian koordinat antara peta kehutanan modern dan arsip konsesi Kesultanan asli."
+    ],
+    "recommendations": [
+      "Meninjau ulang batas pemetaan kehutanan dan mengakui konsesi asli pemohon."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan arsip mengonfirmasi terjadinya tumpang tindih akibat pemetaan kehutanan baru yang mengabaikan konsesi lama.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}

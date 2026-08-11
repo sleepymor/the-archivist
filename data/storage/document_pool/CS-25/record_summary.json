@@ -1,0 +1,30 @@
+{
+    "type": "record_summary",
+    "fields": {
+      "title": "Kōgyō Hoshu Meirei Fuguai ni kansuru Dossie Gaiyō",
+      "date": "1943-03-25",
+      "language": "japanese",
+      "issuer": "Balikpapan Shū Jimusho",
+      "record": {
+        "record_number": "RS-1943/CS-25",
+        "record_type": "Dossie Gaiyō to Kettei",
+        "original_document": "Fukusō suru hoshu meirei no shosho"
+      },
+      "subject": "Kobayashi Isamu no seikyū ni kansuru zenmon dokyumento no tōgō",
+      "summary": "Minsei bu to gunji bu no aida no mujun meirei ni kansuru subete no shōko to hōkoku o tōgō shi, seikyū o ukeireru kettei o kōsei suru.",
+      "related_documents": [
+        "AR-1943/CS-25",
+        "CR-1943/CS-25",
+        "INV-1943/CS-25",
+        "ON-1943/CS-25"
+      ],
+      "claims": [
+        {
+          "fact": "Dossie gaiyō wa zenmon dokyumento o tōgō shi seikyū no ukeire o kakutei suru.",
+          "importance": "Naka"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+  }

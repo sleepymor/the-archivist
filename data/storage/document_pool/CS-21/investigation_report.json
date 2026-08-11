@@ -1,0 +1,44 @@
+{
+  "type": "investigation_report",
+  "fields": {
+    "title": "Onderzoeksrapport naar Vermiste Werkplaatsuitrusting",
+    "date": "1942-12-18",
+    "language": "dutch",
+    "issuer": "Bureau van Veiligheid en Inspectie",
+    "investigation": {
+      "report_number": "INV-1942/CS-21",
+      "investigator": "Inspecteur L. de Jong",
+      "department": "Inspectie van Bedrijfseigendommen",
+      "location": "Balikpapan"
+    },
+    "case": {
+      "subject": "Verificatie van verloren gereedschappen van Goh Eng Bian",
+      "incident": "Verlies van professionele gereedschappen na administratieve overgang",
+      "date_of_incident": "1942-11-20",
+      "involved_people": [
+        "Goh Eng Bian",
+        "L. de Jong"
+      ]
+    },
+    "findings": [
+      "Personeelsdossiers en uitgiftebladen bevestigen het eigendom en de aanwezigheid van de gereedschappen in het beveiligde depot.",
+      "Er is geen sprake van opzet of nalatigheid door de aanvrager."
+    ],
+    "evidence_reviewed": [
+      "Employment Record ER-1942/CS-21",
+      "Inventory Record IR-1942/CS-21"
+    ],
+    "conclusion": "De claim is volledig gegrond op basis van de overgelegde documentatie.",
+    "recommendations": [
+      "Het verzoek goedkeuren en compensatie uitkeren."
+    ],
+    "claims": [
+      {
+        "fact": "Het onderzoeksrapport valideert de bewijzen en ondersteunt de toekenning van de compensatie.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "customary_ownership_record",
+  "fields": {
+    "title": "Catatan Kepemilikan Adat Wilayah Pesisir dan Perairan Tangkap",
+    "date": "1941-09-02",
+    "language": "indonesian",
+    "issuer": "Dewan Komunitas Adat Pesisir Balikpapan",
+    "record": {
+      "record_number": "COR-1941/FS-01",
+      "record_keeper": "Datuk Mangkubumi",
+      "community": "Komunitas Nelayan Tradisional Kampong Pesisir"
+    },
+    "property": {
+      "description": "Wilayah tangkapan ikan tradisional dan jalur lintas perahu pesisir",
+      "location": "Perairan Teluk Balikpapan",
+      "boundaries": {
+        "north": "Tanjung Batu Pesisir",
+        "south": "Muara Manggar",
+        "east": "Laut Lepas Selat Makassar",
+        "west": "Garis Pasang Surut Pantai Kampong Baroe"
+      }
+    },
+    "ownership": {
+      "family_or_group": "Keluarga Besar Nelayan Awang bin Daris",
+      "recognized_owner": "Awang bin Daris",
+      "inheritance_history": "Diwariskan secara turun-temurun dari para leluhur penguasa laut adat sejak masa sebelum konsesi kolonial."
+    },
+    "recognition": {
+      "elders": [
+        "Datuk Mangkubumi",
+        "Haji Salim"
+      ],
+      "witnesses": [
+        "Baharuddin",
+        "Encik Mahmud"
+      ],
+      "customary_basis": "Hak ulayat laut dan jalur pelayaran nelayan tradisional berdasarkan hukum adat Kutai dan pesisir."
+    },
+    "claims": [
+      {
+        "fact": "Catatan kepemilikan adat membuktikan hak penguasaan turun-temurun atas zona perairan tangkap yang disengketakan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "type": "company_report",
+    "fields": {
+      "title": "Kōgyō Shisetsu Hoshu Unei Hōkoku",
+      "date": "1943-03-15",
+      "language": "japanese",
+      "issuer": "Nanpō Sangyō Bu Kōgyōka",
+      "report": {
+        "report_number": "CR-1943/CS-25",
+        "company": "Nanpō Sangyō Bu",
+        "author": "Tanaka Hiroshi",
+        "department": "Kōgyō Kanri Bu"
+      },
+      "subject": "Shisetsu hoshu ni kansuru minsei to gunji no meirei fuguai",
+      "operations": {
+        "location": "Balikpapan Kōgyō Senta",
+        "activity": "Kikai hoshu oyobi setsubi un'yō",
+        "production": "Meirei fuguai ni yori itiji teishi",
+        "workforce": "Gijutsu sagyō-in"
+      },
+      "findings": [
+        "Gunji kanri bu to minsei kōgyō bu no meirei ga kyōgō shi, sagyō-in ni kontoran o hikiokoshita.",
+        "Kobayashi Isamu shi no shiji chōsei no yōsei wa jigyō keiei jō kinkyū de aru."
+      ],
+      "financial": {
+        "status": "Chōsei sagyō no tame no yosan tsuika hitsuyō",
+        "notes": "Fukusō meirei no kaisū ni yori hassei shita teitai sonshitsu."
+      },
+      "recommendations": [
+        "Meirei no tōgō to kōgyō hoshu keikaku no saihankō o jisshi suru koto."
+      ],
+      "claims": [
+        {
+          "fact": "Kaisha hōkoku wa futatsu no bukyoku kara no fukusō meirei ga sagyō ni shōgai o kitashita koto o mitomete iru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 135,
+      "is_true": true
+    }
+  }

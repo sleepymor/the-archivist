@@ -1,0 +1,33 @@
+{
+    "type": "residency_certificate",
+    "fields": {
+      "title": "Kyojū oyobi Shōgyō Shōmeisho",
+      "date": "1942-04-15",
+      "language": "japanese",
+      "issuer": "Balikpapan Shū Shimin Ka",
+      "registration": {
+        "record_number": "RES-1942/CS-24",
+        "registration_date": "1942-04-10"
+      },
+      "person": {
+        "name": "Watanabe Shizuko",
+        "occupation": "Sen'i Shōnin",
+        "family_status": "Dokushin"
+      },
+      "residence": {
+        "village": "Balikpapan Shigaichi",
+        "district": "Balikpapan",
+        "description": "Shōgyō tenpo fukin no kyojūchi",
+        "duration": "5-nen ijō"
+      },
+      "purpose": "Shōgyō katsudō to kankei kōsei no kakunin",
+      "claims": [
+        {
+          "fact": "Kyojū shōmeisho wa shinseisha no tenpo to katsudōchi no tōroku o shōmei suru.",
+          "importance": "Naka"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+  }

@@ -1,0 +1,49 @@
+{
+  "type": "contract",
+  "fields": {
+    "title": "Perjanjian Fasilitas Pelabuhan dan Perlengkapan Keselamatan",
+    "date": "1938-06-20",
+    "language": "indonesian",
+    "issuer": "Balikpapan Scheepvaart Maatschappij & Administrasi Pelabuhan Distrik",
+    "contract": {
+      "contract_number": "CTR-1938/BSM-03",
+      "party_a": "Balikpapan Scheepvaart Maatschappij",
+      "party_b": "Administrasi Pelabuhan Distrik",
+      "subject": "Penggunaan dermaga dan penyediaan alat keselamatan bagi buruh pelabuhan"
+    },
+    "agreement": {
+      "purpose": "Pengaturan kondisi kerja yang aman di lingkungan pelabuhan.",
+      "terms": [
+        "Perusahaan wajib menyediakan alat angkat dan bongkar muat yang aman."
+      ],
+      "duration": {
+        "start_date": "1938-07-01",
+        "end_date": "1943-07-01"
+      }
+    },
+    "obligations": {
+      "party_a": [
+        "Pemeliharaan berkala di bawah pengawasan Carel Willem van der Berg."
+      ],
+      "party_b": [
+        "Inspeksi berkala pada lokasi kerja."
+      ]
+    },
+    "signatures": {
+      "party_a_signed": "Carel Willem van der Berg",
+      "party_b_signed": "J. H. van den Bosch",
+      "witnesses": [
+        "Encik Mahmud",
+        "Tan Keng Hoo"
+      ]
+    },
+    "claims": [
+      {
+        "fact": "Carel Willem van der Berg menandatangani klaim bahwa seluruh alat berat telah diperiksa dan bebas dari kerusakan pada tanggal insiden.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 110,
+    "is_true": false
+  }
+}

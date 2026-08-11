@@ -1,0 +1,35 @@
+{
+  "type": "personal_letter",
+  "fields": {
+    "title": "Tenpo Sonshō Shūzen Yōsei ni kansuru Shokan",
+    "date": "1943-03-25",
+    "language": "japanese",
+    "issuer": "Kojin Arubu",
+    "sender": {
+      "name": "Liem Sioe Lan",
+      "location": "Balikpapan Shigaichi",
+      "relationship_to_receiver": "Tenpo Shūnushi kara Controleur e"
+    },
+    "receiver": {
+      "name": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan Chihō Chōkan Bu"
+    },
+    "letter": {
+      "greeting": "Haikei, Controleur Denka,",
+      "message": "Kōkyō kōji no ryūshutsu ni yoru waga tenpo no kiso sonshō to shōgyō katsudō no shōgai ni kan shi, futatabi kōkyū teki na shūzen to baishō o yōsei itashimasu. Sōki no ketsudan o o-negai mōshiagemasu.",
+      "closing": "Keigu, Liem Sioe Lan."
+    },
+    "context": {
+      "purpose": "Kiso shinshoku no shūzen oyobi shōgyō sonshitsu no baishō no sokushin.",
+      "related_event": "Kōkyō haisui kōji"
+    },
+    "claims": [
+      {
+        "fact": "Kojin shokan wa, shinseisha ga kōzōteki shūzen to baishō o chokusetsu yōkyū shite iru koto o shōmei suru.",
+        "importance": "Naka"
+      }
+    ],
+    "investigation_score": 115,
+    "is_true": true
+  }
+}

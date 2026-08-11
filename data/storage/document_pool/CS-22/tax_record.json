@@ -1,0 +1,34 @@
+{
+  "type": "tax_record",
+  "fields": {
+    "title": "Catatan Pajak dan Retribusi Perahu Komersial",
+    "date": "1943-01-18",
+    "language": "indonesian",
+    "issuer": "Kantor Pajak dan Retribusi Pelabuhan Balikpapan",
+    "tax": {
+      "record_number": "TR-1943/CS-22",
+      "taxpayer": "Takahashi Kenji",
+      "tax_type": "Pajak Usaha Perahu Angkut / Retribusi Pelabuhan",
+      "tax_period": "1943",
+      "status": "Lunas / Terdaftar Sah"
+    },
+    "property": {
+      "description": "Perahu angkut komersial perairan",
+      "location": "Pelabuhan Balikpapan"
+    },
+    "payment": {
+      "amount": "f 30,00",
+      "payment_date": "1942-12-10",
+      "payment_method": "Genkin Nōfu / Kontan"
+    },
+    "remarks": "Catatan pajak membuktikan bahwa perahu terdaftar secara legal sebagai sarana angkut komersial sebelum dikerahkan.",
+    "claims": [
+      {
+        "fact": "Catatan pajak membuktikan legalitas kepemilikan dan operasional perahu komersial pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 120,
+    "is_true": true
+  }
+}

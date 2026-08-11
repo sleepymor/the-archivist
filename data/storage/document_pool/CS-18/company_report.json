@@ -1,0 +1,41 @@
+{
+  "type": "company_report",
+  "fields": {
+    "title": "Laporan Internal Perusahaan atas Kecelakaan Kerja",
+    "date": "1942-10-12",
+    "language": "indonesian",
+    "issuer": "Manajemen Pabrik Pengolahan Utama",
+    "report": {
+      "report_number": "CR-1942/CS-18",
+      "company": "Nanpō Sangyō Bu - Sektor Pengolahan",
+      "author": "Tanaka Hiroshi",
+      "department": "Divisi Operasional Pabrik"
+    },
+    "subject": "Evaluasi insiden kegagalan mekanis pada mesin produksi",
+    "operations": {
+      "location": "Pabrik Utama Balikpapan",
+      "activity": "Pengoperasian mesin pabrik dan penanganan insiden",
+      "production": "Sempat dihentikan sementara akibat kerusakan mekanis",
+      "workforce": "Operator pabrik"
+    },
+    "findings": [
+      "Manajemen mengakui adanya keterlambatan dalam jadwal pemeliharaan suku cadang mesin.",
+      "Pihak perusahaan bersedia memproses klaim kompensasi medis bagi pegawai yang terdampak."
+    ],
+    "financial": {
+      "status": "Alokasi anggaran kompensasi medis disetujui",
+      "notes": "Penggantian biaya perawatan ditanggung oleh pihak perusahaan."
+    },
+    "recommendations": [
+      "Memperketat protokol keselamatan kerja dan memenuhi hak kompensasi pegawai."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan perusahaan mengakui adanya kendala pemeliharaan yang memicu insiden kecelakaan kerja.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

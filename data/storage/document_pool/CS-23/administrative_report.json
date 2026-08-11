@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Sangyō Bumon Kyōkyū Wariate Chōsei ni Kansuru Gyōsei Hōkoku",
+    "date": "1943-03-10",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Chōkan Somuka",
+    "report": {
+      "report_number": "AR-1943/CS-23",
+      "subject": "Tanaka Hiroshi no ukeru kōgyōyō kyōkyū wariate fuguai ni kansuru chōsa",
+      "author": "Yamamoto Kenzo",
+      "location": "Balikpapan"
+    },
+    "summary": "Kōgyō bumon ni okeru rōdōsha no saiteki seikatsu suijun o mamoru tame no kyōkyū wariate fuso ni kansuru gyōsei chōsa hōkoku.",
+    "findings": [
+      "Kyōkyū shizai no zaimu kiroku oyobi rōdōsha meibo ni yori, genzai no wariate ga rōdō jin’in ni taishi fujūbun de aru koto ga hanmei shita.",
+      "Shinseisha Tanaka Hiroshi no seikyū wa, rōdōsha no katsudō o iji suru tame ni datō de aru."
+    ],
+    "recommendations": [
+      "Kōgyōyō kyōkyū wariate o zōryō shi, seikatsu kijun o mitasu koto o kyoka suru."
+    ],
+    "claims": [
+      {
+        "fact": "Gyōsei hōkoku wa, kyōkyū wariate ga rōdō jin’in ni taishi fusoku shite ita jijitsu o nintei shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

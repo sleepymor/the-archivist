@@ -1,0 +1,43 @@
+{
+  "type": "land_record",
+  "fields": {
+    "title": "Perceelregistratie en Grondboek uittreksel van Kampong Baroe",
+    "date": "1941-10-14",
+    "language": "dutch",
+    "issuer": "Dutch Colonial Administration (Landsarchief voor Landbouw en Visserij)",
+    "registration": {
+      "record_number": "LR-1941/BP-194",
+      "registration_date": "1912-05-10",
+      "registration_type": "Inheemse Grondgebruiksvergunning / Agrarisch Register"
+    },
+    "land": {
+      "location": "Kampong Baroe, Balikpapan",
+      "description": "Perceel grond bestemd voor traditionele fruittuinen (dusun) grenzend aan het olieerf van de Bataafsche Petroleum Maatschappij.",
+      "size": "± 3,5 Bouw (ca. 2,5 hectare)",
+      "land_type": "Inheemse Cultuurgrond / Dusun",
+      "boundaries": {
+        "north": "Erfafbakening van de Bataafsche Petroleum Maatschappij",
+        "south": "Boschgebied vallende onder het Sultanaat Kutei",
+        "east": "Kustlijn van de Baai van Balikpapan",
+        "west": "Koloniale Verbindingsweg"
+      }
+    },
+    "registered_owner": {
+      "name": "Raden Mas Djojoatmodjo",
+      "occupation": "Plantage-opzichter en Inheems Erfgenaam"
+    },
+    "land_status": {
+      "ownership_status": "Traditioneel erfrecht met koloniale erfpachtnotering",
+      "previous_owner": "Kolektief van Inheemse Oudsten te Kampong Baroe",
+      "usage": "Landbouw en aanplant van vruchtbomen"
+    },
+    "claims": [
+      {
+        "fact": "Catatan pendaftaran tanah membuktikan batas historis dusun telah tercatat sebelum perluasan konsesi minyak.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

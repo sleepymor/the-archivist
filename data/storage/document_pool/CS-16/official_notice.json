@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+  "title": "Pemberitahuan Resmi Penggantian Pasokan Medis Darurat",
+  "date": "1942-08-08",
+  "language": "indonesian",
+  "issuer": "District Administration (Kontroleur voor Balikpapan)",
+  "notice": {
+    "notice_number": "ON-1942/CS-16",
+    "subject": "Pemberitahuan persetujuan klaim penggantian biaya dan pengisian kembali inventaris medis",
+    "recipient": "Ratna Sianipar",
+    "reason": "Menanggapi permohonan kompensasi atas persediaan medis yang diambil alih untuk darurat."
+  },
+  "content": "Dengan ini diberitahukan bahwa klaim penggantian biaya dan pengisian kembali inventaris medis yang diajukan oleh Saudari Ratna Sianipar telah diproses dan disetujui berdasarkan verifikasi catatan rumah sakit.",
+  "effective_date": "1942-08-10",
+  "claims": [
+    {
+    "fact": "Pemberitahuan resmi mengonfirmasi persetujuan penggantian pasokan medis darurat bagi pemohon.",
+    "importance": "Tinggi"
+    }
+  ],
+  "investigation_score": 0,
+  "is_true": true
+  }
+}

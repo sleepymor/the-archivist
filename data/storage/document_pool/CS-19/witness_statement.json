@@ -1,0 +1,25 @@
+{
+  "type": "witness_statement",
+  "fields": {
+    "title": "Pernyataan Kesaksian Sesepuh Kampung",
+    "date": "1942-11-15",
+    "language": "indonesian",
+    "issuer": "Dewan Tokoh Masyarakat dan Sesepuh Kampung",
+    "statement": {
+      "statement_number": "WS-1942/CS-19",
+      "witness_name": "Datuk Mangkubumi",
+      "occupation": "Sesepuh Adat dan Tokoh Masyarakat",
+      "testimony_date": "1942-11-14"
+    },
+    "content": "Dengan ini disaksikan dan dikonfirmasi bahwa Saudara Ahmad Dahlan beserta keluarganya adalah penduduk asli yang telah lama menetap di wilayah ini dan terpaksa mengungsi sementara akibat situasi keamanan.",
+    "relation_to_case": "Menguatkan status tempat tinggal dan kebenaran riwayat keluarga pemohon.",
+    "claims": [
+      {
+        "fact": "Kesaksian sesepuh kampung memvalidasi keberadaan dan kesinambungan tempat tinggal keluarga pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

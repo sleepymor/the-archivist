@@ -1,0 +1,41 @@
+{
+    "type": "company_report",
+    "fields": {
+      "title": "Nanpō Shōgyō Kaisha no Yusō Un'yō Hōkoku (Company Transport Operations Report)",
+      "date": "1942-05-28",
+      "language": "japanese",
+      "issuer": "Nanpō Sangyō Bu Shōgyōka",
+      "report": {
+        "report_number": "CR-1942/MS-08",
+        "company": "Nanpō Sangyō Bu",
+        "author": "Tanaka Hiroshi",
+        "department": "Yusō Kanri Bu"
+      },
+      "subject": "Kopra shukka wariawase chientai no gen'in chōsa",
+      "operations": {
+        "location": "Balikpapan Kōwan Sōko",
+        "activity": "Kopra no shukka oyobi yusō senpaku no wariawase",
+        "production": "Yusō chientai ni yori 30% no genpon",
+        "workforce": "Un'yō sagyō-in"
+      },
+      "findings": [
+        "Yusō senpaku no gunji chōhatsu ni yori minkan kopra no shukka ga teitai shita.",
+        "Haji Abdul Gani no keiyaku bun sho ni okeru yusō gimu wa tatete itta ga, kikan ga kyōkō sareta."
+      ],
+      "financial": {
+        "status": "Songai baishō kin no shiharai hitsuyō",
+        "notes": "Yusō chientai ni yori hassei shita nōsanbutsu no hōchi sonshitsu."
+      },
+      "recommendations": [
+        "Keiyaku kitei ni motozuki tekiō sareta songai baishō o jisshi suru koto."
+      ],
+      "claims": [
+        {
+          "fact": "Kaisha hōkoku wa yusō senpaku no chōhatsu ga keiyaku ihan o hikiokoshita koto o mitomete iru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 135,
+      "is_true": true
+    }
+  }

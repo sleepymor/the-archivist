@@ -1,0 +1,38 @@
+{
+  "type": "inventory_record",
+  "fields": {
+    "title": "Inventarisregister van Vermiste Werkplaatsgereedschappen",
+    "date": "1942-12-10",
+    "language": "dutch",
+    "issuer": "Administratie Bedrijfsdepot Balikpapan",
+    "inventory": {
+      "record_number": "IR-1942/CS-21",
+      "institution": "Bedrijfsdepot en Werkplaats",
+      "location": "Depot Balikpapan",
+      "responsible_person": "Goh Eng Bian"
+    },
+    "items": [
+      {
+        "name": "Professionele handgereedschappen en machineonderdelen",
+        "category": "Werkplaatsuitrusting",
+        "quantity": "Volledige inventarisset",
+        "condition": "Verzonden/Achtergelaten tijdens administratieve overgang",
+        "location": "Beveiligd bedrijfsdepot"
+      }
+    ],
+    "transaction": {
+      "type": "Registratie van Vermiste Uitrusting",
+      "source": "Werkplaats Goh Eng Bian",
+      "destination": "Beheerd Bedrijfsdepot"
+    },
+    "remarks": "Het inventarisregister en de uitgiftebladen verifiëren het rechtmatige bezit van de verloren werkplaatsuitrusting.",
+    "claims": [
+      {
+        "fact": "Het inventarisregister verifieert de aanwezigheid en het verlies van de gereedschappen in het depot.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

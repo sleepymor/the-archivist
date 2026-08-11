@@ -1,0 +1,27 @@
+{
+  "type": "medical_certificate",
+  "fields": {
+    "title": "Sertifikat Medis Cedera Kerja",
+    "date": "1942-10-05",
+    "language": "indonesian",
+    "issuer": "Rumah Sakit Umum Distrik Balikpapan",
+    "certificate": {
+      "certificate_number": "MC-1942/CS-18",
+      "doctor": "Dr. Hendrik van der Meer",
+      "patient": "Willem Frederiksen"
+    },
+    "details": {
+      "diagnosis": "Trauma fisik dan luka parah pada bagian lengan akibat kegagalan mekanis mesin pabrik.",
+      "validity": "Memerlukan istirahat total dan perawatan medis intensif selama pemulihan."
+    },
+    "remarks": "Sertifikat medis mengonfirmasi adanya cedera serius yang diderita saat bekerja.",
+    "claims": [
+      {
+        "fact": "Sertifikat medis mengonfirmasi cedera fisik serius akibat kecelakaan kerja di pabrik.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

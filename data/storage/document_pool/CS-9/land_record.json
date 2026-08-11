@@ -1,0 +1,44 @@
+{
+  "type": "land_record",
+  "fields": {
+    "title": "Uittreksel Kadaster van Betwiste Plantagegronden",
+    "date": "1941-12-08",
+    "language": "dutch",
+    "issuer": "Landsarchief en Grondregister Balikpapan",
+    "registration": {
+      "record_number": "LR-1941/PL-45",
+      "registration_date": "1930-06-01",
+      "registration_type": "Erfpacht Vergunning"
+    },
+    "land": {
+      "location": "Plantage-sector Balikpapan",
+      "description": "Landbouwgrond en verwerkingsfaciliteiten",
+      "size": "250 Hectare",
+      "land_type": "Commerciële Landbouwgrond",
+      "boundaries": {
+        "north": "Staatsbos",
+        "second_north": "",
+        "south": "Hoofdweg District",
+        "east": "Kleine Rivier",
+        "west": "Mijnbouwconcessie"
+      }
+    },
+    "registered_owner": {
+      "name": "Hendrik Jan de Jong",
+      "occupation": "Directeur NV Landbouw Maatschappij"
+    },
+    "land_status": {
+      "ownership_status": "Vervallen verklaard wegens contractbreuk",
+      "previous_owner": "NV Landbouw Maatschappij",
+      "usage": "Gronden zijn formeel ingetrokken door de Kroon"
+    },
+    "claims": [
+      {
+        "fact": "Het kadaster vermeldt dat de erfpacht reeds is ingetrokken wegens contractbreuk, wat het bezitsrecht van de aanvrager tegenspreekt.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 115,
+    "is_true": false
+  }
+}

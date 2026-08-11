@@ -1,0 +1,43 @@
+{
+  "type": "employment_record",
+  "fields": {
+    "title": "Buku Induk dan Catatan Dinas Buruh Pelabuhan",
+    "date": "1941-08-10",
+    "language": "indonesian",
+    "issuer": "Balikpapan Scheepvaart Maatschappij",
+    "employment": {
+      "record_number": "ER-1941/BSM-44",
+      "institution": "Balikpapan Scheepvaart Maatschappij",
+      "employee": "Baharuddin",
+      "position": "Kelasi / Buruh Pelabuhan"
+    },
+    "service_period": {
+      "start_date": "1938-07-01",
+      "end_date": "1941-08-01",
+      "status": "Non-Aktif / Tercatat Mangkir"
+    },
+    "work_details": {
+      "department": "Dinas Pelabuhan dan Pelayaran",
+      "location": "Pelabuhan Balikpapan",
+      "duties": [
+        "Pekerjaan bongkar muat pelabuhan"
+      ]
+    },
+    "attendance": {
+      "attendance_status": "Buruk, tercatat tidak hadir tanpa izin pada tanggal klaim kecelakaan",
+      "remarks": "Carel Willem van der Berg mencatat bahwa pekerja mangkir sebelum jam kerja dimulai."
+    },
+    "payment_history": {
+      "payment_status": "Ditangguhkan akibat pelanggaran disiplin",
+      "last_recorded_payment": "1941-07-18"
+    },
+    "claims": [
+      {
+        "fact": "Catatan absensi yang disahkan oleh Carel Willem van der Berg menyatakan pekerja mangkir, bertentangan dengan klaim cedera kerja.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 115,
+    "is_true": false
+  }
+}

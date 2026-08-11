@@ -1,0 +1,32 @@
+{
+  "type": "ownership_record",
+  "fields": {
+    "title": "Akte van Eigendom en Erfpacht van Particuliere Plantage",
+    "date": "1941-12-05",
+    "language": "dutch",
+    "issuer": "Landsarchief en Grondregister Balikpapan",
+    "record": {
+      "record_number": "OR-1941/PL-09",
+      "holder": "Hendrik Jan de Jong",
+      "entity": "NV Landbouw Maatschappij Balikpapan"
+    },
+    "property": {
+      "description": "Particuliere plantagegronden en administratieve gebouwen",
+      "location": "Plantage-sector Balikpapan",
+      "size": "250 Hectare"
+    },
+    "ownership": {
+      "acquisition_date": "1930-05-12",
+      "status": "Ingetrokken / Betwist door illegale overname",
+      "transfer_history": "De eigendomstitel is door het district ongeldig verklaard op basis van vermeende onregelmatigheden in de concessie."
+    },
+    "claims": [
+      {
+        "fact": "De eigendomsakte wordt door de autoriteiten als ongeldig beschouwd, wat in directe contardictie is met de claim van de aanvrager op rechtmatig bezit.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 110,
+    "is_true": false
+  }
+}

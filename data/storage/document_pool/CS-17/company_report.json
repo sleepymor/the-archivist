@@ -1,0 +1,41 @@
+{
+  "type": "company_report",
+  "fields": {
+    "title": "Bedrijfs- en Operationeel Verslag Petroleumdepot",
+    "date": "1942-09-20",
+    "language": "dutch",
+    "issuer": "Bataafsche Petroleum Maatschappij (Operationele Afdeling)",
+    "report": {
+      "report_number": "CR-1942/CS-17",
+      "company": "BPM / District Brandstofbeheer",
+      "author": "Tanaka Hiroshi",
+      "department": "Afdeling Opslag en Distributie"
+    },
+    "subject": "Operationele analyse van brandstofverliezen door opslag",
+    "operations": {
+      "location": "Petroleumdepot Balikpapan",
+      "activity": "Opslag en overdracht van geraffineerde petroleum",
+      "production": "Normale operationele marge met acceptabele verdampingslimieten",
+      "workforce": "Depotpersoneel onder leiding van Idham Chalid"
+    },
+    "findings": [
+      "De bedrijfsanalyse toont aan dat de verliezen binnen de technische normen vallen voor tropische brandstofopslag.",
+      "Overdrachten zijn correct geregistreerd in de bedrijfsboeken."
+    ],
+    "financial": {
+      "status": "Geen financieel tekort of fraude gedetecteerd",
+      "notes": "Variatie is puur technisch van aard."
+    },
+    "recommendations": [
+      "Vrijgave van de verantwoordelijke functionaris en goedkeuring van de administratieve correctie."
+    ],
+    "claims": [
+      {
+        "fact": "Het bedrijfsverslag bevestigt dat de gerapporteerde verliezen binnen de normale operationele marges vallen.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}
