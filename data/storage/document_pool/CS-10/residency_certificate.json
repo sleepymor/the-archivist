@@ -1,0 +1,33 @@
+{
+  "type": "residency_certificate",
+  "fields": {
+    "title": "Kyojū Shōmeisho (Certificate of Residency)",
+    "date": "1943-04-20",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Kōgai Chōson Kai",
+    "registration": {
+      "record_number": "RES-1943/TR-02",
+      "registration_date": "1943-04-18"
+    },
+    "person": {
+      "name": "Utari binti Arsad",
+      "occupation": "Dentō Iyaku Shūninsya",
+      "family_status": "Kishū (Single / Independent Household)"
+    },
+    "residence": {
+      "village": "Balikpapan Shū Kōgai",
+      "district": "Balikpapan",
+      "description": "Dentō ichiba fukin no kōkyō zyūkyo",
+      "duration": "10-nen ijō"
+    },
+    "purpose": "Eisei chōsa oyobi ichiba un'yō no shikaku kakunin",
+    "claims": [
+      {
+        "fact": "Kyojū shōmeisho wa shinseisha no chiiki ni okeru tōroku to kyojū jittai o shōmei suru.",
+        "importance": "Naka"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

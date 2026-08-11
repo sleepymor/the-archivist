@@ -1,0 +1,26 @@
+{
+  "type": "employment_record",
+  "fields": {
+    "title": "Catatan Kepegawaian Willem Frederiksen",
+    "date": "1942-10-01",
+    "language": "indonesian",
+    "issuer": "Departemen Kepegawaian Pabrik Pengolahan",
+    "employment": {
+      "record_number": "ER-1942/CS-18",
+      "employee_name": "Willem Frederiksen",
+      "position": "Operator Mesin Pabrik",
+      "department": "Bagian Produksi dan Pemeliharaan",
+      "start_date": "1939-04-12"
+    },
+    "status": "Aktif bekerja sebelum insiden kegagalan peralatan",
+    "remarks": "Catatan menunjukkan rekam jejak kerja yang baik dan tanpa pelanggaran.",
+    "claims": [
+      {
+        "fact": "Catatan kepegawaian membuktikan status sah pemohon sebagai operator mesin pabrik.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 120,
+    "is_true": true
+  }
+}

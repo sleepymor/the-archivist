@@ -1,0 +1,25 @@
+{
+  "type": "witness_statement",
+  "fields": {
+    "title": "Getuigenverklaring betreffende Depotvoorraad",
+    "date": "1942-09-14",
+    "language": "dutch",
+    "issuer": "District Rechtbank en Onderzoekscommissie",
+    "statement": {
+      "statement_number": "WS-1942/CS-17",
+      "witness_name": "Encik Mahmud",
+      "occupation": "Toezichthouder Opslag en Logistiek",
+      "testimony_date": "1942-09-13"
+    },
+    "content": "Hierbij wordt verklaard dat de geobserveerde vermindering in de brandstoftanks te wijten is aan de langdurige hitte die leidde tot verdamping, alsmede aan officieel overgedragen hoeveelheden ten behoeve van regionale faciliteiten.",
+    "relation_to_case": "Bevestiging van de technische oorzaken achter de afwijking in het depot.",
+    "claims": [
+      {
+        "fact": "De getuigenverklaring ondersteunt de uitleg dat verdamping en officiële overdrachten de oorzaak zijn van het tekort.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

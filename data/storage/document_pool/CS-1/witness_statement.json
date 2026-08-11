@@ -1,0 +1,33 @@
+{
+  "type": "witness_statement",
+  "fields": {
+    "title": "Getuigenverklaring van Inheemsch Getuige betreffende Grondinbreuk",
+    "date": "1941-10-14",
+    "language": "dutch",
+    "issuer": "Security Office (Plaatselijke Politie)",
+    "witness": {
+      "name": "Awang bin Daris",
+      "age": "53",
+      "occupation": "Kampong-oudste / Vissershoofd",
+      "address": "Kampong Baroe, Balikpapan"
+    },
+    "statement_subject": {
+      "event": "Plaatsing van graaf- en grenspalen door BPM-landmeters nabij de traditionele fruittuinen",
+      "location": "Kampong Baroe perimeter",
+      "date_of_event": "1941-10-10"
+    },
+    "statement": "Ik verklaar hierbij naar waarheid dat op de tiende dag van oktober 1941 landmeters van de olieonderneming zonder toestemming van de lokale erfgenamen greppels hebben gegraven en palen hebben geslagen binnen de traditionele grenzen van de dusun die al tientallen jaren door de familie van Raden Mas Djojoatmodjo worden beheerd.",
+    "witness_signature": {
+      "signed": "Awang bin Daris",
+      "verified_by": "Controleur voor Balikpapan"
+    },
+    "claims": [
+      {
+        "fact": "De landmeters hebben markeringen geplaatst op grond in doorlopend traditioneel gebruik.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 115,
+    "is_true": true
+  }
+}

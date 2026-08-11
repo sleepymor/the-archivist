@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Officiële Kennisgeving betreffende Opschorting van Grondgravingen te Kampong Baroe",
+    "date": "1941-10-14",
+    "language": "dutch",
+    "issuer": "District Administration (Controleur voor Balikpapan)",
+    "notice": {
+      "notice_number": "ON-1941/BP-05",
+      "subject": "Tijdelijke bouwstop en inspectie op de betwiste grondgrens",
+      "recipient": "Bataafsche Petroleum Maatschappij & Raden Mas Djojoatmodjo",
+      "reason": "Naar aanleiding van het ingediende bezwaar en het administratief onderzoek over de inheemse dusun."
+    },
+    "content": "Bij deze wordt bekendgemaakt dat alle graafwerkzaamheden en de aanleg van nieuwe grensmarkeringen door de olieonderneming nabij de percelen van Kampong Baroe met onmiddellijke ingang tijdelijk worden opgeschort in afwachting van de definitieve beoordeling door het districtsbureau en de plaatselijke politie.",
+    "effective_date": "1941-10-14",
+    "claims": [
+      {
+        "fact": "Pemerintah distrik memerintahkan penghentian sementara aktivitas survei dan penggalian di zona sengketa.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

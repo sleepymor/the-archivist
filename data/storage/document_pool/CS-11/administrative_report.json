@@ -1,0 +1,31 @@
+{
+    "type": "administrative_report",
+    "fields": {
+      "title": "Kopra Yusō Ihō ni Kansuru Gyōsei Hōkoku (Administrative Report on Copra Transport Breach)",
+      "date": "1942-05-25",
+      "language": "japanese",
+      "issuer": "Balikpapan Shū Chōkan Somuka",
+      "report": {
+        "report_number": "AR-1942/MS-14",
+        "subject": "Haji Abdul Gani no yusō keiyaku ihan ni kansuru chōsa",
+        "author": "Yamamoto Kenzo",
+        "location": "Balikpapan"
+      },
+      "summary": "Haikei yusō keiyaku ni motozuku wariawase ga jisshi sarezu, nōsanbutsu ga hōchi sareta mondai ni kansuru gyōsei chōsa hōkoku.",
+      "findings": [
+        "Haikyō shisetsu no teishi to yusō senpaku no fuzoku ni yori keiyaku ihō ga hassei shita.",
+        "Shinseisha no seikyū wa keiyaku sho oyobi zaiko kiroku ni yori kanzen ni sata sarete iru."
+      ],
+      "recommendations": [
+        "Kopra no yusō keiyaku fushitsu ni tai suru songai baishō no shiharai o kyoka suru."
+      ],
+      "claims": [
+        {
+          "fact": "Gyōsei hōkoku wa yusō keiyaku no ihan to songai no jijitsu o nintei shite iru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+  }

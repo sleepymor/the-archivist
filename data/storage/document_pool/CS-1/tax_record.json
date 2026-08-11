@@ -1,0 +1,34 @@
+{
+  "type": "tax_record",
+  "fields": {
+    "title": "Landrente Belasting Ontvangstbewijs voor Kampong Baroe",
+    "date": "1941-10-14",
+    "language": "dutch",
+    "issuer": "District Administration (Controleur voor Balikpapan)",
+    "tax": {
+      "record_number": "LR-1941/BP-88",
+      "taxpayer": "Raden Mas Djojoatmodjo",
+      "tax_type": "Landrente (Grondbelasting)",
+      "tax_period": "1941",
+      "status": "Betaald"
+    },
+    "property": {
+      "description": "Perkebunan buah leluhur (dusun) di sektor Kampong Baroe",
+      "location": "Kampong Baroe, Balikpapan"
+    },
+    "payment": {
+      "amount": "f 12,50 (Twaalf gulden en vijftig cent)",
+      "payment_date": "1941-03-15",
+      "payment_method": "Kontant aan het Districtskantoor"
+    },
+    "remarks": "Ontvangstbewijs uitgegeven ten behoeve van de grondrenteheffing met het officiële stempel van de Resident van Zuid- en Oost-Afdeeling van Borneo.",
+    "claims": [
+      {
+        "fact": "Pajak tanah telah dibayar lunas untuk tahun fiskal berjalan atas bidang tanah yang disengketakan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

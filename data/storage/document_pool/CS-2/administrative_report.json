@@ -1,0 +1,32 @@
+{
+    "type": "administrative_report",
+    "fields": {
+      "title": "Administratief Onderzoeksrapport over Pakhuisrekwisitie",
+      "date": "1941-11-12",
+      "language": "dutch",
+      "issuer": "District Administration",
+      "report": {
+        "report_number": "AR-1941/BP-42",
+        "subject": "Verificatie van ingediende vorderingen door La Maddukelleng",
+        "author": "Controleur J. H. van den Bosch",
+        "location": "Balikpapan"
+      },
+      "summary": "Een administratief overzicht van de vordering van graanvoorraden toebehorende aan de Buginese handelaar La Maddukelleng.",
+      "findings": [
+        "De inventarislijst komt exact overeen met de hoeveelheid overgedragen goederen in het pakhuis.",
+        "Er is tot op heden geen betalingsbewijs of schadeloosstelling verstrekt aan de eigenaar."
+      ],
+      "recommendations": [
+        "Goedkeuring van de compensatiebetaling op basis van het geldende contract.",
+        "Archivering van de claim in het districtsregister."
+      ],
+      "claims": [
+        {
+          "fact": "Laporan administratif mengonfirmasi bahwa ganti rugi belum dibayarkan kepada pedagang.",
+          "importance": "Tinggi"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+  }

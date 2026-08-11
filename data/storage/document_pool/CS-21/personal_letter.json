@@ -1,0 +1,35 @@
+{
+  "type": "personal_letter",
+  "fields": {
+    "title": "Persoonlijk Verzoek om Vergoeding voor Vermist Gereedschap",
+    "date": "1942-12-22",
+    "language": "dutch",
+    "issuer": "Familie- en Persoonlijk Archief",
+    "sender": {
+      "name": "Goh Eng Bian",
+      "location": "Balikpapan",
+      "relationship_to_receiver": "Aanvrager aan de Controleur"
+    },
+    "receiver": {
+      "name": "Controleur J. H. van den Bosch",
+      "location": "Districtskantoor Balikpapan"
+    },
+    "letter": {
+      "greeting": "Weledelgeboren Heer Controleur,",
+      "message": "Hierbij verzoek ik u vriendelijk over te gaan tot vergoeding van mijn professionele gereedschappen en machines welke destijds in het bedrijfsdepot zijn achtergebleven en beveiligd tijdens de overgang van de faciliteiten.",
+      "closing": "Met hoogachting, Goh Eng Bian."
+    },
+    "context": {
+      "purpose": "Verzoek om financiële compensatie voor achtergelaten werkplaatsuitrusting.",
+      "related_event": "Overgang en beveiliging van het bedrijfsdepot"
+    },
+    "claims": [
+      {
+        "fact": "De persoonlijke brief toont de directe aanvraag en motivatie van de eigenaar voor schadeloosstelling.",
+        "importance": "Middel"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

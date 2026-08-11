@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Pemberitahuan Resmi Penyesuaian Bea Pelabuhan dan Hak Sandar",
+    "date": "1941-09-02",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "notice": {
+      "notice_number": "ON-1941/CS-13",
+      "subject": "Pemberitahuan banding bea pelabuhan dan peraturan sandar kapal pribumi",
+      "recipient": "Baharuddin (Perwakilan Pedagang Pesisir)",
+      "reason": "Menanggapi permohonan peninjauan ulang atas lonjakan tarif bea pelabuhan."
+    },
+    "content": "Dengan ini diberitahukan bahwa permohonan banding atas bea pelabuhan yang diajukan oleh saudara Baharuddin telah diterima untuk ditinjau lebih lanjut oleh kantor administrasi distrik.",
+    "effective_date": "1941-09-05",
+    "claims": [
+      {
+        "fact": "Pemberitahuan resmi mengonfirmasi penerimaan berkas banding bea pelabuhan dari pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

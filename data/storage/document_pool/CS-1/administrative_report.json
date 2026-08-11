@@ -1,0 +1,32 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Administratief Rapport betreffende het Grondgeschil te Kampong Baroe",
+    "date": "1941-10-14",
+    "language": "dutch",
+    "issuer": "District Administration (Controleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1941/BP-19",
+      "subject": "Onderzoek naar de klacht van Raden Mas Djojoatmodjo over perceelgrenzen",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Een voorlopig administratief overzicht naar aanleiding van het bezwaar ingediend door de heer Raden Mas Djojoatmodjo tegen de grensuitzetting door de Bataafsche Petroleum Maatschappij.",
+    "findings": [
+      "De landmeetkundige markeringen van de BPM overlappen gedeeltelijk met traditioneel beheerde vruchtenbussen (dusun).",
+      "De erfgenamen tonen overtuigende historische banden aan die teruggaan tot het tijdperk van het Sultanaat Kutei."
+    ],
+    "recommendations": [
+      "Opschorting van verdere graafwerkzaamheden door de olieonderneming in de betwiste zone tot nader overleg.",
+      "Overdracht van het dossier aan de Plaatselijke Politie voor verdere verificatie van de getuigenverklaringen."
+    ],
+    "claims": [
+      {
+        "fact": "Administratieve stukken bevestigen de noodzaak van een grensherziening tussen de onderneming en de lokale bewoners.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

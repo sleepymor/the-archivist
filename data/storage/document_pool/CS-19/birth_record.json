@@ -1,0 +1,28 @@
+{
+  "type": "birth_record",
+  "fields": {
+    "title": "Catatan Kelahiran dan Pendaftaran Anggota Keluarga",
+    "date": "1942-11-01",
+    "language": "indonesian",
+    "issuer": "Kantor Catatan Sipil dan Kependudukan Balikpapan",
+    "birth": {
+      "record_number": "BR-1942/CS-19",
+      "child_name": "Ahmad Dahlan (Pendaftaran Keluarga Mengungsi)",
+      "birth_date": "1915-05-12",
+      "birth_place": "Balikpapan",
+      "parents": {
+        "father": "Haji Dahlan",
+        "mother": "Siti Aminah"
+      }
+    },
+    "status": "Terdaftar secara sah dalam arsip kependudukan kolonial",
+    "claims": [
+      {
+        "fact": "Catatan kelahiran membuktikan keabsahan asal-usul dan identitas pemohon di wilayah kota.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

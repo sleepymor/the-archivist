@@ -1,0 +1,29 @@
+{
+  "type": "record_summary",
+  "fields": {
+    "title": "Dossieroverzicht van Brandstofdepot Onderzoek",
+    "date": "1942-09-18",
+    "language": "dutch",
+    "issuer": "District Archief en Administratie",
+    "record": {
+      "record_number": "RS-1942/CS-17",
+      "record_type": "Overzicht van Onderzoeksdossiers",
+      "original_document": "Diverse depot- en onderzoeksrapporten"
+    },
+    "subject": "Samenvatting van de bewijsstukken rondom de petroleumdepot afwijking",
+    "summary": "Dit overzicht combineert de bevindingen van het onderzoeksrapport, het inventarisregister en de getuigenverklaring ten behoeve van de besluitvorming.",
+    "related_documents": [
+      "INV-1942/CS-17",
+      "IR-1942/CS-17",
+      "WS-1942/CS-17"
+    ],
+    "claims": [
+      {
+        "fact": "Het dossieroverzicht brengt alle bewijzen samen die de juistheid van de verklaring van de aanvrager staven.",
+        "importance": "Middel"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -127,7 +127,7 @@ func _on_generation_finished(generated_text: String) -> void:
 	if world_year >= 1942 and world_year <= 1945:
 		doc_language = "Japanese Romaji"
 	elif world_year < 1942:
-		doc_language = "Nederlands"
+		doc_language = "dutch"
 
 	var doc_entry = _load_document_template(dtype)
 	var rng = RandomNumberGenerator.new()

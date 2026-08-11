@@ -1,0 +1,44 @@
+{
+    "type": "investigation_report",
+    "fields": {
+      "title": "Kōgyō Meirei Fuguai ni kansuru Chōsa Hōkoku",
+      "date": "1943-03-18",
+      "language": "japanese",
+      "issuer": "Balikpapan Kansa Bu",
+      "investigation": {
+        "report_number": "INV-1943/CS-25",
+        "investigator": "Kensatsukan L. de Jong",
+        "department": "Gyōsei Kansa Bu",
+        "location": "Balikpapan"
+      },
+      "case": {
+        "subject": "Fukusō suru hoshu meirei ni kansuru chōsa",
+        "incident": "Minsei bu to gunji bu no aida no meirei no mujun ga kōgyō kikai no hoshu ni eikyō o ataeta",
+        "date_of_incident": "1943-03-01",
+        "involved_people": [
+          "Kobayashi Isamu",
+          "L. de Jong"
+        ]
+      },
+      "findings": [
+        "Anbiro kan no bunsho o kenshō shita kekka, fukusō suru meirei ga jissai ni hassō sarete ita koto ga hanmei shita.",
+        "Kobayashi Isamu shi no seikyū wa kōgyō kasei no tame ni zettai ni hitsuyō de aru."
+      ],
+      "evidence_reviewed": [
+        "Administrative Report AR-1943/CS-25",
+        "Company Report CR-1943/CS-25"
+      ],
+      "conclusion": "Bukyoku kan no bunsho fuguai ga kakunin sareta tame, seikyū o ukeireru (accept) koto ga datō de aru.",
+      "recommendations": [
+        "Sumiyaka ni hoshu meirei o tōgō shi, sagyō o saikai sa seru koto."
+      ],
+      "claims": [
+        {
+          "fact": "Chōsa hōkoku wa anbiro kan no fukusō meirei o shin'yō shi, seikyū o ukeireru koto o shōmei shite iru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+  }

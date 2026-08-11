@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Administratief Eindrapport Compensatie Verlies",
+    "date": "1942-12-20",
+    "language": "dutch",
+    "issuer": "District Administratie (Controleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1942/CS-21",
+      "subject": "Afhandeling van de claim van Goh Eng Bian voor werkplaatsgereedschap",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Het administratieve eindrapport waarin wordt geconcludeerd dat de compensatie voor de verloren gereedschappen moet worden toegekend.",
+    "findings": [
+      "Dienstverbandregisters en inventarislijsten tonen afdoende aan dat de gereedschappen eigendom waren van de aanvrager en in het depot zijn achtergebleven.",
+      "Besluit: Goedkeuren (accept)."
+    ],
+    "recommendations": [
+      "Overgaan tot uitbetaling van de vergoeding en sluiting van het dossier."
+    ],
+    "claims": [
+      {
+        "fact": "Het administratieve eindrapport bevestigt het besluit om de compensatie toe te kennen.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 140,
+    "is_true": true
+  }
+}

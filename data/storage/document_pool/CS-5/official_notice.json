@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Officiële Kennisgeving betreffende Schadevergoeding en Openbare Orde",
+    "date": "1941-11-22",
+    "language": "dutch",
+    "issuer": "District Administration & Security Office",
+    "notice": {
+      "notice_number": "ON-1941/CH-09",
+      "subject": "Behandeling van schadedossiers voor getroffen handelshuizen",
+      "recipient": "Tan Keng Hoo",
+      "reason": "Naar aanleiding van de inspectie van plunderingen en vernielingen aan de Hoofdstraat."
+    },
+    "content": "Hierbij wordt kennisgegeven dat het ingediende schadedossier van de heer Tan Keng Hoo in behandeling is genomen door het districtsbureau in samenwerking met de plaatselijke politie ter vaststelling van de compensatie.",
+    "effective_date": "1941-11-25",
+    "claims": [
+      {
+        "fact": "Pemberitahuan resmi mengonfirmasi penerimaan berkas klaim kerusakan properti komersial.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

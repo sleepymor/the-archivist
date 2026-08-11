@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Officiële Kennisgeving van Afwijzing en Onregelmatigheid",
+    "date": "1941-12-20",
+    "language": "dutch",
+    "issuer": "District Administration (Controleur voor Balikpapan)",
+    "notice": {
+      "notice_number": "ON-1941/PL-11",
+      "subject": "Definitieve afwijzing van de claim wegens tegenstrijdige en ongeldige bescheiden",
+      "recipient": "Hendrik Jan de Jong",
+      "reason": "Gebleken onregelmatigheden, ontbrekende archiefregistratie en fiscale wanbetaling."
+    },
+    "content": "Hierbij wordt officieel bekendgemaakt dat het verzoek en het beroep van de heer Hendrik Jan de Jong volledig worden afgewezen (reject). De ingediende stukken vertonen fundamentele tegenstrijdigheden met de werkelijke registers van het district.",
+    "effective_date": "1941-12-22",
+    "claims": [
+      {
+        "fact": "De officiële kennisgeving wijst het verzoek af op basis van tegenstrijdige bewijzen en administratieve onregelmatigheden.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 120,
+    "is_true": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "record_summary",
+  "fields": {
+    "title": "Ringkasan Arsip Sengketa Manifest Kargo Dermaga",
+    "date": "1941-10-15",
+    "language": "indonesian",
+    "issuer": "District Records Department",
+    "report": {
+      "report_number": "RS-1941/CS-08",
+      "author": "J. H. van den Bosch",
+      "subject": "Komulasi berkas verifikasi kesalahan transit administratif kargo",
+      "archive_location": "Kantor Arsip Distrik Balikpapan"
+    },
+    "documents_reviewed": [
+      "Inventaris IR-1941/CS-08",
+      "Laporan Investigasi INV-1941/CS-08",
+      "Laporan Perusahaan CR-1941/CS-08",
+      "Laporan Administratif AR-1941/CS-08"
+    ],
+    "summary": "Ringkasan arsip mengonfirmasi bahwa catatan pengiriman selaras dengan tanda terima transfer gudang, memverifikasi kesalahan transit administratif.",
+    "issues_found": [
+      "Semula terdapat salah paham akibat perbedaan stok di dermaga, yang telah diklarifikasi melalui audit arsip."
+    ],
+    "recommendations": [
+      "Mengarsipkan seluruh dokumen dengan status keputusan diterima (Accepted)."
+    ],
+    "claims": [
+      {
+        "fact": "Ringkasan arsip memvalidasi keselarasan data dan mendukung pembersihan nama buruh pelabuhan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

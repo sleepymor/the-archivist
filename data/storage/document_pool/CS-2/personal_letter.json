@@ -1,0 +1,34 @@
+{
+    "type": "personal_letter",
+    "fields": {
+      "title": "Persoonlijke Brief van La Maddukelleng aan het Districtsbureau",
+      "date": "1941-11-10",
+      "language": "dutch",
+      "sender": {
+        "name": "La Maddukelleng",
+        "location": "Balikpapan",
+        "relationship_to_receiver": "Eigenaar van het pakhuis tot de Controleur"
+      },
+      "receiver": {
+        "name": "De Heer Controleur te Balikpapan",
+        "location": "Districtskantoor Balikpapan"
+      },
+      "letter": {
+        "greeting": "Weledelgeboren Heer,",
+        "message": "Hierbij wens ik mijn formeel bezwaar in te dienen en te verzoeken om spoedige uitbetaling van de compensatie voor mijn in beslag genomen rijstvoorraad, aangezien de inventarislijst reeds weken geleden is opgesteld zonder dat er enige vergoeding tegenover staat.",
+        "closing": "Hoogachtend, La Maddukelleng"
+      },
+      "context": {
+        "purpose": "Verzoek om snelle afhandeling van de compensatieclaim voor magazijnvoorraden.",
+        "related_event": "Inbeslagname van goederen in pakhuis Blok B"
+      },
+      "claims": [
+        {
+          "fact": "Pemilik mengajukan permohonan tertulis agar kompensasi segera diselesaikan.",
+          "importance": "Sedang"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+  }

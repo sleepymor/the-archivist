@@ -1,0 +1,41 @@
+{
+  "type": "company_report",
+  "fields": {
+    "title": "Bedrijfsverslag betreffende Depotovergang en Uitrusting",
+    "date": "1942-12-15",
+    "language": "dutch",
+    "issuer": "Operationele Afdeling Bedrijfsbeheer",
+    "report": {
+      "report_number": "CR-1942/CS-21",
+      "company": "Regionaal Bedrijfsbeheer Balikpapan",
+      "author": "Tanaka Hiroshi",
+      "department": "Afdeling Inventaris en Logistiek"
+    },
+    "subject": "Onderzoek naar achtergelaten gereedschappen tijdens de administratieve depotovergang",
+    "operations": {
+      "location": "Bedrijfsdepot Balikpapan",
+      "activity": "Overdracht en beveiliging van faciliteiten",
+      "production": "N.v.t.",
+      "workforce": "Technische dienst"
+    },
+    "findings": [
+      "Tijdens de overgang van de faciliteiten zijn diverse persoonlijke gereedschappen van vakmensen in het depot opgeslagen en vervolgens zoekgeraakt.",
+      "De claim van Goh Eng Bian wordt ondersteund door de overdrachtsdocumenten."
+    ],
+    "financial": {
+      "status": "Kostenvergoeding aanbevolen",
+      "notes": "Vergoeding voor de verloren werkplaatsuitrusting is gerechtvaardigd."
+    },
+    "recommendations": [
+      "Goedkeuring verlenen aan de vergoeding voor de vermiste gereedschappen."
+    ],
+    "claims": [
+      {
+        "fact": "Het bedrijfsverslag bevestigt dat uitrusting is achtergebleven tijdens de beveiliging van het depot.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

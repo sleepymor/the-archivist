@@ -1,0 +1,44 @@
+{
+  "type": "investigation_report",
+  "fields": {
+    "title": "Laporan Investigasi Pencocokan Permintaan Logistik",
+    "date": "1943-01-14",
+    "language": "indonesian",
+    "issuer": "Kantor Pengawasan dan Keamanan Pelabuhan",
+    "investigation": {
+      "report_number": "INV-1943/CS-22",
+      "investigator": "Inspektur L. de Jong",
+      "department": "Pengawasan Transportasi Air",
+      "location": "Balikpapan"
+    },
+    "case": {
+      "subject": "Verifikasi stempel permintaan logistik militer dan perahu Takahashi Kenji",
+      "incident": "Pengambilalihan perahu angkut tanpa izin awal yang memerlukan voucher kompensasi",
+      "date_of_incident": "1943-01-05",
+      "involved_people": [
+        "Takahashi Kenji",
+        "L. de Jong"
+      ]
+    },
+    "findings": [
+      "Stempel permintaan logistik militer cocok dengan catatan kapal otoritas pelabuhan.",
+      "Perahu milik pemohon terbukti dikerahkan untuk keperluan dinas militer darurat."
+    ],
+    "evidence_reviewed": [
+      "Inventory Record IR-1943/CS-22",
+      "Contract CTR-1943/CS-22"
+    ],
+    "conclusion": "Klaim voucher logistik dan kompensasi pemohon sah dan terverifikasi sepenuhnya.",
+    "recommendations": [
+      "Menerima klaim (accept) dan menerbitkan voucher logistik resmi kepada pemohon."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan investigasi mengonfirmasi kecocokan stempel logistik militer dengan catatan otoritas pelabuhan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

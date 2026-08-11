@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Pengumuman Resmi Keputusan Sengketa Batas Wilayah Pesisir",
+    "date": "1941-09-28",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "notice": {
+      "notice_number": "ON-1941/FS-04",
+      "subject": "Pencabutan larangan sepihak dan pembukaan koridor akses nelayan tradisional",
+      "recipient": "Awang bin Daris & Komunitas Nelayan Tradisional",
+      "reason": "Berdasarkan verifikasi dokumentasi dewan komunitas adat dan laporan investigasi lapangan."
+    },
+    "content": "Dengan ini diumumkan bahwa permohonan keberatan atas batas wilayah keamanan yang diajukan oleh saudara Awang bin Daris diterima sepenuhnya. Perusahaan terkait diperintahkan untuk membuka akses jalur lintas perahu nelayan tradisional.",
+    "effective_date": "1941-10-01",
+    "claims": [
+      {
+        "fact": "Pengumuman resmi menyatakan permohonan diterima dan memberikan hak akses koridor bagi nelayan tradisional.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}

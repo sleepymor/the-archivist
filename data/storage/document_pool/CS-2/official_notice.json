@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Officiële Kennisgeving van Compensatieuitkering voor Graanvoorraad",
+    "date": "1941-11-15",
+    "language": "dutch",
+    "issuer": "District Administration",
+    "notice": {
+      "notice_number": "ON-1941/BP-18",
+      "subject": "Toekenning van financiële restitutie aan La Maddukelleng",
+      "recipient": "La Maddukelleng",
+      "reason": "Naar aanleiding van het geverifieerde inventarisrecord en het administratief rapport."
+    },
+    "content": "Bij deze wordt bekendgemaakt dat de vordering van de heer La Maddukelleng met betrekking tot de in beslag genomen rijstvoorraad te Balikpapan volledig gegrond is verklaard. De compensatiesom zal binnen veertien dagen worden uitbetaald via het districtskantoor.",
+    "effective_date": "1941-11-15",
+    "claims": [
+      {
+        "fact": "Pemberitahuan resmi menyatakan klaim kompensasi diterima dan disetujui untuk dibayarkan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

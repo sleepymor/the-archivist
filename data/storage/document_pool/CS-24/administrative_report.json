@@ -1,0 +1,31 @@
+{
+    "type": "administrative_report",
+    "fields": {
+      "title": "Sen'i Shōnin no Kyoka Fushitsu ni kansuru Gyōsei Hōkoku",
+      "date": "1943-02-14",
+      "language": "japanese",
+      "issuer": "Balikpapan Shū Chōkan Somuka",
+      "report": {
+        "report_number": "AR-1943/CS-24",
+        "subject": "Watanabe Shizuko no shōgyō kyoka fushitsu ni kansuru fukyū chōsa",
+        "author": "Yamamoto Kenzo",
+        "location": "Balikpapan"
+      },
+      "summary": "Sen'i shōnin no kyoka torikeshi to kōshō hiyō kōryō ni kansuru gyōsei chōsa hōkoku.",
+      "findings": [
+        "Sen'i shōgyō no kisei wa keizai tōsei rei ni kanzen ni gōchi shite iru.",
+        "Shinseisha no kyoka fushitsu seikyū wa, senji tōsei hōsei no kanzen na tekiō de ari kyakka ga tatō."
+      ],
+      "recommendations": [
+        "Banding o kyakka shi (reject), gembatsu kitei o izhi suru koto."
+      ],
+      "claims": [
+        {
+          "fact": "Gyōsei hōkoku wa, tōsei rei no tekiō ni yori seikyū o kyakka suru koto o suishō shite iru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+  }

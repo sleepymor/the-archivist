@@ -1,0 +1,29 @@
+{
+  "type": "ownership_record",
+  "fields": {
+    "title": "Dokumen Kepemilikan Hak Pengusahaan Hutan",
+    "date": "1942-07-15",
+    "language": "indonesian",
+    "issuer": "Lembaga Registrasi Hak Adat dan Kesultanan",
+    "ownership": {
+      "record_number": "OR-1942/CS-15",
+      "holder": "Pangeran Aji Mandarsyah",
+      "acquisition_method": "Pewarisan Hak Pengelolaan Tradisional",
+      "validity_period": "Turun-temurun / Seumur Hidup"
+    },
+    "property_details": {
+      "name": "Konsesi Kayu Pangeran Aji Mandarsyah",
+      "location": "Sektor Pedalaman Balikpapan",
+      "description": "Hak eksploitasi dan pengelolaan hasil hutan kayu"
+    },
+    "verification_status": "Terdaftar dan Diakui Berdasarkan Hukum Adat Kesultanan",
+    "claims": [
+      {
+        "fact": "Dokumen kepemilikan mengesahkan hak pengelolaan turun-temurun atas zona ekstraksi kayu yang dipersengketakan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "land_record",
+  "fields": {
+    "title": "Uittreksel Pendaftaran Tanah Properti Perkotaan",
+    "date": "1941-11-18",
+    "language": "indonesian",
+    "issuer": "Landsarchief en Grondregister Balikpapan",
+    "registration": {
+      "record_number": "LR-1941/CS-12",
+      "registration_date": "1932-04-15",
+      "registration_type": "Eigendom Vergunning"
+    },
+    "land": {
+      "location": "Balikpapan Kota",
+      "description": "Persil tanah bangunan dan pekarangan",
+      "size": "800 Meter Persegi",
+      "land_type": "Tanah Bangunan Perkotaan",
+      "boundaries": {
+        "north": "Pecinan Lama",
+        "south": "Jalan Raya Kota",
+        "east": "Properti Warga Lain",
+        "west": "Lorong Distrik"
+      }
+    },
+    "registered_owner": {
+      "name": "Johanna Maria Jansen",
+      "occupation": "Pemilik Properti Swasta"
+    },
+    "land_status": {
+      "ownership_status": "Hak Milik Sah",
+      "previous_owner": "Pemerintah Kotapraja",
+      "usage": "Tempat tinggal dan bangunan komersial kecil"
+    },
+    "claims": [
+      {
+        "fact": "Data pendaftaran tanah memastikan batasan dan kepemilikan properti pemohon tercatat tanpa cacat hukum.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

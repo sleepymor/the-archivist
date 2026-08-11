@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Laporan Administratif Keberatan Proyek Perluasan Jalan",
+    "date": "1942-12-07",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1942/CS-20",
+      "subject": "Pemeriksaan atas keberatan Siti Rofiah terhadap pelebaran jalan tanpa izin",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Laporan akhir administrasi distrik yang memutuskan untuk menerima permohonan keberatan pemohon.",
+    "findings": [
+      "Sertifikat tanah membuktikan batas kepemilikan yang jelas, yang memerlukan kompensasi formal atau penyesuaian rute jalan.",
+      "Proyek pelebaran jalan terbukti memotong lahan perkebunan produktif tanpa persetujuan awal dari pemilik."
+    ],
+    "recommendations": [
+      "Menerima permohonan keberatan (accept) serta mewajibkan adanya kompensasi formal atau penyesuaian rute jalur jalan."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif distrik mengonfirmasi perlunya kompensasi atau penyesuaian rute atas pelanggaran batas tanah.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

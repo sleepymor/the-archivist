@@ -1,0 +1,32 @@
+{
+  "type": "medical_record",
+  "fields": {
+    "title": "Rekam Medis Perawatan Darurat Cedera Mesin",
+    "date": "1942-10-06",
+    "language": "indonesian",
+    "issuer": "Unit Gawat Darurat Rumah Sakit Balikpapan",
+    "medical": {
+      "record_number": "MR-1942/CS-18",
+      "patient": "Willem Frederiksen",
+      "department": "Bedah dan Traumatologi",
+      "condition": "Luka robek dan dislokasi akibat himpitan komponen mesin yang rusak."
+    },
+    "treatment": {
+      "diagnosis": "Cedera mekanis berat pada ekstremitas atas.",
+      "procedure": "Pembersihan luka, tindakan bedah darurat, dan pemasangan perban penyangga.",
+      "medication": [
+        "Analgesik kuat untuk nyeri",
+        "Antibiotik pencegah infeksi"
+      ]
+    },
+    "notes": "Rekam medis merinci penanganan luka yang diderita korban akibat kecelakaan di tempat kerja.",
+    "claims": [
+      {
+        "fact": "Rekam medis memberikan rincian penanganan darurat atas cedera fisik yang dialami pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

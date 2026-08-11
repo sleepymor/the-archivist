@@ -1,0 +1,29 @@
+{
+  "type": "record_summary",
+  "fields": {
+    "title": "Kōgyōyō Kyōkyū Wariate Chōsei Kanshi Kiroku Gaiyō",
+    "date": "1943-03-09",
+    "language": "japanese",
+    "issuer": "District Records Department",
+    "record": {
+      "record_number": "RS-1943/CS-23",
+      "record_type": "Chōsa Kiroku no Sōkatsu",
+      "original_document": "Kōgyōyō Kyōkyū Shizai Meibo oyobi Zaimu Kiroku"
+    },
+    "subject": "Tanaka Hiroshi no seikyū ni kansuru shōko to fukusō shiryō no tōgō",
+    "summary": "Kyōkyū wariate no fusoku ni kansuru zaimu kiroku, rōdōsha meibo, oyobi gyōsei hōkoku no sōkatsu.",
+    "related_documents": [
+      "IR-1943/CS-23",
+      "AR-1943/CS-23",
+      "CR-1943/CS-23"
+    ],
+    "claims": [
+      {
+        "fact": "Kiroku gaiyō wa shinseisha no seikyū o sasaeru subete no shōko zairyō o tōgō shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 120,
+    "is_true": true
+  }
+}

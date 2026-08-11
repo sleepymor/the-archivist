@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Kōkyō Haisui ni yoru Kōzōteki Sonshō ni kansuru Gyōsei Hōkoku",
+    "date": "1943-03-18",
+    "language": "japanese",
+    "issuer": "Chihō Gyōsei (Balikpapan Shū Chōkan)",
+    "report": {
+      "report_number": "AR-1943/CS-14",
+      "subject": "Liem Sioe Lan shi no shōgyō tenpo ni oyoboshita kōkyō kōji ryūshutsu no eikyō hyōka",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan Shigaichi"
+    },
+    "summary": "Shinseisha no zaisan ni okeru kōzōteki hiretsu to tojō shinshoku no chōsa kekka ni kansuru chihō gyōsei hōkoku.",
+    "findings": [
+      "Kōkyō kōji no haisui shisetsu no fuguai ni yori, ryūshutsu sui ga tenpo kiso o chokusetsu shinshoku shita.",
+      "Kōzōteki sonshō oyobi shōgyō katsudō no shōgai wa meihaku de ari, kōkyō kōji ni yuru mono de aru."
+    ],
+    "recommendations": [
+      "Shinseisha ni tai suru songai baishō matawa kōzō no shūzen kyoka o jisshi suru koto."
+    ],
+    "claims": [
+      {
+        "fact": "Gyōsei hōkoku wa, kōkyō kōji no ryūshutsu ga kōzōteki sonshō o hikiokoshita jijitsu o nintei shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

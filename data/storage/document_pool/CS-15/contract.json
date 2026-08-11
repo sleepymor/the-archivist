@@ -1,0 +1,50 @@
+{
+  "type": "contract",
+  "fields": {
+    "title": "Perjanjian Konsesi Pengelolaan Hasil Hutan",
+    "date": "1940-05-10",
+    "language": "indonesian",
+    "issuer": "Kesultanan Kutai & Administrasi Distrik",
+    "contract": {
+      "contract_number": "CTR-1940/CS-15",
+      "party_a": "Pangeran Aji Mandarsyah",
+      "party_b": "District Administration",
+      "subject": "Hak pengusahaan dan ekstraksi kayu di wilayah pedalaman"
+    },
+    "agreement": {
+      "purpose": "Mengatur hak eksploitasi kayu secara sah di bawah perlindungan hukum Kesultanan dan distrik.",
+      "terms": [
+        "Wilayah konsesi diakui sebagai hak turun-temurun pemohon tanpa campur tangan sepihak.",
+        "Perubahan batas wilayah harus melalui persetujuan bersama."
+      ],
+      "duration": {
+        "start_date": "1940-01-01",
+        "end_date": "1950-12-31"
+      }
+    },
+    "obligations": {
+      "party_a": [
+        "Melakukan ekstraksi kayu sesuai dengan ketentuan pengelolaan hutan yang wajar."
+      ],
+      "party_b": [
+        "Menjamin keutuhan wilayah konsesi dari klaim sepihak pihak luar."
+      ]
+    },
+    "signatures": {
+      "party_a_signed": "Pangeran Aji Mandarsyah",
+      "party_b_signed": "J. H. van den Bosch",
+      "witnesses": [
+        "Datuk Mangkubumi",
+        "Tan Keng Hoo"
+      ]
+    },
+    "claims": [
+      {
+        "fact": "Kontrak pengusahaan hutan membuktikan keabsahan konsesi yang dilanggar oleh pemetaan ulang kehutanan negara.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

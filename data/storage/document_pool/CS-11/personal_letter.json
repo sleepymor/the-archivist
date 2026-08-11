@@ -1,0 +1,35 @@
+{
+    "type": "personal_letter",
+    "fields": {
+      "title": "Shokan: Haji Abdul Gani kara Shū Chōkan e no Yōsei Sho (Letter of Appeal for Copra Compensation)",
+      "date": "1942-06-02",
+      "language": "japanese",
+      "issuer": "Family Archive & Merchant Association",
+      "sender": {
+        "name": "Haji Abdul Gani",
+        "location": "Balikpapan",
+        "relationship_to_receiver": "Shōnin kara Chōkan e"
+      },
+      "receiver": {
+        "name": "Balikpapan Shū Chōkan Denka",
+        "location": "Balikpapan Shū Chōkan Kōkan"
+      },
+      "letter": {
+        "greeting": "Keirei mōshiagemasu, Shū Chōkan Denka.",
+        "message": "Watashi no kōwan sōko ni hōchi sareta kopra seisanbutsu no yusō chientai ni kan shi, keiyaku ni motozuku songai baishō to yusō no saika o hayaku kyoka shite kudasaru yō ni shinsei itashimasu.",
+        "closing": "Keigu, Haji Abdul Gani."
+      },
+      "context": {
+        "purpose": "Kopra yusō keiyaku ihō ni kan suru songai baishō to kyūsai no yōsei.",
+        "related_event": "Yusō senpaku no wariawase teishi"
+      },
+      "claims": [
+        {
+          "fact": "Kojin shokan wa shinseisha ga songai baishō to yusō no kaiko o chokusetsu yōkyū shita koto o shōmei suru.",
+          "importance": "Naka"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+  }

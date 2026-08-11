@@ -1,0 +1,45 @@
+{
+  "type": "employment_contract",
+  "fields": {
+    "title": "Kontrak Kerja Perkebunan Karet",
+    "date": "1941-06-12",
+    "language": "indonesian",
+    "issuer": "Plantation Company (Administrasi Perkebunan Karet Balikpapan)",
+    "contract": {
+      "contract_number": "EC-1941/PL-04",
+      "employer": "NV Tandjong Ru Rubber Maatschappij",
+      "employee": "Encik Mahmud",
+      "position": "Pengawas Lapangan / Mandor"
+    },
+    "employment": {
+      "start_date": "1935-01-10",
+      "duration": "5 Tahun dengan opsi perpanjangan",
+      "work_location": "Balikpapan",
+      "responsibilities": [
+        "Mengawasi tenaga kerja sadap getah karet",
+        "Melaporkan hasil produksi harian kepada administrasi perkebunan"
+      ]
+    },
+    "compensation": {
+      "payment_type": "Gaji Bulanan Tunai",
+      "amount": "f 35,00",
+      "payment_period": "Bulanan"
+    },
+    "conditions": [
+      "Pekerja berhak atas tunjangan perumahan dan layanan kesehatan dasar.",
+      "Kompensasi pisah diatur sesuai ketentuan buruh kolonial yang berlaku."
+    ],
+    "termination": {
+      "conditions": "Pemutusan hubungan kerja karena restrukturisasi atau penutupan administratif.",
+      "notice_period": "1 Bulan"
+    },
+    "claims": [
+      {
+        "fact": "Kontrak kerja menetapkan hak atas upah pisah dan tunjangan akhir yang belum dibayarkan oleh pihak perusahaan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "tax_record",
+  "fields": {
+    "title": "Pajak Penghasilan dan Retribusi Perkebunan Karet",
+    "date": "1941-06-25",
+    "language": "indonesian",
+    "issuer": "District Administration (Kantor Pajak Distrik Balikpapan)",
+    "tax": {
+      "record_number": "TR-1941/PL-45",
+      "taxpayer": "NV Tandjong Ru Rubber Maatschappij",
+      "tax_type": "Bedrijfsbelasting en Grondrente",
+      "tax_period": "1941",
+      "status": "Lunas Sebagian / Dalam Sengketa Administratif"
+    },
+    "property": {
+      "description": "Aset dan areal perkebunan karet afdeling utara",
+      "location": "Balikpapan"
+    },
+    "payment": {
+      "amount": "f 250,00",
+      "payment_date": "1941-04-10",
+      "payment_method": "Transfer Bank Kolonial"
+    },
+    "remarks": "Pembayaran pajak perusahaan tercatat, namun terdapat catatan penangguhan kewajiban finansial buruh yang sedang dalam investigasi kontrolur.",
+    "claims": [
+      {
+        "fact": "Catatan pajak perusahaan mengonfirmasi status operasional dan kewajiban fiskal yang terikat dengan sengketa upah pekerja.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 120,
+    "is_true": true
+  }
+}

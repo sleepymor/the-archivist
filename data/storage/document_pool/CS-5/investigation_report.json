@@ -1,0 +1,44 @@
+{
+  "type": "investigation_report",
+  "fields": {
+    "title": "Onderzoeksrapport betreffende Vernieling en Plundering van Winkelpand",
+    "date": "1941-11-21",
+    "language": "dutch",
+    "issuer": "Security Office (Plaatselijke Politie Balikpapan)",
+    "investigation": {
+      "report_number": "INV-1941/CH-14",
+      "investigator": "Inspecteur L. de Jong",
+      "department": "Plaatselijke Politie",
+      "location": "Hoofdstraat, Balikpapan"
+    },
+    "case": {
+      "subject": "Schade aan het handelshuis van Tan Keng Hoo door onlusten",
+      "incident": "Vernieling van inventaris en plundering van textielvoorraden",
+      "date_of_incident": "1941-11-18",
+      "involved_people": [
+        "Tan Keng Hoo",
+        "L. de Jong"
+      ]
+    },
+    "findings": [
+      "De toegangsdeuren en vitrines van de winkel zijn met geweld geforceerd.",
+      "Grote hoeveelheden textiel en katoenbalen zijn ontvreemd of beschadigd achtergelaten."
+    ],
+    "evidence_reviewed": [
+      "Inventarislijst IR-1941/BP-78",
+      "Verklaringen van getuigen ter plaatse"
+    ],
+    "conclusion": "De gerapporteerde schade is feitelijk juist en het gevolg van ongeregeldheden buiten de schuld van de eigenaar.",
+    "recommendations": [
+      "Toekennen van een financiële tegemoetkoming uit het noodfonds voor getroffen handelaren."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan investigasi polisi mengonfirmasi kebenaran kerusakan material dan penjarahan toko.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

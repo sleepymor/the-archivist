@@ -1,0 +1,33 @@
+{
+  "type": "medical_record",
+  "fields": {
+  "title": "Catatan Medis dan Permintaan Persediaan Darurat",
+  "date": "1942-08-01",
+  "language": "indonesian",
+  "issuer": "Rumah Sakit Umum Balikpapan",
+  "medical": {
+    "record_number": "MR-1942/CS-16",
+    "patient": "Ratna Sianipar (Kepala Perawat / Pengelola Farmasi)",
+    "department": "Unit Gawat Darurat Medis",
+    "condition": "Kebutuhan mendesak pasokan farmasi untuk penanganan darurat korban luka."
+  },
+  "treatment": {
+    "diagnosis": "Lonjakan pasien darurat yang memerlukan stok obat dan persediaan medis segera.",
+    "procedure": "Pengambilan alih dan transfer stok persediaan medis dari apotek/inventaris pribadi di bawah arahan staf medis berwenang.",
+    "medication": [
+      "Kina (Quinine) - 100 tablet",
+      "Perban Steril - 50 gulung",
+      "Antiseptik dan Obat Luka - 25 botol"
+    ]
+  },
+  "notes": "Catatan rumah sakit memverifikasi transfer pasokan ke staf medis yang berwenang untuk penggunaan darurat.",
+  "claims": [
+    {
+    "fact": "Catatan medis memverifikasi kebutuhan darurat dan transfer pasokan farmasi kepada staf berwenang.",
+    "importance": "Tinggi"
+    }
+  ],
+  "investigation_score": 130,
+  "is_true": true
+  }
+}

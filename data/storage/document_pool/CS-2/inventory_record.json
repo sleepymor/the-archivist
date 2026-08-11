@@ -1,0 +1,38 @@
+{
+  "type": "inventory_record",
+  "fields": {
+    "title": "Inventarislijst van in beslag genomen pakhuisvoorraad te Balikpapan",
+    "date": "1941-11-04",
+    "language": "dutch",
+    "issuer": "District Administration (Controleur voor Balikpapan)",
+    "inventory": {
+      "record_number": "IR-1941/BP-55",
+      "institution": "District Administration",
+      "location": "Balikpapan Havenpakhuis",
+      "responsible_person": "La Maddukelleng"
+    },
+    "items": [
+      {
+        "name": "Rijst / Beras",
+        "category": "Voedselvoorraad",
+        "quantity": "125 karung",
+        "condition": "Goed",
+        "location": "Pakhuis Blok B"
+      }
+    ],
+    "transaction": {
+      "type": "Inbeslagname / Requisitie",
+      "source": "Pakhuis La Maddukelleng",
+      "destination": "Districtsvoedseldepot"
+    },
+    "remarks": "Inventaris opgesteld in het kader van de noodmaatregelen voor de graanvoorraad.",
+    "claims": [
+      {
+        "fact": "Stok gabah terdaftar secara resmi di pakhuis sebelum diambil alih oleh administrasi distrik.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

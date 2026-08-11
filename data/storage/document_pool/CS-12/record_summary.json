@@ -1,0 +1,28 @@
+{
+  "type": "record_summary",
+  "fields": {
+    "title": "Ringkasan Arsip Koreksi Pajak Tanah Kota",
+    "date": "1941-11-12",
+    "language": "indonesian",
+    "issuer": "District Records Department",
+    "record": {
+      "record_number": "RS-1941/CS-12",
+      "record_type": "Ringkasan Verifikasi Arsip",
+      "original_document": "Buku Induk Pajak Tanah Balikpapan"
+    },
+    "subject": "Komulasi data koreksi pajak properti Johanna Maria Jansen",
+    "summary": "Ringkasan dokumen menetapkan bahwa selisih perhitungan pajak murni disebabkan oleh kekeliruan pencatatan staf arsip.",
+    "related_documents": [
+      "ARCH-1941/CS-12",
+      "TR-1941/CS-12"
+    ],
+    "claims": [
+      {
+        "fact": "Ringkasan arsip memperjelas letak kesalahan administratif dalam pencatatan pajak.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

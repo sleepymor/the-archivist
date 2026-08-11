@@ -1,0 +1,44 @@
+{
+  "type": "investigation_report",
+  "fields": {
+    "title": "Laporan Investigasi Keselamatan Kerja dan Kegagalan Peralatan",
+    "date": "1942-10-10",
+    "language": "indonesian",
+    "issuer": "Kantor Pengawasan Keselamatan Kerja Distrik",
+    "investigation": {
+      "report_number": "INV-1942/CS-18",
+      "investigator": "Inspektur L. de Jong",
+      "department": "Inspeksi Keselamatan Industri",
+      "location": "Pabrik Pengolahan Utama Balikpapan"
+    },
+    "case": {
+      "subject": "Investigasi kegagalan mekanis mesin dan cedera kerja Willem Frederiksen",
+      "incident": "Kerusakan komponen pengaman mesin yang memicu kecelakaan",
+      "date_of_incident": "1942-10-03",
+      "involved_people": [
+        "Willem Frederiksen",
+        "L. de Jong"
+      ]
+    },
+    "findings": [
+      "Temuan inspeksi keselamatan mengonfirmasi adanya kelalaian nyata dalam protokol pemeliharaan peralatan pabrik.",
+      "Sistem pengaman mesin gagal berfungsi karena tidak adanya perawatan berkala dari pihak manajemen."
+    ],
+    "evidence_reviewed": [
+      "Medical Certificate MC-1942/CS-18",
+      "Employment Contract EC-1942/CS-18"
+    ],
+    "conclusion": "Kelalaian pemeliharaan oleh manajemen terbukti menjadi penyebab utama cedera pekerja.",
+    "recommendations": [
+      "Menerima permohonan kompensasi medis dan mewajibkan inspeksi keselamatan menyeluruh pada seluruh mesin pabrik."
+    ],
+    "claims": [
+      {
+        "fact": "Temuan inspeksi keselamatan mengonfirmasi kelalaian dalam protokol pemeliharaan peralatan pabrik.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}

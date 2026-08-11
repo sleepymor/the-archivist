@@ -1,0 +1,32 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Gakkō Unei oyobi Chōhatsu ni Kansuru Gyōsei Hōkoku (Administrative Report on School Operation and Requisition)",
+    "date": "1943-08-05",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Chōkan / Gunseibu",
+    "report": {
+      "report_number": "AR-GUN-1943/ED-11",
+      "subject": "Investigation and execution of school building reallocation for military logistics under occupation directives",
+      "author": "Yamamoto Kenzo (Chōkan Somuka Buchō)",
+      "location": "Balikpapan"
+    },
+    "summary": "Gunseibu no meirei ni motoduki, kyōiku shisetsu no gunji riyō ni kansuru chōsa oyobi chōhatsu no kōka o kiroku suru.",
+    "findings": [
+      "Kokumin gakkō no kyōshitsu wa gunji yusōbutsu no hokan basho oyobi kunren shisetsu to shite saihaichi sareta.",
+      "Kyōshi Siti Aminah wa shitei sareta daitai katsudō basho e no ninmu idō o yōkyū sarete iru."
+    ],
+    "recommendations": [
+      "Kyōin no daitai ninmu o zikkō shi, gunji kyōiku keikaku ni kyōryoku saseru.",
+      "Kankei shisetsu no kanri o gunseibu no kantoku ka ni oku."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif mengonfirmasi realokasi bangunan sekolah untuk kebutuhan logistik militer di bawah pemerintahan pendudukan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

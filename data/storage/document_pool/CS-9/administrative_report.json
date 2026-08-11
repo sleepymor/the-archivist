@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Administratief Rapport betreffende Onregelmatigheden en Afwijzing",
+    "date": "1941-12-12",
+    "language": "dutch",
+    "issuer": "District Administration (Controleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1941/PL-99",
+      "subject": "Bevinding van fraude en onrechtmatige claims van Hendrik Jan de Jong",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Het administratief rapport concludeert dat de vermeende plantageactiva nooit wettelijk eigendom zijn geweest van de aanvrager vanwege openstaande fiscale fraudeprocessen.",
+    "findings": [
+      "Uit onderzoek blijkt dat de concessiepapieren zijn vervalst.",
+      "Het verzoek tot teruggave wordt afgewezen op grond van illegale exploitatie."
+    ],
+    "recommendations": [
+      "Het beroep van Hendrik Jan de Jong volledig afwijzen en verdere juridische stappen onderzoeken."
+    ],
+    "claims": [
+      {
+        "fact": "Het rapport weerlegt de legitimiteit van de aanvraag volledig en stelt dat er sprake is van vervalsing en illegale praktijken.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": false
+  }
+}

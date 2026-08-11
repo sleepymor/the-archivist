@@ -1,0 +1,38 @@
+{
+  "type": "land_record",
+  "fields": {
+    "title": "Catatan Tanah dan Batas Perkebunan Pertanian",
+    "date": "1942-12-01",
+    "language": "indonesian",
+    "issuer": "Kantor Agraria dan Pertanahan Balikpapan",
+    "land": {
+      "record_number": "LR-1942/CS-20",
+      "location": "Sektor Perkebunan Produktif Balikpapan",
+      "size": "1200 Meter Persegi",
+      "land_type": "Tanah Pertanian Produktif",
+      "boundaries": {
+        "north": "Jalan Desa Lama",
+        "south": "Tanah Perkebunan Warga",
+        "east": "Aliran Sungai Kecil",
+        "west": "Batas Hutan Sekunder"
+      }
+    },
+    "registered_owner": {
+      "name": "Siti Rofiah",
+      "occupation": "Petani dan Pemilik Lahan Produktif"
+    },
+    "land_status": {
+      "ownership_status": "Hak Milik Sah / Hak Penggunaan Pertanian",
+      "previous_owner": "Keluarga Turun-temurun",
+      "usage": "Perkebunan produktif dan tanaman pangan"
+    },
+    "claims": [
+      {
+        "fact": "Catatan tanah membuktikan batas kepemilikan yang sah atas lahan pertanian yang dilintasi proyek pelebaran jalan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

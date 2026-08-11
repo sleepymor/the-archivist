@@ -1,0 +1,47 @@
+{
+  "type": "student_record",
+  "fields": {
+    "title": "Seito Meibo oyobi Gakuseki Kiroku (Student Registration and Academic Record)",
+    "date": "1943-04-15",
+    "language": "japanese",
+    "issuer": "Balikpapan Kokumin Gakkō Kanri Bu (School Administration Bureau)",
+    "registration": {
+      "record_number": "SR-1943/ED-405",
+      "registration_date": "1943-04-01",
+      "school": "Balikpapan Kokumin Gakkō"
+    },
+    "student": {
+      "name": "Siti Aminah",
+      "birth_date": "1911-08-22",
+      "birth_place": "Balikpapan",
+      "address": "Kampong Baroe, Balikpapan"
+    },
+    "education": {
+      "level": "Shūtōka (Teacher Training / Primary Instruction)",
+      "class": "Dai-1-Gakunen",
+      "enrollment_year": "1924",
+      "subjects": [
+        "Shūshin (Morals)",
+        "Kokugo (Japanese Language)",
+        "Sansū (Arithmetic)",
+        "Jitsugyō (Practical Arts)"
+      ]
+    },
+    "family_information": {
+      "parent_or_guardian": "State Supervised / Independent Instructor",
+      "occupation": "Kyōshi (School Teacher)"
+    },
+    "academic_status": {
+      "status": "Zaikaku (Active Instructor / Enrolled Staff)",
+      "remarks": "Record updated under military occupation administration following facility reallocation and curriculum revision."
+    },
+    "claims": [
+      {
+        "fact": "Catatan sekolah resmi mengonfirmasi status kedudukan pengajar dan registrasi fasilitas pendidikan sebelum pengambilalihan militer.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 120,
+    "is_true": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "employment_contract",
+  "fields": {
+    "title": "Kontrak Kerja dan Ketentuan Keselamatan Kerja",
+    "date": "1939-04-10",
+    "language": "indonesian",
+    "issuer": "Manajemen Pabrik & Serikat Pekerja",
+    "contract": {
+      "contract_number": "EC-1942/CS-18",
+      "party_a": "Willem Frederiksen",
+      "party_b": "Manajemen Pabrik Pengolahan",
+      "subject": "Ketentuan kerja, hak upah, dan jaminan keselamatan kerja operator"
+    },
+    "agreement": {
+      "purpose": "Menjamin hak-hak dasar pekerja serta kewajiban perusahaan dalam menyediakan lingkungan kerja yang aman.",
+      "terms": [
+        "Perusahaan wajib menjamin pemeliharaan alat kerja agar aman dioperasikan.",
+        "Pekerja berhak atas perlindungan medis dan kompensasi apabila terjadi kecelakaan akibat kelalaian alat."
+      ],
+      "duration": {
+        "start_date": "1939-04-12",
+        "end_date": "1944-04-12"
+      }
+    },
+    "obligations": {
+      "party_a": [
+        "Menjalankan tugas operasional mesin dengan baik."
+      ],
+      "party_b": [
+        "Menyediakan lingkungan kerja yang aman dan menanggung perawatan jika terjadi kecelakaan kerja."
+      ]
+    },
+    "signatures": {
+      "party_a_signed": "Willem Frederiksen",
+      "party_b_signed": "Tanaka Hiroshi",
+      "witnesses": [
+        "J. H. van den Bosch",
+        "Encik Mahmud"
+      ]
+    },
+    "claims": [
+      {
+        "fact": "Kontrak kerja menggariskan kewajiban perusahaan dalam menjamin keselamatan dan kompensasi kerja.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "customary_confirmation_letter",
+  "fields": {
+    "title": "Surat Konfirmasi Adat tentang Batas Wilayah Maritim Tradisional",
+    "date": "1941-09-08",
+    "language": "indonesian",
+    "issuer": "Dewan Komunitas Adat Pesisir Balikpapan",
+    "confirmation": {
+      "record_number": "CCL-1941/FS-04",
+      "community": "Dewan Adat Kampong Pesisir",
+      "subject": "Pengesahan batas wilayah tangkap nelayan tradisional terhadap klaim keamanan perusahaan"
+    },
+    "person_or_group": {
+      "name": "Awang bin Daris",
+      "relation_to_community": "Pemimpin Kelompok Nelayan Tradisional"
+    },
+    "statement": "Dewan adat dengan tegas mengonfirmasi bahwa wilayah perairan yang ditutup oleh barikade keamanan perusahaan merupakan hak ulayat laut sah yang menjadi sumber penghidupan utama komunitas nelayan.",
+    "authority": {
+      "elders": [
+        "Datuk Mangkubumi",
+        "Haji Salim"
+      ],
+      "witnesses": [
+        "Baharuddin"
+      ]
+    },
+    "purpose": "Menolak pembatasan sepihak dan mempertahankan akses zona penangkapan ikan tradisional.",
+    "claims": [
+      {
+        "fact": "Konfirmasi adat menegaskan bahwa wilayah perairan yang ditutup adalah hak ulayat sah komunitas nelayan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "contract",
+  "fields": {
+    "title": "Perjanjian Penggunaan Dermaga dan Ketentuan Sandar Pelabuhan",
+    "date": "1940-01-15",
+    "language": "indonesian",
+    "issuer": "Administrasi Pelabuhan Distrik & Perwakilan Pedagang Pesisir",
+    "contract": {
+      "contract_number": "CTR-1940/CS-13",
+      "party_a": "Baharuddin",
+      "party_b": "District Havenadministratie",
+      "subject": "Ketentuan hak sandar dan penetapan tarif dasar pelabuhan"
+    },
+    "agreement": {
+      "purpose": "Menjamin kelancaran dan keadilan akses sandar bagi seluruh pedagang di pelabuhan.",
+      "terms": [
+        "Tarif bea pelabuhan harus tetap mengacu pada lembaran ketetapan distrik resmi.",
+        "Setiap kapal pribumi berhak atas jalur sandar yang setara tanpa diskriminasi."
+      ],
+      "duration": {
+        "start_date": "1940-01-01",
+        "end_date": "1942-12-31"
+      }
+    },
+    "obligations": {
+      "party_a": [
+        "Membayar retribusi sesuai tarif resmi yang tercantum dalam kontrak."
+      ],
+      "party_b": [
+        "Menyediakan fasilitas sandar dan tidak mengenakan biaya di luar ketentuan."
+      ]
+    },
+    "signatures": {
+      "party_a_signed": "Baharuddin",
+      "party_b_signed": "J. H. van den Bosch",
+      "witnesses": [
+        "Tan Keng Hoo",
+        "Encik Mahmud"
+      ]
+    },
+    "claims": [
+      {
+        "fact": "Kontrak awal menetapkan batasan tarif resmi yang dilanggar oleh kenaikan sepihak di kemudian hari.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

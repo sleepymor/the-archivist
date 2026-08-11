@@ -1,0 +1,41 @@
+{
+  "type": "company_report",
+  "fields": {
+    "title": "Laporan Perusahaan mengenai Rekonsiliasi Kargo Dermaga",
+    "date": "1941-10-08",
+    "language": "indonesian",
+    "issuer": "N.V. Koloniale Petroleum Maatschappij",
+    "report": {
+      "report_number": "CR-1941/CS-08",
+      "company": "N.V. Koloniale Petroleum Maatschappij",
+      "author": "H. van der Meer",
+      "department": "Bagian Pengawasan Logistik"
+    },
+    "subject": "Koreksi selisih manifest kargo dan pemulihan nama baik pekerja",
+    "operations": {
+      "location": "Dermaga Industri Balikpapan",
+      "activity": "Pemeriksaan ulang jalur logistik dan transfer gudang",
+      "production": "Normal",
+      "workforce": "Buruh pelabuhan di bawah koordinasi Muhammad Yasin"
+    },
+    "findings": [
+      "Tanda terima transfer gudang selaras dengan catatan pengiriman awal.",
+      "Kesalahan administratif internal perusahaan telah diidentifikasi dan diperbaiki."
+    ],
+    "financial": {
+      "status": "Aman / Tidak ada kerugian material",
+      "notes": "Barang utuh dan tercatat dengan benar."
+    },
+    "recommendations": [
+      "Menyetujui permohonan pembersihan catatan formal bagi buruh pelabuhan."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan perusahaan mengonfirmasi keselarasan tanda terima transfer dan membatalkan tuduhan awal.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

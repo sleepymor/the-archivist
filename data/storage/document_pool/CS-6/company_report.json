@@ -1,0 +1,41 @@
+{
+  "type": "company_report",
+  "fields": {
+    "title": "Laporan Internal Perusahaan mengenai Bantahan Kecelakaan Kerja",
+    "date": "1941-08-03",
+    "language": "indonesian",
+    "issuer": "Balikpapan Scheepvaart Maatschappij",
+    "report": {
+      "report_number": "CR-1941/BSM-08",
+      "company": "Balikpapan Scheepvaart Maatschappij",
+      "author": "Carel Willem van der Berg",
+      "department": "Dinas Keselamatan Operasional"
+    },
+    "subject": "Penyelidikan atas laporan palsu kecelakaan kerja oleh buruh Baharuddin",
+    "operations": {
+      "location": "Pelabuhan Balikpapan, Dermaga B",
+      "activity": "Pemeriksaan internal operasional dermaga",
+      "production": "Normal, tanpa ada laporan insiden kerusakan alat",
+      "workforce": "Lengkap"
+    },
+    "findings": [
+      "Carel Willem van der Berg menyatakan tidak ada kerusakan kabel baja pada derek muat sebagaimana dituduhkan.",
+      "Saksi mata dari pihak pengawas menegaskan korban tidak berada di area kade pada jam yang dilaporkan."
+    ],
+    "financial": {
+      "status": "Klaim kompensasi ditolak oleh perusahaan",
+      "notes": "Tidak ada dasar finansial untuk pembayaran ganti rugi."
+    },
+    "recommendations": [
+      "Menolak permohonan klaim kompensasi dan memberikan teguran resmi kepada pekerja."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan yang disusun oleh Carel Willem van der Berg secara tegas membantah terjadinya kecelakaan dan menyebut laporan korban sebagai rekayasa.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 120,
+    "is_true": false
+  }
+}

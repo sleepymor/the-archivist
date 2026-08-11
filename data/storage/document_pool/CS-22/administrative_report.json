@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Laporan Administratif Pengambilalihan Perahu Komersial",
+    "date": "1943-01-22",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1943/CS-22",
+      "subject": "Penyelesaian klaim kompensasi pengerahan perahu Takahashi Kenji",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Laporan akhir administrasi distrik yang memutuskan untuk menerima (accept) permohonan voucher logistik militer.",
+    "findings": [
+      "Stempel permintaan logistik militer cocok dengan catatan kapal otoritas pelabuhan.",
+      "Seluruh dokumen pendukung, termasuk catatan inventaris dan laporan investigasi, memvalidasi klaim pemohon."
+    ],
+    "recommendations": [
+      "Mengesahkan penerimaan klaim (accept) dan mencairkan voucher logistik serta kompensasi pemaran perahu."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif distrik mengesahkan keputusan penerimaan klaim kompensasi logistik.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

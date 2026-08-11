@@ -1,0 +1,39 @@
+{
+  "type": "medical_record",
+  "fields": {
+    "title": "Eisei Kensa oyobi Shisetsu Kaizen Kiroku (Sanitary Inspection and Facility Improvement Record)",
+    "date": "1943-05-12",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Eisei Bu",
+    "record": {
+      "record_number": "MED-REC-1943/TR-15",
+      "medical_institution": "Balikpapan Eisei Kansasho",
+      "attending_person": "Dr. Yamamoto Kenzo"
+    },
+    "patient": {
+      "name": "Utari binti Arsad",
+      "age": "42 sai",
+      "occupation": "Dentō Iyaku Shūninsya",
+      "address": "Balikpapan Shū Kōgai"
+    },
+    "visit": {
+      "visit_date": "1943-05-10",
+      "reason": "Shoki karantina gōkaku ni yoru saikai zen no saikensa",
+      "condition": "Sōji, shōdoku oyobi kanki seibi ga kanryō shi, eisei jōtai wa kijun ni tatsushite iru",
+      "treatment": "Eisei shidō oyobi shisetsu kakunin no zikkō"
+    },
+    "outcome": {
+      "status": "Gōkaku / Saikai Kyoka Kanō",
+      "follow_up": "Teiki eisei kanshi"
+    },
+    "remarks": "Karantina kikan ni okonawareta kaizen sagyō ga kanzen ni jisshi sareta koto ga kakunin sareta.",
+    "claims": [
+      {
+        "fact": "Kiroku wa eisei jōtai no kaizen to kensa gōkaku o akiraka ni shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}

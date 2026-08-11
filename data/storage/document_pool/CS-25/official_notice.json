@@ -1,0 +1,25 @@
+{
+    "type": "official_notice",
+    "fields": {
+      "title": "Kōgyō Shisetsu Hoshu Meirei Tōgō ni kansuru Kōshiki Tsūchi",
+      "date": "1943-03-20",
+      "language": "japanese",
+      "issuer": "Balikpapan Shū Gyōsei Bu",
+      "notice": {
+        "notice_number": "ON-1943/CS-25",
+        "subject": "Fukusō suru hoshu meirei no tōgō to saishiji",
+        "recipient": "Kobayashi Isamu",
+        "reason": "Minkan kōgyō bu to gunji kanri bu no meirei fuguai no kaiketsu."
+      },
+      "content": "Kore yori, Kobayashi Isamu shi no yōsei ni kotae, ryō bukyoku kara hassō sareta fukusō suru hoshu meirei o tōgō shi, aratana tōgō hoshu keikaku o tekiyō suru koto o tsūchi shimasu.",
+      "effective_date": "1943-03-25",
+      "claims": [
+        {
+          "fact": "Kōshiki tsūchi wa fukusō meirei no tōgō to seikyū no ukeire o shōmei shite iru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+  }

@@ -1,0 +1,41 @@
+{
+  "type": "company_report",
+  "fields": {
+    "title": "Laporan Perusahaan mengenai Restrukturisasi Perkebunan Karet",
+    "date": "1941-06-18",
+    "language": "indonesian",
+    "issuer": "NV Tandjong Ru Rubber Maatschappij",
+    "report": {
+      "report_number": "CR-1941/PL-02",
+      "company": "NV Tandjong Ru Rubber Maatschappij",
+      "author": "H. van der Meer",
+      "department": "Bagian Personalia dan Operasional"
+    },
+    "subject": "Evaluasi penutupan afdeling marginal dan status hak buruh terikat",
+    "operations": {
+      "location": "Perkebunan Karet Balikpapan",
+      "activity": "Penghentian operasional afdeling utara akibat penurunan permintaan ekspor",
+      "production": "Menurun sebesar 30% dari kuota tahun sebelumnya",
+      "workforce": "Pengurangan 45 tenaga kerja lokal dan pengawas"
+    },
+    "findings": [
+      "Beberapa pengawas lapangan termasuk Encik Mahmud terdampak oleh penutupan afdeling utara.",
+      "Terdapat tunggakan administratif terkait kompensasi akhir yang belum terselesaikan karena kendala likuiditas kantor pusat."
+    ],
+    "financial": {
+      "status": "Dalam restrukturisasi pengetatan anggaran",
+      "notes": "Pembayaran tunjangan pisah dijadwalkan ulang menunggu persetujuan kontrolur."
+    },
+    "recommendations": [
+      "Menyelesaikan kewajiban pembayaran upah pisah secara bertahap kepada buruh yang memenuhi syarat masa kerja."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan perusahaan mengakui adanya penundaan pembayaran kompensasi akhir bagi pekerja yang dirumahkan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

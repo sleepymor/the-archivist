@@ -1,0 +1,32 @@
+{
+  "type": "document_verification",
+  "fields": {
+    "title": "Verifikasi Keaslian Dokumen Pajak Properti",
+    "date": "1941-11-14",
+    "language": "indonesian",
+    "issuer": "District Records Department",
+    "verification": {
+      "verification_number": "DV-1941/CS-12",
+      "reviewer": "J. H. van den Bosch",
+      "document_checked": "Pemberitahuan Pajak Properti",
+      "original_source": "Arsip Induk Distrik Balikpapan"
+    },
+    "inspection": {
+      "condition": "Baik",
+      "seal_check": "Stempel resmi distrik terverifikasi",
+      "signature_check": "Tanda tangan pejabat berwenang sah",
+      "date_consistency": "Konsisten dengan periode fiskal",
+      "content_consistency": "Terdapat perbedaan nominal akibat salah catat administratif"
+    },
+    "result": "Valid dengan catatan koreksi administratif",
+    "notes": "Keaslian dokumen pemohon terbukti, namun perlu penyesuaian nominal pada sistem.",
+    "claims": [
+      {
+        "fact": "Verifikasi dokumen membuktikan keabsahan surat pajak pemohon di tengah kesalahan catat register.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

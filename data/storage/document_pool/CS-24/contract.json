@@ -1,0 +1,50 @@
+{
+    "type": "contract",
+    "fields": {
+      "title": "Sen'i Tōsei oyobi Shōgyō Unei Keiyaku",
+      "date": "1942-03-01",
+      "language": "japanese",
+      "issuer": "Balikpapan Shōgyō Kumiai",
+      "contract": {
+        "contract_number": "CTR-1942/CS-24",
+        "party_a": "Watanabe Shizuko",
+        "party_b": "Nanpō Sangyō Bu Shōgyōka",
+        "subject": "Sen'i ryūtsū to shōgyō kyoka no kitei"
+      },
+      "agreement": {
+        "purpose": "Sen'i shijō no kanzen na tōsei to gunji yōsei e no kyōryoku.",
+        "terms": [
+          "Gyōsei chōkan no meirei ni yori shōgyō kyoka wa itsu demo torikeshi kanō de aru.",
+          "Kōshō hiyō wa tōsei kitei ni shitagatte chōshū sareru."
+        ],
+        "duration": {
+          "start_date": "1942-03-01",
+          "end_date": "1945-12-31"
+        }
+      },
+      "obligations": {
+        "party_a": [
+          "Tōsei kitei to kyoka jōken o junju suru koto."
+        ],
+        "party_b": [
+          "Hitsuyō ni ōji te kyoka o seigen suru kenri o yū suru."
+        ]
+      },
+      "signatures": {
+        "party_a_signed": "Watanabe Shizuko",
+        "party_b_signed": "Yamamoto Kenzo",
+        "witnesses": [
+          "Tan Keng Hoo",
+          "Baharuddin"
+        ]
+      },
+      "claims": [
+        {
+          "fact": "Keiyaku sho wa kyoka no torikeshi ga gyōsei meirei ni yori gōhōteki ni okonawareru koto o shōmei shite iru.",
+          "importance": "Takai"
+        }
+      ],
+      "investigation_score": 0,
+      "is_true": true
+    }
+  }

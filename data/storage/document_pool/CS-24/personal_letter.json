@@ -1,0 +1,35 @@
+{
+    "type": "personal_letter",
+    "fields": {
+      "title": "Shokan: Watanabe Shizuko kara Shū Chōkan e no Igi Shō",
+      "date": "1943-02-22",
+      "language": "japanese",
+      "issuer": "Kojin Arubu",
+      "sender": {
+        "name": "Watanabe Shizuko",
+        "location": "Balikpapan Shigaichi",
+        "relationship_to_receiver": "Shōnin kara Chōkan e"
+      },
+      "receiver": {
+        "name": "Balikpapan Shū Chōkan Denka",
+        "location": "Balikpapan Shū Chōkan Kōkan"
+      },
+      "letter": {
+        "greeting": "Keirei mōshiagemasu, Chūkan Denka.",
+        "message": "Watashi no sen'i shōgyō kyoka no kyūteki torikeshi to kōshō hiyō no fuka ni kan shi, saikō o yōsei itashimasu. Seikatsu to shōbai no kiki de arimasu.",
+        "closing": "Keigu, Watanabe Shizuko."
+      },
+      "context": {
+        "purpose": "Shōgyō kyoka torikeshi ni taisuru igi mōshitate.",
+        "related_event": "Keizai tōsei rei no tekiō"
+      },
+      "claims": [
+        {
+          "fact": "Kojin shokan wa shinseisha ga kyoka torikeshi ni taisuru fufuku o chokusetsu utatta koto o shōmei suru.",
+          "importance": "Naka"
+        }
+      ],
+      "investigation_score": 115,
+      "is_true": true
+    }
+  }

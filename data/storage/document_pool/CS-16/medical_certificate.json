@@ -1,0 +1,27 @@
+{
+  "type": "medical_certificate",
+  "fields": {
+  "title": "Sertifikat Medis Verifikasi Penggunaan Darurat",
+  "date": "1942-08-03",
+  "language": "indonesian",
+  "issuer": "Dinas Kesehatan Distrik Balikpapan",
+  "certificate": {
+    "certificate_number": "MC-1942/CS-16",
+    "doctor": "Dr. Hendrik van der Meer",
+    "recipient": "Ratna Sianipar"
+  },
+  "details": {
+    "purpose": "Mengesahkan bahwa persediaan medis yang diambil alih benar-benar digunakan untuk penanganan krisis medis darurat.",
+    "validity": "Berlaku penuh untuk klaim penggantian administratif."
+  },
+  "remarks": "Sertifikat ini melengkapi bukti medis atas krisis yang terjadi di wilayah distrik.",
+  "claims": [
+    {
+    "fact": "Sertifikat medis mengesahkan penggunaan darurat persediaan yang diklaim oleh pemohon.",
+    "importance": "Tinggi"
+    }
+  ],
+  "investigation_score": 125,
+  "is_true": true
+  }
+}

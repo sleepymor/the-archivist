@@ -1,0 +1,44 @@
+{
+  "type": "investigation_report",
+  "fields": {
+    "title": "Laporan Investigasi Pengawasan Tarif dan Hak Sandar",
+    "date": "1941-09-12",
+    "language": "indonesian",
+    "issuer": "Kantor Keamanan dan Pengawasan Pelabuhan",
+    "investigation": {
+      "report_number": "INV-1941/CS-13",
+      "investigator": "Inspektur L. de Jong",
+      "department": "Pengawasan Pelabuhan",
+      "location": "Pelabuhan Balikpapan"
+    },
+    "case": {
+      "subject": "Investigasi lonjakan bea pelabuhan dan laporan hambatan sandar",
+      "incident": "Penerapan tarif sepihak oleh pengelola pelabuhan terhadap kapal pribumi",
+      "date_of_incident": "1941-08-15",
+      "involved_people": [
+        "Baharuddin",
+        "L. de Jong"
+      ]
+    },
+    "findings": [
+      "Jadwal tarif yang diterapkan di lapangan tidak sinkron dengan lembar ketentuan resmi distrik.",
+      "Ada indikasi pungutan liar di luar jalur regulasi resmi pelabuhan."
+    ],
+    "evidence_reviewed": [
+      "Catatan Pajak TR-1941/CS-13",
+      "Kontrak Pelabuhan CTR-1940/CS-13"
+    ],
+    "conclusion": "Banding pemohon terbukti sah karena jadwal tarif menunjukkan pengenaan biaya berlebih.",
+    "recommendations": [
+      "Mengembalikan kelebihan pungutan kepada pedagang dan menertibkan administrasi pelabuhan."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan investigasi mengonfirmasi adanya penyimpangan tarif dan mendukung permohonan banding pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}

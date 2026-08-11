@@ -1,0 +1,45 @@
+{
+  "type": "employment_contract",
+  "fields": {
+    "title": "Kontrak Kerja Buruh Pelabuhan dan Awak Trawler",
+    "date": "1941-07-01",
+    "language": "indonesian",
+    "issuer": "Balikpapan Scheepvaart Maatschappij",
+    "contract": {
+      "contract_number": "EC-1941/BSM-12",
+      "employer": "Balikpapan Scheepvaart Maatschappij",
+      "employee": "Baharuddin",
+      "position": "Buruh Pelabuhan dan Kelasi"
+    },
+    "employment": {
+      "start_date": "1938-07-01",
+      "duration": "Waktu Tertentu (3 Tahun)",
+      "work_location": "Pelabuhan Balikpapan",
+      "responsibilities": [
+        "Memuat dan membongkar muatan kapal",
+        "Membantu pekerjaan geladak pada kapal penangkap ikan dan kapal barang"
+      ]
+    },
+    "compensation": {
+      "payment_type": "Upah mingguan tunai",
+      "amount": "f 18,50 per minggu",
+      "payment_period": "Mingguan"
+    },
+    "conditions": [
+      "Hak atas perawatan medis jika terjadi kecelakaan kerja.",
+      "Kewajiban mematuhi peraturan keselamatan kerja di area pelabuhan."
+    ],
+    "termination": {
+      "conditions": "Pemutusan hubungan kerja karena ketidakmampuan medis atau berakhirnya masa kontrak.",
+      "notice_period": "2 minggu"
+    },
+    "claims": [
+      {
+        "fact": "Carel Willem van der Berg selaku pengawas melaporkan bahwa Baharuddin tidak berada di lokasi saat insiden terjadi, yang berkontradiksi dengan klaim korban.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 110,
+    "is_true": false
+  }
+}

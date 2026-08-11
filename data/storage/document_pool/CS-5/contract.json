@@ -1,0 +1,50 @@
+{
+  "type": "contract",
+  "fields": {
+    "title": "Huur- en Winkelpandovereenkomst te Balikpapan",
+    "date": "1941-01-15",
+    "language": "dutch",
+    "issuer": "Handelsvereniging Balikpapan & Tan Keng Hoo",
+    "contract": {
+      "contract_number": "CTR-1941/CH-05",
+      "party_a": "Tan Keng Hoo",
+      "party_b": "Eigendom Maatschappij Balikpapan",
+      "subject": "Verhuur van winkelpand en pakhuis aan de Hoofdstraat"
+    },
+    "agreement": {
+      "purpose": "Exploitatie van algemeene winkel en opslag van handelsgoederen.",
+      "terms": [
+        "Huurder is verantwoordelijk voor dagelijks onderhoud.",
+        "Verhuurder garandeert structurele integriteit en verzekering tegen buitengewone risico's."
+      ],
+      "duration": {
+        "start_date": "1941-01-01",
+        "end_date": "1943-12-31"
+      }
+    },
+    "obligations": {
+      "party_a": [
+        "Tijdige betaling van de maandelijkse huursom."
+      ],
+      "party_b": [
+        "Vrijwaring van het pand en ondersteuning bij schadeclaims door openbare ongeregeldheden."
+      ]
+    },
+    "signatures": {
+      "party_a_signed": "Tan Keng Hoo",
+      "party_b_signed": "J. H. van den Berg",
+      "witnesses": [
+        "Baharuddin",
+        "La Maddukelleng"
+      ]
+    },
+    "claims": [
+      {
+        "fact": "Kontrak sewa bangunan menetapkan tanggung jawab hukum atas perlindungan aset komersial.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Administratief Rapport over de Afwijking in Brandstofvoorraden",
+    "date": "1942-09-16",
+    "language": "dutch",
+    "issuer": "District Administratie (Controleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1942/CS-17",
+      "subject": "Beoordeling van de verklaring van Idham Chalid over depotvariaties",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Het administratieve eindrapport waarin wordt geconcludeerd dat de ingediende stukken en verklaringen juist zijn.",
+    "findings": [
+      "Getuigenverklaringen en depotregisters bevestigen dat de variatie werd veroorzaakt door verdamping en goedgekeurde overdrachten.",
+      "Het verzoek van Idham Chalid is volledig onderbouwd."
+    ],
+    "recommendations": [
+      "Het verzoek goedkeuren (accept) en het dossier sluiten."
+    ],
+    "claims": [
+      {
+        "fact": "Het administratief rapport concludeert tot goedkeuring van de verklaring en sluiting van de zaak.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

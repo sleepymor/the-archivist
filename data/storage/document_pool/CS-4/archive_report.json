@@ -1,0 +1,35 @@
+{
+  "type": "archive_report",
+  "fields": {
+    "title": "Laporan Arsip mengenai Peninjauan Dokumen Kontrak Kerja dan Tunggakan Upah",
+    "date": "1941-06-20",
+    "language": "indonesian",
+    "issuer": "District Records Department",
+    "report": {
+      "report_number": "AR-1941/PL-14",
+      "author": "J. H. van den Bosch",
+      "subject": "Verifikasi keabsahan dokumen kepegawaian dan klaim upah pisah Encik Mahmud",
+      "archive_location": "Kantor Arsip Distrik Balikpapan"
+    },
+    "documents_reviewed": [
+      "Kontrak Kerja No: EC-1941/PL-04",
+      "Buku Besar Riwayat Pekerjaan No: ER-1941/PL-09",
+      "Laporan Perusahaan NV Tandjong Ru Rubber Maatschappij No: CR-1941/PL-02"
+    ],
+    "summary": "Pemeriksaan menyeluruh terhadap arsip kepegawaian perkebunan karet mengonfirmasi bahwa pemohon memiliki hak penuh atas kompensasi akhir sesuai dengan ketentuan kontrak kerja kolonial yang terdaftar.",
+    "issues_found": [
+      "Terdapat penundaan pencatatan administratif oleh pihak perusahaan akibat restrukturisasi afdeling utara."
+    ],
+    "recommendations": [
+      "Mendesak pihak administrasi perusahaan perkebunan untuk segera melunasi tunggakan upah dan tunjangan kepada pemohon."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan arsip memvalidasi keaslian seluruh berkas kepegawaian dan mendukung klaim pembayaran upah pisah.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}

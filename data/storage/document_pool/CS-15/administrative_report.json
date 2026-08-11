@@ -1,0 +1,31 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Laporan Administratif Penyelesaian Batas Konsesi Kayu",
+    "date": "1942-07-28",
+    "language": "indonesian",
+    "issuer": "District Administration (Kontroleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1942/CS-15",
+      "subject": "Penyelidikan atas sengketa batas konsesi kayu Pangeran Aji Mandarsyah",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Laporan akhir administrasi distrik yang memutuskan untuk menerima sanggahan pemohon atas tumpang tindih peta kehutanan.",
+    "findings": [
+      "Konsesi tanah Kesultanan asli memvalidasi batas-batas yang sudah ada sebelumnya sebelum pemetaan ulang kehutanan dilakukan.",
+      "Keberatan Pangeran Aji Mandarsyah didukung penuh oleh bukti arsip dan surat konfirmasi adat."
+    ],
+    "recommendations": [
+      "Menerima permohonan sanggahan (accept) dan merevisi peta kehutanan agar sesuai dengan konsesi asli."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif distrik memutuskan untuk menerima klaim pemohon berdasarkan validitas konsesi Kesultanan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

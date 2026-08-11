@@ -1,0 +1,50 @@
+{
+  "type": "contract",
+  "fields": {
+    "title": "Kopra Yusō oyobi Haikyō Keiyaku Sho (Copra Transport and Distribution Agreement)",
+    "date": "1942-04-10",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Shōgyō Kumiai (Merchant Association)",
+    "contract": {
+      "contract_number": "CTR-1942/MS-11",
+      "party_a": "Haji Abdul Gani",
+      "party_b": "Nanpō Sangyō Bu (Southern Development Department)",
+      "subject": "Kopra no yusō oyobi shukka ryō no wariawase ni kansuru keiyaku"
+    },
+    "agreement": {
+      "purpose": "Chiiki shijō ni okeru kopra no kyōkyū to yusō suijun no kisei.",
+      "terms": [
+        "Keiyaku sha wa shitei sareta kikan nai ni kopra o yusō suru gimu o ou.",
+        "Haikei yusōryō ga chūshi sareta baai, songai baishō o seikyū suru kenri o yū suru."
+      ],
+      "duration": {
+        "start_date": "1942-01-01",
+        "end_date": "1942-12-31"
+      }
+    },
+    "obligations": {
+      "party_a": [
+        "Maisū no kopra seisanbutsu o kitei no kikan e honsō suru koto."
+      ],
+      "party_b": [
+        "Yusō senpaku no teikyō to keiyaku jō no torihiki kessai o hoshō suru koto."
+      ]
+    },
+    "signatures": {
+      "party_a_signed": "Haji Abdul Gani",
+      "party_b_signed": "Yamamoto Kenzo",
+      "witnesses": [
+        "Tan Keng Hoo",
+        "Baharuddin"
+      ]
+    },
+    "claims": [
+      {
+        "fact": "Keiyaku sho wa kopra no yusō gimu to misetsutei na wariawase hōsei o shōmei shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

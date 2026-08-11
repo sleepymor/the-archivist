@@ -1,0 +1,38 @@
+{
+  "type": "inventory_record",
+  "fields": {
+    "title": "Inventarisregister van het Petroleumdepot",
+    "date": "1942-09-12",
+    "language": "dutch",
+    "issuer": "Administratie Petroleumdepot Balikpapan",
+    "inventory": {
+      "record_number": "IR-1942/CS-17",
+      "institution": "Brandstofdepot Beheer",
+      "location": "Depot Sektor B, Balikpapan",
+      "responsible_person": "Idham Chalid"
+    },
+    "items": [
+      {
+        "name": "Geraffineerde Petroleum en Brandstof",
+        "category": "Petroleumproducten",
+        "quantity": "Verschil van 500 liter (Verdamping en Overdracht)",
+        "condition": "In orde na correctie",
+        "location": "Opsagtanks Sektor B"
+      }
+    ],
+    "transaction": {
+      "type": "Voorraadverificatie en Overdracht",
+      "source": "Hoofddepot Balikpapan",
+      "destination": "Regionale Distributie"
+    },
+    "remarks": "De inventarisstaat legt de kleine afwijkingen vast die het gevolg zijn van natuurlijke verdamping en geautoriseerde verplaatsingen.",
+    "claims": [
+      {
+        "fact": "Het inventarisregister documenteert de aard van de voorraadvariatie en de goedgekeurde overdrachten.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "archive_report",
+  "fields": {
+    "title": "Laporan Arsip mengenai Perbedaan Daftar Pajak Tanah",
+    "date": "1941-11-10",
+    "language": "indonesian",
+    "issuer": "District Records Department",
+    "report": {
+      "report_number": "ARCH-1941/CS-12",
+      "author": "J. H. van den Bosch",
+      "subject": "Pemeriksaan perbedaan alokasi pajak properti milik Johanna Maria Jansen",
+      "archive_location": "Kantor Arsip Distrik Balikpapan"
+    },
+    "documents_reviewed": [
+      "Buku Pajak Tanah Kolonial Asli Tahun 1938",
+      "Daftar Register Pajak Kota yang Diperbarui"
+    ],
+    "summary": "Pemeriksaan arsip menemukan adanya ketidaksesuaian pencatatan administratif pada alokasi pajak properti setelah reorganisasi arsip distrik.",
+    "issues_found": [
+      "Kesalahan pengetikan administratif dalam daftar register pajak yang diperbarui."
+    ],
+    "recommendations": [
+      "Melakukan koreksi langsung pada daftar register pajak berdasarkan buku arsip kolonial asli."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan arsip mengonfirmasi adanya kesalahan administratif pada register pajak yang baru.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

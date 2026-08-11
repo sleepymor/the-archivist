@@ -1,0 +1,32 @@
+{
+  "type": "administrative_report",
+  "fields": {
+    "title": "Laporan Administratif Penolakan Klaim Sengketa Kerja",
+    "date": "1941-08-12",
+    "language": "indonesian",
+    "issuer": "Kantor Administrasi Distrik (Kontroleur voor Balikpapan)",
+    "report": {
+      "report_number": "AR-1941/BSM-15",
+      "subject": "Hasil akhir investigasi atas laporan palsu dan sanggahan Carel Willem van der Berg",
+      "author": "Controleur J. H. van den Bosch",
+      "location": "Balikpapan"
+    },
+    "summary": "Berdasarkan laporan pemeriksaan Carel Willem van der Berg dan catatan medis tandingan, kantor distrik memutuskan bahwa klaim kecelakaan kerja tidak didukung oleh bukti yang sah.",
+    "findings": [
+      "Keterangan saksi dan catatan absensi dari perusahaan menunjukkan ketidaksesuaian total dengan narasi korban.",
+      "Surat keterangan medis menyatakan tidak ada luka fisik yang mendukung klaim kecelakaan berat."
+    ],
+    "recommendations": [
+      "Menolak permohonan kompensasi dari pihak pekerja.",
+      "Menutup berkas perkara dengan status ditolak akibat kontradiksi bukti."
+    ],
+    "claims": [
+      {
+        "fact": "Laporan administratif distrik memenangkan pihak manajemen berdasarkan kontradiksi data dan laporan sanggahan Carel Willem van der Berg.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": false
+  }
+}

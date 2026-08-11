@@ -1,0 +1,33 @@
+{
+  "type": "residency_certificate",
+  "fields": {
+    "title": "Surat Keterangan Domisili dan Hak Usaha Pesisir",
+    "date": "1941-01-10",
+    "language": "indonesian",
+    "issuer": "Village Administration (Kampong Pesisir Balikpapan)",
+    "registration": {
+      "record_number": "RES-1941/CS-13",
+      "registration_date": "1941-01-05"
+    },
+    "person": {
+      "name": "Baharuddin",
+      "occupation": "Pedagang dan Navigator Pesisir",
+      "family_status": "Menikah"
+    },
+    "residence": {
+      "village": "Kampong Pesisir",
+      "district": "Balikpapan",
+      "description": "Kawasan pemukiman nelayan dan pelabuhan rakyat",
+      "duration": "Lebih dari 10 tahun"
+    },
+    "purpose": "Verifikasi status kependudukan dan legalitas usaha perdagangan pesisir",
+    "claims": [
+      {
+        "fact": "Surat keterangan domisili membuktikan keabsahan status pemohon sebagai warga dan pelaku usaha lokal yang sah.",
+        "importance": "Sedang"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

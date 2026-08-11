@@ -1,0 +1,45 @@
+{
+  "type": "inventory_record",
+  "fields": {
+    "title": "Inventarislijst van Schade en Plundering in Algemeene Winkel te Balikpapan",
+    "date": "1941-11-20",
+    "language": "dutch",
+    "issuer": "District Administration & Security Office",
+    "inventory": {
+      "record_number": "IR-1941/BP-78",
+      "institution": "District Administration",
+      "location": "Handelshuis Tan Keng Hoo, Hoofdstraat Balikpapan",
+      "responsible_person": "Tan Keng Hoo"
+    },
+    "items": [
+      {
+        "name": "Textiel en Katoenbalen",
+        "category": "Handelswaar",
+        "quantity": "45 balen",
+        "condition": "Vernield / Gestolen",
+        "location": "Pakhuis Hoofdstraat"
+      },
+      {
+        "name": "Winkelinventaris en Meubilair",
+        "category": "Bedrijfsuitrusting",
+        "quantity": "1 lot",
+        "condition": "Zwaar beschadigd",
+        "location": "Verkoopruimte"
+      }
+    ],
+    "transaction": {
+      "type": "Schaderegistratie / Inventarisatie na Onrust",
+      "source": "Handelshuis Tan Keng Hoo",
+      "destination": "Districtsarchief (Schadedossier)"
+    },
+    "remarks": "Inventaris opgesteld ter verificatie van de materiële schade en gestolen handelsgoederen tijdens de ongeregeldheden.",
+    "claims": [
+      {
+        "fact": "Catatan inventaris membuktikan kerugian material dan kehilangan barang dagangan di toko kelontong pemohon.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

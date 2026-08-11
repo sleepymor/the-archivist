@@ -1,0 +1,34 @@
+{
+  "type": "archive_report",
+  "fields": {
+    "title": "Archiefrapport betreffende Niet-bestaande Concessierechten",
+    "date": "1941-12-15",
+    "language": "dutch",
+    "issuer": "District Records Department",
+    "report": {
+      "report_number": "ARCH-1941/PL-04",
+      "author": "J. H. van den Bosch",
+      "subject": "Ontbreken van historische archiefbewijzen voor de plantage van de aanvrager",
+      "archive_location": "Kantor Arsip Distrik Balikpapan"
+    },
+    "documents_reviewed": [
+      "Eigendomsakte OR-1941/PL-09",
+      "Kadastraal Uittreksel LR-1941/PL-45"
+    ],
+    "summary": "Na grondige doorzoeking van het districtsarchief zijn er geen officiële duplicaten gevonden die de beweringen van de aanvrager ondersteunen.",
+    "issues_found": [
+      "De overlegde documenten komen niet overeen met de registers in het centrale landsarchief."
+    ],
+    "recommendations": [
+      "Het dossier als ongegrond en contradictoir sluiten (reject)."
+    ],
+    "claims": [
+      {
+        "fact": "Het archiefrapport bevestigt dat de bewijsstukken van de aanvrager niet overeenkomen met de officiële registers.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 115,
+    "is_true": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Gakkō Shisetsu Chōhatsu ni Kansuru Shū Chōkan Tsūchi",
+    "date": "1943-07-12",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Chōkan (Gunseibu)",
+    "notice": {
+      "notice_number": "GUN-1943/ED-04",
+      "subject": "Gunji un'yō oyobi kunren ni tomonau gakkō kōsha no chōhatsu",
+      "recipient": "Siti Aminah (Kyōshi)",
+      "reason": "Bōei kōbutsu o shien suru tame no kōkyō oyobi kyōiku shisetsu no kinkyū gyōsei saihaichi."
+    },
+    "content": "Kono tsūchi ni yori, Balikpapan Kokumin Gakkō no kyōshitsu oyobi shisetsu wa gunji kōmu no tame ni chōhatsu sareru koto o tōchi saremasu. Kyōin oyobi seito wa shitei sareta daitai basho e idō suru koto ga motomeraremasu.",
+    "effective_date": "1943-07-15",
+    "claims": [
+      {
+        "fact": "Pemberitahuan resmi militer memerintahkan pengambilalihan fasilitas sekolah untuk keperluan pertahanan dan logistik perang.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 130,
+    "is_true": true
+  }
+}

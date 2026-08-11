@@ -1,0 +1,25 @@
+{
+  "type": "official_notice",
+  "fields": {
+    "title": "Kōgyōyō Kyōkyū Wariate Chōsei ni kansuru Kōshiki Tsūchi",
+    "date": "1943-03-08",
+    "language": "japanese",
+    "issuer": "Balikpapan Shū Chōkan Somuka",
+    "notice": {
+      "notice_number": "ON-1943/CS-23",
+      "subject": "Kōgyō bumon kyōkyū wariate no saikō oyobi chōsei yōsei no受理",
+      "recipient": "Tanaka Hiroshi",
+      "reason": "Rōdōsha no saiteki seikatsu suijun o hozoku tame no kinkyū wariate zōryō seikyū e no taiō."
+    },
+    "content": "Kore yori, Tanaka Hiroshi shi kara teishutsu sareta kōgyōyō kyōkyū wariate no chōsei shinsei wa, zaimu kiroku oyobi rōdōsha meibo ni motozuki kōshiki ni juri sare, saishū chōsa ga jisshi saremasu.",
+    "effective_date": "1943-03-10",
+    "claims": [
+      {
+        "fact": "Kōshiki tsūchi wa wariate chōsei seikyū no juri to shōsa no jisshi o shōmei shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 125,
+    "is_true": true
+  }
+}

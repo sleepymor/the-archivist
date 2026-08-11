@@ -1,0 +1,44 @@
+{
+  "type": "employment_record",
+  "fields": {
+    "title": "Dienstverband- en Functieregister",
+    "date": "1942-12-12",
+    "language": "dutch",
+    "issuer": "Afdeling Personeelszaken Bedrijf",
+    "employment": {
+      "record_number": "ER-1942/CS-21",
+      "institution": "Technische Dienst en Werkplaats",
+      "employee": "Goh Eng Bian",
+      "position": "Hoofdmonteur / Vakman"
+    },
+    "service_period": {
+      "start_date": "1938-02-15",
+      "end_date": "Heden",
+      "status": "Actief"
+    },
+    "work_details": {
+      "department": "Technische Werkplaats",
+      "location": "Balikpapan",
+      "duties": [
+        "Onderhoud en reparatie van machines",
+        "Beheer van eigen professionele gereedschappen"
+      ]
+    },
+    "attendance": {
+      "attendance_status": "Regulier",
+      "remarks": "Uitstekende dienst, brengt eigen gereedschap mee voor gespecialiseerde werkzaamheden."
+    },
+    "payment_history": {
+      "payment_status": "Loon voldaan",
+      "last_recorded_payment": "1942-11-30"
+    },
+    "claims": [
+      {
+        "fact": "Het dienstverbandregister bevestigt de positie en het recht van de aanvrager om eigen gereedschap in de werkplaats te gebruiken.",
+        "importance": "Hoog"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

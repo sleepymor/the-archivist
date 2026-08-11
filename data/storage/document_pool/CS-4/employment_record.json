@@ -1,0 +1,44 @@
+{
+  "type": "employment_record",
+  "fields": {
+    "title": "Buku Besar Riwayat Pekerjaan Mandor Perkebunan",
+    "date": "1941-06-15",
+    "language": "indonesian",
+    "issuer": "Plantation Company (Administrasi Perkebunan Karet Balikpapan)",
+    "employment": {
+      "record_number": "ER-1941/PL-09",
+      "institution": "NV Tandjong Ru Rubber Maatschappij",
+      "employee": "Encik Mahmud",
+      "position": "Pengawas Lapangan / Mandor"
+    },
+    "service_period": {
+      "start_date": "1935-01-10",
+      "end_date": "1941-06-10",
+      "status": "Aktif / Menunggu Penyelesaian Kontrak"
+    },
+    "work_details": {
+      "department": "Afdeling Sadap dan Produksi Getah",
+      "location": "Balikpapan",
+      "duties": [
+        "Mengawasi buruh sadap harian",
+        "Mencatat hasil tonase getah karet mentah"
+      ]
+    },
+    "attendance": {
+      "attendance_status": "Sangat Baik (Tanpa Catatan Disiplin Negatif)",
+      "remarks": "Memiliki masa pengabdian lebih dari 5 tahun dengan catatan kinerja memuaskan."
+    },
+    "payment_history": {
+      "payment_status": "Tertunggak / Belum Lunas",
+      "last_recorded_payment": "1941-05-01 (Gaji bulan April)"
+    },
+    "claims": [
+      {
+        "fact": "Catatan kepegawaian membuktikan masa kerja yang sah dan adanya tunggakan upah serta tunjangan yang belum dibayarkan.",
+        "importance": "Tinggi"
+      }
+    ],
+    "investigation_score": 0,
+    "is_true": true
+  }
+}

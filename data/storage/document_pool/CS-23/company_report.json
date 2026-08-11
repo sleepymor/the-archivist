@@ -1,0 +1,41 @@
+{
+  "type": "company_report",
+  "fields": {
+    "title": "Kōgyō Bumon Rōdōsha Sikyū oyobi Kyōkyū Hōkoku",
+    "date": "1943-03-06",
+    "language": "japanese",
+    "issuer": "Nanpō Sangyō Bu Kōgyōka",
+    "report": {
+      "report_number": "CR-1943/CS-23",
+      "company": "Nanpō Sangyō Bu",
+      "author": "Tanaka Hiroshi",
+      "department": "Kōgyō Kanri Bu"
+    },
+    "subject": "Kōgyō rōdōsha ni taisuru kyōkyū busshi no genjō oyobi wariate fusoku no gen'in chōsa",
+    "operations": {
+      "location": "Balikpapan Kōgyō Chiku",
+      "activity": "Kōgyō katsudō oyobi busshi haikyō",
+      "production": "Wariate fusoku ni yori rōdō nōritsu 25% teika",
+      "workforce": "Kōgyō rōdōsha ichiran"
+    },
+    "findings": [
+      "Genjō no wariate hōsei wa rōdō jin’in no zōka ni tsuitsui shite orazu, kyōkyū busshi ga kyūkyoku ni fusoku shite iru.",
+      "Tanaka Hiroshi no seikyū suru wariate zōryō wa kōgyō seisan o iji suru tame ni fukaketsu de aru."
+    ],
+    "financial": {
+      "status": "Kyōkyū hi no zōgaku hitsuyō",
+      "notes": "Rōdōsha no seikatsu kijun iji no tame no yosan tsuika."
+    },
+    "recommendations": [
+      "Kōgyōyō kyōkyū wariate o zōryō shi, rōdōsha no seikatsu hoshō o okonau koto."
+    ],
+    "claims": [
+      {
+        "fact": "Kaisha hōkoku wa wariate fusoku ga rōdō nōritsu ni akueikyō o ataete iru koto o shōmei shite iru.",
+        "importance": "Takai"
+      }
+    ],
+    "investigation_score": 135,
+    "is_true": true
+  }
+}
