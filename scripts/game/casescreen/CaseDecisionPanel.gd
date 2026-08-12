@@ -44,9 +44,11 @@ func _on_reject_pressed() -> void:
 	_resolve_case("reject")
 
 func _normalize_decision(decision: String) -> String:
-	var normalized: String = decision.to_lower()
+	var normalized: String = decision.to_lower().strip_edges()
 	if normalized == "approve":
 		normalized = "accept"
+	elif normalized == "deny" or normalized == "decline" or normalized == "refuse":
+		normalized = "reject"
 	return normalized
 
 func _on_investigate_pressed() -> void:
