@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Agus Wijanarko",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agus Wijanarko.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 110,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-524",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agus Wijanarko.",
+			"recipient": "Agus Wijanarko",
+			"subject": "Agus Wijanarko"
+		},
+		"title": "Official Record - Agus Wijanarko"
+	},
+	"type": "official_notice"
+}

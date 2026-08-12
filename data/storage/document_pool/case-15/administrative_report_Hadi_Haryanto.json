@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Hadi Haryanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Hadi Haryanto"
+		],
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Hadi Haryanto",
+			"location": "District Archives Center, Sector 3",
+			"report_number": "ARC-1942-697",
+			"subject": "Hadi Haryanto"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Hadi Haryanto.",
+		"title": "Official Record - Hadi Haryanto"
+	},
+	"type": "administrative_report"
+}

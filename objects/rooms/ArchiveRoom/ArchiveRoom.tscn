@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="2_bvssm"]
 [ext_resource type="PackedScene" uid="uid://dfir3xwdmq2k2" path="res://objects/rooms/ArchiveRoom/ArchiveItem.tscn" id="2_ers2n"]
 [ext_resource type="Script" uid="uid://bwcm5ksewrdsu" path="res://scripts/game/archiveroom/DocumentViewer.gd" id="4_wffyv"]
+[ext_resource type="Texture2D" uid="uid://1cdb0me414l" path="res://assets/images/Buttons/button_left.png" id="5_xpdju"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_abqdv"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
@@ -164,15 +165,18 @@ offset_right = 137.0
 offset_bottom = 275.0
 text = "Close"
 
-[node name="ChangeScene" type="Button" parent="Interactables" unique_id=2007294219]
+[node name="ChangeScene" type="TextureButton" parent="Interactables" unique_id=1374650161]
 layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
-offset_top = -15.5
-offset_right = 18.0
-offset_bottom = 15.5
+offset_left = 3.0
+offset_top = -11.0
+offset_right = 21.0
+offset_bottom = 13.0
 grow_vertical = 2
-text = "<"
+texture_normal = ExtResource("5_xpdju")
+ignore_texture_size = true
+stretch_mode = 4
 script = ExtResource("2_bvssm")
 target = 3

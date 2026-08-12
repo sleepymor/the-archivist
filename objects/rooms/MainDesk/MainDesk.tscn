@@ -1,10 +1,20 @@
 [gd_scene format=3 uid="uid://co0nyncmnmwvk"]
 
 [ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="1_dje7x"]
+[ext_resource type="Texture2D" uid="uid://c4t35jm5081nm" path="res://assets/images/MainDesk/Bg Meja.png" id="1_u6p0p"]
 [ext_resource type="Script" uid="uid://e3gtce357v57" path="res://scripts/game/maindesk/AcceptCaseButton.gd" id="2_3n6tk"]
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="2_7n5ke"]
+[ext_resource type="Texture2D" uid="uid://c8s0dst3ivu21" path="res://assets/images/MainDesk/Meja.png" id="2_jg16n"]
+[ext_resource type="Texture2D" uid="uid://djj8tj60isake" path="res://assets/images/CaseScreen/dialog.png" id="3_w4cfk"]
 [ext_resource type="Script" uid="uid://br5dkkburd2xo" path="res://scripts/game/maindesk/CaseContainer.gd" id="3_ytpg3"]
 [ext_resource type="Script" uid="uid://bqaj3sw6bhw03" path="res://scripts/game/maindesk/CaseItem.gd" id="4_5h2ps"]
+[ext_resource type="Texture2D" uid="uid://b78ex26bul3wf" path="res://assets/images/CaseScreen/trust_bar_background.png" id="4_7kvnh"]
+[ext_resource type="Texture2D" uid="uid://b6a035djtu6cs" path="res://assets/images/CaseScreen/trust_bar_fill.png" id="5_ps8mu"]
+[ext_resource type="Texture2D" uid="uid://imjuomejdiwu" path="res://assets/images/CaseScreen/trust_icon.png" id="6_0h0cp"]
+[ext_resource type="Texture2D" uid="uid://70v8xtb1r71k" path="res://assets/images/Buttons/button_right.png" id="7_jg16n"]
+[ext_resource type="Texture2D" uid="uid://cms8kda47eut5" path="res://assets/images/CaseScreen/date_container.png" id="7_w4cfk"]
+[ext_resource type="Texture2D" uid="uid://cqkxn6lsib2ha" path="res://assets/images/CaseScreen/document.png" id="8_ps8mu"]
+[ext_resource type="Texture2D" uid="uid://bl1ysyt6se83a" path="res://assets/images/CaseScreen/pin.png" id="10_0h0cp"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_t24ib"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
@@ -41,39 +51,24 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Background" type="TextureRect" parent="Static" unique_id=1399257067]
-self_modulate = Color(1, 0.75, 0.75, 1)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("CompressedTexture2D_t24ib")
+texture = ExtResource("1_u6p0p")
+expand_mode = 1
 
 [node name="Desk" type="TextureRect" parent="Static" unique_id=1535710036]
-self_modulate = Color(0.80710185, 0.54905045, 0.19548571, 1)
 layout_mode = 1
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -118.0
-offset_top = -100.0
-offset_right = 118.5
-grow_horizontal = 2
-grow_vertical = 0
-texture = SubResource("CompressedTexture2D_t24ib")
-
-[node name="Label" type="Label" parent="Static" unique_id=1389445618]
-layout_mode = 1
-anchors_preset = 10
+anchors_preset = 15
 anchor_right = 1.0
-offset_bottom = 23.0
+anchor_bottom = 1.0
 grow_horizontal = 2
-text = "MAIN DESK"
-horizontal_alignment = 2
-vertical_alignment = 1
+grow_vertical = 2
+texture = ExtResource("2_jg16n")
+expand_mode = 1
 
 [node name="Dynamic" type="Control" parent="." unique_id=2096316795]
 layout_mode = 1
@@ -106,11 +101,12 @@ anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
 offset_left = 10.5000305
-offset_top = -44.0
-offset_right = 137.50003
+offset_top = -91.0
+offset_right = 222.50003
 offset_bottom = 10.0
 grow_horizontal = 0
-texture = SubResource("CompressedTexture2D_t24ib")
+texture = ExtResource("3_w4cfk")
+expand_mode = 1
 
 [node name="Label" type="Label" parent="Dynamic/Customer/DialogBox" unique_id=876006697]
 layout_mode = 0
@@ -158,46 +154,60 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Trust" type="TextureRect" parent="Dynamic" unique_id=474352307]
-self_modulate = Color(0.2938706, 0.6449327, 0.6268967, 1)
+self_modulate = Color(0.29439998, 0.64, 0.62272, 0)
 layout_mode = 1
-offset_right = 130.0
-offset_bottom = 22.0
+offset_left = 6.0
+offset_top = 5.0
+offset_right = 136.0
+offset_bottom = 27.0
 texture = ExtResource("1_dje7x")
 
-[node name="ProgressBar" type="ProgressBar" parent="Dynamic/Trust" unique_id=262588513]
+[node name="ProgressBar" type="TextureProgressBar" parent="Dynamic/Trust" unique_id=1275096033]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_font_sizes/font_size = 1
+offset_left = 26.0
+offset_top = 3.0
+offset_right = 526.0
+offset_bottom = 103.0
+scale = Vector2(0.22, 0.22)
 value = 40.0
+texture_under = ExtResource("4_7kvnh")
+texture_progress = ExtResource("5_ps8mu")
 
-[node name="Label" type="Label" parent="Dynamic/Trust" unique_id=1433857392]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-text = "Trust: 10"
+[node name="Icon" type="TextureRect" parent="Dynamic/Trust" unique_id=209475002]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 3.0
+offset_top = -8.0
+offset_right = 31.0
+offset_bottom = 15.0
+grow_vertical = 2
+texture = ExtResource("6_0h0cp")
+expand_mode = 1
+stretch_mode = 4
 
 [node name="Date" type="TextureRect" parent="Dynamic" unique_id=1374771945]
-self_modulate = Color(0, 0, 0, 1)
 layout_mode = 1
-offset_top = 23.0
-offset_right = 71.0
-offset_bottom = 47.0
-texture = ExtResource("1_dje7x")
+offset_left = 9.0
+offset_top = 37.0
+offset_right = 67.0
+offset_bottom = 65.0
+texture = ExtResource("7_w4cfk")
+expand_mode = 1
+stretch_mode = 4
 
 [node name="Label" type="Label" parent="Dynamic/Date" unique_id=630921556]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 52.0
-offset_bottom = 4.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_font_sizes/font_size = 12
 text = "Day 1"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Interactables" type="Control" parent="." unique_id=2069726146]
 layout_mode = 1
@@ -208,21 +218,24 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Document" type="TextureRect" parent="Interactables" unique_id=682209055]
+self_modulate = Color(1, 0.872, 0.76, 1)
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -57.0
-offset_top = -87.0
-offset_right = 58.0
+offset_left = -66.0
+offset_top = -104.0
+offset_right = 67.0
 offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 0
-texture = ExtResource("1_dje7x")
+texture = ExtResource("8_ps8mu")
+expand_mode = 1
 
 [node name="Label" type="Label" parent="Interactables/Document" unique_id=1502698076]
+visible = false
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -236,6 +249,7 @@ theme_override_font_sizes/font_size = 7
 text = "Case File - Lorem Ipsum"
 
 [node name="Button" type="Button" parent="Interactables/Document" unique_id=263131942]
+self_modulate = Color(1, 1, 1, 0)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -245,12 +259,13 @@ grow_vertical = 2
 script = ExtResource("2_3n6tk")
 
 [node name="Board" type="TextureRect" parent="Interactables" unique_id=626390420]
-self_modulate = Color(0.26645273, 0.61888987, 0.37787497, 1)
 layout_mode = 1
-offset_top = 46.0
-offset_right = 127.0
-offset_bottom = 200.0
-texture = ExtResource("1_dje7x")
+offset_left = -2.0
+offset_top = 69.0
+offset_right = 125.0
+offset_bottom = 223.0
+texture = ExtResource("10_0h0cp")
+expand_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Interactables/Board" unique_id=197329434]
 layout_mode = 1
@@ -262,17 +277,20 @@ grow_vertical = 2
 script = ExtResource("3_ytpg3")
 item_scene = SubResource("PackedScene_1hgmb")
 
-[node name="ChangeScene" type="Button" parent="Interactables" unique_id=252521840]
+[node name="ChangeScene" type="TextureButton" parent="Interactables" unique_id=496062589]
 layout_mode = 1
 anchors_preset = 6
 anchor_left = 1.0
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
-offset_left = -18.0
-offset_top = -15.5
-offset_bottom = 15.5
+offset_left = -32.0
+offset_top = -18.0
+offset_right = -5.0
+offset_bottom = 19.0
 grow_horizontal = 0
 grow_vertical = 2
-text = ">"
+texture_normal = ExtResource("7_jg16n")
+ignore_texture_size = true
+stretch_mode = 4
 script = ExtResource("2_7n5ke")

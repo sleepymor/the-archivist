@@ -1,0 +1,27 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rahayu Firmansyah",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"parents": {
+			"father": "Verified",
+			"mother": "Verified"
+		},
+		"person": {
+			"birth_date": "Verified",
+			"birth_place": "Verified",
+			"full_name": "Rahayu Firmansyah",
+			"gender": "Verified"
+		},
+		"title": "Official Record - Rahayu Firmansyah"
+	},
+	"type": "birth_record"
+}

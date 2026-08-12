@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Louise Suryadi",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"outcome": {
+			"follow_up": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Louise Suryadi.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Louise Suryadi."
+		},
+		"patient": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Louise Suryadi",
+			"occupation": "Verified"
+		},
+		"record": {
+			"attending_person": "Verified",
+			"medical_institution": "Verified",
+			"record_number": "ARC-1942-416"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Louise Suryadi.",
+		"title": "Official Record - Louise Suryadi",
+		"visit": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Louise Suryadi.",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Louise Suryadi.",
+			"treatment": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Louise Suryadi.",
+			"visit_date": "Verified"
+		}
+	},
+	"type": "medical_record"
+}

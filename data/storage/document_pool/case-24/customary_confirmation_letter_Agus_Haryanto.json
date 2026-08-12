@@ -1,0 +1,32 @@
+{
+	"fields": {
+		"authority": {
+			"elders": [],
+			"witnesses": []
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Agus Haryanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"confirmation": {
+			"community": "Verified",
+			"record_number": "ARC-1942-292",
+			"subject": "Agus Haryanto"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"person_or_group": {
+			"name": "Agus Haryanto",
+			"relation_to_community": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agus Haryanto.",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agus Haryanto.",
+		"title": "Official Record - Agus Haryanto"
+	},
+	"type": "customary_confirmation_letter"
+}

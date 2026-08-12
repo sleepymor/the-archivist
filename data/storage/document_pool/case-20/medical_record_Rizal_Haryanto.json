@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rizal Haryanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 130,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"outcome": {
+			"follow_up": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rizal Haryanto.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rizal Haryanto."
+		},
+		"patient": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Rizal Haryanto",
+			"occupation": "Verified"
+		},
+		"record": {
+			"attending_person": "Verified",
+			"medical_institution": "Verified",
+			"record_number": "ARC-1942-181"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rizal Haryanto.",
+		"title": "Official Record - Rizal Haryanto",
+		"visit": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rizal Haryanto.",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rizal Haryanto.",
+			"treatment": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rizal Haryanto.",
+			"visit_date": "Verified"
+		}
+	},
+	"type": "medical_record"
+}

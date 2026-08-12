@@ -2,7 +2,9 @@
 
 [ext_resource type="Script" uid="uid://e0hy238ledx0" path="res://scripts/game/casescreen/CaseScreen.gd" id="1_4g2bn"]
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="1_kbyl8"]
+[ext_resource type="Texture2D" uid="uid://wnyvr7ptqp3m" path="res://assets/images/CaseScreen/WhatsApp Image 2026-08-12 at 16.58.26.jpeg" id="2_16rqx"]
 [ext_resource type="Script" uid="uid://ccsrmn82it7gg" path="res://scripts/game/casescreen/CaseDecisionPanel.gd" id="3_7c1e4"]
+[ext_resource type="Texture2D" uid="uid://1cdb0me414l" path="res://assets/images/Buttons/button_left.png" id="3_ymc2m"]
 [ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="4_5vwp8"]
 [ext_resource type="Script" uid="uid://bnnt22cs7rcrn" path="res://scripts/game/casescreen/DecisionResultPopup.gd" id="4_5x5ot"]
 [ext_resource type="Script" uid="uid://f0ofg5wddai2" path="res://scripts/game/casescreen/InfoPopup.gd" id="6_bs03v"]
@@ -35,24 +37,15 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Background" type="TextureRect" parent="Static" unique_id=532698804]
-self_modulate = Color(0.6747767, 0.77, 0.6622, 1)
+self_modulate = Color(0.77, 0.77, 0.77, 1)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("CompressedTexture2D_vhrkp")
-
-[node name="Label" type="Label" parent="Static" unique_id=230086581]
-layout_mode = 1
-anchors_preset = 10
-anchor_right = 1.0
-offset_bottom = 23.0
-grow_horizontal = 2
-text = "CASE SCREEN"
-horizontal_alignment = 1
-vertical_alignment = 1
+texture = ExtResource("2_16rqx")
+expand_mode = 1
 
 [node name="Dynamic" type="Control" parent="." unique_id=954806830]
 layout_mode = 1
@@ -63,6 +56,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Document" type="TextureRect" parent="Dynamic" unique_id=592373969]
+visible = false
 self_modulate = Color(0.80710185, 0.54905045, 0.19548571, 1)
 layout_mode = 1
 anchors_preset = 8
@@ -79,6 +73,7 @@ grow_vertical = 2
 texture = SubResource("CompressedTexture2D_vhrkp")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Dynamic/Document" unique_id=368625879]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -114,11 +109,19 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="ChangeScene" type="Button" parent="Interactables" unique_id=929265296]
+[node name="ChangeScene" type="TextureButton" parent="Interactables" unique_id=1385060672]
 layout_mode = 1
-offset_right = 18.0
-offset_bottom = 31.0
-text = "<"
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 5.0
+offset_top = -22.0
+offset_right = 38.0
+offset_bottom = 22.0
+grow_vertical = 2
+texture_normal = ExtResource("3_ymc2m")
+ignore_texture_size = true
+stretch_mode = 4
 script = ExtResource("1_kbyl8")
 
 [node name="Actions" type="VBoxContainer" parent="Interactables" unique_id=1196737348 node_paths=PackedStringArray("accept_button", "reject_button", "investigate_button", "result_popup", "info_popup", "document_found_popup")]
@@ -161,10 +164,9 @@ layout_mode = 2
 size_flags_horizontal = 3
 text = "Investigate"
 
-[node name="ChangeScene" type="Button" parent="Interactables/Actions" unique_id=1822437676]
+[node name="ChangeScene" type="TextureButton" parent="Interactables/Actions" unique_id=1038931360]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "To Evidence Board"
 script = ExtResource("1_kbyl8")
 target = 3
 
@@ -238,6 +240,7 @@ grow_vertical = 0
 text = "OK"
 
 [node name="InfoPopup" type="Control" parent="Interactables" unique_id=309382666 node_paths=PackedStringArray("message_label", "ok_button")]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -303,6 +306,7 @@ grow_vertical = 0
 text = "OK"
 
 [node name="DailyPopup" type="Control" parent="Interactables" unique_id=618696338 node_paths=PackedStringArray("content_label", "ok_button")]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

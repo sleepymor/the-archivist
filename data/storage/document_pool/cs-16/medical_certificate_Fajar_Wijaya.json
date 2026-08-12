@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-360",
+			"doctor_or_officer": "Verified",
+			"medical_institution": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Fajar Wijaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"medical_statement": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fajar Wijaya.",
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fajar Wijaya.",
+			"restriction": "Verified",
+			"valid_period": "Verified"
+		},
+		"person": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Fajar Wijaya",
+			"occupation": "Verified"
+		},
+		"recipient": {
+			"institution": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fajar Wijaya."
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fajar Wijaya.",
+		"title": "Official Record - Fajar Wijaya"
+	},
+	"type": "medical_certificate"
+}

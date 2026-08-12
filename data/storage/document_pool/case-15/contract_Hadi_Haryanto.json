@@ -1,0 +1,42 @@
+{
+	"fields": {
+		"agreement": {
+			"duration": {
+				"end_date": "Verified",
+				"start_date": "Verified"
+			},
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Hadi Haryanto.",
+			"terms": [
+				"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Hadi Haryanto."
+			]
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Hadi Haryanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"contract": {
+			"contract_number": "Verified",
+			"party_a": "Hadi Haryanto",
+			"party_b": "Hadi Haryanto",
+			"subject": "Hadi Haryanto"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 175,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"obligations": {
+			"party_a": [],
+			"party_b": []
+		},
+		"signatures": {
+			"party_a_signed": "Verified",
+			"party_b_signed": "Verified",
+			"witnesses": []
+		},
+		"title": "Official Record - Hadi Haryanto"
+	},
+	"type": "contract"
+}

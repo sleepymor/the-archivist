@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-451",
+			"doctor_or_officer": "Verified",
+			"medical_institution": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Taufik Simanjuntak",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 183,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"medical_statement": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Taufik Simanjuntak.",
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Taufik Simanjuntak.",
+			"restriction": "Verified",
+			"valid_period": "Verified"
+		},
+		"person": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Taufik Simanjuntak",
+			"occupation": "Verified"
+		},
+		"recipient": {
+			"institution": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Taufik Simanjuntak."
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Taufik Simanjuntak.",
+		"title": "Official Record - Taufik Simanjuntak"
+	},
+	"type": "medical_certificate"
+}

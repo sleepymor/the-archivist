@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dian Setiadi",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"outcome": {
+			"follow_up": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi."
+		},
+		"patient": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Dian Setiadi",
+			"occupation": "Verified"
+		},
+		"record": {
+			"attending_person": "Verified",
+			"medical_institution": "Verified",
+			"record_number": "ARC-1942-494"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi.",
+		"title": "Official Record - Dian Setiadi",
+		"visit": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi.",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi.",
+			"treatment": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi.",
+			"visit_date": "Verified"
+		}
+	},
+	"type": "medical_record"
+}

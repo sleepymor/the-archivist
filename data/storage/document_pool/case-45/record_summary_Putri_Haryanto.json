@@ -1,0 +1,27 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Putri Haryanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"record": {
+			"original_document": "Verified",
+			"record_number": "ARC-1942-355",
+			"record_type": "Archival Log"
+		},
+		"related_documents": [
+			"ARC-1942-REF"
+		],
+		"subject": "Verified on file",
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Putri Haryanto.",
+		"title": "Official Record - Putri Haryanto"
+	},
+	"type": "record_summary"
+}

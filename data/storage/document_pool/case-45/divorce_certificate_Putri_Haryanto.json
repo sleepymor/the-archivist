@@ -1,0 +1,31 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-810",
+			"divorce_date": "Verified",
+			"husband": "Putri Haryanto",
+			"marriage_date": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Putri Haryanto.",
+			"wife": "Putri Haryanto"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Putri Haryanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"official": {
+			"name": "Putri Haryanto",
+			"position": "Verified"
+		},
+		"title": "Official Record - Putri Haryanto",
+		"witnesses": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Putri Haryanto."
+		]
+	},
+	"type": "divorce_certificate"
+}

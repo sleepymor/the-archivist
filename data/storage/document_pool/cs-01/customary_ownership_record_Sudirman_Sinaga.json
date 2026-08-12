@@ -1,0 +1,42 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sudirman Sinaga",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 161,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"ownership": {
+			"family_or_group": "Verified",
+			"inheritance_history": "Verified",
+			"recognized_owner": "Verified"
+		},
+		"property": {
+			"boundaries": {
+				"east": "Verified",
+				"north": "Verified",
+				"south": "Verified",
+				"west": "Verified"
+			},
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Sinaga.",
+			"location": "District Archives Center, Sector 5"
+		},
+		"recognition": {
+			"customary_basis": "Verified",
+			"elders": [],
+			"witnesses": []
+		},
+		"record": {
+			"community": "Verified",
+			"record_keeper": "Verified",
+			"record_number": "ARC-1942-250"
+		},
+		"title": "Official Record - Sudirman Sinaga"
+	},
+	"type": "customary_ownership_record"
+}

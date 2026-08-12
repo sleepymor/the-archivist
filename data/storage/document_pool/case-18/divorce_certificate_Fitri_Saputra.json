@@ -1,0 +1,31 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-804",
+			"divorce_date": "Verified",
+			"husband": "Fitri Saputra",
+			"marriage_date": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fitri Saputra.",
+			"wife": "Fitri Saputra"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Fitri Saputra",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"official": {
+			"name": "Fitri Saputra",
+			"position": "Verified"
+		},
+		"title": "Official Record - Fitri Saputra",
+		"witnesses": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fitri Saputra."
+		]
+	},
+	"type": "divorce_certificate"
+}

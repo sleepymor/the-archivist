@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rahayu Firmansyah",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"outcome": {
+			"follow_up": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Firmansyah.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Firmansyah."
+		},
+		"patient": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Rahayu Firmansyah",
+			"occupation": "Verified"
+		},
+		"record": {
+			"attending_person": "Verified",
+			"medical_institution": "Verified",
+			"record_number": "ARC-1942-145"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Firmansyah.",
+		"title": "Official Record - Rahayu Firmansyah",
+		"visit": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Firmansyah.",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Firmansyah.",
+			"treatment": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Firmansyah.",
+			"visit_date": "Verified"
+		}
+	},
+	"type": "medical_record"
+}

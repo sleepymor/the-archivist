@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-238",
+			"doctor_or_officer": "Verified",
+			"medical_institution": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Agus Wijanarko",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"medical_statement": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agus Wijanarko.",
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agus Wijanarko.",
+			"restriction": "Verified",
+			"valid_period": "Verified"
+		},
+		"person": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Agus Wijanarko",
+			"occupation": "Verified"
+		},
+		"recipient": {
+			"institution": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agus Wijanarko."
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agus Wijanarko.",
+		"title": "Official Record - Agus Wijanarko"
+	},
+	"type": "medical_certificate"
+}

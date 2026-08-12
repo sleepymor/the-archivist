@@ -1,0 +1,43 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Hendrik Bakker",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 114,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"land": {
+			"boundaries": {
+				"east": "Verified",
+				"north": "Verified",
+				"south": "Verified",
+				"west": "Verified"
+			},
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Hendrik Bakker.",
+			"land_type": "Verified",
+			"location": "District Archives Center, Sector 1",
+			"size": "Verified"
+		},
+		"land_status": {
+			"ownership_status": "Verified",
+			"previous_owner": "Verified",
+			"usage": "Verified"
+		},
+		"language": "Japanese Romaji",
+		"registered_owner": {
+			"name": "Hendrik Bakker",
+			"occupation": "Verified"
+		},
+		"registration": {
+			"record_number": "ARC-1942-357",
+			"registration_date": "Verified",
+			"registration_type": "Verified"
+		},
+		"title": "Official Record - Hendrik Bakker"
+	},
+	"type": "land_record"
+}

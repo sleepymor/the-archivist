@@ -1,0 +1,42 @@
+{
+	"fields": {
+		"agreement": {
+			"duration": {
+				"end_date": "Verified",
+				"start_date": "Verified"
+			},
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Panjaitan.",
+			"terms": [
+				"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Panjaitan."
+			]
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sudirman Panjaitan",
+				"importance": "Standard Verification"
+			}
+		],
+		"contract": {
+			"contract_number": "Verified",
+			"party_a": "Sudirman Panjaitan",
+			"party_b": "Sudirman Panjaitan",
+			"subject": "Sudirman Panjaitan"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"obligations": {
+			"party_a": [],
+			"party_b": []
+		},
+		"signatures": {
+			"party_a_signed": "Verified",
+			"party_b_signed": "Verified",
+			"witnesses": []
+		},
+		"title": "Official Record - Sudirman Panjaitan"
+	},
+	"type": "contract"
+}

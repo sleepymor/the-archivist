@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sudirman Panjaitan",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Panjaitan.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-455",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Panjaitan.",
+			"recipient": "Sudirman Panjaitan",
+			"subject": "Sudirman Panjaitan"
+		},
+		"title": "Official Record - Sudirman Panjaitan"
+	},
+	"type": "official_notice"
+}

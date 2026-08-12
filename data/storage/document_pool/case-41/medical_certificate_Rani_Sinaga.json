@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-965",
+			"doctor_or_officer": "Verified",
+			"medical_institution": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rani Sinaga",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"medical_statement": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Sinaga.",
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Sinaga.",
+			"restriction": "Verified",
+			"valid_period": "Verified"
+		},
+		"person": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Rani Sinaga",
+			"occupation": "Verified"
+		},
+		"recipient": {
+			"institution": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Sinaga."
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Sinaga.",
+		"title": "Official Record - Rani Sinaga"
+	},
+	"type": "medical_certificate"
+}

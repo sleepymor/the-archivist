@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dewi Manurung",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dewi Manurung.",
+		"statement_subject": {
+			"date_of_event": "Verified",
+			"event": "Official administrative review",
+			"location": "District Archives Center, Sector 4"
+		},
+		"title": "Official Record - Dewi Manurung",
+		"witness": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Dewi Manurung",
+			"occupation": "Verified"
+		},
+		"witness_signature": {
+			"signed": "Verified",
+			"verified_by": "Verified"
+		}
+	},
+	"type": "witness_statement"
+}

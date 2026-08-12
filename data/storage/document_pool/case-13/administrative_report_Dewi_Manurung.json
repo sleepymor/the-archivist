@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dewi Manurung",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Dewi Manurung"
+		],
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Dewi Manurung",
+			"location": "District Archives Center, Sector 4",
+			"report_number": "ARC-1942-662",
+			"subject": "Dewi Manurung"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dewi Manurung.",
+		"title": "Official Record - Dewi Manurung"
+	},
+	"type": "administrative_report"
+}

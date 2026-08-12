@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"ceremony": {
+			"officiant": "Verified",
+			"type": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rahayu Firmansyah",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"family_details": {
+			"husband_parent": "Verified",
+			"wife_parent": "Verified",
+			"witnesses": []
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"marriage": {
+			"husband": "Rahayu Firmansyah",
+			"location": "District Archives Center, Sector 3",
+			"marriage_date": "Verified",
+			"wife": "Rahayu Firmansyah"
+		},
+		"registration": {
+			"institution": "Verified",
+			"record_number": "ARC-1942-523",
+			"registration_date": "Verified"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Firmansyah.",
+		"title": "Official Record - Rahayu Firmansyah"
+	},
+	"type": "marriage_record"
+}

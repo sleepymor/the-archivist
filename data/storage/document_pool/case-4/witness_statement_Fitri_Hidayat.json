@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Fitri Hidayat",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 168,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fitri Hidayat.",
+		"statement_subject": {
+			"date_of_event": "Verified",
+			"event": "Official administrative review",
+			"location": "District Archives Center, Sector 3"
+		},
+		"title": "Official Record - Fitri Hidayat",
+		"witness": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Fitri Hidayat",
+			"occupation": "Verified"
+		},
+		"witness_signature": {
+			"signed": "Verified",
+			"verified_by": "Verified"
+		}
+	},
+	"type": "witness_statement"
+}

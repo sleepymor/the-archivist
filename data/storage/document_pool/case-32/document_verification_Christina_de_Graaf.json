@@ -1,0 +1,32 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Christina de Graaf",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"inspection": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Christina de Graaf.",
+			"content_consistency": "Verified",
+			"date_consistency": "Verified",
+			"seal_check": "Verified",
+			"signature_check": "Verified"
+		},
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notes": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Christina de Graaf.",
+		"result": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Christina de Graaf.",
+		"title": "Official Record - Christina de Graaf",
+		"verification": {
+			"document_checked": "Verified",
+			"original_source": "Verified",
+			"reviewer": "Verified",
+			"verification_number": "ARC-1942-973"
+		}
+	},
+	"type": "document_verification"
+}

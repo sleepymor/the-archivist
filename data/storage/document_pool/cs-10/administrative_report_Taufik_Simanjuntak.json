@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Taufik Simanjuntak",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Taufik Simanjuntak"
+		],
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Taufik Simanjuntak",
+			"location": "District Archives Center, Sector 5",
+			"report_number": "ARC-1942-965",
+			"subject": "Taufik Simanjuntak"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Taufik Simanjuntak.",
+		"title": "Official Record - Taufik Simanjuntak"
+	},
+	"type": "administrative_report"
+}

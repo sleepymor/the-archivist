@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"attendance": {
+			"attendance_status": "Verified",
+			"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ningsih Sanjaya."
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ningsih Sanjaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"employment": {
+			"employee": "Ningsih Sanjaya",
+			"institution": "Verified",
+			"position": "Verified",
+			"record_number": "ARC-1942-782"
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"payment_history": {
+			"last_recorded_payment": "Verified",
+			"payment_status": "Verified"
+		},
+		"service_period": {
+			"end_date": "Verified",
+			"start_date": "Verified",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ningsih Sanjaya."
+		},
+		"title": "Official Record - Ningsih Sanjaya",
+		"work_details": {
+			"department": "Verified",
+			"duties": [],
+			"location": "District Archives Center, Sector 2"
+		}
+	},
+	"type": "employment_record"
+}

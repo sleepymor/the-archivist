@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Budi Wijaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"owner": {
+			"address": "Verified",
+			"name": "Budi Wijaya",
+			"occupation": "Verified"
+		},
+		"ownership_details": {
+			"acquisition_method": "Verified",
+			"ownership_type": "Verified",
+			"previous_owner": "Verified"
+		},
+		"property": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Wijaya.",
+			"location": "District Archives Center, Sector 3",
+			"size": "Verified",
+			"type": "Verified"
+		},
+		"registration": {
+			"record_number": "ARC-1942-383",
+			"registration_date": "Verified"
+		},
+		"title": "Official Record - Budi Wijaya",
+		"witnesses": []
+	},
+	"type": "ownership_record"
+}

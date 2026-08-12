@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ong Wei",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ong Wei.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-497",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ong Wei.",
+			"recipient": "Ong Wei",
+			"subject": "Ong Wei"
+		},
+		"title": "Official Record - Ong Wei"
+	},
+	"type": "official_notice"
+}

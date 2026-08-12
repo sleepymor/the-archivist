@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sudirman Panjaitan",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sudirman Panjaitan.",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"language": "Japanese Romaji",
+		"letter": {
+			"closing": "Verified",
+			"greeting": "Verified",
+			"message": "Verified"
+		},
+		"receiver": {
+			"location": "District Archives Center, Sector 5",
+			"name": "Sudirman Panjaitan"
+		},
+		"sender": {
+			"location": "District Archives Center, Sector 3",
+			"name": "Sudirman Panjaitan",
+			"relationship_to_receiver": "Verified"
+		},
+		"title": "Official Record - Sudirman Panjaitan"
+	},
+	"type": "personal_letter"
+}

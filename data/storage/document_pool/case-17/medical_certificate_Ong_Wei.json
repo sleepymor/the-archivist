@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-589",
+			"doctor_or_officer": "Verified",
+			"medical_institution": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ong Wei",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"medical_statement": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ong Wei.",
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ong Wei.",
+			"restriction": "Verified",
+			"valid_period": "Verified"
+		},
+		"person": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Ong Wei",
+			"occupation": "Verified"
+		},
+		"recipient": {
+			"institution": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ong Wei."
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ong Wei.",
+		"title": "Official Record - Ong Wei"
+	},
+	"type": "medical_certificate"
+}

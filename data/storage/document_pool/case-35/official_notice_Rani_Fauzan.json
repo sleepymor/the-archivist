@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rani Fauzan",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Fauzan.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-820",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Fauzan.",
+			"recipient": "Rani Fauzan",
+			"subject": "Rani Fauzan"
+		},
+		"title": "Official Record - Rani Fauzan"
+	},
+	"type": "official_notice"
+}

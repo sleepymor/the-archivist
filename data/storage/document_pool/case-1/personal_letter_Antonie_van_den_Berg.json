@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Antonie van den Berg",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Antonie van den Berg.",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"language": "Japanese Romaji",
+		"letter": {
+			"closing": "Verified",
+			"greeting": "Verified",
+			"message": "Verified"
+		},
+		"receiver": {
+			"location": "District Archives Center, Sector 3",
+			"name": "Antonie van den Berg"
+		},
+		"sender": {
+			"location": "District Archives Center, Sector 5",
+			"name": "Antonie van den Berg",
+			"relationship_to_receiver": "Verified"
+		},
+		"title": "Official Record - Antonie van den Berg"
+	},
+	"type": "personal_letter"
+}

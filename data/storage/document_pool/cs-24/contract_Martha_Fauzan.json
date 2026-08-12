@@ -1,0 +1,42 @@
+{
+	"fields": {
+		"agreement": {
+			"duration": {
+				"end_date": "Verified",
+				"start_date": "Verified"
+			},
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Martha Fauzan.",
+			"terms": [
+				"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Martha Fauzan."
+			]
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Martha Fauzan",
+				"importance": "Standard Verification"
+			}
+		],
+		"contract": {
+			"contract_number": "Verified",
+			"party_a": "Martha Fauzan",
+			"party_b": "Martha Fauzan",
+			"subject": "Martha Fauzan"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 136,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"obligations": {
+			"party_a": [],
+			"party_b": []
+		},
+		"signatures": {
+			"party_a_signed": "Verified",
+			"party_b_signed": "Verified",
+			"witnesses": []
+		},
+		"title": "Official Record - Martha Fauzan"
+	},
+	"type": "contract"
+}

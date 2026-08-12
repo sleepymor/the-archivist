@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"achievement": {
+			"completion_date": "Verified",
+			"level": "Verified",
+			"program": "Verified",
+			"result": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Suryadi."
+		},
+		"authority": {
+			"official_signatures": [],
+			"principal_or_head": "Verified"
+		},
+		"certificate": {
+			"certificate_number": "ARC-1942-561",
+			"certificate_type": "Verified",
+			"school": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Budi Suryadi",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 130,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Suryadi.",
+		"student": {
+			"birth_date": "Verified",
+			"birth_place": "Verified",
+			"name": "Budi Suryadi"
+		},
+		"title": "Official Record - Budi Suryadi"
+	},
+	"type": "academic_certificate"
+}

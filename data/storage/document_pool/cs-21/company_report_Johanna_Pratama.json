@@ -1,0 +1,40 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Johanna Pratama",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"financial": {
+			"notes": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Johanna Pratama.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Johanna Pratama."
+		},
+		"findings": [
+			"Verified archival entry regarding Johanna Pratama"
+		],
+		"investigation_score": 200,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"operations": {
+			"activity": "Verified",
+			"location": "District Archives Center, Sector 1",
+			"production": "Verified",
+			"workforce": "Verified"
+		},
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Johanna Pratama",
+			"company": "Verified",
+			"department": "Verified",
+			"report_number": "ARC-1942-371"
+		},
+		"subject": "Verified on file",
+		"title": "Official Record - Johanna Pratama"
+	},
+	"type": "company_report"
+}

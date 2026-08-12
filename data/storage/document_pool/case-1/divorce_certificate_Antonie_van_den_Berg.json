@@ -1,0 +1,31 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-854",
+			"divorce_date": "Verified",
+			"husband": "Antonie van den Berg",
+			"marriage_date": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Antonie van den Berg.",
+			"wife": "Antonie van den Berg"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Antonie van den Berg",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"official": {
+			"name": "Antonie van den Berg",
+			"position": "Verified"
+		},
+		"title": "Official Record - Antonie van den Berg",
+		"witnesses": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Antonie van den Berg."
+		]
+	},
+	"type": "divorce_certificate"
+}

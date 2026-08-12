@@ -1,0 +1,43 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Johan Wijaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 121,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"land": {
+			"boundaries": {
+				"east": "Verified",
+				"north": "Verified",
+				"south": "Verified",
+				"west": "Verified"
+			},
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Johan Wijaya.",
+			"land_type": "Verified",
+			"location": "District Archives Center, Sector 4",
+			"size": "Verified"
+		},
+		"land_status": {
+			"ownership_status": "Verified",
+			"previous_owner": "Verified",
+			"usage": "Verified"
+		},
+		"language": "Japanese Romaji",
+		"registered_owner": {
+			"name": "Johan Wijaya",
+			"occupation": "Verified"
+		},
+		"registration": {
+			"record_number": "ARC-1942-117",
+			"registration_date": "Verified",
+			"registration_type": "Verified"
+		},
+		"title": "Official Record - Johan Wijaya"
+	},
+	"type": "land_record"
+}

@@ -1,0 +1,31 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-785",
+			"divorce_date": "Verified",
+			"husband": "Matsumoto Hisako",
+			"marriage_date": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Matsumoto Hisako.",
+			"wife": "Matsumoto Hisako"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Matsumoto Hisako",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"official": {
+			"name": "Matsumoto Hisako",
+			"position": "Verified"
+		},
+		"title": "Official Record - Matsumoto Hisako",
+		"witnesses": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Matsumoto Hisako."
+		]
+	},
+	"type": "divorce_certificate"
+}

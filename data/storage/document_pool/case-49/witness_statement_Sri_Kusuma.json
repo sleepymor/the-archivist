@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Sri Kusuma",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Sri Kusuma.",
+		"statement_subject": {
+			"date_of_event": "Verified",
+			"event": "Official administrative review",
+			"location": "District Archives Center, Sector 4"
+		},
+		"title": "Official Record - Sri Kusuma",
+		"witness": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Sri Kusuma",
+			"occupation": "Verified"
+		},
+		"witness_signature": {
+			"signed": "Verified",
+			"verified_by": "Verified"
+		}
+	},
+	"type": "witness_statement"
+}

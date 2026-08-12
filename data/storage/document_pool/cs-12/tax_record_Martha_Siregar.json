@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Martha Siregar",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"payment": {
+			"amount": "Verified",
+			"payment_date": "Verified",
+			"payment_method": "Verified"
+		},
+		"property": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Martha Siregar.",
+			"location": "District Archives Center, Sector 5"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Martha Siregar.",
+		"tax": {
+			"record_number": "ARC-1942-201",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Martha Siregar.",
+			"tax_period": "Verified",
+			"tax_type": "Verified",
+			"taxpayer": "Martha Siregar"
+		},
+		"title": "Official Record - Martha Siregar"
+	},
+	"type": "tax_record"
+}

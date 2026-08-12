@@ -1,0 +1,29 @@
+{
+	"fields": {
+		"author": {
+			"location": "District Archives Center, Sector 1",
+			"name": "Dedi Manurung",
+			"occupation": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dedi Manurung",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"location": "District Archives Center, Sector 5",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"entry": {
+			"mood": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dedi Manurung.",
+			"text": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dedi Manurung."
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"language": "Japanese Romaji",
+		"title": "Official Record - Dedi Manurung"
+	},
+	"type": "diary_entry"
+}

@@ -1,0 +1,40 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ningsih Sanjaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"financial": {
+			"notes": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ningsih Sanjaya.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ningsih Sanjaya."
+		},
+		"findings": [
+			"Verified archival entry regarding Ningsih Sanjaya"
+		],
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"operations": {
+			"activity": "Verified",
+			"location": "District Archives Center, Sector 4",
+			"production": "Verified",
+			"workforce": "Verified"
+		},
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Ningsih Sanjaya",
+			"company": "Verified",
+			"department": "Verified",
+			"report_number": "ARC-1942-444"
+		},
+		"subject": "Verified on file",
+		"title": "Official Record - Ningsih Sanjaya"
+	},
+	"type": "company_report"
+}

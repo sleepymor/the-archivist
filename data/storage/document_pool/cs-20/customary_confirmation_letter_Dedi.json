@@ -1,0 +1,32 @@
+{
+	"fields": {
+		"authority": {
+			"elders": [],
+			"witnesses": []
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dedi",
+				"importance": "Standard Verification"
+			}
+		],
+		"confirmation": {
+			"community": "Verified",
+			"record_number": "ARC-1942-945",
+			"subject": "Dedi"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"person_or_group": {
+			"name": "Dedi",
+			"relation_to_community": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dedi.",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dedi.",
+		"title": "Official Record - Dedi"
+	},
+	"type": "customary_confirmation_letter"
+}

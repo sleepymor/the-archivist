@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Wati Kusuma",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Wati Kusuma.",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"language": "Japanese Romaji",
+		"letter": {
+			"closing": "Verified",
+			"greeting": "Verified",
+			"message": "Verified"
+		},
+		"receiver": {
+			"location": "District Archives Center, Sector 4",
+			"name": "Wati Kusuma"
+		},
+		"sender": {
+			"location": "District Archives Center, Sector 3",
+			"name": "Wati Kusuma",
+			"relationship_to_receiver": "Verified"
+		},
+		"title": "Official Record - Wati Kusuma"
+	},
+	"type": "personal_letter"
+}

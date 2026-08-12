@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Budi Suryadi",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Suryadi.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-841",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Suryadi.",
+			"recipient": "Budi Suryadi",
+			"subject": "Budi Suryadi"
+		},
+		"title": "Official Record - Budi Suryadi"
+	},
+	"type": "official_notice"
+}

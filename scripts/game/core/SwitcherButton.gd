@@ -1,4 +1,4 @@
-extends Button
+extends TextureButton
 
 @export var switcher: Node
 @export var target: ObjectSwitcher.ObjectType

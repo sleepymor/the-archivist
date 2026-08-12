@@ -1,0 +1,42 @@
+{
+	"fields": {
+		"agreement": {
+			"duration": {
+				"end_date": "Verified",
+				"start_date": "Verified"
+			},
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Suryanto Kurniawan.",
+			"terms": [
+				"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Suryanto Kurniawan."
+			]
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Suryanto Kurniawan",
+				"importance": "Standard Verification"
+			}
+		],
+		"contract": {
+			"contract_number": "Verified",
+			"party_a": "Suryanto Kurniawan",
+			"party_b": "Suryanto Kurniawan",
+			"subject": "Suryanto Kurniawan"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"obligations": {
+			"party_a": [],
+			"party_b": []
+		},
+		"signatures": {
+			"party_a_signed": "Verified",
+			"party_b_signed": "Verified",
+			"witnesses": []
+		},
+		"title": "Official Record - Suryanto Kurniawan"
+	},
+	"type": "contract"
+}

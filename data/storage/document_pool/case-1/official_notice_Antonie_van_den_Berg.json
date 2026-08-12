@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Antonie van den Berg",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Antonie van den Berg.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-265",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Antonie van den Berg.",
+			"recipient": "Antonie van den Berg",
+			"subject": "Antonie van den Berg"
+		},
+		"title": "Official Record - Antonie van den Berg"
+	},
+	"type": "official_notice"
+}

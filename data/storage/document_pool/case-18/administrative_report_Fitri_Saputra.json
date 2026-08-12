@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Fitri Saputra",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Fitri Saputra"
+		],
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Fitri Saputra",
+			"location": "District Archives Center, Sector 3",
+			"report_number": "ARC-1942-240",
+			"subject": "Fitri Saputra"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fitri Saputra.",
+		"title": "Official Record - Fitri Saputra"
+	},
+	"type": "administrative_report"
+}

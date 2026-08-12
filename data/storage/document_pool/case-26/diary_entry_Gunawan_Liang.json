@@ -1,0 +1,29 @@
+{
+	"fields": {
+		"author": {
+			"location": "District Archives Center, Sector 5",
+			"name": "Gunawan Liang",
+			"occupation": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Gunawan Liang",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"location": "District Archives Center, Sector 1",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"entry": {
+			"mood": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Gunawan Liang.",
+			"text": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Gunawan Liang."
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"language": "Japanese Romaji",
+		"title": "Official Record - Gunawan Liang"
+	},
+	"type": "diary_entry"
+}

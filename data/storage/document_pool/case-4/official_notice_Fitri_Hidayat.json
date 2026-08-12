@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Fitri Hidayat",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fitri Hidayat.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-702",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fitri Hidayat.",
+			"recipient": "Fitri Hidayat",
+			"subject": "Fitri Hidayat"
+		},
+		"title": "Official Record - Fitri Hidayat"
+	},
+	"type": "official_notice"
+}

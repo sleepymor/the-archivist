@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Johan Wijaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Johan Wijaya"
+		],
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Johan Wijaya",
+			"location": "District Archives Center, Sector 2",
+			"report_number": "ARC-1942-597",
+			"subject": "Johan Wijaya"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Johan Wijaya.",
+		"title": "Official Record - Johan Wijaya"
+	},
+	"type": "administrative_report"
+}

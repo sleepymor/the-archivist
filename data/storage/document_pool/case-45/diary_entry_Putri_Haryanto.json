@@ -1,0 +1,29 @@
+{
+	"fields": {
+		"author": {
+			"location": "District Archives Center, Sector 2",
+			"name": "Putri Haryanto",
+			"occupation": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Putri Haryanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"location": "District Archives Center, Sector 5",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"entry": {
+			"mood": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Putri Haryanto.",
+			"text": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Putri Haryanto."
+		},
+		"investigation_score": 0,
+		"is_true": true,
+		"language": "Japanese Romaji",
+		"title": "Official Record - Putri Haryanto"
+	},
+	"type": "diary_entry"
+}

@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Johanna Pratama",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Johanna Pratama.",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 154,
+		"is_true": false,
+		"language": "Japanese Romaji",
+		"letter": {
+			"closing": "Verified",
+			"greeting": "Verified",
+			"message": "Verified"
+		},
+		"receiver": {
+			"location": "District Archives Center, Sector 4",
+			"name": "Johanna Pratama"
+		},
+		"sender": {
+			"location": "District Archives Center, Sector 5",
+			"name": "Johanna Pratama",
+			"relationship_to_receiver": "Verified"
+		},
+		"title": "Official Record - Johanna Pratama"
+	},
+	"type": "personal_letter"
+}

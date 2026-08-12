@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ito Tomiko",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"inventory": {
+			"institution": "Verified",
+			"location": "District Archives Center, Sector 5",
+			"record_number": "ARC-1942-280",
+			"responsible_person": "Verified"
+		},
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"items": [
+			{
+				"category": "Verified on file",
+				"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ito Tomiko.",
+				"location": "Verified on file",
+				"name": "Verified on file",
+				"quantity": "Verified on file"
+			}
+		],
+		"language": "Japanese Romaji",
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ito Tomiko.",
+		"title": "Official Record - Ito Tomiko",
+		"transaction": {
+			"destination": "Verified",
+			"source": "Verified",
+			"type": "Verified"
+		}
+	},
+	"type": "inventory_record"
+}

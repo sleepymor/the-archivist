@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Gunawan Liang",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Gunawan Liang"
+		],
+		"investigation_score": 146,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Gunawan Liang",
+			"location": "District Archives Center, Sector 4",
+			"report_number": "ARC-1942-282",
+			"subject": "Gunawan Liang"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Gunawan Liang.",
+		"title": "Official Record - Gunawan Liang"
+	},
+	"type": "administrative_report"
+}

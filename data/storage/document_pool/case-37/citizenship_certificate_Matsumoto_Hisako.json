@@ -1,0 +1,36 @@
+{
+	"fields": {
+		"background": {
+			"notes": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Matsumoto Hisako.",
+			"origin": "Verified",
+			"previous_status": "Verified"
+		},
+		"citizenship": {
+			"effective_date": "1942-06-12",
+			"recognized_by": "Verified",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Matsumoto Hisako."
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Matsumoto Hisako",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 138,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"person": {
+			"birth_date": "Verified",
+			"birth_place": "Verified",
+			"name": "Matsumoto Hisako"
+		},
+		"registration": {
+			"record_number": "ARC-1942-351",
+			"registration_date": "Verified"
+		},
+		"title": "Official Record - Matsumoto Hisako"
+	},
+	"type": "citizenship_certificate"
+}

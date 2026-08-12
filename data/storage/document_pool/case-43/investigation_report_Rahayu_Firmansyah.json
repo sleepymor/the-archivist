@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"case": {
+			"date_of_incident": "Verified",
+			"incident": "Verified",
+			"involved_people": [],
+			"subject": "Rahayu Firmansyah"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rahayu Firmansyah",
+				"importance": "Standard Verification"
+			}
+		],
+		"conclusion": "Verified on file",
+		"date": "1942-06-12",
+		"evidence_reviewed": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Firmansyah."
+		],
+		"findings": [
+			"Verified archival entry regarding Rahayu Firmansyah"
+		],
+		"investigation": {
+			"department": "Verified",
+			"investigator": "Verified",
+			"location": "District Archives Center, Sector 5",
+			"report_number": "ARC-1942-297"
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"title": "Official Record - Rahayu Firmansyah"
+	},
+	"type": "investigation_report"
+}

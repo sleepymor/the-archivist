@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"attendance": {
+			"attendance_status": "Verified",
+			"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahmat Wibowo."
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rahmat Wibowo",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"employment": {
+			"employee": "Rahmat Wibowo",
+			"institution": "Verified",
+			"position": "Verified",
+			"record_number": "ARC-1942-382"
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"payment_history": {
+			"last_recorded_payment": "Verified",
+			"payment_status": "Verified"
+		},
+		"service_period": {
+			"end_date": "Verified",
+			"start_date": "Verified",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahmat Wibowo."
+		},
+		"title": "Official Record - Rahmat Wibowo",
+		"work_details": {
+			"department": "Verified",
+			"duties": [],
+			"location": "District Archives Center, Sector 4"
+		}
+	},
+	"type": "employment_record"
+}

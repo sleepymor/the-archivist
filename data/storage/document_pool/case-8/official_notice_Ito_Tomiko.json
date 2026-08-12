@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ito Tomiko",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ito Tomiko.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 146,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-868",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ito Tomiko.",
+			"recipient": "Ito Tomiko",
+			"subject": "Ito Tomiko"
+		},
+		"title": "Official Record - Ito Tomiko"
+	},
+	"type": "official_notice"
+}

@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rizal Gunawan",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rizal Gunawan.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-600",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rizal Gunawan.",
+			"recipient": "Rizal Gunawan",
+			"subject": "Rizal Gunawan"
+		},
+		"title": "Official Record - Rizal Gunawan"
+	},
+	"type": "official_notice"
+}

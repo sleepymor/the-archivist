@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"achievement": {
+			"completion_date": "Verified",
+			"level": "Verified",
+			"program": "Verified",
+			"result": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Christina de Graaf."
+		},
+		"authority": {
+			"official_signatures": [],
+			"principal_or_head": "Verified"
+		},
+		"certificate": {
+			"certificate_number": "ARC-1942-453",
+			"certificate_type": "Verified",
+			"school": "Verified"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Christina de Graaf",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Christina de Graaf.",
+		"student": {
+			"birth_date": "Verified",
+			"birth_place": "Verified",
+			"name": "Christina de Graaf"
+		},
+		"title": "Official Record - Christina de Graaf"
+	},
+	"type": "academic_certificate"
+}

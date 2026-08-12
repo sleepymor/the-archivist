@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dewi Manurung",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dewi Manurung.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-564",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dewi Manurung.",
+			"recipient": "Dewi Manurung",
+			"subject": "Dewi Manurung"
+		},
+		"title": "Official Record - Dewi Manurung"
+	},
+	"type": "official_notice"
+}

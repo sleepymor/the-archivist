@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"attendance": {
+			"attendance_status": "Verified",
+			"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi."
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dian Setiadi",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"employment": {
+			"employee": "Dian Setiadi",
+			"institution": "Verified",
+			"position": "Verified",
+			"record_number": "ARC-1942-885"
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"payment_history": {
+			"last_recorded_payment": "Verified",
+			"payment_status": "Verified"
+		},
+		"service_period": {
+			"end_date": "Verified",
+			"start_date": "Verified",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi."
+		},
+		"title": "Official Record - Dian Setiadi",
+		"work_details": {
+			"department": "Verified",
+			"duties": [],
+			"location": "District Archives Center, Sector 5"
+		}
+	},
+	"type": "employment_record"
+}

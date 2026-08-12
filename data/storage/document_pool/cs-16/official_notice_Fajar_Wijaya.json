@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Fajar Wijaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fajar Wijaya.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-916",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fajar Wijaya.",
+			"recipient": "Fajar Wijaya",
+			"subject": "Fajar Wijaya"
+		},
+		"title": "Official Record - Fajar Wijaya"
+	},
+	"type": "official_notice"
+}

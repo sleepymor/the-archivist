@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Hasan",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Hasan.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-154",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Hasan.",
+			"recipient": "Hasan",
+			"subject": "Hasan"
+		},
+		"title": "Official Record - Hasan"
+	},
+	"type": "official_notice"
+}

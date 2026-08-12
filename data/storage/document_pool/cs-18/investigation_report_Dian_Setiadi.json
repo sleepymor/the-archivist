@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"case": {
+			"date_of_incident": "Verified",
+			"incident": "Verified",
+			"involved_people": [],
+			"subject": "Dian Setiadi"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dian Setiadi",
+				"importance": "Standard Verification"
+			}
+		],
+		"conclusion": "Verified on file",
+		"date": "1942-06-12",
+		"evidence_reviewed": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi."
+		],
+		"findings": [
+			"Verified archival entry regarding Dian Setiadi"
+		],
+		"investigation": {
+			"department": "Verified",
+			"investigator": "Verified",
+			"location": "District Archives Center, Sector 2",
+			"report_number": "ARC-1942-176"
+		},
+		"investigation_score": 103,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"title": "Official Record - Dian Setiadi"
+	},
+	"type": "investigation_report"
+}

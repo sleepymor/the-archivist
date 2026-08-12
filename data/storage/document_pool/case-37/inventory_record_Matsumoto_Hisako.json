@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Matsumoto Hisako",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"inventory": {
+			"institution": "Verified",
+			"location": "District Archives Center, Sector 3",
+			"record_number": "ARC-1942-346",
+			"responsible_person": "Verified"
+		},
+		"investigation_score": 188,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"items": [
+			{
+				"category": "Verified on file",
+				"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Matsumoto Hisako.",
+				"location": "Verified on file",
+				"name": "Verified on file",
+				"quantity": "Verified on file"
+			}
+		],
+		"language": "Japanese Romaji",
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Matsumoto Hisako.",
+		"title": "Official Record - Matsumoto Hisako",
+		"transaction": {
+			"destination": "Verified",
+			"source": "Verified",
+			"type": "Verified"
+		}
+	},
+	"type": "inventory_record"
+}

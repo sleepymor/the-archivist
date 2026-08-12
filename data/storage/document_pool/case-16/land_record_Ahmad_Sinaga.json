@@ -1,0 +1,43 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ahmad Sinaga",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 177,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"land": {
+			"boundaries": {
+				"east": "Verified",
+				"north": "Verified",
+				"south": "Verified",
+				"west": "Verified"
+			},
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ahmad Sinaga.",
+			"land_type": "Verified",
+			"location": "District Archives Center, Sector 3",
+			"size": "Verified"
+		},
+		"land_status": {
+			"ownership_status": "Verified",
+			"previous_owner": "Verified",
+			"usage": "Verified"
+		},
+		"language": "Japanese Romaji",
+		"registered_owner": {
+			"name": "Ahmad Sinaga",
+			"occupation": "Verified"
+		},
+		"registration": {
+			"record_number": "ARC-1942-742",
+			"registration_date": "Verified",
+			"registration_type": "Verified"
+		},
+		"title": "Official Record - Ahmad Sinaga"
+	},
+	"type": "land_record"
+}

@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Fitri Susanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fitri Susanto.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-897",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fitri Susanto.",
+			"recipient": "Fitri Susanto",
+			"subject": "Fitri Susanto"
+		},
+		"title": "Official Record - Fitri Susanto"
+	},
+	"type": "official_notice"
+}

@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Lim Ying",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Lim Ying.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 156,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-983",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Lim Ying.",
+			"recipient": "Lim Ying",
+			"subject": "Lim Ying"
+		},
+		"title": "Official Record - Lim Ying"
+	},
+	"type": "official_notice"
+}

@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Gunawan Liang",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"person": {
+			"family_status": "Verified",
+			"name": "Gunawan Liang",
+			"occupation": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Gunawan Liang.",
+		"registration": {
+			"record_number": "ARC-1942-955",
+			"registration_date": "Verified"
+		},
+		"residence": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Gunawan Liang.",
+			"district": "Verified",
+			"duration": "Verified",
+			"village": "Verified"
+		},
+		"title": "Official Record - Gunawan Liang"
+	},
+	"type": "residency_certificate"
+}

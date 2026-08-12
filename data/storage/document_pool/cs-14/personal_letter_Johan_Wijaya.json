@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Johan Wijaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Johan Wijaya.",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"language": "Japanese Romaji",
+		"letter": {
+			"closing": "Verified",
+			"greeting": "Verified",
+			"message": "Verified"
+		},
+		"receiver": {
+			"location": "District Archives Center, Sector 2",
+			"name": "Johan Wijaya"
+		},
+		"sender": {
+			"location": "District Archives Center, Sector 4",
+			"name": "Johan Wijaya",
+			"relationship_to_receiver": "Verified"
+		},
+		"title": "Official Record - Johan Wijaya"
+	},
+	"type": "personal_letter"
+}

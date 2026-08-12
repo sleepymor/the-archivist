@@ -1,0 +1,31 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-887",
+			"divorce_date": "Verified",
+			"husband": "Christina de Graaf",
+			"marriage_date": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Christina de Graaf.",
+			"wife": "Christina de Graaf"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Christina de Graaf",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"official": {
+			"name": "Christina de Graaf",
+			"position": "Verified"
+		},
+		"title": "Official Record - Christina de Graaf",
+		"witnesses": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Christina de Graaf."
+		]
+	},
+	"type": "divorce_certificate"
+}

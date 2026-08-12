@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rani Fauzan",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"owner": {
+			"address": "Verified",
+			"name": "Rani Fauzan",
+			"occupation": "Verified"
+		},
+		"ownership_details": {
+			"acquisition_method": "Verified",
+			"ownership_type": "Verified",
+			"previous_owner": "Verified"
+		},
+		"property": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Fauzan.",
+			"location": "District Archives Center, Sector 3",
+			"size": "Verified",
+			"type": "Verified"
+		},
+		"registration": {
+			"record_number": "ARC-1942-623",
+			"registration_date": "Verified"
+		},
+		"title": "Official Record - Rani Fauzan",
+		"witnesses": []
+	},
+	"type": "ownership_record"
+}

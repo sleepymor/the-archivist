@@ -1,0 +1,42 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Martha Sanjaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 123,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"ownership": {
+			"family_or_group": "Verified",
+			"inheritance_history": "Verified",
+			"recognized_owner": "Verified"
+		},
+		"property": {
+			"boundaries": {
+				"east": "Verified",
+				"north": "Verified",
+				"south": "Verified",
+				"west": "Verified"
+			},
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Martha Sanjaya.",
+			"location": "District Archives Center, Sector 4"
+		},
+		"recognition": {
+			"customary_basis": "Verified",
+			"elders": [],
+			"witnesses": []
+		},
+		"record": {
+			"community": "Verified",
+			"record_keeper": "Verified",
+			"record_number": "ARC-1942-911"
+		},
+		"title": "Official Record - Martha Sanjaya"
+	},
+	"type": "customary_ownership_record"
+}

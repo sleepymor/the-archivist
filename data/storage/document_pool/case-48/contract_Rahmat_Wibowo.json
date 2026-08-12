@@ -1,0 +1,42 @@
+{
+	"fields": {
+		"agreement": {
+			"duration": {
+				"end_date": "Verified",
+				"start_date": "Verified"
+			},
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahmat Wibowo.",
+			"terms": [
+				"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahmat Wibowo."
+			]
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rahmat Wibowo",
+				"importance": "Standard Verification"
+			}
+		],
+		"contract": {
+			"contract_number": "Verified",
+			"party_a": "Rahmat Wibowo",
+			"party_b": "Rahmat Wibowo",
+			"subject": "Rahmat Wibowo"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 179,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"obligations": {
+			"party_a": [],
+			"party_b": []
+		},
+		"signatures": {
+			"party_a_signed": "Verified",
+			"party_b_signed": "Verified",
+			"witnesses": []
+		},
+		"title": "Official Record - Rahmat Wibowo"
+	},
+	"type": "contract"
+}

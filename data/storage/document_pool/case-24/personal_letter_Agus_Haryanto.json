@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Agus Haryanto",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Agus Haryanto.",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 136,
+		"is_true": false,
+		"language": "Japanese Romaji",
+		"letter": {
+			"closing": "Verified",
+			"greeting": "Verified",
+			"message": "Verified"
+		},
+		"receiver": {
+			"location": "District Archives Center, Sector 2",
+			"name": "Agus Haryanto"
+		},
+		"sender": {
+			"location": "District Archives Center, Sector 5",
+			"name": "Agus Haryanto",
+			"relationship_to_receiver": "Verified"
+		},
+		"title": "Official Record - Agus Haryanto"
+	},
+	"type": "personal_letter"
+}

@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"case": {
+			"date_of_incident": "Verified",
+			"incident": "Verified",
+			"involved_people": [],
+			"subject": "Antonie van den Berg"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Antonie van den Berg",
+				"importance": "Standard Verification"
+			}
+		],
+		"conclusion": "Verified on file",
+		"date": "1942-06-12",
+		"evidence_reviewed": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Antonie van den Berg."
+		],
+		"findings": [
+			"Verified archival entry regarding Antonie van den Berg"
+		],
+		"investigation": {
+			"department": "Verified",
+			"investigator": "Verified",
+			"location": "District Archives Center, Sector 2",
+			"report_number": "ARC-1942-671"
+		},
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"title": "Official Record - Antonie van den Berg"
+	},
+	"type": "investigation_report"
+}

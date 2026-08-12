@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Louise Suryadi",
+				"importance": "Standard Verification"
+			}
+		],
+		"compensation": {
+			"amount": "Verified",
+			"payment_period": "Verified",
+			"payment_type": "Verified"
+		},
+		"conditions": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Louise Suryadi."
+		],
+		"contract": {
+			"contract_number": "Verified",
+			"employee": "Louise Suryadi",
+			"employer": "Verified",
+			"position": "Verified"
+		},
+		"date": "1942-06-12",
+		"employment": {
+			"duration": "Verified",
+			"responsibilities": [],
+			"start_date": "Verified",
+			"work_location": "District Archives Center, Sector 4"
+		},
+		"investigation_score": 141,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"termination": {
+			"conditions": "Verified",
+			"notice_period": "Verified"
+		},
+		"title": "Official Record - Louise Suryadi"
+	},
+	"type": "employment_contract"
+}

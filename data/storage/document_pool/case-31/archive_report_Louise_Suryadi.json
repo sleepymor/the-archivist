@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Louise Suryadi",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"documents_reviewed": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Louise Suryadi."
+		],
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"issues_found": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Louise Suryadi."
+		],
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"archive_location": "District Archives Center, Sector 4",
+			"author": "Louise Suryadi",
+			"report_number": "ARC-1942-630",
+			"subject": "Louise Suryadi"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Louise Suryadi.",
+		"title": "Official Record - Louise Suryadi"
+	},
+	"type": "archive_report"
+}

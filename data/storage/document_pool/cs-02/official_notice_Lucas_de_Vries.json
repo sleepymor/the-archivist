@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Lucas de Vries",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Lucas de Vries.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 149,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-667",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Lucas de Vries.",
+			"recipient": "Lucas de Vries",
+			"subject": "Lucas de Vries"
+		},
+		"title": "Official Record - Lucas de Vries"
+	},
+	"type": "official_notice"
+}

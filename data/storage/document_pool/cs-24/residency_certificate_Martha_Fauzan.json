@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Martha Fauzan",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"person": {
+			"family_status": "Verified",
+			"name": "Martha Fauzan",
+			"occupation": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Martha Fauzan.",
+		"registration": {
+			"record_number": "ARC-1942-651",
+			"registration_date": "Verified"
+		},
+		"residence": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Martha Fauzan.",
+			"district": "Verified",
+			"duration": "Verified",
+			"village": "Verified"
+		},
+		"title": "Official Record - Martha Fauzan"
+	},
+	"type": "residency_certificate"
+}

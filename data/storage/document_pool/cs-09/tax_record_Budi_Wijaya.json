@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Budi Wijaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 184,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"payment": {
+			"amount": "Verified",
+			"payment_date": "Verified",
+			"payment_method": "Verified"
+		},
+		"property": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Wijaya.",
+			"location": "District Archives Center, Sector 3"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Wijaya.",
+		"tax": {
+			"record_number": "ARC-1942-965",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Wijaya.",
+			"tax_period": "Verified",
+			"tax_type": "Verified",
+			"taxpayer": "Budi Wijaya"
+		},
+		"title": "Official Record - Budi Wijaya"
+	},
+	"type": "tax_record"
+}

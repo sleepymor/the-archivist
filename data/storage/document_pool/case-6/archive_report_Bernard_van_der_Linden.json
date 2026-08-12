@@ -1,0 +1,33 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Bernard van der Linden",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"documents_reviewed": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Bernard van der Linden."
+		],
+		"investigation_score": 151,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"issues_found": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Bernard van der Linden."
+		],
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"archive_location": "District Archives Center, Sector 3",
+			"author": "Bernard van der Linden",
+			"report_number": "ARC-1942-393",
+			"subject": "Bernard van der Linden"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Bernard van der Linden.",
+		"title": "Official Record - Bernard van der Linden"
+	},
+	"type": "archive_report"
+}

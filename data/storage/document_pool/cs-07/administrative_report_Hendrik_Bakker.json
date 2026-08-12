@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Hendrik Bakker",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Hendrik Bakker"
+		],
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Hendrik Bakker",
+			"location": "District Archives Center, Sector 5",
+			"report_number": "ARC-1942-683",
+			"subject": "Hendrik Bakker"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Hendrik Bakker.",
+		"title": "Official Record - Hendrik Bakker"
+	},
+	"type": "administrative_report"
+}

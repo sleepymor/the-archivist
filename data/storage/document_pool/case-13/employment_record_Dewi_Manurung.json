@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"attendance": {
+			"attendance_status": "Verified",
+			"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dewi Manurung."
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dewi Manurung",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"employment": {
+			"employee": "Dewi Manurung",
+			"institution": "Verified",
+			"position": "Verified",
+			"record_number": "ARC-1942-559"
+		},
+		"investigation_score": 135,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"payment_history": {
+			"last_recorded_payment": "Verified",
+			"payment_status": "Verified"
+		},
+		"service_period": {
+			"end_date": "Verified",
+			"start_date": "Verified",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dewi Manurung."
+		},
+		"title": "Official Record - Dewi Manurung",
+		"work_details": {
+			"department": "Verified",
+			"duties": [],
+			"location": "District Archives Center, Sector 2"
+		}
+	},
+	"type": "employment_record"
+}

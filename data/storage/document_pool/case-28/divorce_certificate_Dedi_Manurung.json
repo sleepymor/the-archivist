@@ -1,0 +1,31 @@
+{
+	"fields": {
+		"certificate": {
+			"certificate_number": "ARC-1942-992",
+			"divorce_date": "Verified",
+			"husband": "Dedi Manurung",
+			"marriage_date": "Verified",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dedi Manurung.",
+			"wife": "Dedi Manurung"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dedi Manurung",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"official": {
+			"name": "Dedi Manurung",
+			"position": "Verified"
+		},
+		"title": "Official Record - Dedi Manurung",
+		"witnesses": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dedi Manurung."
+		]
+	},
+	"type": "divorce_certificate"
+}

@@ -1,0 +1,34 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ningsih Setiawan",
+				"importance": "Standard Verification"
+			}
+		],
+		"context": {
+			"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ningsih Setiawan.",
+			"related_event": "Verified"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 157,
+		"is_true": false,
+		"language": "Japanese Romaji",
+		"letter": {
+			"closing": "Verified",
+			"greeting": "Verified",
+			"message": "Verified"
+		},
+		"receiver": {
+			"location": "District Archives Center, Sector 2",
+			"name": "Ningsih Setiawan"
+		},
+		"sender": {
+			"location": "District Archives Center, Sector 1",
+			"name": "Ningsih Setiawan",
+			"relationship_to_receiver": "Verified"
+		},
+		"title": "Official Record - Ningsih Setiawan"
+	},
+	"type": "personal_letter"
+}

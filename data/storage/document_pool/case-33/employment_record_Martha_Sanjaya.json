@@ -1,0 +1,41 @@
+{
+	"fields": {
+		"attendance": {
+			"attendance_status": "Verified",
+			"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Martha Sanjaya."
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Martha Sanjaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"employment": {
+			"employee": "Martha Sanjaya",
+			"institution": "Verified",
+			"position": "Verified",
+			"record_number": "ARC-1942-553"
+		},
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"payment_history": {
+			"last_recorded_payment": "Verified",
+			"payment_status": "Verified"
+		},
+		"service_period": {
+			"end_date": "Verified",
+			"start_date": "Verified",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Martha Sanjaya."
+		},
+		"title": "Official Record - Martha Sanjaya",
+		"work_details": {
+			"department": "Verified",
+			"duties": [],
+			"location": "District Archives Center, Sector 1"
+		}
+	},
+	"type": "employment_record"
+}

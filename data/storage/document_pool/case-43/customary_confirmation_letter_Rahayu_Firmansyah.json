@@ -1,0 +1,32 @@
+{
+	"fields": {
+		"authority": {
+			"elders": [],
+			"witnesses": []
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rahayu Firmansyah",
+				"importance": "Standard Verification"
+			}
+		],
+		"confirmation": {
+			"community": "Verified",
+			"record_number": "ARC-1942-418",
+			"subject": "Rahayu Firmansyah"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"person_or_group": {
+			"name": "Rahayu Firmansyah",
+			"relation_to_community": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Firmansyah.",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rahayu Firmansyah.",
+		"title": "Official Record - Rahayu Firmansyah"
+	},
+	"type": "customary_confirmation_letter"
+}

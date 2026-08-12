@@ -1,0 +1,38 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Bernard van der Linden",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 147,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"owner": {
+			"address": "Verified",
+			"name": "Bernard van der Linden",
+			"occupation": "Verified"
+		},
+		"ownership_details": {
+			"acquisition_method": "Verified",
+			"ownership_type": "Verified",
+			"previous_owner": "Verified"
+		},
+		"property": {
+			"description": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Bernard van der Linden.",
+			"location": "District Archives Center, Sector 1",
+			"size": "Verified",
+			"type": "Verified"
+		},
+		"registration": {
+			"record_number": "ARC-1942-923",
+			"registration_date": "Verified"
+		},
+		"title": "Official Record - Bernard van der Linden",
+		"witnesses": []
+	},
+	"type": "ownership_record"
+}

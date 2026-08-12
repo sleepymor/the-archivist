@@ -1,0 +1,40 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Dian Setiadi",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"financial": {
+			"notes": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Dian Setiadi."
+		},
+		"findings": [
+			"Verified archival entry regarding Dian Setiadi"
+		],
+		"investigation_score": 167,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"operations": {
+			"activity": "Verified",
+			"location": "District Archives Center, Sector 3",
+			"production": "Verified",
+			"workforce": "Verified"
+		},
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Dian Setiadi",
+			"company": "Verified",
+			"department": "Verified",
+			"report_number": "ARC-1942-439"
+		},
+		"subject": "Verified on file",
+		"title": "Official Record - Dian Setiadi"
+	},
+	"type": "company_report"
+}

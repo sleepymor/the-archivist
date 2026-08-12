@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"case": {
+			"date_of_incident": "Verified",
+			"incident": "Verified",
+			"involved_people": [],
+			"subject": "Fajar Wijaya"
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Fajar Wijaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"conclusion": "Verified on file",
+		"date": "1942-06-12",
+		"evidence_reviewed": [
+			"Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Fajar Wijaya."
+		],
+		"findings": [
+			"Verified archival entry regarding Fajar Wijaya"
+		],
+		"investigation": {
+			"department": "Verified",
+			"investigator": "Verified",
+			"location": "District Archives Center, Sector 5",
+			"report_number": "ARC-1942-411"
+		},
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"title": "Official Record - Fajar Wijaya"
+	},
+	"type": "investigation_report"
+}

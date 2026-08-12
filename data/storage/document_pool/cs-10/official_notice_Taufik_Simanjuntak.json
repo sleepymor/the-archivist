@@ -1,0 +1,25 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Taufik Simanjuntak",
+				"importance": "Standard Verification"
+			}
+		],
+		"content": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Taufik Simanjuntak.",
+		"date": "1942-06-12",
+		"effective_date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"notice": {
+			"notice_number": "ARC-1942-523",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Taufik Simanjuntak.",
+			"recipient": "Taufik Simanjuntak",
+			"subject": "Taufik Simanjuntak"
+		},
+		"title": "Official Record - Taufik Simanjuntak"
+	},
+	"type": "official_notice"
+}

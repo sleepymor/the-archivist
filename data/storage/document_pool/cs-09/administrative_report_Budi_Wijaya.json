@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Budi Wijaya",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Budi Wijaya"
+		],
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Budi Wijaya",
+			"location": "District Archives Center, Sector 2",
+			"report_number": "ARC-1942-200",
+			"subject": "Budi Wijaya"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Wijaya.",
+		"title": "Official Record - Budi Wijaya"
+	},
+	"type": "administrative_report"
+}

@@ -1,0 +1,40 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Hasan",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"financial": {
+			"notes": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Hasan.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Hasan."
+		},
+		"findings": [
+			"Verified archival entry regarding Hasan"
+		],
+		"investigation_score": 171,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"operations": {
+			"activity": "Verified",
+			"location": "District Archives Center, Sector 1",
+			"production": "Verified",
+			"workforce": "Verified"
+		},
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Hasan",
+			"company": "Verified",
+			"department": "Verified",
+			"report_number": "ARC-1942-180"
+		},
+		"subject": "Verified on file",
+		"title": "Official Record - Hasan"
+	},
+	"type": "company_report"
+}

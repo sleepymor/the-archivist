@@ -1,0 +1,32 @@
+{
+	"fields": {
+		"authority": {
+			"elders": [],
+			"witnesses": []
+		},
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ahmad Ramadhan",
+				"importance": "Standard Verification"
+			}
+		],
+		"confirmation": {
+			"community": "Verified",
+			"record_number": "ARC-1942-839",
+			"subject": "Ahmad Ramadhan"
+		},
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"person_or_group": {
+			"name": "Ahmad Ramadhan",
+			"relation_to_community": "Verified"
+		},
+		"purpose": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ahmad Ramadhan.",
+		"statement": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ahmad Ramadhan.",
+		"title": "Official Record - Ahmad Ramadhan"
+	},
+	"type": "customary_confirmation_letter"
+}

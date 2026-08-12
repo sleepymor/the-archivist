@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Budi Maulana",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Budi Maulana"
+		],
+		"investigation_score": 0,
+		"is_true": false,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Budi Maulana",
+			"location": "District Archives Center, Sector 4",
+			"report_number": "ARC-1942-471",
+			"subject": "Budi Maulana"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Budi Maulana.",
+		"title": "Official Record - Budi Maulana"
+	},
+	"type": "administrative_report"
+}

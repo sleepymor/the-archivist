@@ -1,0 +1,39 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Rani Fauzan",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"outcome": {
+			"follow_up": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Fauzan.",
+			"status": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Fauzan."
+		},
+		"patient": {
+			"address": "Verified",
+			"age": "Verified",
+			"name": "Rani Fauzan",
+			"occupation": "Verified"
+		},
+		"record": {
+			"attending_person": "Verified",
+			"medical_institution": "Verified",
+			"record_number": "ARC-1942-869"
+		},
+		"remarks": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Fauzan.",
+		"title": "Official Record - Rani Fauzan",
+		"visit": {
+			"condition": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Fauzan.",
+			"reason": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Fauzan.",
+			"treatment": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Rani Fauzan.",
+			"visit_date": "Verified"
+		}
+	},
+	"type": "medical_record"
+}

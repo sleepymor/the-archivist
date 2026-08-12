@@ -1,0 +1,30 @@
+{
+	"fields": {
+		"claims": [
+			{
+				"fact": "Verified historical entry confirmed for Ahmad Ramadhan",
+				"importance": "Standard Verification"
+			}
+		],
+		"date": "1942-06-12",
+		"findings": [
+			"Verified archival entry regarding Ahmad Ramadhan"
+		],
+		"investigation_score": 0,
+		"is_true": true,
+		"issuer": "Village Administration",
+		"language": "Japanese Romaji",
+		"recommendations": [
+			"Standard archival cross-reference complete."
+		],
+		"report": {
+			"author": "Ahmad Ramadhan",
+			"location": "District Archives Center, Sector 3",
+			"report_number": "ARC-1942-720",
+			"subject": "Ahmad Ramadhan"
+		},
+		"summary": "Kantor Arsip Daerah telah memverifikasi catatan resmi mengenai Ahmad Ramadhan.",
+		"title": "Official Record - Ahmad Ramadhan"
+	},
+	"type": "administrative_report"
+}
