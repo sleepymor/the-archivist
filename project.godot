@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="The Archivist"
-run/main_scene="uid://b6p2lejd51i75"
+run/main_scene="uid://bxfvkdw42xisp"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -29,10 +29,11 @@ config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=640
-window/size/viewport_height=360
-window/size/mode=3
-window/stretch/mode="viewport"
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/mode=2
+window/stretch/mode="canvas_items"
+window/stretch/aspect="ignore"
 window/stretch/scale_mode="integer"
 
 [dotnet]

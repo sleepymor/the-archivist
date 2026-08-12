@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://imjuomejdiwu"
-path="res://.godot/imported/trust_icon.png-4c67e2270e8d2cead13f5aea38cc90b5.ctex"
+uid="uid://b6a035djtu6cs"
+path="res://.godot/imported/trust_bar_fill.png-fb069911f252ff21adb62b1c7dc362c2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/CaseScreen/trust_icon.png"
-dest_files=["res://.godot/imported/trust_icon.png-4c67e2270e8d2cead13f5aea38cc90b5.ctex"]
+source_file="res://assets/images/MainDesk/trust_bar_fill.png"
+dest_files=["res://.godot/imported/trust_bar_fill.png-fb069911f252ff21adb62b1c7dc362c2.ctex"]
 
 [params]
 

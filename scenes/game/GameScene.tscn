@@ -123,6 +123,12 @@ evidence = NodePath("EvidenceBoard")
 [node name="MainDesk" parent="Gameplay" unique_id=1918057266 instance=ExtResource("6_am3tj")]
 layout_mode = 1
 
+[node name="Label" type="Label" parent="Gameplay/MainDesk/Dynamic/Trust" parent_id_path=PackedInt32Array(1918057266, 474352307) index="2" unique_id=139861968]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
 [node name="Interactables" parent="Gameplay/MainDesk" index="2" unique_id=2069726146]
 offset_top = 1.0
 offset_bottom = 1.0
@@ -133,12 +139,15 @@ case_inventory = NodePath("../../../../../GameData/CaseInventory")
 case_spawn_manager = NodePath("../../../../../GameData/CaseSpawnManager")
 
 [node name="Board" parent="Gameplay/MainDesk/Interactables" index="1" unique_id=626390420]
-offset_left = 1.0
-offset_top = 47.0
-offset_right = 128.0
-offset_bottom = 201.0
+offset_left = -4.0
+offset_top = 92.0
+offset_right = 215.0
+offset_bottom = 389.0
 
 [node name="VBoxContainer" parent="Gameplay/MainDesk/Interactables/Board" index="0" unique_id=197329434 node_paths=PackedStringArray("case_inventory", "switcher", "day_manager")]
+visible = true
+offset_left = 40.0
+offset_top = 76.0
 case_inventory = NodePath("../../../../../GameData/CaseInventory")
 switcher = NodePath("../../../..")
 day_manager = NodePath("../../../../../GameData/DayManager")
@@ -162,17 +171,17 @@ visible = false
 layout_mode = 1
 case_inventory = NodePath("../../GameData/CaseInventory")
 
-[node name="ChangeScene" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="0" unique_id=1385060672 node_paths=PackedStringArray("switcher")]
+[node name="ChangeSceneLeft" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="0" unique_id=1385060672 node_paths=PackedStringArray("switcher")]
 switcher = NodePath("../../..")
 
-[node name="Actions" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="1" unique_id=1196737348 node_paths=PackedStringArray("case_inventory", "day_manager", "trust_manager", "document_spawn_manager")]
+[node name="ChangeSceneRight" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="1" unique_id=1274190095 node_paths=PackedStringArray("switcher")]
+switcher = NodePath("../../..")
+
+[node name="Actions" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="2" unique_id=1528111949 node_paths=PackedStringArray("case_inventory", "day_manager", "trust_manager", "document_spawn_manager")]
 case_inventory = NodePath("../../../../GameData/CaseInventory")
 day_manager = NodePath("../../../../GameData/DayManager")
 trust_manager = NodePath("../../../../GameData/TrustManager")
 document_spawn_manager = NodePath("../../../../GameData/DocumentSpawnManager")
-
-[node name="ChangeScene" parent="Gameplay/CaseScreen/Interactables/Actions" index="2" unique_id=1822437676 node_paths=PackedStringArray("switcher")]
-switcher = NodePath("../../../..")
 
 [node name="EvidenceBoard" parent="Gameplay" unique_id=355820236 node_paths=PackedStringArray("case_inventory") instance=ExtResource("5_c3557")]
 visible = false

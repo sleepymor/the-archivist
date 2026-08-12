@@ -3,9 +3,9 @@ class_name CaseDecisionPanel
 
 @export var case_inventory: CaseInventory
 
-@export var accept_button: Button
-@export var reject_button: Button
-@export var investigate_button: Button
+@export var accept_button: TextureButton
+@export var reject_button: TextureButton
+@export var investigate_button: TextureButton
 
 @export var result_popup: DecisionResultPopup
 @export var info_popup: InfoPopup
@@ -38,10 +38,16 @@ func _on_case_expired(case_id: String) -> void:
 	info_popup.show_message("Case %s expired! Trust -%s" % [case_id, DEADLINE_PENALTY])
 
 func _on_accept_pressed() -> void:
-	_resolve_case("approve")
+	_resolve_case("accept")
 
 func _on_reject_pressed() -> void:
 	_resolve_case("reject")
+
+func _normalize_decision(decision: String) -> String:
+	var normalized: String = decision.to_lower()
+	if normalized == "approve":
+		normalized = "accept"
+	return normalized
 
 func _on_investigate_pressed() -> void:
 	var active: Dictionary = case_inventory.get_current_active_case()
@@ -71,8 +77,9 @@ func _resolve_case(decision: String) -> void:
 		return
 
 	var resolution: Dictionary = case_data["resolution"]
-	var correct_decision: String = resolution["correct_decision"]
-	var is_correct: bool = decision == correct_decision
+	var correct_decision: String = _normalize_decision(resolution.get("correct_decision", ""))
+	var chosen_decision: String = _normalize_decision(decision)
+	var is_correct: bool = chosen_decision == correct_decision
 
 	if is_correct:
 		_on_correct_decision(case_data)
