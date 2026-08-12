@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://e3gtce357v57" path="res://scripts/game/maindesk/AcceptCaseButton.gd" id="2_3n6tk"]
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="2_7n5ke"]
 [ext_resource type="Texture2D" uid="uid://c8s0dst3ivu21" path="res://assets/images/MainDesk/Meja.png" id="2_jg16n"]
+[ext_resource type="Texture2D" uid="uid://dpmwkxk5ulfbw" path="res://assets/images/Character/Belanda/Fem/Fem Belanda Body.png" id="2_ta2a0"]
+[ext_resource type="Texture2D" uid="uid://fgwqg2aaginp" path="res://assets/images/Character/Belanda/Fem/Fem Belanda Hair 1.png" id="3_2ud6v"]
 [ext_resource type="Texture2D" uid="uid://djj8tj60isake" path="res://assets/images/MainDesk/dialog.png" id="3_w4cfk"]
 [ext_resource type="Script" uid="uid://br5dkkburd2xo" path="res://scripts/game/maindesk/CaseContainer.gd" id="3_ytpg3"]
 [ext_resource type="Script" uid="uid://bqaj3sw6bhw03" path="res://scripts/game/maindesk/CaseItem.gd" id="4_5h2ps"]
 [ext_resource type="Texture2D" uid="uid://b78ex26bul3wf" path="res://assets/images/MainDesk/trust_bar_background.png" id="4_7kvnh"]
+[ext_resource type="Texture2D" uid="uid://cda15eb8q1gbl" path="res://assets/images/Character/Belanda/Fem/Fem Belanda Cloth 3.png" id="4_a145a"]
 [ext_resource type="Texture2D" uid="uid://b6a035djtu6cs" path="res://assets/images/MainDesk/trust_bar_fill.png" id="5_ps8mu"]
 [ext_resource type="Texture2D" uid="uid://imjuomejdiwu" path="res://assets/images/MainDesk/trust_icon.png" id="6_0h0cp"]
 [ext_resource type="Texture2D" uid="uid://70v8xtb1r71k" path="res://assets/images/Buttons/button_right.png" id="7_jg16n"]
 [ext_resource type="Texture2D" uid="uid://cms8kda47eut5" path="res://assets/images/CaseScreen/date_container.png" id="7_w4cfk"]
 [ext_resource type="Texture2D" uid="uid://cqkxn6lsib2ha" path="res://assets/images/MainDesk/document.png" id="8_ps8mu"]
 [ext_resource type="Texture2D" uid="uid://bl1ysyt6se83a" path="res://assets/images/MainDesk/pin.png" id="10_0h0cp"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_t24ib"]
-load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
 
 [sub_resource type="PackedScene" id="PackedScene_1hgmb"]
 _bundled = {
@@ -60,16 +60,6 @@ grow_vertical = 2
 texture = ExtResource("1_u6p0p")
 expand_mode = 1
 
-[node name="Desk" type="TextureRect" parent="Static" unique_id=1535710036]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("2_jg16n")
-expand_mode = 1
-
 [node name="Dynamic" type="Control" parent="." unique_id=2096316795]
 layout_mode = 1
 anchors_preset = 15
@@ -92,7 +82,45 @@ offset_right = 104.0
 offset_bottom = -212.99988
 grow_horizontal = 2
 grow_vertical = 0
-texture = SubResource("CompressedTexture2D_t24ib")
+
+[node name="Customer" type="TextureRect" parent="Dynamic/Customer" unique_id=576899216]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -157.0
+offset_top = -479.00012
+offset_right = 194.0
+offset_bottom = 116.99988
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("2_ta2a0")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Tops" type="TextureRect" parent="Dynamic/Customer/Customer" unique_id=1580503378]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_2ud6v")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Cloth" type="TextureRect" parent="Dynamic/Customer/Customer" unique_id=1788397746]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_a145a")
+expand_mode = 1
+stretch_mode = 5
 
 [node name="DialogBox" type="TextureRect" parent="Dynamic/Customer" unique_id=526422884]
 self_modulate = Color(0.93, 0.93, 0.93, 1)
@@ -222,6 +250,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Desk" type="TextureRect" parent="Interactables" unique_id=1535710036]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_jg16n")
+expand_mode = 1
 
 [node name="Document" type="TextureRect" parent="Interactables" unique_id=682209055]
 self_modulate = Color(1, 0.872, 0.76, 1)

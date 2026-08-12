@@ -1,14 +1,12 @@
 [gd_scene format=3 uid="uid://clenng5u0b3dm"]
 
+[ext_resource type="Texture2D" uid="uid://cg41nj2k4i82d" path="res://assets/images/EvidenceBoard/WhatsApp Image 2026-08-12 at 16.58.25.jpeg" id="1_1tfs1"]
 [ext_resource type="Script" uid="uid://2veyra7m5ood" path="res://scripts/game/archiveroom/ArchiveRoom.gd" id="1_5xmqo"]
 [ext_resource type="Texture2D" uid="uid://d07iaxrx61cda" path="res://assets/images/Debug/FillBox.png" id="1_abqdv"]
 [ext_resource type="Script" uid="uid://dl2u60e8ruwxx" path="res://scripts/game/core/SwitcherButton.gd" id="2_bvssm"]
 [ext_resource type="PackedScene" uid="uid://dfir3xwdmq2k2" path="res://objects/rooms/ArchiveRoom/ArchiveItem.tscn" id="2_ers2n"]
 [ext_resource type="Script" uid="uid://bwcm5ksewrdsu" path="res://scripts/game/archiveroom/DocumentViewer.gd" id="4_wffyv"]
 [ext_resource type="Texture2D" uid="uid://1cdb0me414l" path="res://assets/images/Buttons/button_left.png" id="5_xpdju"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_abqdv"]
-load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
 
 [node name="ArchiveRoom" type="Control" unique_id=1657735572]
 layout_mode = 3
@@ -27,23 +25,13 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Background" type="TextureRect" parent="Static" unique_id=1353366035]
-self_modulate = Color(0.6747767, 0.77, 0.6622, 1)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("CompressedTexture2D_abqdv")
-
-[node name="Label" type="Label" parent="Static" unique_id=669891393]
-layout_mode = 1
-anchors_preset = 10
-anchor_right = 1.0
-offset_bottom = 23.0
-grow_horizontal = 2
-text = "ARCHIVE ROOM"
-vertical_alignment = 1
+texture = ExtResource("1_1tfs1")
 
 [node name="Dynamic" type="Control" parent="." unique_id=108691201]
 layout_mode = 1
@@ -88,12 +76,11 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 107.0
-offset_top = 40.0
+offset_top = 93.0
 offset_right = -97.0
-offset_bottom = -26.0
+offset_bottom = -84.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("CompressedTexture2D_abqdv")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Interactables/Board" unique_id=314571814 node_paths=PackedStringArray("search_field", "document_viewer")]
 layout_mode = 1
@@ -171,9 +158,9 @@ anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
 offset_left = 7.0
-offset_top = -29.0
-offset_right = 51.0
-offset_bottom = 32.0
+offset_top = -37.0
+offset_right = 67.0
+offset_bottom = 42.0
 grow_vertical = 2
 texture_normal = ExtResource("5_xpdju")
 ignore_texture_size = true

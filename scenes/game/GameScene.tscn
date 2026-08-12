@@ -15,11 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://dsjajjvrkb2hf" path="res://objects/gamedata/CaseSpawnManager.tscn" id="5_8x43h"]
 [ext_resource type="PackedScene" uid="uid://baqju7d7i4rx4" path="res://objects/rooms/EvidenceBoard/EvidenceBoard.tscn" id="5_c3557"]
 [ext_resource type="PackedScene" uid="uid://co0nyncmnmwvk" path="res://objects/rooms/MainDesk/MainDesk.tscn" id="6_am3tj"]
-[ext_resource type="Script" uid="uid://dq5uv1fc2qkfd" path="res://scripts/generations/CharacterGeneration.gd" id="7_1abc"]
-[ext_resource type="Script" uid="uid://dwouv4oxdliub" path="res://scripts/generations/CaseGeneration.gd" id="7_2bcd"]
-[ext_resource type="Script" uid="uid://lb8yikrlaa6u" path="res://scripts/generations/DocumentGeneration.gd" id="7_3cde"]
-[ext_resource type="Script" uid="uid://pfiapn67vsvo" path="res://scripts/watcher/CharacterPoolWatcher.gd" id="7_4def"]
-[ext_resource type="Script" uid="uid://vay1f5v3a8yf" path="res://scripts/watcher/DocumentPoolWatcher.gd" id="7_5ef0"]
+[ext_resource type="PackedScene" uid="uid://7najbierqaua" path="res://objects/rooms/MainDesk/CaseItem.tscn" id="13_qpqd0"]
 
 [node name="Game" type="Control" unique_id=1700649110]
 layout_mode = 3
@@ -72,37 +68,6 @@ case_inventory = NodePath("../CaseInventory")
 day_manager = NodePath("../DayManager")
 toggle_objects = [NodePath("../../Gameplay/MainDesk/Dynamic/Customer"), NodePath("../../Gameplay/MainDesk/Interactables/Document")]
 
-[node name="CharacterGenerations" type="Node" parent="." unique_id=1738492420]
-script = ExtResource("7_1abc")
-
-[node name="CaseGenerations" type="Node" parent="." unique_id=826719108]
-script = ExtResource("7_2bcd")
-
-[node name="DocumentGenerations" type="Node" parent="." unique_id=1943758157]
-script = ExtResource("7_3cde")
-
-[node name="GDLlama" type="GDLlama" parent="." unique_id=1524839204]
-model_path = "models/Phi-3.5-mini-instruct-Q4_K_M.gguf"
-should_output_prompt = false
-context_size = 1024
-n_predict = 154
-temperature = 0.7
-penalty_repeat = 1.15
-n_threads = 4
-n_gpu_layer = 0
-split_mode = 0
-
-[node name="CharacterWatcher" type="Node" parent="." unique_id=508326149]
-process_priority = 3
-script = ExtResource("7_4def")
-generator_node_path = NodePath("../CharacterGenerations")
-case_generator_node_path = NodePath("../CaseGenerations")
-
-[node name="DocumentWatcher" type="Node" parent="." unique_id=717349516]
-script = ExtResource("7_5ef0")
-document_generator_node_path = NodePath("../DocumentGenerations")
-case_generator_node_path = NodePath("../CaseGenerations")
-
 [node name="AudioPlayer" parent="." unique_id=1195759578 instance=ExtResource("1_b1len")]
 layout_mode = 0
 level_music = ExtResource("2_ks7xl")
@@ -150,11 +115,12 @@ offset_left = 40.0
 offset_top = 76.0
 case_inventory = NodePath("../../../../../GameData/CaseInventory")
 switcher = NodePath("../../../..")
+item_scene = ExtResource("13_qpqd0")
 day_manager = NodePath("../../../../../GameData/DayManager")
 
 [node name="ChangeScene" parent="Gameplay/MainDesk/Interactables" index="2" unique_id=496062589 node_paths=PackedStringArray("switcher")]
 switcher = NodePath("../../..")
-target = 3
+target = 2
 
 [node name="ArchiveRoom" parent="Gameplay" unique_id=1657735572 instance=ExtResource("3_8cups")]
 visible = false
@@ -165,6 +131,7 @@ archive_inventory = NodePath("../../../../../GameData/ArchiveInventory")
 
 [node name="ChangeScene" parent="Gameplay/ArchiveRoom/Interactables" parent_id_path=PackedInt32Array(1657735572, 251751332) index="3" unique_id=1374650161 node_paths=PackedStringArray("switcher")]
 switcher = NodePath("../../..")
+target = 2
 
 [node name="CaseScreen" parent="Gameplay" unique_id=1252252513 node_paths=PackedStringArray("case_inventory") instance=ExtResource("4_fjeox")]
 visible = false
@@ -176,6 +143,7 @@ switcher = NodePath("../../..")
 
 [node name="ChangeSceneRight" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="1" unique_id=1274190095 node_paths=PackedStringArray("switcher")]
 switcher = NodePath("../../..")
+target = 1
 
 [node name="Actions" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="2" unique_id=1528111949 node_paths=PackedStringArray("case_inventory", "day_manager", "trust_manager", "document_spawn_manager")]
 case_inventory = NodePath("../../../../GameData/CaseInventory")

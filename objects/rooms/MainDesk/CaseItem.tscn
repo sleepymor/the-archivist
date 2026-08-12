@@ -1,26 +1,40 @@
 [gd_scene format=3 uid="uid://7najbierqaua"]
 
+[ext_resource type="Texture2D" uid="uid://cbo68a5hsov7b" path="res://assets/images/MainDesk/paperclip.png" id="1_2j6b4"]
 [ext_resource type="Script" uid="uid://bqaj3sw6bhw03" path="res://scripts/game/maindesk/CaseItem.gd" id="1_dx6l8"]
 
-[node name="CaseItem" type="Button" unique_id=998421579 node_paths=PackedStringArray("id_label", "deadline_label")]
+[node name="CaseItem" type="Button" unique_id=1800341773 node_paths=PackedStringArray("id_label", "deadline_label")]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 30)
+offset_right = 499.0
+offset_bottom = 185.0
+script = ExtResource("1_dx6l8")
+id_label = NodePath("Name")
+deadline_label = NodePath("Deadline")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2047016793]
+self_modulate = Color(1, 0.32, 0.32, 1)
+layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_dx6l8")
-id_label = NodePath("Name")
-deadline_label = NodePath("Deadline")
+texture = ExtResource("1_2j6b4")
+expand_mode = 1
 
 [node name="Name" type="Label" parent="." unique_id=617325936]
 layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
-offset_top = -11.5
-offset_right = 40.0
-offset_bottom = 11.5
+offset_left = 10.0
+offset_top = -9.5
+offset_right = 50.0
+offset_bottom = 13.5
 grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 10
 
 [node name="Deadline" type="Label" parent="." unique_id=815304521]
 layout_mode = 1
@@ -29,8 +43,11 @@ anchor_left = 1.0
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
-offset_left = -40.0
-offset_top = -11.5
-offset_bottom = 11.5
+offset_left = -58.0
+offset_top = -8.5
+offset_right = -18.0
+offset_bottom = 14.5
 grow_horizontal = 0
 grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 10

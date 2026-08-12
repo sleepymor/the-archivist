@@ -428,3 +428,16 @@ offset_right = 15.5
 grow_horizontal = 2
 grow_vertical = 0
 text = "OK"
+
+[node name="Read" type="Button" parent="Interactables" unique_id=650330278]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 296.0
+offset_top = 545.0
+offset_right = -867.0
+offset_bottom = -144.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Read"
