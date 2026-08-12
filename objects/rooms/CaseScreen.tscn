@@ -146,7 +146,7 @@ flip_h = true
 script = ExtResource("1_kbyl8")
 target = 3
 
-[node name="Actions" type="Control" parent="Interactables" unique_id=1528111949 node_paths=PackedStringArray("accept_button", "reject_button", "investigate_button", "result_popup", "info_popup", "document_found_popup")]
+[node name="Actions" type="Control" parent="Interactables" unique_id=1528111949 node_paths=PackedStringArray("accept_button", "reject_button", "investigate_button", "result_popup", "info_popup", "document_found_popup", "case_inventory", "day_manager", "trust_manager", "document_spawn_manager")]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -164,6 +164,10 @@ investigate_button = NodePath("Investigate")
 result_popup = NodePath("../Popup")
 info_popup = NodePath("../InfoPopup")
 document_found_popup = NodePath("../DailyPopup")
+case_inventory = NodePath("../../../GameData/CaseInventory")
+day_manager = NodePath("../../../GameData/DayManager")
+trust_manager = NodePath("../../../GameData/TrustManager")
+document_spawn_manager = NodePath("../../../GameData/DocumentSpawnManager")
 
 [node name="Accept" type="TextureButton" parent="Interactables/Actions" unique_id=76358371]
 layout_mode = 1

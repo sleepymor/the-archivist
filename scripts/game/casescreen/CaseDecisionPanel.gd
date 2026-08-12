@@ -25,6 +25,19 @@ const INVESTIGATION_RANGES := {
 var _pending_revealed_docs: Dictionary = {}
 
 func _ready() -> void:
+	if case_inventory == null:
+		push_error("CaseDecisionPanel: case_inventory tidak di-assign")
+		return
+	if accept_button == null or reject_button == null or investigate_button == null:
+		push_error("CaseDecisionPanel: salah satu tombol keputusan belum di-assign")
+		return
+	if result_popup == null or info_popup == null or document_found_popup == null:
+		push_error("CaseDecisionPanel: salah satu popup belum di-assign")
+		return
+	if day_manager == null or trust_manager == null or document_spawn_manager == null:
+		push_error("CaseDecisionPanel: salah satu manager belum di-assign")
+		return
+
 	accept_button.pressed.connect(_on_accept_pressed)
 	reject_button.pressed.connect(_on_reject_pressed)
 	investigate_button.pressed.connect(_on_investigate_pressed)

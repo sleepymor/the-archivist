@@ -102,6 +102,7 @@ func _on_generation_finished(generated_text: String) -> void:
 		template["requester"] = {}
 	template["requester"]["character_name"] = char_name
 	template["requester"]["reason"] = "Mandatory administrative validation under 1940s records compliance for " + char_name + "."
+	template["requester"]["gender"] = _pending_target_character.get("gender", "male")
 
 	template["documents"] = _get_strictly_validated_documents(assigned_type)
 

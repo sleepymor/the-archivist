@@ -67,6 +67,12 @@ func _validate_and_fix_pools() -> void:
 			case_item["requester"]["character_name"] = char_name
 			case_item["requester"]["reason"] = "Mandatory administrative validation under 1940s records compliance for " + char_name + "."
 			fixed = true
+		var char_gender = str(char_item.get("gender", "male")).to_lower().strip_edges()
+		if char_gender != "female" and char_gender != "male":
+			char_gender = "male"
+		if case_item["requester"].get("gender", "") != char_gender:
+			case_item["requester"]["gender"] = char_gender
+			fixed = true
 		
 		if case_item.has("resolution") and typeof(case_item["resolution"]) == TYPE_DICTIONARY:
 			var expl = case_item["resolution"].get("explanation", "")

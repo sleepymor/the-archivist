@@ -11,6 +11,16 @@ var _accumulators: Dictionary = {}
 var _document_snapshots: Dictionary = {}
 
 func _ready() -> void:
+	if case_inventory == null:
+		push_error("DocumentSpawnManager: case_inventory tidak di-assign")
+		return
+	if archive_inventory == null:
+		push_error("DocumentSpawnManager: archive_inventory tidak di-assign")
+		return
+	if document_pool_loader == null:
+		push_error("DocumentSpawnManager: document_pool_loader tidak di-assign")
+		return
+
 	case_inventory.case_added.connect(_on_case_added)
 
 func _on_case_added(active_case: Dictionary) -> void:

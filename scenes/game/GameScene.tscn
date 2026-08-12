@@ -48,6 +48,8 @@ day_label = NodePath("../../Gameplay/MainDesk/Dynamic/Date/Label")
 
 [node name="TrustManager" parent="GameData" unique_id=853786609 node_paths=PackedStringArray("trust_bar", "trust_label") instance=ExtResource("2_8x43h")]
 layout_mode = 1
+offset_top = 2.0
+offset_bottom = 2.0
 trust_bar = NodePath("../../Gameplay/MainDesk/Dynamic/Trust/ProgressBar")
 trust_label = NodePath("../../Gameplay/MainDesk/Dynamic/Trust/Label")
 
@@ -103,7 +105,7 @@ case_pool_compiler = NodePath("../../../../../GameData/CasePoolCompiler")
 case_inventory = NodePath("../../../../../GameData/CaseInventory")
 case_spawn_manager = NodePath("../../../../../GameData/CaseSpawnManager")
 
-[node name="Board" parent="Gameplay/MainDesk/Interactables" index="1" unique_id=626390420]
+[node name="Board" parent="Gameplay/MainDesk/Interactables" index="2" unique_id=626390420]
 offset_left = -4.0
 offset_top = 92.0
 offset_right = 215.0
@@ -118,7 +120,7 @@ switcher = NodePath("../../../..")
 item_scene = ExtResource("13_qpqd0")
 day_manager = NodePath("../../../../../GameData/DayManager")
 
-[node name="ChangeScene" parent="Gameplay/MainDesk/Interactables" index="2" unique_id=496062589 node_paths=PackedStringArray("switcher")]
+[node name="ChangeScene" parent="Gameplay/MainDesk/Interactables" index="3" unique_id=496062589 node_paths=PackedStringArray("switcher")]
 switcher = NodePath("../../..")
 target = 2
 
@@ -137,6 +139,9 @@ target = 2
 visible = false
 layout_mode = 1
 case_inventory = NodePath("../../GameData/CaseInventory")
+
+[node name="Dynamic" parent="Gameplay/CaseScreen" index="1" unique_id=954806830]
+visible = false
 
 [node name="ChangeSceneLeft" parent="Gameplay/CaseScreen/Interactables" parent_id_path=PackedInt32Array(1252252513, 513420360) index="0" unique_id=1385060672 node_paths=PackedStringArray("switcher")]
 switcher = NodePath("../../..")

@@ -8,6 +8,10 @@ func _ready() -> void:
 	pressed.connect(_on_pressed)
 
 func _on_pressed() -> void:
+	if case_inventory == null or case_pool_compiler == null or case_spawn_manager == null:
+		push_error("AcceptCaseButton: export tidak di-assign")
+		return
+
 	var current: Dictionary = case_pool_compiler.current_case
 
 	if current.is_empty():

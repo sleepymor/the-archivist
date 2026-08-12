@@ -17,6 +17,7 @@
 [ext_resource type="Texture2D" uid="uid://70v8xtb1r71k" path="res://assets/images/Buttons/button_right.png" id="7_jg16n"]
 [ext_resource type="Texture2D" uid="uid://cms8kda47eut5" path="res://assets/images/CaseScreen/date_container.png" id="7_w4cfk"]
 [ext_resource type="Texture2D" uid="uid://cqkxn6lsib2ha" path="res://assets/images/MainDesk/document.png" id="8_ps8mu"]
+[ext_resource type="Script" uid="uid://bb872o2qtcb1e" path="res://scripts/game/maindesk/CustomerVisual.gd" id="9_xfzql"]
 [ext_resource type="Texture2D" uid="uid://bl1ysyt6se83a" path="res://assets/images/MainDesk/pin.png" id="10_0h0cp"]
 
 [sub_resource type="PackedScene" id="PackedScene_1hgmb"]
@@ -41,6 +42,10 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("9_xfzql")
+body_node = NodePath("Dynamic/Customer/Customer")
+hair_node = NodePath("Dynamic/Customer/Customer/Tops")
+cloth_node = NodePath("Dynamic/Customer/Customer/Cloth")
 
 [node name="Static" type="Control" parent="." unique_id=2131418316]
 layout_mode = 1

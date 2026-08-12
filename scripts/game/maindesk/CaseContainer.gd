@@ -9,6 +9,16 @@ class_name CaseListContainer
 var _spawned_items: Dictionary = {}
 
 func _ready() -> void:
+	if case_inventory == null:
+		push_error("CaseListContainer: case_inventory tidak di-assign")
+		return
+	if item_scene == null:
+		push_error("CaseListContainer: item_scene tidak di-assign")
+		return
+	if switcher == null:
+		push_error("CaseListContainer: switcher tidak di-assign")
+		return
+
 	case_inventory.case_added.connect(_on_case_added)
 	case_inventory.case_removed.connect(_on_case_removed)
 

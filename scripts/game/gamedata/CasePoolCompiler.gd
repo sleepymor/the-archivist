@@ -1,6 +1,8 @@
 extends Node
 class_name CasePoolCompiler
 
+signal case_shown(case_data: Dictionary)
+
 @export_file("*.json") var cases_file_path: String = "res://data/cases.json"
 
 @export var title_label: Label
@@ -45,6 +47,7 @@ func show_next_case() -> void:
 	title_label.text = current_case["title"]
 	character_name_label.text = requester["character_name"]
 	reason_text_label.text = requester["reason"]
+	emit_signal("case_shown", current_case)
 
 func clear_display() -> void:
 	current_case = {}
