@@ -12,11 +12,12 @@
 [ext_resource type="Texture2D" uid="uid://c8vstyh6isjo6" path="res://assets/images/CaseScreen/reject.png" id="7_6uhck"]
 [ext_resource type="Script" uid="uid://cucmabbpudc5v" path="res://scripts/game/casescreen/DocumentFoundPopup.gd" id="7_07iyx"]
 [ext_resource type="Texture2D" uid="uid://depgm1wchot1e" path="res://assets/images/CaseScreen/investigate.png" id="8_5v8au"]
+[ext_resource type="Script" uid="uid://6i0jbnjnjvle" path="res://scripts/game/casescreen/DetailPopup.gd" id="12_6uhck"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vhrkp"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
 
-[node name="CaseScreen" type="Control" unique_id=1252252513 node_paths=PackedStringArray("title_label", "case_type_label", "deadline_label", "requester_name_label", "requester_reason_label", "description_label")]
+[node name="CaseScreen" type="Control" unique_id=1252252513 node_paths=PackedStringArray("title_label", "case_type_label", "deadline_label", "requester_name_label", "requester_reason_label", "description_label", "show_button", "extra_panel")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -24,12 +25,14 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_4g2bn")
-title_label = NodePath("Dynamic/Document/VBoxContainer/CaseTitle")
-case_type_label = NodePath("Dynamic/Document/VBoxContainer/CaseLabel")
-deadline_label = NodePath("Dynamic/Document/VBoxContainer/DeadlineLabel")
-requester_name_label = NodePath("Dynamic/Document/VBoxContainer/Requester")
-requester_reason_label = NodePath("Dynamic/Document/VBoxContainer/Reason")
-description_label = NodePath("Dynamic/Document/VBoxContainer/Description")
+title_label = NodePath("Interactables/DetailPopup/Overlay/Control/VBoxContainer/CaseTitle")
+case_type_label = NodePath("Interactables/DetailPopup/Overlay/Control/VBoxContainer/CaseLabel")
+deadline_label = NodePath("Interactables/DetailPopup/Overlay/Control/VBoxContainer/DeadlineLabel")
+requester_name_label = NodePath("Interactables/DetailPopup/Overlay/Control/VBoxContainer/Requester")
+requester_reason_label = NodePath("Interactables/DetailPopup/Overlay/Control/VBoxContainer/Reason")
+description_label = NodePath("Interactables/DetailPopup/Overlay/Control/VBoxContainer/Description")
+show_button = NodePath("Interactables/Read")
+extra_panel = NodePath("Interactables/DetailPopup")
 
 [node name="Static" type="Control" parent="." unique_id=710285676]
 layout_mode = 1
@@ -74,35 +77,6 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("CompressedTexture2D_vhrkp")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Dynamic/Document" unique_id=368625879]
-visible = false
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="CaseTitle" type="Label" parent="Dynamic/Document/VBoxContainer" unique_id=658226236]
-layout_mode = 2
-
-[node name="CaseLabel" type="Label" parent="Dynamic/Document/VBoxContainer" unique_id=1936343665]
-layout_mode = 2
-
-[node name="DeadlineLabel" type="Label" parent="Dynamic/Document/VBoxContainer" unique_id=307143671]
-layout_mode = 2
-
-[node name="Requester" type="Label" parent="Dynamic/Document/VBoxContainer" unique_id=775061129]
-layout_mode = 2
-
-[node name="Reason" type="RichTextLabel" parent="Dynamic/Document/VBoxContainer" unique_id=1417710698]
-layout_mode = 2
-fit_content = true
-
-[node name="Description" type="RichTextLabel" parent="Dynamic/Document/VBoxContainer" unique_id=1521185748]
-layout_mode = 2
-fit_content = true
-
 [node name="Interactables" type="Control" parent="." unique_id=513420360]
 layout_mode = 1
 anchors_preset = 15
@@ -146,7 +120,7 @@ flip_h = true
 script = ExtResource("1_kbyl8")
 target = 3
 
-[node name="Actions" type="Control" parent="Interactables" unique_id=1528111949 node_paths=PackedStringArray("accept_button", "reject_button", "investigate_button", "result_popup", "info_popup", "document_found_popup", "case_inventory", "day_manager", "trust_manager", "document_spawn_manager")]
+[node name="Actions" type="Control" parent="Interactables" unique_id=1528111949 node_paths=PackedStringArray("accept_button", "reject_button", "investigate_button", "result_popup", "info_popup", "document_found_popup")]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -164,10 +138,6 @@ investigate_button = NodePath("Investigate")
 result_popup = NodePath("../Popup")
 info_popup = NodePath("../InfoPopup")
 document_found_popup = NodePath("../DailyPopup")
-case_inventory = NodePath("../../../GameData/CaseInventory")
-day_manager = NodePath("../../../GameData/DayManager")
-trust_manager = NodePath("../../../GameData/TrustManager")
-document_spawn_manager = NodePath("../../../GameData/DocumentSpawnManager")
 
 [node name="Accept" type="TextureButton" parent="Interactables/Actions" unique_id=76358371]
 layout_mode = 1
@@ -363,6 +333,84 @@ anchor_bottom = 1.0
 offset_left = -15.5
 offset_top = -31.0
 offset_right = 15.5
+grow_horizontal = 2
+grow_vertical = 0
+text = "OK"
+
+[node name="DetailPopup" type="Control" parent="Interactables" unique_id=249633846 node_paths=PackedStringArray("ok_button")]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("12_6uhck")
+ok_button = NodePath("Overlay/Control/Button")
+
+[node name="Overlay" type="TextureRect" parent="Interactables/DetailPopup" unique_id=1227883912]
+self_modulate = Color(0, 0, 0, 0.24705882)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_5vwp8")
+
+[node name="Control" type="Control" parent="Interactables/DetailPopup/Overlay" unique_id=2004034934]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 156.0
+offset_top = 133.0
+offset_right = -201.0
+offset_bottom = -152.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Interactables/DetailPopup/Overlay/Control" unique_id=1334880263]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 2.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CaseTitle" type="Label" parent="Interactables/DetailPopup/Overlay/Control/VBoxContainer" unique_id=833825177]
+layout_mode = 2
+
+[node name="CaseLabel" type="Label" parent="Interactables/DetailPopup/Overlay/Control/VBoxContainer" unique_id=710770322]
+layout_mode = 2
+
+[node name="DeadlineLabel" type="Label" parent="Interactables/DetailPopup/Overlay/Control/VBoxContainer" unique_id=1515698535]
+layout_mode = 2
+
+[node name="Requester" type="Label" parent="Interactables/DetailPopup/Overlay/Control/VBoxContainer" unique_id=1483394879]
+layout_mode = 2
+
+[node name="Reason" type="RichTextLabel" parent="Interactables/DetailPopup/Overlay/Control/VBoxContainer" unique_id=1569002800]
+layout_mode = 2
+fit_content = true
+
+[node name="Description" type="RichTextLabel" parent="Interactables/DetailPopup/Overlay/Control/VBoxContainer" unique_id=1479588525]
+layout_mode = 2
+fit_content = true
+
+[node name="Button" type="Button" parent="Interactables/DetailPopup/Overlay/Control" unique_id=356986973]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -14.5
+offset_top = 9.0
+offset_right = 16.5
+offset_bottom = 40.0
 grow_horizontal = 2
 grow_vertical = 0
 text = "OK"
