@@ -56,12 +56,13 @@ trust_label = NodePath("../../Gameplay/MainDesk/Dynamic/Trust/Label")
 [node name="CaseInventory" parent="GameData" unique_id=888224668 instance=ExtResource("1_fjeox")]
 layout_mode = 1
 
-[node name="CasePoolCompiler" parent="GameData" unique_id=123696685 node_paths=PackedStringArray("title_label", "character_name_label", "reason_text_label") instance=ExtResource("1_8cups")]
+[node name="CasePoolCompiler" parent="GameData" unique_id=123696685 node_paths=PackedStringArray("title_label", "character_name_label", "reason_text_label", "character_display") instance=ExtResource("1_8cups")]
 layout_mode = 1
 cases_file_path = "res://data/storage/case_pool.json"
 title_label = NodePath("../../Gameplay/MainDesk/Interactables/Document/Label")
 character_name_label = NodePath("../../Gameplay/MainDesk/Dynamic/Customer/DialogBox/Label")
 reason_text_label = NodePath("../../Gameplay/MainDesk/Dynamic/Customer/DialogBox/RichTextLabel")
+character_display = NodePath("../../Gameplay/MainDesk/Dynamic")
 
 [node name="CaseSpawnManager" parent="GameData" unique_id=410994095 node_paths=PackedStringArray("case_pool_compiler", "case_inventory", "day_manager", "toggle_objects") instance=ExtResource("5_8x43h")]
 layout_mode = 1
@@ -89,6 +90,7 @@ evidence = NodePath("EvidenceBoard")
 
 [node name="MainDesk" parent="Gameplay" unique_id=1918057266 instance=ExtResource("6_am3tj")]
 layout_mode = 1
+script = null
 
 [node name="Label" type="Label" parent="Gameplay/MainDesk/Dynamic/Trust" parent_id_path=PackedInt32Array(1918057266, 474352307) index="2" unique_id=139861968]
 visible = false

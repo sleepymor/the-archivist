@@ -1,13 +1,12 @@
 extends Node
 class_name CasePoolCompiler
 
-signal case_shown(case_data: Dictionary)
-
 @export_file("*.json") var cases_file_path: String = "res://data/cases.json"
 
 @export var title_label: Label
 @export var character_name_label: Label
 @export var reason_text_label: RichTextLabel
+@export var character_display: CharacterDisplay
 
 var pool: Array = []
 var current_case: Dictionary = {}
@@ -40,6 +39,8 @@ func show_next_case() -> void:
 		title_label.text = "Tidak ada case tersisa"
 		character_name_label.text = ""
 		reason_text_label.text = ""
+		if character_display:
+			character_display.clear()
 		return
 
 	var requester: Dictionary = current_case["requester"]
@@ -47,13 +48,17 @@ func show_next_case() -> void:
 	title_label.text = current_case["title"]
 	character_name_label.text = requester["character_name"]
 	reason_text_label.text = requester["reason"]
-	emit_signal("case_shown", current_case)
+
+	if character_display:
+		character_display.show_character(requester["character_name"])
 
 func clear_display() -> void:
 	current_case = {}
 	title_label.text = ""
 	character_name_label.text = ""
 	reason_text_label.text = ""
+	if character_display:
+		character_display.clear()
 
 func _get_next_case() -> Dictionary:
 	if _next_index >= pool.size():

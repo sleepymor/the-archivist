@@ -7,18 +7,30 @@
 [ext_resource type="Texture2D" uid="uid://c8s0dst3ivu21" path="res://assets/images/MainDesk/Meja.png" id="2_jg16n"]
 [ext_resource type="Texture2D" uid="uid://dpmwkxk5ulfbw" path="res://assets/images/Character/Belanda/Fem/Fem Belanda Body.png" id="2_ta2a0"]
 [ext_resource type="Texture2D" uid="uid://fgwqg2aaginp" path="res://assets/images/Character/Belanda/Fem/Fem Belanda Hair 1.png" id="3_2ud6v"]
+[ext_resource type="Script" uid="uid://b4pd0h11jnjrb" path="res://scripts/game/maindesk/CharacterDisplay.gd" id="3_a145a"]
 [ext_resource type="Texture2D" uid="uid://djj8tj60isake" path="res://assets/images/MainDesk/dialog.png" id="3_w4cfk"]
 [ext_resource type="Script" uid="uid://br5dkkburd2xo" path="res://scripts/game/maindesk/CaseContainer.gd" id="3_ytpg3"]
 [ext_resource type="Script" uid="uid://bqaj3sw6bhw03" path="res://scripts/game/maindesk/CaseItem.gd" id="4_5h2ps"]
 [ext_resource type="Texture2D" uid="uid://b78ex26bul3wf" path="res://assets/images/MainDesk/trust_bar_background.png" id="4_7kvnh"]
 [ext_resource type="Texture2D" uid="uid://cda15eb8q1gbl" path="res://assets/images/Character/Belanda/Fem/Fem Belanda Cloth 3.png" id="4_a145a"]
+[ext_resource type="Texture2D" uid="uid://csef0pflvabe1" path="res://assets/images/Character/Belanda/Male/Male belanda Body.png" id="4_bg8wf"]
 [ext_resource type="Texture2D" uid="uid://b6a035djtu6cs" path="res://assets/images/MainDesk/trust_bar_fill.png" id="5_ps8mu"]
 [ext_resource type="Texture2D" uid="uid://imjuomejdiwu" path="res://assets/images/MainDesk/trust_icon.png" id="6_0h0cp"]
+[ext_resource type="Texture2D" uid="uid://fusv5xb53jto" path="res://assets/images/Character/Belanda/Male/Hair 1.png" id="6_whbb7"]
 [ext_resource type="Texture2D" uid="uid://70v8xtb1r71k" path="res://assets/images/Buttons/button_right.png" id="7_jg16n"]
+[ext_resource type="Texture2D" uid="uid://c6h6wyeq84b4p" path="res://assets/images/Character/Belanda/Male/Hair 2.png" id="7_ro36a"]
 [ext_resource type="Texture2D" uid="uid://cms8kda47eut5" path="res://assets/images/CaseScreen/date_container.png" id="7_w4cfk"]
 [ext_resource type="Texture2D" uid="uid://cqkxn6lsib2ha" path="res://assets/images/MainDesk/document.png" id="8_ps8mu"]
+[ext_resource type="Texture2D" uid="uid://kf6fnlh2hoew" path="res://assets/images/Character/Belanda/Male/Hair 3.png" id="8_ty4wd"]
+[ext_resource type="Texture2D" uid="uid://cf103e2q8x06j" path="res://assets/images/Character/Belanda/Male/Cloth 1.png" id="9_ftm0d"]
 [ext_resource type="Script" uid="uid://bb872o2qtcb1e" path="res://scripts/game/maindesk/CustomerVisual.gd" id="9_xfzql"]
 [ext_resource type="Texture2D" uid="uid://bl1ysyt6se83a" path="res://assets/images/MainDesk/pin.png" id="10_0h0cp"]
+[ext_resource type="Texture2D" uid="uid://l3uq1u7t7yss" path="res://assets/images/Character/Belanda/Male/Cloth 2.png" id="10_8wude"]
+[ext_resource type="Texture2D" uid="uid://dyixdnits1pjs" path="res://assets/images/Character/Belanda/Male/Cloth 3.png" id="11_4j1br"]
+[ext_resource type="Texture2D" uid="uid://bfrjitlaaoyaw" path="res://assets/images/Character/Belanda/Fem/Fem Belanda Hair 2.png" id="13_mbch7"]
+[ext_resource type="Texture2D" uid="uid://s6ht3yh85iop" path="res://assets/images/Character/Belanda/Fem/Fem Belanda Hair 3.png" id="14_671ic"]
+[ext_resource type="Texture2D" uid="uid://bnblky6ii7loy" path="res://assets/images/Character/Belanda/Fem/Fem Belanda Cloth 1.png" id="15_tb2sc"]
+[ext_resource type="Texture2D" uid="uid://n8tkpymjormw" path="res://assets/images/Character/Belanda/Fem/Fem Belanda Cloth 2.png" id="16_tyj5b"]
 
 [sub_resource type="PackedScene" id="PackedScene_1hgmb"]
 _bundled = {
@@ -43,9 +55,9 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("9_xfzql")
-body_node = NodePath("Dynamic/Customer/Customer")
-hair_node = NodePath("Dynamic/Customer/Customer/Tops")
-cloth_node = NodePath("Dynamic/Customer/Customer/Cloth")
+body_node = NodePath("Dynamic/Customer/Body")
+hair_node = NodePath("Dynamic/Customer/Body/Tops")
+cloth_node = NodePath("Dynamic/Customer/Body/Cloth")
 
 [node name="Static" type="Control" parent="." unique_id=2131418316]
 layout_mode = 1
@@ -65,13 +77,23 @@ grow_vertical = 2
 texture = ExtResource("1_u6p0p")
 expand_mode = 1
 
-[node name="Dynamic" type="Control" parent="." unique_id=2096316795]
+[node name="Dynamic" type="Control" parent="." unique_id=2096316795 node_paths=PackedStringArray("body_rect", "hair_rect", "outfit_rect")]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("3_a145a")
+body_rect = NodePath("Customer/Body")
+hair_rect = NodePath("Customer/Body/Tops")
+outfit_rect = NodePath("Customer/Body/Cloth")
+male_body_texture = ExtResource("4_bg8wf")
+female_body_texture = ExtResource("2_ta2a0")
+male_hair_textures = Array[Texture2D]([ExtResource("6_whbb7"), ExtResource("7_ro36a"), ExtResource("8_ty4wd")])
+male_outfit_textures = Array[Texture2D]([ExtResource("9_ftm0d"), ExtResource("10_8wude"), ExtResource("11_4j1br")])
+female_hair_textures = Array[Texture2D]([ExtResource("3_2ud6v"), ExtResource("13_mbch7"), ExtResource("14_671ic")])
+female_outfit_textures = Array[Texture2D]([ExtResource("15_tb2sc"), ExtResource("16_tyj5b"), ExtResource("4_a145a")])
 
 [node name="Customer" type="TextureRect" parent="Dynamic" unique_id=384913338]
 self_modulate = Color(0.48740888, 0.58963966, 0.92812854, 1)
@@ -88,7 +110,7 @@ offset_bottom = -212.99988
 grow_horizontal = 2
 grow_vertical = 0
 
-[node name="Customer" type="TextureRect" parent="Dynamic/Customer" unique_id=576899216]
+[node name="Body" type="TextureRect" parent="Dynamic/Customer" unique_id=576899216]
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
@@ -105,7 +127,7 @@ texture = ExtResource("2_ta2a0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="Tops" type="TextureRect" parent="Dynamic/Customer/Customer" unique_id=1580503378]
+[node name="Tops" type="TextureRect" parent="Dynamic/Customer/Body" unique_id=1580503378]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -116,7 +138,7 @@ texture = ExtResource("3_2ud6v")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="Cloth" type="TextureRect" parent="Dynamic/Customer/Customer" unique_id=1788397746]
+[node name="Cloth" type="TextureRect" parent="Dynamic/Customer/Body" unique_id=1788397746]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
