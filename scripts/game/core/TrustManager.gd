@@ -6,7 +6,7 @@ signal trust_depleted
 
 enum TrustSegment { LOW, BASE, HIGH }
 
-@export var trust_bar: ProgressBar
+@export var trust_bar: TextureProgressBar
 @export var trust_label: Label
 @export var max_trust: float = 100.0
 @export var penalty_amount: float = 10.0
