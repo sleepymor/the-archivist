@@ -7,6 +7,9 @@
 [ext_resource type="PackedScene" uid="uid://dfir3xwdmq2k2" path="res://objects/rooms/ArchiveRoom/ArchiveItem.tscn" id="2_ers2n"]
 [ext_resource type="Script" uid="uid://bwcm5ksewrdsu" path="res://scripts/game/archiveroom/DocumentViewer.gd" id="4_wffyv"]
 [ext_resource type="Texture2D" uid="uid://1cdb0me414l" path="res://assets/images/Buttons/button_left.png" id="5_xpdju"]
+[ext_resource type="Script" uid="uid://bvpk6x14vbpfh" path="res://scripts/utils/gamefeel/ButtonEffect.gd" id="6_2rk4e"]
+[ext_resource type="AudioStream" uid="uid://dfweifuoxmbug" path="res://assets/audio/sfx/freesound_community-paper-rustle-81855.mp3" id="7_jcktu"]
+[ext_resource type="AudioStream" uid="uid://drscb7ox3irt0" path="res://assets/audio/sfx/dragon-studio-button-press-382713.mp3" id="10_tvui1"]
 
 [node name="ArchiveRoom" type="Control" unique_id=1657735572]
 layout_mode = 3
@@ -50,6 +53,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Searchbar" type="TextureRect" parent="Interactables" unique_id=1032245052]
+visible = false
 self_modulate = Color(1, 0.36, 0.36, 1)
 layout_mode = 1
 anchors_preset = 5
@@ -106,7 +110,7 @@ content_label = NodePath("Document/RichTextLabel")
 close_button = NodePath("CloseBtn")
 
 [node name="Overlay" type="TextureRect" parent="Interactables/DocumentViewer" unique_id=1407007154]
-self_modulate = Color(0, 0, 0, 0.34509805)
+self_modulate = Color(0, 0, 0, 0.6627451)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -116,13 +120,14 @@ grow_vertical = 2
 texture = ExtResource("1_abqdv")
 
 [node name="Document" type="TextureRect" parent="Interactables/DocumentViewer" unique_id=2078694198]
+self_modulate = Color(0, 0, 0, 0)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 206.0
+offset_left = 190.0
 offset_top = 25.0
-offset_right = -221.0
+offset_right = -129.0
 offset_bottom = -30.0
 grow_horizontal = 2
 grow_vertical = 2
@@ -135,14 +140,12 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/normal_font_size = 10
 theme_override_font_sizes/bold_font_size = 10
 theme_override_font_sizes/bold_italics_font_size = 10
 theme_override_font_sizes/italics_font_size = 10
 theme_override_font_sizes/mono_font_size = 10
 bbcode_enabled = true
-fit_content = true
 
 [node name="CloseBtn" type="Button" parent="Interactables/DocumentViewer" unique_id=451786368]
 layout_mode = 0
@@ -151,6 +154,8 @@ offset_top = 244.0
 offset_right = 137.0
 offset_bottom = 275.0
 text = "Close"
+script = ExtResource("6_2rk4e")
+click_sound = ExtResource("7_jcktu")
 
 [node name="ChangeScene" type="TextureButton" parent="Interactables" unique_id=1374650161]
 layout_mode = 1
@@ -167,3 +172,4 @@ ignore_texture_size = true
 stretch_mode = 4
 script = ExtResource("2_bvssm")
 target = 3
+click_sound = ExtResource("10_tvui1")

@@ -24,7 +24,7 @@ func generate_documents_for_case(case_data: Dictionary) -> void:
 		return
 	_is_busy = true
 	_pending_case_data = case_data
-	
+	 
 	var docs = case_data.get("documents", [])
 	if typeof(docs) == TYPE_ARRAY:
 		_pending_doc_types = docs

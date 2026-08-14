@@ -56,10 +56,9 @@ trust_label = NodePath("../../Gameplay/MainDesk/Dynamic/Trust/Label")
 [node name="CaseInventory" parent="GameData" unique_id=888224668 instance=ExtResource("1_fjeox")]
 layout_mode = 1
 
-[node name="CasePoolCompiler" parent="GameData" unique_id=123696685 node_paths=PackedStringArray("title_label", "character_name_label", "reason_text_label", "character_display") instance=ExtResource("1_8cups")]
+[node name="CasePoolCompiler" parent="GameData" unique_id=123696685 node_paths=PackedStringArray("character_name_label", "reason_text_label", "character_display") instance=ExtResource("1_8cups")]
 layout_mode = 1
 cases_file_path = "res://data/storage/case_pool.json"
-title_label = NodePath("../../Gameplay/MainDesk/Interactables/Document/Label")
 character_name_label = NodePath("../../Gameplay/MainDesk/Dynamic/Customer/DialogBox/Label")
 reason_text_label = NodePath("../../Gameplay/MainDesk/Dynamic/Customer/DialogBox/RichTextLabel")
 character_display = NodePath("../../Gameplay/MainDesk/Dynamic")
@@ -69,7 +68,7 @@ layout_mode = 1
 case_pool_compiler = NodePath("../CasePoolCompiler")
 case_inventory = NodePath("../CaseInventory")
 day_manager = NodePath("../DayManager")
-toggle_objects = [NodePath("../../Gameplay/MainDesk/Dynamic/Customer"), NodePath("../../Gameplay/MainDesk/Interactables/Document")]
+toggle_objects = [NodePath("../../Gameplay/MainDesk/Dynamic/Customer"), NodePath("../../Gameplay/MainDesk/Interactables/Button")]
 
 [node name="AudioPlayer" parent="." unique_id=1195759578 instance=ExtResource("1_b1len")]
 layout_mode = 0
@@ -102,10 +101,10 @@ offset_bottom = 23.0
 offset_top = 1.0
 offset_bottom = 1.0
 
-[node name="Button" parent="Gameplay/MainDesk/Interactables/Document" parent_id_path=PackedInt32Array(1918057266, 682209055) index="1" unique_id=263131942 node_paths=PackedStringArray("case_pool_compiler", "case_inventory", "case_spawn_manager")]
-case_pool_compiler = NodePath("../../../../../GameData/CasePoolCompiler")
-case_inventory = NodePath("../../../../../GameData/CaseInventory")
-case_spawn_manager = NodePath("../../../../../GameData/CaseSpawnManager")
+[node name="Button" parent="Gameplay/MainDesk/Interactables" index="1" unique_id=263131942 node_paths=PackedStringArray("case_pool_compiler", "case_inventory", "case_spawn_manager")]
+case_pool_compiler = NodePath("../../../../GameData/CasePoolCompiler")
+case_inventory = NodePath("../../../../GameData/CaseInventory")
+case_spawn_manager = NodePath("../../../../GameData/CaseSpawnManager")
 
 [node name="Board" parent="Gameplay/MainDesk/Interactables" index="2" unique_id=626390420]
 offset_left = -4.0

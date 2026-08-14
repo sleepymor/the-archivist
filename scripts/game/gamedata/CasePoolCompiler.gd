@@ -45,7 +45,7 @@ func show_next_case() -> void:
 
 	var requester: Dictionary = current_case["requester"]
 
-	title_label.text = current_case["title"]
+	#title_label.text = current_case["title"]
 	character_name_label.text = requester["character_name"]
 	reason_text_label.text = requester["reason"]
 
@@ -54,7 +54,7 @@ func show_next_case() -> void:
 
 func clear_display() -> void:
 	current_case = {}
-	title_label.text = ""
+	#title_label.text = ""
 	character_name_label.text = ""
 	reason_text_label.text = ""
 	if character_display:

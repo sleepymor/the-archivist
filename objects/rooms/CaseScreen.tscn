@@ -9,10 +9,13 @@
 [ext_resource type="Script" uid="uid://bnnt22cs7rcrn" path="res://scripts/game/casescreen/DecisionResultPopup.gd" id="4_5x5ot"]
 [ext_resource type="Script" uid="uid://f0ofg5wddai2" path="res://scripts/game/casescreen/InfoPopup.gd" id="6_bs03v"]
 [ext_resource type="Texture2D" uid="uid://rcyrtfw210ij" path="res://assets/images/CaseScreen/accept.png" id="6_ea1vo"]
+[ext_resource type="Script" uid="uid://bvpk6x14vbpfh" path="res://scripts/utils/gamefeel/ButtonEffect.gd" id="7_5v8au"]
 [ext_resource type="Texture2D" uid="uid://c8vstyh6isjo6" path="res://assets/images/CaseScreen/reject.png" id="7_6uhck"]
 [ext_resource type="Script" uid="uid://cucmabbpudc5v" path="res://scripts/game/casescreen/DocumentFoundPopup.gd" id="7_07iyx"]
 [ext_resource type="Texture2D" uid="uid://depgm1wchot1e" path="res://assets/images/CaseScreen/investigate.png" id="8_5v8au"]
 [ext_resource type="Script" uid="uid://6i0jbnjnjvle" path="res://scripts/game/casescreen/DetailPopup.gd" id="12_6uhck"]
+[ext_resource type="AudioStream" uid="uid://drscb7ox3irt0" path="res://assets/audio/sfx/dragon-studio-button-press-382713.mp3" id="15_prugp"]
+[ext_resource type="AudioStream" uid="uid://dfweifuoxmbug" path="res://assets/audio/sfx/freesound_community-paper-rustle-81855.mp3" id="16_d2uhj"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vhrkp"]
 load_path = "res://.godot/imported/FillBox.png-4450ae09291bd5ab1d459c988b0fd0ad.ctex"
@@ -99,6 +102,7 @@ texture_normal = ExtResource("3_ymc2m")
 ignore_texture_size = true
 stretch_mode = 4
 script = ExtResource("1_kbyl8")
+click_sound = ExtResource("15_prugp")
 
 [node name="ChangeSceneRight" type="TextureButton" parent="Interactables" unique_id=1274190095]
 layout_mode = 1
@@ -119,6 +123,7 @@ stretch_mode = 4
 flip_h = true
 script = ExtResource("1_kbyl8")
 target = 3
+click_sound = ExtResource("15_prugp")
 
 [node name="Actions" type="Control" parent="Interactables" unique_id=1528111949 node_paths=PackedStringArray("accept_button", "reject_button", "investigate_button", "result_popup", "info_popup", "document_found_popup")]
 layout_mode = 1
@@ -154,6 +159,8 @@ size_flags_horizontal = 3
 texture_normal = ExtResource("6_ea1vo")
 ignore_texture_size = true
 stretch_mode = 4
+script = ExtResource("7_5v8au")
+click_sound = ExtResource("15_prugp")
 
 [node name="Reject" type="TextureButton" parent="Interactables/Actions" unique_id=850525629]
 layout_mode = 1
@@ -170,6 +177,8 @@ size_flags_horizontal = 3
 texture_normal = ExtResource("7_6uhck")
 ignore_texture_size = true
 stretch_mode = 4
+script = ExtResource("7_5v8au")
+click_sound = ExtResource("15_prugp")
 
 [node name="Investigate" type="TextureButton" parent="Interactables/Actions" unique_id=152231991]
 layout_mode = 1
@@ -186,6 +195,8 @@ size_flags_horizontal = 3
 texture_normal = ExtResource("8_5v8au")
 ignore_texture_size = true
 stretch_mode = 4
+script = ExtResource("7_5v8au")
+click_sound = ExtResource("15_prugp")
 
 [node name="Label" type="Label" parent="Interactables/Actions" unique_id=975436724]
 layout_mode = 1
@@ -226,7 +237,7 @@ grow_vertical = 2
 texture = ExtResource("4_5vwp8")
 
 [node name="Container" type="TextureRect" parent="Interactables/Popup" unique_id=1845858399]
-self_modulate = Color(0, 0, 0, 0.24705882)
+self_modulate = Color(0, 0, 0, 0)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -270,6 +281,8 @@ offset_right = 15.5
 grow_horizontal = 2
 grow_vertical = 0
 text = "OK"
+script = ExtResource("7_5v8au")
+click_sound = ExtResource("15_prugp")
 
 [node name="InfoPopup" type="Control" parent="Interactables" unique_id=309382666 node_paths=PackedStringArray("message_label", "ok_button")]
 visible = false
@@ -284,7 +297,7 @@ message_label = NodePath("Container/Condition")
 ok_button = NodePath("Container/Button")
 
 [node name="Overlay" type="TextureRect" parent="Interactables/InfoPopup" unique_id=833353021]
-self_modulate = Color(0, 0, 0, 0.24705882)
+self_modulate = Color(0, 0, 0, 0.52156866)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -294,7 +307,7 @@ grow_vertical = 2
 texture = ExtResource("4_5vwp8")
 
 [node name="Container" type="TextureRect" parent="Interactables/InfoPopup" unique_id=2044947195]
-self_modulate = Color(0, 0, 0, 0.24705882)
+self_modulate = Color(0, 0, 0, 0)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -336,9 +349,10 @@ offset_right = 15.5
 grow_horizontal = 2
 grow_vertical = 0
 text = "OK"
+script = ExtResource("7_5v8au")
+click_sound = ExtResource("15_prugp")
 
 [node name="DetailPopup" type="Control" parent="Interactables" unique_id=249633846 node_paths=PackedStringArray("ok_button")]
-visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -349,7 +363,7 @@ script = ExtResource("12_6uhck")
 ok_button = NodePath("Overlay/Control/Button")
 
 [node name="Overlay" type="TextureRect" parent="Interactables/DetailPopup" unique_id=1227883912]
-self_modulate = Color(0, 0, 0, 0.24705882)
+self_modulate = Color(0, 0, 0, 0.57254905)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -414,6 +428,8 @@ offset_bottom = 40.0
 grow_horizontal = 2
 grow_vertical = 0
 text = "OK"
+script = ExtResource("7_5v8au")
+click_sound = ExtResource("15_prugp")
 
 [node name="DailyPopup" type="Control" parent="Interactables" unique_id=618696338 node_paths=PackedStringArray("content_label", "ok_button")]
 visible = false
@@ -428,7 +444,7 @@ content_label = NodePath("Container/Explanation")
 ok_button = NodePath("Container/Button")
 
 [node name="Overlay" type="TextureRect" parent="Interactables/DailyPopup" unique_id=1856071610]
-self_modulate = Color(0, 0, 0, 0.24705882)
+self_modulate = Color(0, 0, 0, 0.5137255)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -438,7 +454,7 @@ grow_vertical = 2
 texture = ExtResource("4_5vwp8")
 
 [node name="Container" type="TextureRect" parent="Interactables/DailyPopup" unique_id=877243610]
-self_modulate = Color(0, 0, 0, 0.24705882)
+self_modulate = Color(0, 0, 0, 0)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -480,6 +496,8 @@ offset_right = 15.5
 grow_horizontal = 2
 grow_vertical = 0
 text = "OK"
+script = ExtResource("7_5v8au")
+click_sound = ExtResource("15_prugp")
 
 [node name="Read" type="Button" parent="Interactables" unique_id=650330278]
 layout_mode = 1
@@ -493,3 +511,5 @@ offset_bottom = -144.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "Read"
+script = ExtResource("7_5v8au")
+click_sound = ExtResource("16_d2uhj")

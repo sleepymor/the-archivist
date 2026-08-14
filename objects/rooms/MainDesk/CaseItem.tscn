@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cbo68a5hsov7b" path="res://assets/images/MainDesk/paperclip.png" id="1_2j6b4"]
 [ext_resource type="Script" uid="uid://bqaj3sw6bhw03" path="res://scripts/game/maindesk/CaseItem.gd" id="1_dx6l8"]
+[ext_resource type="AudioStream" uid="uid://dfweifuoxmbug" path="res://assets/audio/sfx/freesound_community-paper-rustle-81855.mp3" id="2_y08tk"]
 
 [node name="CaseItem" type="Button" unique_id=1800341773 node_paths=PackedStringArray("id_label", "deadline_label")]
 self_modulate = Color(1, 1, 1, 0)
@@ -11,6 +12,7 @@ offset_bottom = 185.0
 script = ExtResource("1_dx6l8")
 id_label = NodePath("Name")
 deadline_label = NodePath("Deadline")
+click_sound = ExtResource("2_y08tk")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=2047016793]
 self_modulate = Color(1, 0.32, 0.32, 1)

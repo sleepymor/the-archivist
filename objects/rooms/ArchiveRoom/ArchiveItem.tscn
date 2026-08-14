@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dfir3xwdmq2k2"]
 
 [ext_resource type="Script" uid="uid://dux6dva3bd53p" path="res://scripts/game/archiveroom/ArchiveItem.gd" id="1_f84kf"]
+[ext_resource type="AudioStream" uid="uid://dfweifuoxmbug" path="res://assets/audio/sfx/freesound_community-paper-rustle-81855.mp3" id="2_y18dk"]
 
 [node name="ArchiveItem" type="Button" unique_id=727116818]
 visible = false
@@ -10,3 +11,4 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_f84kf")
+click_sound = ExtResource("2_y18dk")
